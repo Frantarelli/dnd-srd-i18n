@@ -1,0 +1,21 @@
+name: Validar traducciones
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar todas las traducciones
+        run: npm run check
+      - name: Que no haya traducciones viejas respecto del inglés
+        run: npm run stale
+      - name: Pruebas de las herramientas
+        run: npm test

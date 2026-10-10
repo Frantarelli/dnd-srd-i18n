@@ -1,0 +1,8 @@
+{
+  "dataVersion": "0.1.0",
+  "srd": "5.2.1",
+  "ruleset": "2024",
+  "sourceEnglish": "Open5e API v2, documento srd-2024 (SRD 5.2.1), sin cambios",
+  "languages": { "en": "fuente", "es": "completo" },
+  "reviewStatus": { "es": "revisado por IA contra el SRD oficial en español; sin revisión humana todavía" }
+}

@@ -1,0 +1,418 @@
+{
+  "language": "es",
+  "name": "Español",
+  "profile": {
+    "numbers": {
+      "decimal": ",",
+      "group": [".", " ", " ", " "]
+    },
+    "imperialWords": "pies?|ft\\.?|feet|foot|millas?|libras?|lbs?\\.?|pulgadas?",
+    "currency": {
+      "gp": "po",
+      "sp": "pp",
+      "cp": "pc",
+      "ep": "pe",
+      "pp": "pm"
+    },
+    "forbidden": [
+      {
+        "pattern": "\\b(tenés|podés|elegí|obtenés|ganás|aprendés|recuperás|terminás|lanzás|sos|querés|necesitás|debés|sabés|conocés|usás|hacés|tirá|aumentá|reducí|sumá|elegís|infligís|recibís|quedás|gastás|llegás|subís|vos|elegila|elegilo|cuando tirás)\\b",
+        "flags": "iu",
+        "message": "voseo («{match}»): el contenido va en tuteo"
+      },
+      {
+        "pattern": "\\b\\p{L}{2,}(?:áis|éis)\\b|\\b(?:vuestr[oa]s?|vosotros)\\b",
+        "flags": "iu",
+        "message": "vosotros («{match}»): para varias personas usa la tercera del plural (tienen, pueden)"
+      }
+    ],
+    "styleWarnings": [
+      {
+        "pattern": "(?<=[a-záéíóúñ,;:] )(Ventaja|Desventaja|Descanso Largo|Descanso Corto|Acción Adicional|Bono de Competencia|Bonificador de Competencia|Puntos de Golpe|Visión en la Oscuridad|Espacio de Conjuro|Tirada de Salvación)\\b",
+        "flags": "u",
+        "message": "término genérico en mayúscula («{match}»): va en minúscula"
+      },
+      {
+        "pattern": "daño(?: de| del)? (Ácido|Contundente|Frío|Fuego|Relámpago|Necrótico|Perforante|Veneno|Psíquico|Radiante|Cortante|Trueno)\\b",
+        "flags": "u",
+        "message": "tipo de daño en mayúscula («{match}»): va en minúscula"
+      }
+    ],
+    "nameCase": "sentence",
+    "englishThousandsIsError": true,
+    "leakIgnore": []
+  },
+  "style": [
+    "Español neutro de juego de rol, TUTEO para la segunda persona (\"puedes\", \"tienes\", \"elige\"). Nunca voseo: la interfaz de Brandsen usa voseo, el contenido del juego no.",
+    "NUNCA vosotros (tenéis, podéis, usáis, vuestro): cuando el original habla de varias personas o criaturas (\"you and your allies\", \"you or another creature\"), usa la tercera persona del plural (tú y tus aliados tienen, ellos pueden) o el singular genérico.",
+    "Tamaños de criatura (Tiny…Gargantuan) en minúscula dentro del texto corrido (\"una criatura grande\", \"bestia mediana\"); con mayúscula solo como valor aislado de un campo.",
+    "Unidades en MÉTRICO con la conversión oficial: 5 pies = 1,5 m, 10 = 3 m, 15 = 4,5 m, 20 = 6 m, 30 = 9 m, 60 = 18 m, 120 = 36 m (pies × 0,3, coma decimal); 1 milla = 1,5 km; 1 libra = 0,5 kg. Nunca dejes \"pies\", \"millas\" ni \"libras\".",
+    "Monedas: gp = po, sp = pp, cp = pc, ep = pe, pp = pm.",
+    "Conserva TODOS los números, dados (2d6), CD y bonos tal cual, con dígitos. No sumes ni quites ninguno.",
+    "Conserva la estructura markdown exacta: mismos saltos de línea, mismas tablas (misma cantidad de filas y columnas), mismas viñetas, mismos asteriscos de cursiva y negrita.",
+    "Nombres propios del juego (de rasgos, dotes, objetos, criaturas): mayúscula SOLO en la primera palabra (\"Resistencia legendaria\", \"Bola de fuego\"), salvo nombres propios de personas o lugares (\"Mano de Bigby\").",
+    "Términos genéricos de reglas en minúscula: ventaja, desventaja, descanso largo, descanso corto, acción adicional, reacción, puntos de golpe, bonificador de competencia, visión en la oscuridad, espacio de conjuro, tirada de salvación, tirada de ataque, prueba de característica, terreno difícil.",
+    "Las 15 condiciones llevan mayúscula inicial: Cegado, Hechizado, Ensordecido, Agotamiento, Asustado, Agarrado, Incapacitado, Invisible, Paralizado, Petrificado, Envenenado, Derribado, Apresado, Aturdido, Inconsciente (concuerdan en género y número).",
+    "Tipos de daño en minúscula dentro de la frase: daño cortante, daño de fuego, daño necrótico.",
+    "Los nombres de hechizo entre asteriscos (*Bola de fuego*) se escriben EXACTAMENTE como figuran en glossary-spells.json. Si un hechizo no está ahí, tradúcelo con criterio y mantén las cursivas.",
+    "No inventes, no omitas, no expliques: traduce lo que dice el original, con su orden y su tono. Lo que no sepas traducir con seguridad, déjalo en inglés entre corchetes [así] para que el revisor lo vea.",
+    "Nombres de planos de existencia con mayúscula (Plano Astral, Plano Etéreo, Feywild, Shadowfell). Los nombres de subclase y de rasgo siguen la regla de mayúscula solo en la primera palabra, y cuando un texto los cita se escriben igual que su .name (`cli.mjs fix-names` lo normaliza)."
+  ],
+  "terms": {
+    "Advantage": "ventaja",
+    "Disadvantage": "desventaja",
+    "Long Rest": "descanso largo",
+    "Short Rest": "descanso corto",
+    "Bonus Action": "acción adicional",
+    "Reaction": "reacción",
+    "Action": "acción",
+    "Magic action": "acción de Magia",
+    "Attack action": "acción de Atacar",
+    "Proficiency Bonus": "bonificador de competencia",
+    "Hit Points": "puntos de golpe (PG)",
+    "Temporary Hit Points": "puntos de golpe temporales",
+    "Hit Point maximum": "máximo de puntos de golpe",
+    "Hit Dice": "dados de golpe",
+    "Saving Throw": "tirada de salvación (salvación)",
+    "Attack roll": "tirada de ataque",
+    "Ability check": "prueba de característica",
+    "Armor Class": "clase de armadura (CA)",
+    "DC": "CD",
+    "Initiative": "iniciativa",
+    "Spell slot": "espacio de conjuro",
+    "Cantrip": "truco",
+    "Spellcasting": "lanzamiento de conjuros",
+    "Concentration": "concentración",
+    "Opportunity Attack": "ataque de oportunidad",
+    "Difficult Terrain": "terreno difícil",
+    "Critical Hit": "golpe crítico",
+    "Unarmed Strike": "golpe desarmado",
+    "Heroic Inspiration": "inspiración heroica",
+    "Weapon Mastery": "maestría con las armas",
+    "Fighting Style": "estilo de combate",
+    "Darkvision": "visión en la oscuridad",
+    "Blindsight": "vista ciega",
+    "Truesight": "visión verdadera",
+    "Tremorsense": "sentido sísmico",
+    "Resistance": "resistencia",
+    "Vulnerability": "vulnerabilidad",
+    "Immunity": "inmunidad",
+    "Blinded": "Cegado",
+    "Charmed": "Hechizado",
+    "Deafened": "Ensordecido",
+    "Exhaustion": "Agotamiento",
+    "Frightened": "Asustado",
+    "Grappled": "Agarrado",
+    "Incapacitated": "Incapacitado",
+    "Invisible": "Invisible",
+    "Paralyzed": "Paralizado",
+    "Petrified": "Petrificado",
+    "Poisoned": "Envenenado",
+    "Prone": "Derribado",
+    "Restrained": "Apresado",
+    "Stunned": "Aturdido",
+    "Unconscious": "Inconsciente",
+    "Strength": "Fuerza",
+    "Dexterity": "Destreza",
+    "Constitution": "Constitución",
+    "Intelligence": "Inteligencia",
+    "Wisdom": "Sabiduría",
+    "Charisma": "Carisma",
+    "Acid": "ácido",
+    "Bludgeoning": "contundente",
+    "Cold": "frío",
+    "Fire": "fuego",
+    "Force": "fuerza",
+    "Lightning": "relámpago",
+    "Necrotic": "necrótico",
+    "Piercing": "perforante",
+    "Poison": "veneno",
+    "Psychic": "psíquico",
+    "Radiant": "radiante",
+    "Slashing": "cortante",
+    "Thunder": "trueno",
+    "Tiny": "Diminuto",
+    "Small": "Pequeño",
+    "Medium": "Mediano",
+    "Large": "Grande",
+    "Huge": "Enorme",
+    "Gargantuan": "Gargantuesco",
+    "Cone": "cono",
+    "Cube": "cubo",
+    "Cylinder": "cilindro",
+    "Emanation": "emanación",
+    "Line": "línea",
+    "Sphere": "esfera",
+    "GM": "DM (nunca \"DJ\")",
+    "Dungeon Master": "DM",
+    "Heavily Obscured": "muy oscurecida",
+    "Lightly Obscured": "ligeramente oscurecida",
+    "Ghast": "necrófago mayor",
+    "Ghoul": "necrófago",
+    "Wight": "aparecido",
+    "Shadowfell": "Shadowfell (sin traducir, como en el corpus)",
+    "Feywild": "Feywild (sin traducir)",
+    "mithral": "mithral (sin traducir)",
+    "adamantine": "adamantina",
+    "Boon": "don",
+    "Epic Boon": "don épico",
+    "Ice Knife": "Cuchillo de hielo"
+  },
+  "rules": [
+    {
+      "label": "Blinded",
+      "en": "\\bBlinded\\b",
+      "severity": "error",
+      "target": ["cegad"]
+    },
+    {
+      "label": "Charmed",
+      "en": "\\bCharmed\\b",
+      "severity": "error",
+      "target": ["hechizad"]
+    },
+    {
+      "label": "Deafened",
+      "en": "\\bDeafened\\b",
+      "severity": "error",
+      "target": ["ensordecid"]
+    },
+    {
+      "label": "Exhaustion",
+      "en": "\\bExhaustion\\b",
+      "severity": "error",
+      "target": ["agotamiento"]
+    },
+    {
+      "label": "Frightened",
+      "en": "\\bFrightened\\b",
+      "severity": "error",
+      "target": ["asustad"]
+    },
+    {
+      "label": "Grappled",
+      "en": "\\bGrappled\\b",
+      "severity": "error",
+      "target": ["agarrad"]
+    },
+    {
+      "label": "Incapacitated",
+      "en": "\\bIncapacitated\\b",
+      "severity": "error",
+      "target": ["incapacitad"]
+    },
+    {
+      "label": "Paralyzed",
+      "en": "\\bParalyzed\\b",
+      "severity": "error",
+      "target": ["paralizad"]
+    },
+    {
+      "label": "Petrified",
+      "en": "\\bPetrified\\b",
+      "severity": "error",
+      "target": ["petrificad"]
+    },
+    {
+      "label": "Poisoned",
+      "en": "\\bPoisoned\\b",
+      "severity": "error",
+      "target": ["envenenad"]
+    },
+    {
+      "label": "Prone",
+      "en": "\\bProne\\b",
+      "severity": "error",
+      "target": ["derribad"]
+    },
+    {
+      "label": "Restrained",
+      "en": "\\bRestrained\\b",
+      "severity": "error",
+      "target": ["apresad"]
+    },
+    {
+      "label": "Stunned",
+      "en": "\\bStunned\\b",
+      "severity": "error",
+      "target": ["aturdid"]
+    },
+    {
+      "label": "Unconscious",
+      "en": "\\bUnconscious\\b",
+      "severity": "error",
+      "target": ["inconsciente"]
+    },
+    {
+      "label": "Advantage",
+      "en": "\\bAdvantage\\b",
+      "severity": "error",
+      "target": ["ventaja"]
+    },
+    {
+      "label": "Disadvantage",
+      "en": "\\bDisadvantage\\b",
+      "severity": "error",
+      "target": ["desventaja"]
+    },
+    {
+      "label": "Long Rest",
+      "en": "\\bLong Rest\\b",
+      "severity": "error",
+      "target": ["descanso largo", "corto o largo"]
+    },
+    {
+      "label": "Short Rest",
+      "en": "\\bShort Rest\\b",
+      "severity": "error",
+      "target": ["descanso corto", "corto o largo"]
+    },
+    {
+      "label": "Bonus Action",
+      "en": "\\bBonus Action\\b",
+      "severity": "error",
+      "target": ["acción adicional"]
+    },
+    {
+      "label": "Cantrip",
+      "en": "\\bcantrips?\\b",
+      "flags": "i",
+      "severity": "error",
+      "target": ["truco"]
+    },
+    {
+      "label": "spell slot",
+      "en": "\\bspell slots?\\b",
+      "flags": "i",
+      "severity": "error",
+      "target": ["espacio de conjuro", "espacios de conjuro"]
+    },
+    {
+      "label": "Saving Throw",
+      "en": "\\bSaving Throws?\\b",
+      "flags": "i",
+      "severity": "error",
+      "target": ["salvación"]
+    },
+    {
+      "label": "Proficiency Bonus",
+      "en": "\\bProficiency Bonus\\b",
+      "target": ["bonificador (de|por) competencia"]
+    },
+    {
+      "label": "Hit Points",
+      "en": "\\bHit Points?\\b",
+      "target": ["puntos? de golpe", "\\bPG\\b"]
+    },
+    {
+      "label": "Armor Class",
+      "en": "\\bArmor Class\\b",
+      "target": ["clase de armadura", "\\bCA\\b"]
+    },
+    {
+      "label": "Concentration",
+      "en": "\\bConcentration\\b",
+      "target": ["concentración"]
+    },
+    {
+      "label": "Opportunity Attack",
+      "en": "\\bOpportunity Attacks?\\b",
+      "target": ["ataques? de oportunidad"]
+    },
+    {
+      "label": "Difficult Terrain",
+      "en": "\\bDifficult Terrain\\b",
+      "target": ["terreno difícil"]
+    },
+    {
+      "label": "Darkvision",
+      "en": "\\bDarkvision\\b",
+      "target": ["visión en la oscuridad"]
+    },
+    {
+      "label": "Truesight",
+      "en": "\\bTruesight\\b",
+      "target": ["visión verdadera"]
+    },
+    {
+      "label": "Blindsight",
+      "en": "\\bBlindsight\\b",
+      "target": ["vista ciega"]
+    },
+    {
+      "label": "Tremorsense",
+      "en": "\\bTremorsense\\b",
+      "target": ["sentido sísmico", "sentido de la vibración"]
+    },
+    {
+      "label": "Attack roll",
+      "en": "\\battack rolls?\\b",
+      "flags": "i",
+      "target": ["tiradas? de ataque"]
+    },
+    {
+      "label": "ability check",
+      "en": "\\bability checks?\\b",
+      "flags": "i",
+      "target": ["pruebas? de característica"]
+    },
+    {
+      "label": "Heroic Inspiration",
+      "en": "\\bHeroic Inspiration\\b",
+      "target": ["inspiración heroica"]
+    },
+    {
+      "label": "Critical Hit",
+      "en": "\\bCritical Hits?\\b",
+      "target": ["golpes? crítico"]
+    },
+    {
+      "label": "Unarmed Strike",
+      "en": "\\bUnarmed Strikes?\\b",
+      "target": ["golpes? desarmado", "ataques? desarmado"]
+    },
+    {
+      "label": "Hit Dice",
+      "en": "\\bHit Dic?e\\b",
+      "target": ["dados? de golpe"]
+    },
+    {
+      "label": "GM",
+      "en": "\b(?:GM|Game Master)\b",
+      "severity": "error",
+      "target": ["\bDM\b"]
+    },
+    {
+      "label": "Heavily Obscured",
+      "en": "\bHeavily Obscured\b",
+      "target": ["muy oscurecid"]
+    },
+    {
+      "label": "Lightly Obscured",
+      "en": "\bLightly Obscured\b",
+      "target": ["ligeramente oscurecid"]
+    },
+    {
+      "label": "Ghast",
+      "en": "\bGhasts?\b",
+      "target": ["necrófagos? mayor"]
+    },
+    {
+      "label": "Wight",
+      "en": "\bWights?\b",
+      "target": ["aparecid"]
+    },
+    {
+      "label": "mithral",
+      "en": "\bmithral\b",
+      "flags": "i",
+      "target": ["mithral"]
+    },
+    {
+      "label": "Boon",
+      "en": "\bBoons?\b",
+      "severity": "error",
+      "target": ["\bdon(es)?\b"]
+    }
+  ]
+}

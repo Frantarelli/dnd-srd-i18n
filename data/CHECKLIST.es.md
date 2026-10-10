@@ -1,0 +1,2463 @@
+# Checklist de traducción (es)
+
+Una casilla por entrada; se marca cuando están traducidos TODOS sus textos.
+Generado: no se edita a mano.
+
+## ✅ origin — 30/30 entradas
+
+- [x] `species.dragonborn` — Dragonborn → Dracónido
+- [x] `species.dwarf` — Dwarf → Enano
+- [x] `species.elf` — Elf → Elfo
+- [x] `species.gnome` — Gnome → Gnomo
+- [x] `species.goliath` — Goliath → Goliat
+- [x] `species.halfling` — Halfling → Mediano
+- [x] `species.human` — Human → Humano
+- [x] `species.orc` — Orc → Orco
+- [x] `species.tiefling` — Tiefling
+- [x] `feats.ability-score-improvement` — Ability Score Improvement → Mejora de característica
+- [x] `feats.alert` — Alert → Alerta
+- [x] `feats.archery` — Archery → Tiro con arco
+- [x] `feats.boon-of-combat-prowess` — Boon of Combat Prowess → Don de destreza en combate
+- [x] `feats.boon-of-dimensional-travel` — Boon of Dimensional Travel → Don de viaje dimensional
+- [x] `feats.boon-of-fate` — Boon of Fate → Don del destino
+- [x] `feats.boon-of-irresistible-offense` — Boon of Irresistible Offense → Don de ofensiva irresistible
+- [x] `feats.boon-of-spell-recall` — Boon of Spell Recall → Don de recuerdo de conjuros
+- [x] `feats.boon-of-the-night-spirit` — Boon of the Night Spirit → Don del espíritu nocturno
+- [x] `feats.boon-of-truesight` — Boon of Truesight → Don de la visión verdadera
+- [x] `feats.defense` — Defense → Defensa
+- [x] `feats.grappler` — Grappler → Agarrador
+- [x] `feats.great-weapon-fighting` — Great Weapon Fighting → Combate con armas grandes
+- [x] `feats.magic-initiate` — Magic Initiate → Iniciado en la magia
+- [x] `feats.savage-attacker` — Savage Attacker → Atacante salvaje
+- [x] `feats.skilled` — Skilled → Habilidoso
+- [x] `feats.two-weapon-fighting` — Two-Weapon Fighting → Combate con dos armas
+- [x] `backgrounds.acolyte` — Acolyte → Acólito
+- [x] `backgrounds.criminal` — Criminal
+- [x] `backgrounds.sage` — Sage → Sabio
+- [x] `backgrounds.soldier` — Soldier → Soldado
+
+## ✅ spells — 339/339 entradas
+
+- [x] `acid-arrow` — Acid Arrow → Flecha ácida
+- [x] `acid-splash` — Acid Splash → Salpicadura ácida
+- [x] `aid` — Aid → Auxilio
+- [x] `alarm` — Alarm → Alarma
+- [x] `alter-self` — Alter Self → Alterar el propio aspecto
+- [x] `animal-friendship` — Animal Friendship → Encantar animal
+- [x] `animal-messenger` — Animal Messenger → Mensajero animal
+- [x] `animal-shapes` — Animal Shapes → Aspectos animales
+- [x] `animate-dead` — Animate Dead → Animar a los muertos
+- [x] `animate-objects` — Animate Objects → Animar objetos
+- [x] `antilife-shell` — Antilife Shell → Caparazón antivida
+- [x] `antimagic-field` — Antimagic Field → Campo antimagia
+- [x] `antipathysympathy` — Antipathy/Sympathy → Antipatía/Simpatía
+- [x] `arcane-eye` — Arcane Eye → Ojo arcano
+- [x] `arcane-hand` — Arcane Hand → Mano arcana
+- [x] `arcane-lock` — Arcane Lock → Cerradura arcana
+- [x] `arcane-sword` — Arcane Sword → Espada arcana
+- [x] `arcanists-magic-aura` — Arcanist's Magic Aura → Aura mágica de arcanista
+- [x] `astral-projection` — Astral Projection → Proyección astral
+- [x] `augury` — Augury → Augurio
+- [x] `aura-of-life` — Aura of Life → Aura de vida
+- [x] `awaken` — Awaken → Despertar
+- [x] `bane` — Bane → Perdición
+- [x] `banishment` — Banishment → Destierro
+- [x] `barkskin` — Barkskin → Piel robliza
+- [x] `beacon-of-hope` — Beacon of Hope → Señal de esperanza
+- [x] `befuddlement` — Befuddlement → Ofuscación
+- [x] `bestow-curse` — Bestow Curse → Imponer maldición
+- [x] `black-tentacles` — Black Tentacles → Tentáculos negros
+- [x] `blade-barrier` — Blade Barrier → Barrera de cuchillas
+- [x] `bless` — Bless → Bendición
+- [x] `blight` — Blight → Marchitar
+- [x] `blindnessdeafness` — Blindness/Deafness → Sordera/ceguera
+- [x] `blink` — Blink → Desplazamiento
+- [x] `blur` — Blur → Contorno borroso
+- [x] `burning-hands` — Burning Hands → Manos ardientes
+- [x] `call-lightning` — Call Lightning → Llamar al relámpago
+- [x] `calm-emotions` — Calm Emotions → Calmar emociones
+- [x] `chain-lightning` — Chain Lightning → Relámpago en cadena
+- [x] `charm-monster` — Charm Monster → Hechizar monstruo
+- [x] `charm-person` — Charm Person → Hechizar persona
+- [x] `chill-touch` — Chill Touch → Toque helado
+- [x] `chromatic-orb` — Chromatic Orb → Orbe cromático
+- [x] `circle-of-death` — Circle of Death → Círculo de muerte
+- [x] `clairvoyance` — Clairvoyance → Clarividencia
+- [x] `clone` — Clone → Clon
+- [x] `cloudkill` — Cloudkill → Nube aniquiladora
+- [x] `color-spray` — Color Spray → Rociada de color
+- [x] `command` — Command → Orden imperiosa
+- [x] `commune` — Commune → Comunión
+- [x] `commune-with-nature` — Commune with Nature → Comunión con la naturaleza
+- [x] `comprehend-languages` — Comprehend Languages → Entender idiomas
+- [x] `compulsion` — Compulsion → Compulsión
+- [x] `cone-of-cold` — Cone of Cold → Cono de frío
+- [x] `confusion` — Confusion → Confusión
+- [x] `conjure-animals` — Conjure Animals → Conjurar animales
+- [x] `conjure-celestial` — Conjure Celestial → Conjurar celestial
+- [x] `conjure-elemental` — Conjure Elemental → Conjurar elemental
+- [x] `conjure-fey` — Conjure Fey → Conjurar feérico
+- [x] `conjure-minor-elementals` — Conjure Minor Elementals → Conjurar elementales menores
+- [x] `conjure-woodland-beings` — Conjure Woodland Beings → Conjurar seres del bosque
+- [x] `contact-other-plane` — Contact Other Plane → Contactar con otro plano
+- [x] `contagion` — Contagion → Contagio
+- [x] `contingency` — Contingency → Contingencia
+- [x] `continual-flame` — Continual Flame → Llama permanente
+- [x] `control-water` — Control Water → Controlar agua
+- [x] `control-weather` — Control Weather → Controlar el clima
+- [x] `counterspell` — Counterspell → Contrahechizo
+- [x] `create-food-and-water` — Create Food and Water → Crear comida y agua
+- [x] `create-or-destroy-water` — Create or Destroy Water → Crear o destruir agua
+- [x] `create-undead` — Create Undead → Crear muerto viviente
+- [x] `creation` — Creation → Creación
+- [x] `cure-wounds` — Cure Wounds → Curar heridas
+- [x] `dancing-lights` — Dancing Lights → Luces danzantes
+- [x] `darkness` — Darkness → Oscuridad
+- [x] `darkvision` — Darkvision → Visión en la oscuridad
+- [x] `daylight` — Daylight → Luz del día
+- [x] `death-ward` — Death Ward → Guarda contra la muerte
+- [x] `delayed-blast-fireball` — Delayed Blast Fireball → Bola de fuego de explosión retardada
+- [x] `demiplane` — Demiplane → Semiplano
+- [x] `detect-evil-and-good` — Detect Evil and Good → Detectar el bien y el mal
+- [x] `detect-magic` — Detect Magic → Detectar magia
+- [x] `detect-poison-and-disease` — Detect Poison and Disease → Detectar venenos y enfermedades
+- [x] `detect-thoughts` — Detect Thoughts → Detectar pensamientos
+- [x] `dimension-door` — Dimension Door → Puerta dimensional
+- [x] `disguise-self` — Disguise Self → Disfrazarse
+- [x] `disintegrate` — Disintegrate → Desintegrar
+- [x] `dispel-evil-and-good` — Dispel Evil and Good → Disipar el bien y el mal
+- [x] `dispel-magic` — Dispel Magic → Disipar magia
+- [x] `dissonant-whispers` — Dissonant Whispers → Susurros discordantes
+- [x] `divination` — Divination → Adivinación
+- [x] `divine-favor` — Divine Favor → Favor divino
+- [x] `divine-smite` — Divine Smite → Castigo divino
+- [x] `divine-word` — Divine Word → Palabra divina
+- [x] `dominate-beast` — Dominate Beast → Dominar bestia
+- [x] `dominate-monster` — Dominate Monster → Dominar monstruo
+- [x] `dominate-person` — Dominate Person → Dominar persona
+- [x] `dragons-breath` — Dragon's Breath → Aliento de dragón
+- [x] `dream` — Dream → Ensueño
+- [x] `druidcraft` — Druidcraft → Saber druídico
+- [x] `earthquake` — Earthquake → Terremoto
+- [x] `eldritch-blast` — Eldritch Blast → Descarga sobrenatural
+- [x] `elementalism` — Elementalism → Elementalismo
+- [x] `enhance-ability` — Enhance Ability → Potenciar característica
+- [x] `enlargereduce` — Enlarge/Reduce → Agrandar/Reducir
+- [x] `ensnaring-strike` — Ensnaring Strike → Golpe apresador
+- [x] `entangle` — Entangle → Enmarañar
+- [x] `enthrall` — Enthrall → Embelesar
+- [x] `etherealness` — Etherealness → Excursión etérea
+- [x] `expeditious-retreat` — Expeditious Retreat → Retirada expeditiva
+- [x] `eyebite` — Eyebite → Mal de ojo
+- [x] `fabricate` — Fabricate → Fabricar
+- [x] `faerie-fire` — Faerie Fire → Fuego feérico
+- [x] `faithful-hound` — Faithful Hound → Mastín fiel
+- [x] `false-life` — False Life → Falsa vida
+- [x] `fear` — Fear → Terror
+- [x] `feather-fall` — Feather Fall → Caída de pluma
+- [x] `find-familiar` — Find Familiar → Encontrar familiar
+- [x] `find-steed` — Find Steed → Hallar corcel
+- [x] `find-the-path` — Find the Path → Encontrar el camino
+- [x] `find-traps` — Find Traps → Detectar trampas
+- [x] `finger-of-death` — Finger of Death → Dedo de la muerte
+- [x] `fire-bolt` — Fire Bolt → Descarga de fuego
+- [x] `fire-shield` — Fire Shield → Escudo de fuego
+- [x] `fire-storm` — Fire Storm → Tormenta de fuego
+- [x] `fireball` — Fireball → Bola de fuego
+- [x] `flame-blade` — Flame Blade → Hoja de fuego
+- [x] `flame-strike` — Flame Strike → Golpe flamígero
+- [x] `flaming-sphere` — Flaming Sphere → Esfera de llamas
+- [x] `flesh-to-stone` — Flesh to Stone → De la carne a la piedra
+- [x] `floating-disk` — Floating Disk → Disco flotante
+- [x] `fly` — Fly → Volar
+- [x] `fog-cloud` — Fog Cloud → Nube de oscurecimiento
+- [x] `forbiddance` — Forbiddance → Prohibición
+- [x] `forcecage` — Forcecage → Jaula de fuerza
+- [x] `foresight` — Foresight → Presciencia
+- [x] `freedom-of-movement` — Freedom of Movement → Libertad de movimiento
+- [x] `freezing-sphere` — Freezing Sphere → Esfera congelante
+- [x] `gaseous-form` — Gaseous Form → Forma gaseosa
+- [x] `gate` — Gate → Portal
+- [x] `geas` — Geas
+- [x] `gentle-repose` — Gentle Repose → Dulce descanso
+- [x] `giant-insect` — Giant Insect → Insecto gigante
+- [x] `glibness` — Glibness → Labia
+- [x] `globe-of-invulnerability` — Globe of Invulnerability → Globo de invulnerabilidad
+- [x] `glyph-of-warding` — Glyph of Warding → Glifo custodio
+- [x] `goodberry` — Goodberry → Buenas bayas
+- [x] `grease` — Grease → Grasa
+- [x] `greater-invisibility` — Greater Invisibility → Invisibilidad mejorada
+- [x] `greater-restoration` — Greater Restoration → Restablecimiento mayor
+- [x] `guardian-of-faith` — Guardian of Faith → Guardián de la fe
+- [x] `guards-and-wards` — Guards and Wards → Guardas y guardias
+- [x] `guidance` — Guidance → Guía
+- [x] `guiding-bolt` — Guiding Bolt → Saeta guía
+- [x] `gust-of-wind` — Gust of Wind → Ráfaga de viento
+- [x] `hallow` — Hallow → Consagrar
+- [x] `hallucinatory-terrain` — Hallucinatory Terrain → Terreno alucinatorio
+- [x] `harm` — Harm → Dañar
+- [x] `haste` — Haste → Acelerar
+- [x] `heal` — Heal → Curar
+- [x] `healing-word` — Healing Word → Palabra de curación
+- [x] `heat-metal` — Heat Metal → Calentar metal
+- [x] `hellish-rebuke` — Hellish Rebuke → Reprensión infernal
+- [x] `heroes-feast` — Heroes' Feast → Festín de héroes
+- [x] `heroism` — Heroism → Heroísmo
+- [x] `hex` — Hex → Maleficio
+- [x] `hideous-laughter` — Hideous Laughter → Risa horrible
+- [x] `hold-monster` — Hold Monster → Inmovilizar monstruo
+- [x] `hold-person` — Hold Person → Inmovilizar persona
+- [x] `holy-aura` — Holy Aura → Aura sagrada
+- [x] `hunters-mark` — Hunter's Mark → Marca del cazador
+- [x] `hypnotic-pattern` — Hypnotic Pattern → Patrón hipnótico
+- [x] `ice-knife` — Ice Knife → Cuchillo de hielo
+- [x] `ice-storm` — Ice Storm → Tormenta de hielo
+- [x] `identify` — Identify → Identificar
+- [x] `illusory-script` — Illusory Script → Texto ilusorio
+- [x] `imprisonment` — Imprisonment → Cautiverio
+- [x] `incendiary-cloud` — Incendiary Cloud → Nube incendiaria
+- [x] `inflict-wounds` — Inflict Wounds → Infligir heridas
+- [x] `insect-plague` — Insect Plague → Plaga de insectos
+- [x] `instant-summons` — Instant Summons → Invocación instantánea
+- [x] `invisibility` — Invisibility → Invisibilidad
+- [x] `irresistible-dance` — Irresistible Dance → Baile irresistible
+- [x] `jump` — Jump → Salto
+- [x] `knock` — Knock → Abrir
+- [x] `legend-lore` — Legend Lore → Conocer las leyendas
+- [x] `lesser-restoration` — Lesser Restoration → Restablecimiento menor
+- [x] `levitate` — Levitate → Levitar
+- [x] `light` — Light → Luz
+- [x] `lightning-bolt` — Lightning Bolt → Relámpago
+- [x] `locate-animals-or-plants` — Locate Animals or Plants → Localizar animales o plantas
+- [x] `locate-creature` — Locate Creature → Localizar criatura
+- [x] `locate-object` — Locate Object → Localizar objeto
+- [x] `longstrider` — Longstrider → Zancada prodigiosa
+- [x] `mage-armor` — Mage Armor → Armadura de mago
+- [x] `mage-hand` — Mage Hand → Mano de mago
+- [x] `magic-circle` — Magic Circle → Círculo mágico
+- [x] `magic-jar` — Magic Jar → Urna mágica
+- [x] `magic-missile` — Magic Missile → Proyectil mágico
+- [x] `magic-mouth` — Magic Mouth → Boca mágica
+- [x] `magic-weapon` — Magic Weapon → Arma mágica
+- [x] `magnificent-mansion` — Magnificent Mansion → Mansión magnífica
+- [x] `major-image` — Major Image → Imagen mayor
+- [x] `mass-cure-wounds` — Mass Cure Wounds → Curar heridas en masa
+- [x] `mass-heal` — Mass Heal → Curar en masa
+- [x] `mass-healing-word` — Mass Healing Word → Palabra de curación en masa
+- [x] `mass-suggestion` — Mass Suggestion → Sugestión en masa
+- [x] `maze` — Maze → Laberinto
+- [x] `meld-into-stone` — Meld into Stone → Fundirse con la piedra
+- [x] `mending` — Mending → Reparar
+- [x] `message` — Message → Mensaje
+- [x] `meteor-swarm` — Meteor Swarm → Tormenta de meteoritos
+- [x] `mind-blank` — Mind Blank → Mente en blanco
+- [x] `mind-spike` — Mind Spike → Clavo mental
+- [x] `minor-illusion` — Minor Illusion → Ilusión menor
+- [x] `mirage-arcane` — Mirage Arcane → Espejismo arcano
+- [x] `mirror-image` — Mirror Image → Imagen múltiple
+- [x] `mislead` — Mislead → Engañar
+- [x] `misty-step` — Misty Step → Paso brumoso
+- [x] `modify-memory` — Modify Memory → Alterar los recuerdos
+- [x] `moonbeam` — Moonbeam → Rayo de luna
+- [x] `move-earth` — Move Earth → Mover la tierra
+- [x] `nondetection` — Nondetection → Indetectable
+- [x] `pass-without-trace` — Pass without Trace → Pasar sin rastro
+- [x] `passwall` — Passwall → Pasamuros
+- [x] `phantasmal-force` — Phantasmal Force → Fuerza fantasmal
+- [x] `phantasmal-killer` — Phantasmal Killer → Asesino fantasmal
+- [x] `phantom-steed` — Phantom Steed → Corcel fantasma
+- [x] `planar-ally` — Planar Ally → Aliado planar
+- [x] `planar-binding` — Planar Binding → Atadura planar
+- [x] `plane-shift` — Plane Shift → Desplazamiento entre planos
+- [x] `plant-growth` — Plant Growth → Crecimiento vegetal
+- [x] `poison-spray` — Poison Spray → Rociada venenosa
+- [x] `polymorph` — Polymorph → Polimorfar
+- [x] `power-word-heal` — Power Word Heal → Palabra de poder: sanar
+- [x] `power-word-kill` — Power Word Kill → Palabra de poder: matar
+- [x] `power-word-stun` — Power Word Stun → Palabra de poder: aturdir
+- [x] `prayer-of-healing` — Prayer of Healing → Plegaria de curación
+- [x] `prestidigitation` — Prestidigitation → Prestidigitación
+- [x] `prismatic-spray` — Prismatic Spray → Rociada prismática
+- [x] `prismatic-wall` — Prismatic Wall → Muro prismático
+- [x] `private-sanctum` — Private Sanctum → Sanctasanctórum privado
+- [x] `produce-flame` — Produce Flame → Crear llama
+- [x] `programmed-illusion` — Programmed Illusion → Ilusión programada
+- [x] `project-image` — Project Image → Proyectar imagen
+- [x] `protection-from-energy` — Protection from Energy → Protección contra energía
+- [x] `protection-from-evil-and-good` — Protection from Evil and Good → Protección contra el bien y el mal
+- [x] `protection-from-poison` — Protection from Poison → Protección contra veneno
+- [x] `purify-food-and-drink` — Purify Food and Drink → Purificar comida y bebida
+- [x] `raise-dead` — Raise Dead → Alzar a los muertos
+- [x] `ray-of-enfeeblement` — Ray of Enfeeblement → Rayo debilitador
+- [x] `ray-of-frost` — Ray of Frost → Rayo de escarcha
+- [x] `ray-of-sickness` — Ray of Sickness → Rayo nauseabundo
+- [x] `regenerate` — Regenerate → Regenerar
+- [x] `reincarnate` — Reincarnate → Reencarnar
+- [x] `remove-curse` — Remove Curse → Levantar maldición
+- [x] `resilient-sphere` — Resilient Sphere → Esfera elástica
+- [x] `resistance` — Resistance → Resistencia
+- [x] `resurrection` — Resurrection → Resurrección
+- [x] `reverse-gravity` — Reverse Gravity → Invertir la gravedad
+- [x] `revivify` — Revivify → Revivir
+- [x] `rope-trick` — Rope Trick → Truco de la cuerda
+- [x] `sacred-flame` — Sacred Flame → Llama sagrada
+- [x] `sanctuary` — Sanctuary → Santuario
+- [x] `scorching-ray` — Scorching Ray → Rayo abrasador
+- [x] `scrying` — Scrying → Escudriñar
+- [x] `searing-smite` — Searing Smite → Castigo abrasador
+- [x] `secret-chest` — Secret Chest → Cofre oculto
+- [x] `see-invisibility` — See Invisibility → Ver invisibilidad
+- [x] `seeming` — Seeming → Apariencia
+- [x] `sending` — Sending → Recado
+- [x] `sequester` — Sequester → Recluir
+- [x] `shapechange` — Shapechange → Cambiar de forma
+- [x] `shatter` — Shatter → Hacer añicos
+- [x] `shield` — Shield → Escudo
+- [x] `shield-of-faith` — Shield of Faith → Escudo de fe
+- [x] `shillelagh` — Shillelagh
+- [x] `shining-smite` — Shining Smite → Castigo brillante
+- [x] `shocking-grasp` — Shocking Grasp → Agarre electrizante
+- [x] `silence` — Silence → Silencio
+- [x] `silent-image` — Silent Image → Imagen silenciosa
+- [x] `simulacrum` — Simulacrum → Simulacro
+- [x] `sleep` — Sleep → Dormir
+- [x] `sleet-storm` — Sleet Storm → Tormenta de aguanieve
+- [x] `slow` — Slow → Ralentizar
+- [x] `sorcerous-burst` — Sorcerous Burst → Estallido mágico
+- [x] `spare-the-dying` — Spare the Dying → Piedad con los moribundos
+- [x] `speak-with-animals` — Speak with Animals → Hablar con los animales
+- [x] `speak-with-dead` — Speak with Dead → Hablar con los muertos
+- [x] `speak-with-plants` — Speak with Plants → Hablar con las plantas
+- [x] `spider-climb` — Spider Climb → Trepar cual arácnido
+- [x] `spike-growth` — Spike Growth → Crecimiento espinoso
+- [x] `spirit-guardians` — Spirit Guardians → Espíritus guardianes
+- [x] `spiritual-weapon` — Spiritual Weapon → Arma espiritual
+- [x] `starry-wisp` — Starry Wisp → Voluta estelar
+- [x] `stinking-cloud` — Stinking Cloud → Nube apestosa
+- [x] `stone-shape` — Stone Shape → Moldear la piedra
+- [x] `stoneskin` — Stoneskin → Piel pétrea
+- [x] `storm-of-vengeance` — Storm of Vengeance → Tormenta de la venganza
+- [x] `suggestion` — Suggestion → Sugestión
+- [x] `summon-dragon` — Summon Dragon → Invocar dragón
+- [x] `sunbeam` — Sunbeam → Rayo solar
+- [x] `sunburst` — Sunburst → Explosión solar
+- [x] `symbol` — Symbol → Símbolo
+- [x] `telekinesis` — Telekinesis → Telequinesis
+- [x] `telepathic-bond` — Telepathic Bond → Enlace telepático
+- [x] `teleport` — Teleport → Teletransporte
+- [x] `teleportation-circle` — Teleportation Circle → Círculo de teletransportación
+- [x] `thaumaturgy` — Thaumaturgy → Taumaturgia
+- [x] `thunderwave` — Thunderwave → Ola atronadora
+- [x] `time-stop` — Time Stop → Parar el tiempo
+- [x] `tiny-hut` — Tiny Hut → Pequeña choza
+- [x] `tongues` — Tongues → Don de lenguas
+- [x] `transport-via-plants` — Transport via Plants → Viajar mediante plantas
+- [x] `tree-stride` — Tree Stride → Paso arbóreo
+- [x] `true-polymorph` — True Polymorph → Polimorfar verdadero
+- [x] `true-resurrection` — True Resurrection → Resurrección verdadera
+- [x] `true-seeing` — True Seeing → Visión veraz
+- [x] `true-strike` — True Strike → Impacto certero
+- [x] `tsunami` — Tsunami
+- [x] `unseen-servant` — Unseen Servant → Sirviente invisible
+- [x] `vampiric-touch` — Vampiric Touch → Toque vampírico
+- [x] `vicious-mockery` — Vicious Mockery → Burla dañina
+- [x] `vitriolic-sphere` — Vitriolic Sphere → Esfera vitriólica
+- [x] `wall-of-fire` — Wall of Fire → Muro de fuego
+- [x] `wall-of-force` — Wall of Force → Muro de fuerza
+- [x] `wall-of-ice` — Wall of Ice → Muro de hielo
+- [x] `wall-of-stone` — Wall of Stone → Muro de piedra
+- [x] `wall-of-thorns` — Wall of Thorns → Muro de espinas
+- [x] `warding-bond` — Warding Bond → Vínculo protector
+- [x] `water-breathing` — Water Breathing → Respirar bajo el agua
+- [x] `water-walk` — Water Walk → Caminar sobre el agua
+- [x] `web` — Web → Telaraña
+- [x] `weird` — Weird → Terror abyecto
+- [x] `wind-walk` — Wind Walk → Viajar con el viento
+- [x] `wind-wall` — Wind Wall → Muro de viento
+- [x] `wish` — Wish → Deseo
+- [x] `word-of-recall` — Word of Recall → Palabra de regreso
+- [x] `zone-of-truth` — Zone of Truth → Zona de la verdad
+
+## ✅ classes — 24/24 entradas
+
+- [x] `barbarian` — Barbarian → Bárbaro
+- [x] `bard` — Bard → Bardo
+- [x] `champion` — Champion → Campeón
+- [x] `circle-of-the-land` — Circle of the Land → Círculo de la tierra
+- [x] `cleric` — Cleric → Clérigo
+- [x] `college-of-lore` — College of Lore → Colegio del conocimiento
+- [x] `draconic-sorcery` — Draconic Sorcery → Hechicería dracónica
+- [x] `druid` — Druid → Druida
+- [x] `evoker` — Evoker → Evocador
+- [x] `fiend-patron` — Fiend Patron → Patrón infernal
+- [x] `fighter` — Fighter → Guerrero
+- [x] `hunter` — Hunter → Cazador
+- [x] `life-domain` — Life Domain → Dominio de la vida
+- [x] `monk` — Monk → Monje
+- [x] `oath-of-devotion` — Oath of Devotion → Juramento de devoción
+- [x] `paladin` — Paladin → Paladín
+- [x] `path-of-the-berserker` — Path of the Berserker → Senda del berserker
+- [x] `ranger` — Ranger → Explorador
+- [x] `rogue` — Rogue → Pícaro
+- [x] `sorcerer` — Sorcerer → Hechicero
+- [x] `thief` — Thief → Ladrón
+- [x] `warlock` — Warlock → Brujo
+- [x] `warrior-of-the-open-hand` — Warrior of the Open Hand → Guerrero de la mano abierta
+- [x] `wizard` — Wizard → Mago
+
+## ✅ items — 960/960 entradas
+
+- [x] `acid` — Acid → Ácido
+- [x] `adamantine-armor-breastplate` — Adamantine Armor (Breastplate) → Armadura adamantina (coraza)
+- [x] `adamantine-armor-chain-mail` — Adamantine Armor (Chain Mail) → Armadura adamantina (cota de malla)
+- [x] `adamantine-armor-chain-shirt` — Adamantine Armor (Chain Shirt) → Armadura adamantina (camisa de malla)
+- [x] `adamantine-armor-half-plate-armor` — Adamantine Armor (Half Plate) → Armadura adamantina (media armadura)
+- [x] `adamantine-armor-plate` — Adamantine Armor (Plate) → Armadura adamantina (armadura de placas)
+- [x] `adamantine-armor-ring-mail` — Adamantine Armor (Ring Mail) → Armadura adamantina (cota guarnecida)
+- [x] `adamantine-armor-scale-mail` — Adamantine Armor (Scale Mail) → Armadura adamantina (cota de escamas)
+- [x] `adamantine-armor-splint` — Adamantine Armor (Splint) → Armadura adamantina (armadura de bandas)
+- [x] `airship` — Airship → Aeronave
+- [x] `alchemists-fire` — Alchemist's Fire → Fuego de alquimista
+- [x] `alchemists-supplies` — Alchemist's Supplies (50 GP) → Suministros de alquimista (50 po)
+- [x] `ammunition-plus-one` — Ammunition (+1) → Munición +1
+- [x] `ammunition-plus-two` — Ammunition (+2) → Munición +2
+- [x] `ammunition-plus-three` — Ammunition (+3) → Munición +3
+- [x] `ammunition-of-aberration-slaying` — Ammunition of Aberration Slaying → Munición asesina de aberraciones
+- [x] `ammunition-of-beast-slaying` — Ammunition of Beast Slaying → Munición asesina de bestias
+- [x] `ammunition-of-celestial-slaying` — Ammunition of Celestial Slaying → Munición asesina de celestiales
+- [x] `ammunition-of-construct-slaying` — Ammunition of Construct Slaying → Munición asesina de autómatas
+- [x] `ammunition-of-dragon-slaying` — Ammunition of Dragon Slaying → Munición asesina de dragones
+- [x] `ammunition-of-elemental-slaying` — Ammunition of Elemental Slaying → Munición asesina de elementales
+- [x] `ammunition-of-fey-slaying` — Ammunition of Fey Slaying → Munición asesina de feéricos
+- [x] `ammunition-of-fiend-slaying` — Ammunition of Fiend Slaying → Munición asesina de infernales
+- [x] `ammunition-of-giant-slaying` — Ammunition of Giant Slaying → Munición asesina de gigantes
+- [x] `ammunition-of-humanoid-slaying` — Ammunition of Humanoid Slaying → Munición asesina de humanoides
+- [x] `ammunition-of-monstrosity-slaying` — Ammunition of Monstrosity Slaying → Munición asesina de monstruosidades
+- [x] `ammunition-of-ooze-slaying` — Ammunition of Ooze Slaying → Munición asesina de cienos
+- [x] `ammunition-of-plant-slaying` — Ammunition of Plant Slaying → Munición asesina de plantas
+- [x] `ammunition-of-undead-slaying` — Ammunition of Undead Slaying → Munición asesina de muertos vivientes
+- [x] `amulet-of-health` — Amulet of Health → Amuleto de salud
+- [x] `amulet-of-proof-against-detection-and-location` — Amulet of Proof against Detection and Location → Amuleto a prueba de detección y localización
+- [x] `amulet-of-the-planes` — Amulet of the Planes → Amuleto de los planos
+- [x] `animated-shield` — Animated Shield → Escudo animado
+- [x] `antitoxin` — Antitoxin → Antitoxina
+- [x] `apparatus-of-the-crab` — Apparatus of the Crab → Aparato del crustáceo
+- [x] `armor-of-invulnerability` — Armor of Invulnerability → Armadura de invulnerabilidad
+- [x] `armor-of-resistance-breastplate` — Armor of Resistance (Breastplate) → Armadura de resistencia (coraza)
+- [x] `armor-of-resistance-chain-mail` — Armor of Resistance (Chain Mail) → Armadura de resistencia (cota de malla)
+- [x] `armor-of-resistance-chain-shirt` — Armor of Resistance (Chain Shirt) → Armadura de resistencia (camisa de malla)
+- [x] `armor-of-resistance-half-plate` — Armor of Resistance (Half Plate) → Armadura de resistencia (media armadura)
+- [x] `armor-of-resistance-hide-armor` — Armor of Resistance (Hide Armor) → Armadura de resistencia (armadura de pieles)
+- [x] `armor-of-resistance-leather` — Armor of Resistance (Leather Armor) → Armadura de resistencia (armadura de cuero)
+- [x] `armor-of-resistance-padded` — Armor of Resistance (Padded) → Armadura de resistencia (armadura acolchada)
+- [x] `armor-of-resistance-plate` — Armor of Resistance (Plate) → Armadura de resistencia (armadura de placas)
+- [x] `armor-of-resistance-ring-mail` — Armor of Resistance (Ring Mail) → Armadura de resistencia (cota guarnecida)
+- [x] `armor-of-resistance-scale-mail` — Armor of Resistance (Scale Mail) → Armadura de resistencia (cota de escamas)
+- [x] `armor-of-resistance-splint` — Armor of Resistance (Splint) → Armadura de resistencia (armadura de bandas)
+- [x] `armor-of-resistance-studded-leather` — Armor of Resistance (Studded Leather) → Armadura de resistencia (armadura de cuero tachonado)
+- [x] `armor-of-vulnerability-breastplate` — Armor of Vulnerability (Breastplate) → Armadura de vulnerabilidad (coraza)
+- [x] `armor-of-vulnerability-chain-mail` — Armor of Vulnerability (Chain Mail) → Armadura de vulnerabilidad (cota de malla)
+- [x] `armor-of-vulnerability-chain-shirt` — Armor of Vulnerability (Chain Shirt) → Armadura de vulnerabilidad (Camisa de malla)
+- [x] `armor-of-vulnerability-half-plate-armor` — Armor of Vulnerability (Half Plate Armor) → Armadura de vulnerabilidad (Media armadura)
+- [x] `armor-of-vulnerability-hide-armor` — Armor of Vulnerability (Hide Armor) → Armadura de vulnerabilidad (Armadura de pieles)
+- [x] `armor-of-vulnerability-leather-armor` — Armor of Vulnerability (Leather Armor) → Armadura de vulnerabilidad (Armadura de cuero)
+- [x] `armor-of-vulnerability-padded-armor` — Armor of Vulnerability (Padded Armor) → Armadura de vulnerabilidad (Armadura acolchada)
+- [x] `armor-of-vulnerability-plate-armor` — Armor of Vulnerability (Plate Armor) → Armadura de vulnerabilidad (Armadura de placas)
+- [x] `armor-of-vulnerability-ring-mail` — Armor of Vulnerability (Ring Mail) → Armadura de vulnerabilidad (Cota guarnecida)
+- [x] `armor-of-vulnerability-scale-mail` — Armor of Vulnerability (Scale Mail) → Armadura de vulnerabilidad (Cota de escamas)
+- [x] `armor-of-vulnerability-splint-armor` — Armor of Vulnerability (Splint Armor) → Armadura de vulnerabilidad (Armadura de bandas)
+- [x] `armor-of-vulnerability-studded-leather-armor` — Armor of Vulnerability (Studded Leather Armor) → Armadura de vulnerabilidad (Armadura de cuero tachonado)
+- [x] `arrow-catching-shield` — Arrow-Catching Shield → Escudo atrapaflechas
+- [x] `arrows-20` — Arrows (20) → Flechas (20)
+- [x] `backpack` — Backpack → Mochila
+- [x] `bag-of-beans` — Bag of Beans → Bolsa de judías
+- [x] `bag-of-devouring` — Bag of Devouring → Bolsa devoradora
+- [x] `bag-of-holding` — Bag of Holding → Bolsa de contención
+- [x] `bag-of-tricks` — Bag of Tricks → Bolsa de trucos
+- [x] `ball-bearings` — Ball Bearings → Bolas de metal
+- [x] `barrel` — Barrel → Barril
+- [x] `basket` — Basket → Cesta
+- [x] `battleaxe` — Battleaxe → Hacha de guerra
+- [x] `battleaxe-plus-1` — Battleaxe (+1) → Hacha de guerra (+1)
+- [x] `battleaxe-plus-2` — Battleaxe (+2) → Hacha de guerra (+2)
+- [x] `battleaxe-plus-3` — Battleaxe (+3) → Hacha de guerra (+3)
+- [x] `bead-of-force` — Bead of Force → Canica de fuerza
+- [x] `bedroll` — Bedroll → Petate
+- [x] `bell` — Bell → Campana
+- [x] `belt-of-giant-strength-cloud` — Belt of Giant Strength (Cloud) → Cinturón de fuerza de gigante (nubes)
+- [x] `belt-of-giant-strength-fire` — Belt of Giant Strength (Fire) → Cinturón de fuerza de gigante (fuego)
+- [x] `belt-of-giant-strength-frost-or-stone` — Belt of Giant Strength (Frost or Stone) → Cinturón de fuerza de gigante (escarcha o piedra)
+- [x] `belt-of-giant-strength-hill` — Belt of Giant Strength (Hill) → Cinturón de fuerza de gigante (colinas)
+- [x] `belt-of-giant-strength-storm` — Belt of Giant Strength (Storm) → Cinturón de fuerza de gigante (tormenta)
+- [x] `berserker-battleaxe` — Berserker Battleaxe → Hacha de guerra berserker
+- [x] `berserker-greataxe` — Berserker Greataxe → Hacha a dos manos berserker
+- [x] `berserker-halberd` — Berserker Halberd → Alabarda berserker
+- [x] `blanket` — Blanket → Manta
+- [x] `block-and-tackle` — Block and Tackle → Polipasto
+- [x] `blowgun` — Blowgun → Cerbatana
+- [x] `blowgun-plus-1` — Blowgun (+1) → Cerbatana (+1)
+- [x] `blowgun-plus-2` — Blowgun (+2) → Cerbatana (+2)
+- [x] `blowgun-plus-3` — Blowgun (+3) → Cerbatana (+3)
+- [x] `bolts-20` — Bolts (20) → Virotes (20)
+- [x] `book` — Book → Libro
+- [x] `boots-of-elvenkind` — Boots of Elvenkind → Botas élficas
+- [x] `boots-of-levitation` — Boots of Levitation → Botas de levitación
+- [x] `boots-of-speed` — Boots of Speed → Botas de velocidad
+- [x] `boots-of-striding-and-springing` — Boots of Striding and Springing → Botas de zancadas y brincos
+- [x] `boots-of-the-winterlands` — Boots of the Winterlands → Botas de las tierras invernales
+- [x] `bottle-glass` — Bottle, Glass → Botella de cristal
+- [x] `bowl-of-commanding-water-elementals` — Bowl of Commanding Water Elementals → Cuenco para controlar elementales de agua
+- [x] `bracers-of-archery` — Bracers of Archery → Brazales de arquería
+- [x] `bracers-of-defense` — Bracers of Defense → Brazales de defensa
+- [x] `brazier-of-commanding-fire-elementals` — Brazier of Commanding Fire Elementals → Brasero para controlar elementales de fuego
+- [x] `breastplate` — Breastplate → Coraza
+- [x] `breastplate-plus-1` — Breastplate (+1) → Coraza (+1)
+- [x] `breastplate-plus-2` — Breastplate (+2) → Coraza (+2)
+- [x] `breastplate-plus-3` — Breastplate (+3) → Coraza (+3)
+- [x] `brewers-supplies` — Brewer's Supplies (20 GP) → Suministros de cervecero (20 po)
+- [x] `brooch-of-shielding` — Brooch of Shielding → Broche escudo
+- [x] `broom-of-flying` — Broom of Flying → Escoba voladora
+- [x] `bucket` — Bucket → Cubo
+- [x] `bullets-firearm-10` — Bullets, Firearm (10) → Balas de arma de fuego (10)
+- [x] `bullets-sling-20` — Bullets, Sling (20) → Balas de honda (20)
+- [x] `burglars-pack` — Burglar's Pack → Paquete de ladrón
+- [x] `calligraphers-supplies` — Calligrapher's Supplies (10 GP) → Suministros de calígrafo (10 po)
+- [x] `caltrops` — Caltrops → Abrojos
+- [x] `camel` — Camel → Camello
+- [x] `candle` — Candle → Vela
+- [x] `candle-of-invocation` — Candle of Invocation → Vela de invocación
+- [x] `cape-of-the-mountebank` — Cape of the Mountebank → Capa del charlatán
+- [x] `carpenters-tools` — Carpenter's Tools (8 GP) → Herramientas de carpintero (8 po)
+- [x] `carpet-of-flying` — Carpet of Flying → Alfombra voladora
+- [x] `carriage` — Carriage → Carruaje
+- [x] `cart` — Cart → Carro
+- [x] `cartographers-tools` — Cartographer's Tools (15 GP) → Herramientas de cartógrafo (15 po)
+- [x] `case-crossbow-bolt` — Case, Crossbow Bolt → Estuche para virotes de ballesta
+- [x] `case-map-or-scroll` — Case, Map or Scroll → Estuche para mapas o pergaminos
+- [x] `censer-of-controlling-air-elementals` — Censer of Controlling Air Elementals → Incensario de controlar elementales de aire
+- [x] `chain` — Chain → Cadena
+- [x] `chain-mail` — Chain Mail → Cota de malla
+- [x] `chain-mail-plus-1` — Chain Mail (+1) → Cota de malla (+1)
+- [x] `chain-mail-plus-2` — Chain Mail (+2) → Cota de malla (+2)
+- [x] `chain-mail-plus-3` — Chain Mail (+3) → Cota de malla (+3)
+- [x] `chain-shirt` — Chain Shirt → Camisa de malla
+- [x] `chain-shirt-plus-1` — Chain Shirt (+1) → Camisa de malla (+1)
+- [x] `chain-shirt-plus-2` — Chain Shirt (+2) → Camisa de malla (+2)
+- [x] `chain-shirt-plus-3` — Chain Shirt (+3) → Camisa de malla (+3)
+- [x] `chariot` — Chariot → Carro de guerra
+- [x] `chest` — Chest → Cofre
+- [x] `chime-of-opening` — Chime of Opening → Carillón de apertura
+- [x] `circlet-of-blasting` — Circlet of Blasting → Diadema de estallidos
+- [x] `climbers-kit` — Climber's Kit → Útiles de escalada
+- [x] `cloak-of-arachnida` — Cloak of Arachnida → Capa arácnida
+- [x] `cloak-of-displacement` — Cloak of Displacement → Capa de desplazamiento
+- [x] `cloak-of-elvenkind` — Cloak of Elvenkind → Capa élfica
+- [x] `cloak-of-protection` — Cloak of Protection → Capa de protección
+- [x] `cloak-of-the-bat` — Cloak of the Bat → Capa del murciélago
+- [x] `cloak-of-the-manta-ray` — Cloak of the Manta Ray → Capa de la mantarraya
+- [x] `clothes-fine` — Clothes, Fine → Ropas de calidad
+- [x] `clothes-travelers` — Clothes, Traveler's → Ropas de viaje
+- [x] `club` — Club → Garrote
+- [x] `club-plus-1` — Club (+1) → Garrote (+1)
+- [x] `club-plus-2` — Club (+2) → Garrote (+2)
+- [x] `club-plus-3` — Club (+3) → Garrote (+3)
+- [x] `cobblers-tools` — Cobbler's Tools (5 GP) → Herramientas de zapatero (5 po)
+- [x] `component-pouch` — Component Pouch → Saquito de componentes
+- [x] `cooks-utensils` — Cook's Utensils (1 GP) → Útiles de cocinero (1 po)
+- [x] `costume` — Costume → Disfraz
+- [x] `crowbar` — Crowbar → Palanqueta
+- [x] `crystal-ball` — Crystal Ball → Bola de cristal
+- [x] `crystal-ball-of-mind-reading` — Crystal Ball of Mind Reading → Bola de cristal de leer mentes
+- [x] `crystal-ball-of-telepathy` — Crystal Ball of Telepathy → Bola de cristal de telepatía
+- [x] `crystal-ball-of-true-seeing` — Crystal Ball of True Seeing → Bola de cristal de visión verdadera
+- [x] `cube-of-force` — Cube of Force → Cubo de fuerza
+- [x] `cubic-gate` — Cubic Gate → Portal cúbico
+- [x] `dagger` — Dagger → Daga
+- [x] `dagger-plus-1` — Dagger (+1) → Daga (+1)
+- [x] `dagger-plus-2` — Dagger (+2) → Daga (+2)
+- [x] `dagger-plus-3` — Dagger (+3) → Daga (+3)
+- [x] `dagger-of-venom` — Dagger of Venom → Daga de la ponzoña
+- [x] `dancing-greatsword` — Dancing Greatsword → Espada danzarina (espadón)
+- [x] `dancing-longsword` — Dancing Longsword → Espada danzarina (espada larga)
+- [x] `dancing-rapier` — Dancing Rapier → Espada danzarina (estoque)
+- [x] `dancing-scimitar` — Dancing Scimitar → Espada danzarina (cimitarra)
+- [x] `dancing-shortsword` — Dancing Shortsword → Espada danzarina (espada corta)
+- [x] `dart` — Dart → Dardo
+- [x] `dart-plus-1` — Dart (+1) → Dardo (+1)
+- [x] `dart-plus-2` — Dart (+2) → Dardo (+2)
+- [x] `dart-plus-3` — Dart (+3) → Dardo (+3)
+- [x] `decanter-of-endless-water` — Decanter of Endless Water → Decantador de agua interminable
+- [x] `deck-of-illusions` — Deck of Illusions → Baraja de ilusiones
+- [x] `defender` — Defender → Defensora
+- [x] `defender-battleaxe` — Defender (Battleaxe) → Defensora (hacha de guerra)
+- [x] `defender-blowgun` — Defender (Blowgun) → Defensora (cerbatana)
+- [x] `defender-club` — Defender (Club) → Defensora (garrote)
+- [x] `defender-dagger` — Defender (Dagger) → Defensora (daga)
+- [x] `defender-dart` — Defender (Dart) → Defensora (dardo)
+- [x] `defender-flail` — Defender (Flail) → Defensora (mangual)
+- [x] `defender-glaive` — Defender (Glaive) → Defensora (guja)
+- [x] `defender-greataxe` — Defender (Greataxe) → Defensora (hacha a dos manos)
+- [x] `defender-greatclub` — Defender (Greatclub) → Defensora (garrote grande)
+- [x] `defender-greatsword` — Defender (Greatsword) → Defensora (espadón)
+- [x] `defender-halberd` — Defender (Halberd) → Defensora (alabarda)
+- [x] `defender-hand-crossbow` — Defender (Hand Crossbow) → Defensora (ballesta de mano)
+- [x] `defender-handaxe` — Defender (Handaxe) → Defensora (hacha de mano)
+- [x] `defender-heavy-crossbow` — Defender (Heavy Crossbow) → Defensora (ballesta pesada)
+- [x] `defender-javelin` — Defender (Javelin) → Defensora (jabalina)
+- [x] `defender-lance` — Defender (Lance) → Defensora (lanza de caballería)
+- [x] `defender-light-crossbow` — Defender (Light Crossbow) → Defensora (ballesta ligera)
+- [x] `defender-light-hammer` — Defender (Light Hammer) → Defensora (martillo ligero)
+- [x] `defender-longbow` — Defender (Longbow) → Defensora (arco largo)
+- [x] `defender-longsword` — Defender (Longsword) → Defensora (espada larga)
+- [x] `defender-mace` — Defender (Mace) → Defensora (maza)
+- [x] `defender-maul` — Defender (Maul) → Defensora (maza a dos manos)
+- [x] `defender-morningstar` — Defender (Morningstar) → Defensora (lucero del alba)
+- [x] `defender-musket` — Defender (Musket) → Defensora (mosquete)
+- [x] `defender-pike` — Defender (Pike) → Defensora (pica)
+- [x] `defender-pistol` — Defender (Pistol) → Defensora (pistola)
+- [x] `defender-quarterstaff` — Defender (Quarterstaff) → Defensora (bastón)
+- [x] `defender-rapier` — Defender (Rapier) → Defensora (estoque)
+- [x] `defender-scimitar` — Defender (Scimitar) → Defensora (cimitarra)
+- [x] `defender-shortbow` — Defender (Shortbow) → Defensora (arco corto)
+- [x] `defender-shortsword` — Defender (Shortsword) → Defensora (espada corta)
+- [x] `defender-sickle` — Defender (Sickle) → Defensora (hoz)
+- [x] `defender-sling` — Defender (Sling) → Defensora (honda)
+- [x] `defender-spear` — Defender (Spear) → Defensora (lanza)
+- [x] `defender-trident` — Defender (Trident) → Defensora (tridente)
+- [x] `defender-war-pick` — Defender (War Pick) → Defensora (pico de guerra)
+- [x] `defender-warhammer` — Defender (Warhammer) → Defensora (martillo de guerra)
+- [x] `defender-whip` — Defender (Whip) → Defensora (látigo)
+- [x] `demon-breastplate` — Demon Breastplate → Armadura demoníaca (coraza)
+- [x] `demon-chain-mail` — Demon Chain Mail → Armadura demoníaca (cota de malla)
+- [x] `demon-chain-shirt` — Demon Chain Shirt → Armadura demoníaca (camisa de malla)
+- [x] `demon-half-plate-armor` — Demon Half Plate Armor → Armadura demoníaca (media armadura)
+- [x] `demon-hide-armor` — Demon Hide Armor → Armadura demoníaca (armadura de pieles)
+- [x] `demon-leather-armor` — Demon Leather Armor → Armadura demoníaca (armadura de cuero)
+- [x] `demon-padded-armor` — Demon Padded Armor → Armadura demoníaca (armadura acolchada)
+- [x] `demon-plate-armor` — Demon Plate Armor → Armadura demoníaca (armadura de placas)
+- [x] `demon-ring-mail` — Demon Ring Mail → Armadura demoníaca (cota guarnecida)
+- [x] `demon-scale-mail` — Demon Scale Mail → Armadura demoníaca (cota de escamas)
+- [x] `demon-splint-armor` — Demon Splint Armor → Armadura demoníaca (armadura de bandas)
+- [x] `demon-studded-leather-armor` — Demon Studded Leather Armor → Armadura demoníaca (armadura de cuero tachonado)
+- [x] `dimensional-shackles` — Dimensional Shackles → Grilletes dimensionales
+- [x] `diplomats-pack` — Diplomat's Pack → Paquete de diplomático
+- [x] `disguise-kit` — Disguise Kit → Útiles para disfrazarse
+- [x] `dragon-orb` — Dragon Orb → Orbe de dragón
+- [x] `dragon-scale-mail` — Dragon Scale Mail → Cota de escamas de dragón
+- [x] `dragon-slayer` — Dragon Slayer → Matadragones
+- [x] `druidic-focus-sprig-of-mistletoe` — Druidic Focus, Sprig of Mistletoe → Canalizador druídico, rama de muérdago
+- [x] `druidic-focus-wooden-staff` — Druidic Focus, Wooden Staff → Canalizador druídico, bastón de madera
+- [x] `druidic-focus-yew-wand` — Druidic Focus, Yew Wand → Canalizador druídico, vara de tejo
+- [x] `dungeoneers-pack` — Dungeoneer's Pack → Paquete de explorador de mazmorras
+- [x] `dust-of-disappearance` — Dust of Disappearance → Polvo de desaparición
+- [x] `dust-of-dryness` — Dust of Dryness → Polvo de sequedad
+- [x] `dust-of-sneezing-and-choking` — Dust of Sneezing and Choking → Polvo de estornudar y atragantarse
+- [x] `dwarven-half-plate` — Dwarven Half Plate → Media armadura enana
+- [x] `dwarven-plate` — Dwarven Plate → Armadura de placas enana
+- [x] `dwarven-thrower` — Dwarven Thrower → Martillo arrojadizo enano
+- [x] `efficient-quiver` — Efficient Quiver → Aljaba eficiente
+- [x] `efreeti-bottle` — Efreeti Bottle → Botella de ifrit
+- [x] `elemental-gem` — Elemental Gem → Gema elemental
+- [x] `elephant` — Elephant → Elefante
+- [x] `elven-chain-mail` — Elven Chain Mail → Cota de malla élfica
+- [x] `elven-chain-shirt` — Elven Chain Shirt → Camisa de malla élfica
+- [x] `entertainers-pack` — Entertainer's Pack → Paquete de artista
+- [x] `eversmoking-bottle` — Eversmoking Bottle → Botella siemprehumeante
+- [x] `explorers-pack` — Explorer's Pack → Paquete de explorador
+- [x] `eyes-of-charming` — Eyes of Charming → Anteojos de encantamiento
+- [x] `eyes-of-minute-seeing` — Eyes of Minute Seeing → Anteojos de visión minuciosa
+- [x] `eyes-of-the-eagle` — Eyes of the Eagle → Anteojos de vista de águila
+- [x] `feather-token-anchor` — Feather Token (Anchor) → Ficha de pluma (ancla)
+- [x] `feather-token-bird` — Feather Token (Bird) → Ficha de pluma (ave)
+- [x] `feather-token-fan` — Feather Token (Fan) → Ficha de pluma (abanico)
+- [x] `feather-token-swan-boat` — Feather Token (Swan Boat) → Ficha de pluma (barco cisne)
+- [x] `feather-token-tree` — Feather Token (Tree) → Ficha de pluma (árbol)
+- [x] `feather-token-whip` — Feather Token (Whip) → Ficha de pluma (látigo)
+- [x] `feed-per-day` — Feed (per day) → Pienso (por día)
+- [x] `figurine-of-wondrous-power-bronze-griffon` — Figurine of Wondrous Power (Bronze Griffon) → Estatuilla de poder maravilloso (grifo de bronce)
+- [x] `figurine-of-wondrous-power-ebony-fly` — Figurine of Wondrous Power (Ebony Fly) → Estatuilla de poder maravilloso (mosca de ébano)
+- [x] `figurine-of-wondrous-power-golden-lions` — Figurine of Wondrous Power (Golden Lions) → Estatuilla de poder maravilloso (leones dorados)
+- [x] `figurine-of-wondrous-power-ivory-goats` — Figurine of Wondrous Power (Ivory Goats) → Estatuilla de poder maravilloso (cabras de marfil)
+- [x] `figurine-of-wondrous-power-marble-elephant` — Figurine of Wondrous Power (Marble Elephant) → Estatuilla de poder maravilloso (elefante de mármol)
+- [x] `figurine-of-wondrous-power-obsidian-stead` — Figurine of Wondrous Power (Obsidian Stead) → Estatuilla de poder maravilloso (corcel de obsidiana)
+- [x] `figurine-of-wondrous-power-onyx-dog` — Figurine of Wondrous Power (Onyx Dog) → Estatuilla de poder maravilloso (perro de ónice)
+- [x] `figurine-of-wondrous-power-serpentine-owl` — Figurine of Wondrous Power (Serpentine Owl) → Estatuilla de poder maravilloso (búho de serpentina)
+- [x] `figurine-of-wondrous-power-silver-raven` — Figurine of Wondrous Power (Silver Raven) → Estatuilla de poder maravilloso (cuervo de plata)
+- [x] `flail` — Flail → Mangual
+- [x] `flail-plus-1` — Flail (+1) → Mangual (+1)
+- [x] `flail-plus-2` — Flail (+2) → Mangual (+2)
+- [x] `flail-plus-3` — Flail (+3) → Mangual (+3)
+- [x] `flame-tongue-battleaxe` — Flame Tongue Battleaxe → Lengua de fuego (hacha de guerra)
+- [x] `flame-tongue-club` — Flame Tongue Club → Lengua de fuego (garrote)
+- [x] `flame-tongue-dagger` — Flame Tongue Dagger → Lengua de fuego (daga)
+- [x] `flame-tongue-dart` — Flame Tongue Dart → Lengua de fuego (dardo)
+- [x] `flame-tongue-flail` — Flame Tongue Flail → Lengua de fuego (mangual)
+- [x] `flame-tongue-glaive` — Flame Tongue Glaive → Lengua de fuego (guja)
+- [x] `flame-tongue-greataxe` — Flame Tongue Greataxe → Lengua de fuego (hacha a dos manos)
+- [x] `flame-tongue-greatclub` — Flame Tongue Greatclub → Lengua de fuego (garrote grande)
+- [x] `flame-tongue-greatsword` — Flame Tongue Greatsword → Lengua de fuego (espadón)
+- [x] `flame-tongue-halberd` — Flame Tongue Halberd → Lengua de fuego (alabarda)
+- [x] `flame-tongue-handaxe` — Flame Tongue Handaxe → Lengua de fuego (hacha de mano)
+- [x] `flame-tongue-javelin` — Flame Tongue Javelin → Lengua de fuego (jabalina)
+- [x] `flame-tongue-lance` — Flame Tongue Lance → Lengua de fuego (lanza de caballería)
+- [x] `flame-tongue-light-hammer` — Flame Tongue Light Hammer → Lengua de fuego (martillo ligero)
+- [x] `flame-tongue-longsword` — Flame Tongue Longsword → Lengua de fuego (espada larga)
+- [x] `flame-tongue-mace` — Flame Tongue Mace → Lengua de fuego (maza)
+- [x] `flame-tongue-maul` — Flame Tongue Maul → Lengua de fuego (maza a dos manos)
+- [x] `flame-tongue-morningstar` — Flame Tongue Morningstar → Lengua de fuego (lucero del alba)
+- [x] `flame-tongue-pike` — Flame Tongue Pike → Lengua de fuego (pica)
+- [x] `flame-tongue-quarterstaff` — Flame Tongue Quarterstaff → Lengua de fuego (bastón)
+- [x] `flame-tongue-rapier` — Flame Tongue Rapier → Lengua de fuego (estoque)
+- [x] `flame-tongue-scimitar` — Flame Tongue Scimitar → Lengua de fuego (cimitarra)
+- [x] `flame-tongue-shortsword` — Flame Tongue Shortsword → Lengua de fuego (espada corta)
+- [x] `flame-tongue-sickle` — Flame Tongue Sickle → Lengua de fuego (hoz)
+- [x] `flame-tongue-spear` — Flame Tongue Spear → Lengua de fuego (lanza)
+- [x] `flame-tongue-trident` — Flame Tongue Trident → Lengua de fuego (tridente)
+- [x] `flame-tongue-war-pick` — Flame Tongue War Pick → Lengua de fuego (pico de guerra)
+- [x] `flame-tongue-warhammer` — Flame Tongue Warhammer → Lengua de fuego (martillo de guerra)
+- [x] `flame-tongue-whip` — Flame Tongue Whip → Lengua de fuego (látigo)
+- [x] `flask` — Flask → Frasco
+- [x] `folding-boat` — Folding Boat → Bote plegable
+- [x] `forgery-kit` — Forgery Kit → Útiles para falsificar
+- [x] `frost-brand-glaive` — Frost Brand (Glaive) → Hoja de escarcha (guja)
+- [x] `frost-brand-greatsword` — Frost Brand (Greatsword) → Hoja de escarcha (espadón)
+- [x] `frost-brand-longsword` — Frost Brand (Longsword) → Hoja de escarcha (espada larga)
+- [x] `frost-brand-rapier` — Frost Brand (Rapier) → Hoja de escarcha (estoque)
+- [x] `frost-brand-scimitar` — Frost Brand (Scimitar) → Hoja de escarcha (cimitarra)
+- [x] `frost-brand-shortsword` — Frost Brand (Shortsword) → Hoja de escarcha (espada corta)
+- [x] `galley` — Galley → Galera
+- [x] `gaming-set-dice` — Gaming Set, Dice → Juego, dados
+- [x] `gaming-set-dragonchess` — Gaming Set, Dragonchess → Juego, ajedrez dragón
+- [x] `gaming-set-playing-cards` — Gaming Set, Playing Cards → Juego, naipes
+- [x] `gaming-set-three-dragon-ante` — Gaming Set, Three-Dragon Ante → Juego, apuesta de los tres dragones
+- [x] `gauntlets-of-ogre-power` — Gauntlets of Ogre Power → Guanteletes de fuerza de ogro
+- [x] `gem-of-brightness` — Gem of Brightness → Gema del resplandor
+- [x] `gem-of-seeing` — Gem of Seeing → Gema de visión
+- [x] `giant-slayer-battleaxe` — Giant Slayer (Battleaxe) → Matagigantes (hacha de guerra)
+- [x] `giant-slayer-blowgun` — Giant Slayer (Blowgun) → Matagigantes (cerbatana)
+- [x] `giant-slayer-club` — Giant Slayer (Club) → Matagigantes (garrote)
+- [x] `giant-slayer-dagger` — Giant Slayer (Dagger) → Matagigantes (daga)
+- [x] `giant-slayer-dart` — Giant Slayer (Dart) → Matagigantes (dardo)
+- [x] `giant-slayer-flail` — Giant Slayer (Flail) → Matagigantes (mangual)
+- [x] `giant-slayer-glaive` — Giant Slayer (Glaive) → Matagigantes (guja)
+- [x] `giant-slayer-greataxe` — Giant Slayer (Greataxe) → Matagigantes (hacha a dos manos)
+- [x] `giant-slayer-greatclub` — Giant Slayer (Greatclub) → Matagigantes (garrote grande)
+- [x] `giant-slayer-greatsword` — Giant Slayer (Greatsword) → Matagigantes (espadón)
+- [x] `giant-slayer-halberd` — Giant Slayer (Halberd) → Matagigantes (alabarda)
+- [x] `giant-slayer-hand-crossbow` — Giant Slayer (Hand Crossbow) → Matagigantes (ballesta de mano)
+- [x] `giant-slayer-handaxe` — Giant Slayer (Handaxe) → Matagigantes (hacha de mano)
+- [x] `giant-slayer-heavy-crossbow` — Giant Slayer (Heavy Crossbow) → Matagigantes (ballesta pesada)
+- [x] `giant-slayer-javelin` — Giant Slayer (Javelin) → Matagigantes (jabalina)
+- [x] `giant-slayer-lance` — Giant Slayer (Lance) → Matagigantes (lanza de caballería)
+- [x] `giant-slayer-light-crossbow` — Giant Slayer (Light Crossbow) → Matagigantes (ballesta ligera)
+- [x] `giant-slayer-light-hammer` — Giant Slayer (Light Hammer) → Matagigantes (martillo ligero)
+- [x] `giant-slayer-longbow` — Giant Slayer (Longbow) → Matagigantes (arco largo)
+- [x] `giant-slayer-longsword` — Giant Slayer (Longsword) → Matagigantes (espada larga)
+- [x] `giant-slayer-mace` — Giant Slayer (Mace) → Matagigantes (maza)
+- [x] `giant-slayer-maul` — Giant Slayer (Maul) → Matagigantes (maza a dos manos)
+- [x] `giant-slayer-morningstar` — Giant Slayer (Morningstar) → Matagigantes (lucero del alba)
+- [x] `giant-slayer-musket` — Giant Slayer (Musket) → Matagigantes (mosquete)
+- [x] `giant-slayer-pike` — Giant Slayer (Pike) → Matagigantes (pica)
+- [x] `giant-slayer-pistol` — Giant Slayer (Pistol) → Matagigantes (pistola)
+- [x] `giant-slayer-quarterstaff` — Giant Slayer (Quarterstaff) → Matagigantes (bastón)
+- [x] `giant-slayer-rapier` — Giant Slayer (Rapier) → Matagigantes (estoque)
+- [x] `giant-slayer-scimitar` — Giant Slayer (Scimitar) → Matagigantes (cimitarra)
+- [x] `giant-slayer-shortbow` — Giant Slayer (Shortbow) → Matagigantes (arco corto)
+- [x] `giant-slayer-shortsword` — Giant Slayer (Shortsword) → Matagigantes (espada corta)
+- [x] `giant-slayer-sickle` — Giant Slayer (Sickle) → Matagigantes (hoz)
+- [x] `giant-slayer-sling` — Giant Slayer (Sling) → Matagigantes (honda)
+- [x] `giant-slayer-spear` — Giant Slayer (Spear) → Matagigantes (lanza)
+- [x] `giant-slayer-trident` — Giant Slayer (Trident) → Matagigantes (tridente)
+- [x] `giant-slayer-war-pick` — Giant Slayer (War Pick) → Matagigantes (pico de guerra)
+- [x] `giant-slayer-warhammer` — Giant Slayer (Warhammer) → Matagigantes (martillo de guerra)
+- [x] `giant-slayer-whip` — Giant Slayer (Whip) → Matagigantes (látigo)
+- [x] `glaive` — Glaive → Guja
+- [x] `glaive-plus-1` — Glaive (+1) → Guja (+1)
+- [x] `glaive-plus-2` — Glaive (+2) → Guja (+2)
+- [x] `glaive-plus-3` — Glaive (+3) → Guja (+3)
+- [x] `glaive-of-life-stealing` — Glaive of Life Stealing → Guja ladrona de vida
+- [x] `glaive-of-sharpness` — Glaive of Sharpness → Guja de hoja afilada
+- [x] `glaive-of-wounding` — Glaive of Wounding → Guja hiriente
+- [x] `glamoured-studded-leather` — Glamoured Studded Leather → Armadura de cuero tachonado encantada
+- [x] `glassblowers-tools` — Glassblower's Tools (30 GP) → Herramientas de vidriero (30 po)
+- [x] `gloves-of-missile-snaring` — Gloves of Missile Snaring → Guantes atrapaflechas
+- [x] `gloves-of-swimming-and-climbing` — Gloves of Swimming and Climbing → Guantes de natación y escalada
+- [x] `goggles-of-night` — Goggles of Night → Anteojos de la noche
+- [x] `grappling-hook` — Grappling Hook → Garfio de escalada
+- [x] `greataxe` — Greataxe → Hacha a dos manos
+- [x] `greataxe-plus-1` — Greataxe (+1) → Hacha a dos manos (+1)
+- [x] `greataxe-plus-2` — Greataxe (+2) → Hacha a dos manos (+2)
+- [x] `greataxe-plus-3` — Greataxe (+3) → Hacha a dos manos (+3)
+- [x] `greatclub` — Greatclub → Garrote grande
+- [x] `greatclub-plus-1` — Greatclub (+1) → Garrote grande (+1)
+- [x] `greatclub-plus-2` — Greatclub (+2) → Garrote grande (+2)
+- [x] `greatclub-plus-3` — Greatclub (+3) → Garrote grande (+3)
+- [x] `greatsword` — Greatsword → Espadón
+- [x] `greatsword-plus-1` — Greatsword (+1) → Espadón (+1)
+- [x] `greatsword-plus-2` — Greatsword (+2) → Espadón (+2)
+- [x] `greatsword-plus-3` — Greatsword (+3) → Espadón (+3)
+- [x] `greatsword-of-life-stealing` — Greatsword of Life Stealing → Espadón ladrón de vida
+- [x] `greatsword-of-sharpness` — Greatsword of Sharpness → Espadón de hoja afilada
+- [x] `greatsword-of-wounding` — Greatsword of Wounding → Espadón hiriente
+- [x] `halberd` — Halberd → Alabarda
+- [x] `halberd-plus-1` — Halberd (+1) → Alabarda (+1)
+- [x] `halberd-plus-2` — Halberd (+2) → Alabarda (+2)
+- [x] `halberd-plus-3` — Halberd (+3) → Alabarda (+3)
+- [x] `half-plate-armor` — Half Plate Armor → Media armadura
+- [x] `half-plate-armor-plus-1` — Half Plate Armor (+1) → Media armadura (+1)
+- [x] `half-plate-armor-plus-2` — Half Plate Armor (+2) → Media armadura (+2)
+- [x] `half-plate-armor-plus-3` — Half Plate Armor (+3) → Media armadura (+3)
+- [x] `half-plate-armor-of-etherealness` — Half Plate Armor of Etherealness → Media armadura de etereidad
+- [x] `hammer-of-thunderbolts-maul` — Hammer of Thunderbolts (Maul) → Martillo de rayos (maza a dos manos)
+- [x] `hammer-of-thunderbolts-warhammer` — Hammer of Thunderbolts (Warhammer) → Martillo de rayos (martillo de guerra)
+- [x] `hand-crossbow` — Hand Crossbow → Ballesta de mano
+- [x] `hand-crossbow-plus-1` — Hand Crossbow (+1) → Ballesta de mano (+1)
+- [x] `hand-crossbow-plus-2` — Hand Crossbow (+2) → Ballesta de mano (+2)
+- [x] `hand-crossbow-plus-3` — Hand Crossbow (+3) → Ballesta de mano (+3)
+- [x] `handaxe` — Handaxe → Hacha de mano
+- [x] `handaxe-plus-1` — Handaxe (+1) → Hacha de mano (+1)
+- [x] `handaxe-plus-2` — Handaxe (+2) → Hacha de mano (+2)
+- [x] `handaxe-plus-3` — Handaxe (+3) → Hacha de mano (+3)
+- [x] `handy-haversack` — Handy Haversack → Morral práctico
+- [x] `hat-of-disguise` — Hat of Disguise → Sombrero de disfraz
+- [x] `headband-of-intellect` — Headband of Intellect → Diadema de intelecto
+- [x] `healers-kit` — Healer's Kit → Útiles de sanador
+- [x] `heavy-crossbow` — Heavy Crossbow → Ballesta pesada
+- [x] `heavy-crossbow-plus-1` — Heavy Crossbow (+1) → Ballesta pesada (+1)
+- [x] `heavy-crossbow-plus-2` — Heavy Crossbow (+2) → Ballesta pesada (+2)
+- [x] `heavy-crossbow-plus-3` — Heavy Crossbow (+3) → Ballesta pesada (+3)
+- [x] `helm-of-brilliance` — Helm of Brilliance → Yelmo de fulgor
+- [x] `helm-of-comprehending-languages` — Helm of Comprehending Languages → Yelmo de entender idiomas
+- [x] `helm-of-telepathy` — Helm of Telepathy → Yelmo de telepatía
+- [x] `helm-of-teleportation` — Helm of Teleportation → Yelmo de teletransporte
+- [x] `herbalism-kit` — Herbalism Kit → Útiles de herborista
+- [x] `hide-armor` — Hide Armor → Armadura de pieles
+- [x] `hide-armor-plus-1` — Hide Armor (+1) → Armadura de pieles (+1)
+- [x] `hide-armor-plus-2` — Hide Armor (+2) → Armadura de pieles (+2)
+- [x] `hide-armor-plus-3` — Hide Armor (+3) → Armadura de pieles (+3)
+- [x] `holy-avenger` — Holy Avenger → Vengadora sagrada
+- [x] `holy-avenger-battleaxe` — Holy Avenger (Battleaxe) → Vengadora sagrada (hacha de guerra)
+- [x] `holy-avenger-blowgun` — Holy Avenger (Blowgun) → Vengadora sagrada (cerbatana)
+- [x] `holy-avenger-club` — Holy Avenger (Club) → Vengadora sagrada (garrote)
+- [x] `holy-avenger-dagger` — Holy Avenger (Dagger) → Vengadora sagrada (daga)
+- [x] `holy-avenger-dart` — Holy Avenger (Dart) → Vengadora sagrada (dardo)
+- [x] `holy-avenger-flail` — Holy Avenger (Flail) → Vengadora sagrada (mangual)
+- [x] `holy-avenger-glaive` — Holy Avenger (Glaive) → Vengadora sagrada (guja)
+- [x] `holy-avenger-greataxe` — Holy Avenger (Greataxe) → Vengadora sagrada (hacha a dos manos)
+- [x] `holy-avenger-greatclub` — Holy Avenger (Greatclub) → Vengadora sagrada (garrote grande)
+- [x] `holy-avenger-greatsword` — Holy Avenger (Greatsword) → Vengadora sagrada (espadón)
+- [x] `holy-avenger-halberd` — Holy Avenger (Halberd) → Vengadora sagrada (alabarda)
+- [x] `holy-avenger-hand-crossbow` — Holy Avenger (Hand Crossbow) → Vengadora sagrada (ballesta de mano)
+- [x] `holy-avenger-handaxe` — Holy Avenger (Handaxe) → Vengadora sagrada (hacha de mano)
+- [x] `holy-avenger-heavy-crossbow` — Holy Avenger (Heavy Crossbow) → Vengadora sagrada (ballesta pesada)
+- [x] `holy-avenger-javelin` — Holy Avenger (Javelin) → Vengadora sagrada (jabalina)
+- [x] `holy-avenger-lance` — Holy Avenger (Lance) → Vengadora sagrada (lanza de caballería)
+- [x] `holy-avenger-light-crossbow` — Holy Avenger (Light Crossbow) → Vengadora sagrada (ballesta ligera)
+- [x] `holy-avenger-light-hammer` — Holy Avenger (Light Hammer) → Vengadora sagrada (martillo ligero)
+- [x] `holy-avenger-longbow` — Holy Avenger (Longbow) → Vengadora sagrada (arco largo)
+- [x] `holy-avenger-longsword` — Holy Avenger (Longsword) → Vengadora sagrada (espada larga)
+- [x] `holy-avenger-mace` — Holy Avenger (Mace) → Vengadora sagrada (maza)
+- [x] `holy-avenger-maul` — Holy Avenger (Maul) → Vengadora sagrada (maza a dos manos)
+- [x] `holy-avenger-morningstar` — Holy Avenger (Morningstar) → Vengadora sagrada (lucero del alba)
+- [x] `holy-avenger-musket` — Holy Avenger (Musket) → Vengadora sagrada (mosquete)
+- [x] `holy-avenger-pike` — Holy Avenger (Pike) → Vengadora sagrada (pica)
+- [x] `holy-avenger-pistol` — Holy Avenger (Pistol) → Vengadora sagrada (pistola)
+- [x] `holy-avenger-quarterstaff` — Holy Avenger (Quarterstaff) → Vengadora sagrada (bastón)
+- [x] `holy-avenger-rapier` — Holy Avenger (Rapier) → Vengadora sagrada (estoque)
+- [x] `holy-avenger-scimitar` — Holy Avenger (Scimitar) → Vengadora sagrada (cimitarra)
+- [x] `holy-avenger-shortbow` — Holy Avenger (Shortbow) → Vengadora sagrada (arco corto)
+- [x] `holy-avenger-shortsword` — Holy Avenger (Shortsword) → Vengadora sagrada (espada corta)
+- [x] `holy-avenger-sickle` — Holy Avenger (Sickle) → Vengadora sagrada (hoz)
+- [x] `holy-avenger-sling` — Holy Avenger (Sling) → Vengadora sagrada (honda)
+- [x] `holy-avenger-spear` — Holy Avenger (Spear) → Vengadora sagrada (lanza)
+- [x] `holy-avenger-trident` — Holy Avenger (Trident) → Vengadora sagrada (tridente)
+- [x] `holy-avenger-war-pick` — Holy Avenger (War Pick) → Vengadora sagrada (pico de guerra)
+- [x] `holy-avenger-warhammer` — Holy Avenger (Warhammer) → Vengadora sagrada (martillo de guerra)
+- [x] `holy-avenger-whip` — Holy Avenger (Whip) → Vengadora sagrada (látigo)
+- [x] `holy-symbol-amulet` — Holy Symbol, Amulet) → Símbolo sagrado (amuleto)
+- [x] `holy-symbol-emblem` — Holy Symbol, Emblem) → Símbolo sagrado (emblema)
+- [x] `holy-symbol-reliquary` — Holy Symbol, Reliquary → Símbolo sagrado (relicario)
+- [x] `holy-water` — Holy Water → Agua bendita
+- [x] `horn-of-blasting` — Horn of Blasting → Cuerno de estallido
+- [x] `horn-of-valhalla` — Horn of Valhalla → Cuerno del Valhalla
+- [x] `horse-draft` — Horse (Draft) → Caballo (de tiro)
+- [x] `horse-riding` — Horse (Riding) → Caballo (de monta)
+- [x] `horseshoes-of-a-zephyr` — Horseshoes of a Zephyr → Herraduras del céfiro
+- [x] `horseshoes-of-speed` — Horseshoes of Speed → Herraduras de velocidad
+- [x] `hunting-trap` — Hunting Trap → Trampa para cazar
+- [x] `immovable-rod` — Immovable Rod → Vara inamovible
+- [x] `ink` — Ink → Tinta
+- [x] `ink-pen` — Ink Pen → Pluma
+- [x] `instant-fortress` — Instant Fortress → Fortaleza instantánea
+- [x] `ioun-stone` — Ioun Stone → Piedra Ioun
+- [x] `iron-bands` — Iron Bands → Bandas de hierro
+- [x] `iron-flask` — Iron Flask → Frasco de hierro
+- [x] `javelin` — Javelin → Jabalina
+- [x] `javelin-plus-1` — Javelin (+1) → Jabalina (+1)
+- [x] `javelin-plus-2` — Javelin (+2) → Jabalina (+2)
+- [x] `javelin-plus-3` — Javelin (+3) → Jabalina (+3)
+- [x] `javelin-of-lightning` — Javelin of Lightning → Jabalina del relámpago
+- [x] `jewelers-tools` — Jeweler's Tools (25 GP) → Herramientas de joyero (25 po)
+- [x] `jug` — Jug → Jarro
+- [x] `keelboat` — Keelboat → Barcaza
+- [x] `ladder` — Ladder → Escalera
+- [x] `lamp` — Lamp → Lámpara
+- [x] `lance` — Lance → Lanza de caballería
+- [x] `lance-plus-1` — Lance (+1) → Lanza de caballería (+1)
+- [x] `lance-plus-2` — Lance (+2) → Lanza de caballería (+2)
+- [x] `lance-plus-3` — Lance (+3) → Lanza de caballería (+3)
+- [x] `lantern-of-revealing` — Lantern of Revealing → Linterna de revelación
+- [x] `lantern-bullseye` — Lantern, Bullseye → Linterna de ojo de buey
+- [x] `lantern-hooded` — Lantern, Hooded → Linterna sorda
+- [x] `leather-armor` — Leather Armor → Armadura de cuero
+- [x] `leather-armor-plus-1` — Leather Armor (+1) → Armadura de cuero (+1)
+- [x] `leather-armor-plus-2` — Leather Armor (+2) → Armadura de cuero (+2)
+- [x] `leather-armor-plus-3` — Leather Armor (+3) → Armadura de cuero (+3)
+- [x] `leatherworkers-tools` — Leatherworker's Tools (5 GP) → Herramientas de curtidor (5 po)
+- [x] `light-crossbow` — Light Crossbow → Ballesta ligera
+- [x] `light-crossbow-plus-1` — Light Crossbow (+1) → Ballesta ligera (+1)
+- [x] `light-crossbow-plus-2` — Light Crossbow (+2) → Ballesta ligera (+2)
+- [x] `light-crossbow-plus-3` — Light Crossbow (+3) → Ballesta ligera (+3)
+- [x] `light-hammer` — Light Hammer → Martillo ligero
+- [x] `light-hammer-plus-1` — Light Hammer (+1) → Martillo ligero (+1)
+- [x] `light-hammer-plus-2` — Light Hammer (+2) → Martillo ligero (+2)
+- [x] `light-hammer-plus-3` — Light Hammer (+3) → Martillo ligero (+3)
+- [x] `lock` — Lock → Cerradura
+- [x] `longbow` — Longbow → Arco largo
+- [x] `longbow-plus-1` — Longbow (+1) → Arco largo (+1)
+- [x] `longbow-plus-2` — Longbow (+2) → Arco largo (+2)
+- [x] `longbow-plus-3` — Longbow (+3) → Arco largo (+3)
+- [x] `longship` — Longship → Drakkar
+- [x] `longsword` — Longsword → Espada larga
+- [x] `longsword-plus-1` — Longsword (+1) → Espada larga (+1)
+- [x] `longsword-plus-2` — Longsword (+2) → Espada larga (+2)
+- [x] `longsword-plus-3` — Longsword (+3) → Espada larga (+3)
+- [x] `longsword-of-life-stealing` — Longsword of Life Stealing → Espada larga ladrona de vida
+- [x] `longsword-of-sharpness` — Longsword of Sharpness → Espada larga de hoja afilada
+- [x] `longsword-of-wounding` — Longsword of Wounding → Espada larga hiriente
+- [x] `luck-blade-glaive` — Luck Blade (Glaive) → Filo de la fortuna (guja)
+- [x] `luck-blade-greatsword` — Luck Blade (Greatsword) → Filo de la fortuna (espadón)
+- [x] `luck-blade-longsword` — Luck Blade (Longsword) → Filo de la fortuna (espada larga)
+- [x] `luck-blade-rapier` — Luck Blade (Rapier) → Filo de la fortuna (estoque)
+- [x] `luck-blade-scimitar` — Luck Blade (Scimitar) → Filo de la fortuna (cimitarra)
+- [x] `luck-blade-shortsword` — Luck Blade (Shortsword) → Filo de la fortuna (espada corta)
+- [x] `luck-blade-sickle` — Luck Blade (Sickle) → Filo de la fortuna (hoz)
+- [x] `mace` — Mace → Maza
+- [x] `mace-plus-1` — Mace (+1) → Maza (+1)
+- [x] `mace-plus-2` — Mace (+2) → Maza (+2)
+- [x] `mace-plus-3` — Mace (+3) → Maza (+3)
+- [x] `mace-of-disruption` — Mace of Disruption → Maza disruptiva
+- [x] `mace-of-smiting` — Mace of Smiting → Maza castigadora
+- [x] `mace-of-terror` — Mace of Terror → Maza del terror
+- [x] `magnifying-glass` — Magnifying Glass → Lupa
+- [x] `manacles` — Manacles → Esposas
+- [x] `mantle-of-spell-resistance` — Mantle of Spell Resistance → Manto de resistencia a conjuros
+- [x] `manual-of-bodily-health` — Manual of Bodily Health → Manual de la salud corporal
+- [x] `manual-of-gainful-exercise` — Manual of Gainful Exercise → Manual del ejercicio beneficioso
+- [x] `manual-of-golems` — Manual of Golems → Manual de gólems
+- [x] `manual-of-quickness-of-action` — Manual of Quickness of Action → Manual de rapidez de acción
+- [x] `map` — Map → Mapa
+- [x] `marvelous-pigments` — Marvelous Pigments → Pigmentos maravillosos
+- [x] `masons-tools` — Mason's Tools (10 GP) → Herramientas de albañil (10 po)
+- [x] `mastiff` — Mastiff → Mastín
+- [x] `maul` — Maul → Maza a dos manos
+- [x] `maul-plus-1` — Maul (+1) → Maza a dos manos (+1)
+- [x] `maul-plus-2` — Maul (+2) → Maza a dos manos (+2)
+- [x] `maul-plus-3` — Maul (+3) → Maza a dos manos (+3)
+- [x] `medallion-of-thoughts` — Medallion of Thoughts → Medallón de los pensamientos
+- [x] `mirror` — Mirror → Espejo
+- [x] `mirror-of-life-trapping` — Mirror of Life Trapping → Espejo atrapavidas
+- [x] `mithral-armor-breastplate` — Mithral Armor (Breastplate) → Armadura de mithral (coraza)
+- [x] `mithral-armor-chain-mail` — Mithral Armor (Chain Mail) → Armadura de mithral (cota de malla)
+- [x] `mithral-armor-chain-shirt` — Mithral Armor (Chain Shirt) → Armadura de mithral (camisa de malla)
+- [x] `mithral-armor-half-plate` — Mithral Armor (Half Plate) → Armadura de mithral (media armadura)
+- [x] `mithral-armor-plate` — Mithral Armor (Plate) → Armadura de mithral (armadura de placas)
+- [x] `mithral-armor-ring-mail` — Mithral Armor (Ring Mail) → Armadura de mithral (cota guarnecida)
+- [x] `mithral-armor-scale-mail` — Mithral Armor (Scale Mail) → Armadura de mithral (cota de escamas)
+- [x] `mithral-armor-splint` — Mithral Armor (Splint) → Armadura de mithral (armadura de bandas)
+- [x] `morningstar` — Morningstar → Lucero del alba
+- [x] `morningstar-plus-1` — Morningstar (+1) → Lucero del alba (+1)
+- [x] `morningstar-plus-2` — Morningstar (+2) → Lucero del alba (+2)
+- [x] `morningstar-plus-3` — Morningstar (+3) → Lucero del alba (+3)
+- [x] `mule` — Mule → Mula
+- [x] `musical-instrument-bagpipes` — Musical Instrument, Bagpipes → Instrumento musical, gaita
+- [x] `musical-instrument-drum` — Musical Instrument, Drum → Instrumento musical, tambor
+- [x] `musical-instrument-dulcimer` — Musical Instrument, Dulcimer → Instrumento musical, dulcémele
+- [x] `musical-instrument-flute` — Musical Instrument, Flute → Instrumento musical, flauta
+- [x] `musical-instrument-horn` — Musical Instrument, Horn → Instrumento musical, cuerno
+- [x] `musical-instrument-lute` — Musical Instrument, Lute → Instrumento musical, laúd
+- [x] `musical-instrument-lyre` — Musical Instrument, Lyre → Instrumento musical, lira
+- [x] `musical-instrument-pan-flute` — Musical Instrument, Pan Flute → Instrumento musical, flauta de pan
+- [x] `musical-instrument-shawm` — Musical Instrument, Shawm → Instrumento musical, chirimía
+- [x] `musical-instrument-viol` — Musical Instrument, Viol → Instrumento musical, viola
+- [x] `musket` — Musket → Mosquete
+- [x] `musket-plus-1` — Musket (+1) → Mosquete (+1)
+- [x] `musket-plus-2` — Musket (+2) → Mosquete (+2)
+- [x] `musket-plus-3` — Musket (+3) → Mosquete (+3)
+- [x] `mysterious-deck` — Mysterious Deck → Baraja misteriosa
+- [x] `navigators-tools` — Navigator's Tools → Herramientas de navegante
+- [x] `necklace-of-adaptation` — Necklace of Adaptation → Collar de adaptación
+- [x] `necklace-of-fireballs` — Necklace of Fireballs → Collar de bolas de fuego
+- [x] `necklace-of-prayer-beads` — Necklace of Prayer Beads → Collar de plegarias
+- [x] `needles-50` — Needles (50) → Agujas (50)
+- [x] `net` — Net → Red
+- [x] `nine-lives-stealer-battleaxe` — Nine Lives Stealer (Battleaxe) → Ladrona de nueve vidas (hacha de guerra)
+- [x] `nine-lives-stealer-blowgun` — Nine Lives Stealer (Blowgun) → Ladrona de nueve vidas (cerbatana)
+- [x] `nine-lives-stealer-club` — Nine Lives Stealer (Club) → Ladrona de nueve vidas (garrote)
+- [x] `nine-lives-stealer-dagger` — Nine Lives Stealer (Dagger) → Ladrona de nueve vidas (daga)
+- [x] `nine-lives-stealer-dart` — Nine Lives Stealer (Dart) → Ladrona de nueve vidas (dardo)
+- [x] `nine-lives-stealer-flail` — Nine Lives Stealer (Flail) → Ladrona de nueve vidas (mangual)
+- [x] `nine-lives-stealer-glaive` — Nine Lives Stealer (Glaive) → Ladrona de nueve vidas (guja)
+- [x] `nine-lives-stealer-greataxe` — Nine Lives Stealer (Greataxe) → Ladrona de nueve vidas (hacha a dos manos)
+- [x] `nine-lives-stealer-greatclub` — Nine Lives Stealer (Greatclub) → Ladrona de nueve vidas (garrote grande)
+- [x] `nine-lives-stealer-greatsword` — Nine Lives Stealer (Greatsword) → Ladrona de nueve vidas (espadón)
+- [x] `nine-lives-stealer-halberd` — Nine Lives Stealer (Halberd) → Ladrona de nueve vidas (alabarda)
+- [x] `nine-lives-stealer-hand-crossbow` — Nine Lives Stealer (Hand Crossbow) → Ladrona de nueve vidas (ballesta de mano)
+- [x] `nine-lives-stealer-handaxe` — Nine Lives Stealer (Handaxe) → Ladrona de nueve vidas (hacha de mano)
+- [x] `nine-lives-stealer-heavy-crossbow` — Nine Lives Stealer (Heavy Crossbow) → Ladrona de nueve vidas (ballesta pesada)
+- [x] `nine-lives-stealer-javelin` — Nine Lives Stealer (Javelin) → Ladrona de nueve vidas (jabalina)
+- [x] `nine-lives-stealer-lance` — Nine Lives Stealer (Lance) → Ladrona de nueve vidas (lanza de caballería)
+- [x] `nine-lives-stealer-light-crossbow` — Nine Lives Stealer (Light Crossbow) → Ladrona de nueve vidas (ballesta ligera)
+- [x] `nine-lives-stealer-light-hammer` — Nine Lives Stealer (Light Hammer) → Ladrona de nueve vidas (martillo ligero)
+- [x] `nine-lives-stealer-longbow` — Nine Lives Stealer (Longbow) → Ladrona de nueve vidas (arco largo)
+- [x] `nine-lives-stealer-longsword` — Nine Lives Stealer (Longsword) → Ladrona de nueve vidas (espada larga)
+- [x] `nine-lives-stealer-mace` — Nine Lives Stealer (Mace) → Ladrona de nueve vidas (maza)
+- [x] `nine-lives-stealer-maul` — Nine Lives Stealer (Maul) → Ladrona de nueve vidas (maza a dos manos)
+- [x] `nine-lives-stealer-morningstar` — Nine Lives Stealer (Morningstar) → Ladrona de nueve vidas (lucero del alba)
+- [x] `nine-lives-stealer-musket` — Nine Lives Stealer (Musket) → Ladrona de nueve vidas (mosquete)
+- [x] `nine-lives-stealer-pike` — Nine Lives Stealer (Pike) → Ladrona de nueve vidas (pica)
+- [x] `nine-lives-stealer-pistol` — Nine Lives Stealer (Pistol) → Ladrona de nueve vidas (pistola)
+- [x] `nine-lives-stealer-quarterstaff` — Nine Lives Stealer (Quarterstaff) → Ladrona de nueve vidas (bastón)
+- [x] `nine-lives-stealer-rapier` — Nine Lives Stealer (Rapier) → Ladrona de nueve vidas (estoque)
+- [x] `nine-lives-stealer-scimitar` — Nine Lives Stealer (Scimitar) → Ladrona de nueve vidas (cimitarra)
+- [x] `nine-lives-stealer-shortbow` — Nine Lives Stealer (Shortbow) → Ladrona de nueve vidas (arco corto)
+- [x] `nine-lives-stealer-shortsword` — Nine Lives Stealer (Shortsword) → Ladrona de nueve vidas (espada corta)
+- [x] `nine-lives-stealer-sickle` — Nine Lives Stealer (Sickle) → Ladrona de nueve vidas (hoz)
+- [x] `nine-lives-stealer-sling` — Nine Lives Stealer (Sling) → Ladrona de nueve vidas (honda)
+- [x] `nine-lives-stealer-spear` — Nine Lives Stealer (Spear) → Ladrona de nueve vidas (lanza)
+- [x] `nine-lives-stealer-trident` — Nine Lives Stealer (Trident) → Ladrona de nueve vidas (tridente)
+- [x] `nine-lives-stealer-war-pick` — Nine Lives Stealer (War Pick) → Ladrona de nueve vidas (pico de guerra)
+- [x] `nine-lives-stealer-warhammer` — Nine Lives Stealer (Warhammer) → Ladrona de nueve vidas (martillo de guerra)
+- [x] `nine-lives-stealer-whip` — Nine Lives Stealer (Whip) → Ladrona de nueve vidas (látigo)
+- [x] `oathbow-longbow` — Oathbow (Longbow) → Arco juramentado (arco largo)
+- [x] `oathbow-shortbow` — Oathbow (Shortbow) → Arco juramentado (arco corto)
+- [x] `oil` — Oil → Aceite
+- [x] `oil-of-etherealness` — Oil of Etherealness → Aceite de etereidad
+- [x] `oil-of-sharpness` — Oil of Sharpness → Aceite de afilado
+- [x] `oil-of-slipperiness` — Oil of Slipperiness → Aceite escurridizo
+- [x] `padded-armor` — Padded Armor → Armadura acolchada
+- [x] `padded-armor-plus-1` — Padded Armor (+1) → Armadura acolchada (+1)
+- [x] `padded-armor-plus-2` — Padded Armor (+2) → Armadura acolchada (+2)
+- [x] `padded-armor-plus-3` — Padded Armor (+3) → Armadura acolchada (+3)
+- [x] `painters-supplies` — Painter's Supplies (10 GP) → Suministros de pintor (10 po)
+- [x] `paper` — Paper → Papel
+- [x] `parchment` — Parchment → Pergamino
+- [x] `pearl-of-power` — Pearl of Power → Perla de poder
+- [x] `perfume` — Perfume
+- [x] `periapt-of-health` — Periapt of Health → Amuleto de salud
+- [x] `periapt-of-proof-against-poison` — Periapt of Proof against Poison → Colgante de inmunidad al veneno
+- [x] `periapt-of-wound-closure` — Periapt of Wound Closure → Talismán de cerrar heridas
+- [x] `philter-of-love` — Philter of Love → Filtro de amor
+- [x] `pike` — Pike → Pica
+- [x] `pike-plus-1` — Pike (+1) → Pica (+1)
+- [x] `pike-plus-2` — Pike (+2) → Pica (+2)
+- [x] `pike-plus-3` — Pike (+3) → Pica (+3)
+- [x] `pipes-of-haunting` — Pipes of Haunting → Flauta de la aparición
+- [x] `pipes-of-the-sewers` — Pipes of the Sewers → Flauta de las cloacas
+- [x] `pistol` — Pistol → Pistola
+- [x] `pistol-plus-1` — Pistol (+1) → Pistola (+1)
+- [x] `pistol-plus-2` — Pistol (+2) → Pistola (+2)
+- [x] `pistol-plus-3` — Pistol (+3) → Pistola (+3)
+- [x] `plate-armor` — Plate Armor → Armadura de placas
+- [x] `plate-armor-plus-1` — Plate Armor (+1) → Armadura de placas (+1)
+- [x] `plate-armor-plus-2` — Plate Armor (+2) → Armadura de placas (+2)
+- [x] `plate-armor-plus-3` — Plate Armor (+3) → Armadura de placas (+3)
+- [x] `plate-armor-of-etherealness` — Plate Armor of Etherealness → Armadura de placas de etereidad
+- [x] `poison-basic` — Poison, Basic → Veneno básico
+- [x] `poisoners-kit` — Poisoner's Kit → Útiles de envenenador
+- [x] `pole` — Pole → Vara
+- [x] `pony` — Pony → Poni
+- [x] `portable-hole` — Portable Hole → Agujero portátil
+- [x] `pot-iron` — Pot, Iron → Olla de hierro
+- [x] `potion-of-animal-friendship` — Potion of Animal Friendship → Poción de amistad animal
+- [x] `potion-of-clairvoyance` — Potion of Clairvoyance → Poción de clarividencia
+- [x] `potion-of-climbing` — Potion of Climbing → Poción de trepar
+- [x] `potion-of-diminution` — Potion of Diminution → Poción de encoger
+- [x] `potion-of-flying` — Potion of Flying → Poción de vuelo
+- [x] `potion-of-gaseous-form` — Potion of Gaseous Form → Poción de forma gaseosa
+- [x] `potion-of-giant-strength` — Potion of Giant Strength → Poción de fuerza de gigante
+- [x] `potion-of-growth` — Potion of Growth → Poción de crecimiento
+- [x] `potion-of-healing` — Potion of Healing → Poción de curación
+- [x] `potion-of-heroism` — Potion of Heroism → Poción de heroísmo
+- [x] `potion-of-invisibility` — Potion of Invisibility → Poción de invisibilidad
+- [x] `potion-of-mind-reading` — Potion of Mind Reading → Poción de leer mentes
+- [x] `potion-of-poison` — Potion of Poison → Poción de veneno
+- [x] `potion-of-resistance` — Potion of Resistance → Poción de resistencia
+- [x] `potion-of-speed` — Potion of Speed → Poción de velocidad
+- [x] `potion-of-water-breathing` — Potion of Water Breathing → Poción de respirar bajo el agua
+- [x] `potions-of-healing` — Potions of Healing → Pociones de curación
+- [x] `potters-tools` — Potter's Tools (10 GP) → Herramientas de alfarero (10 po)
+- [x] `pouch` — Pouch → Bolsa
+- [x] `priests-pack` — Priest's Pack → Paquete de sacerdote
+- [x] `quarterstaff` — Quarterstaff → Bastón
+- [x] `quarterstaff-plus-1` — Quarterstaff (+1) → Bastón (+1)
+- [x] `quarterstaff-plus-2` — Quarterstaff (+2) → Bastón (+2)
+- [x] `quarterstaff-plus-3` — Quarterstaff (+3) → Bastón (+3)
+- [x] `quiver` — Quiver → Aljaba
+- [x] `ram-portable` — Ram, Portable → Ariete portátil
+- [x] `rapier` — Rapier → Estoque
+- [x] `rapier-plus-1` — Rapier (+1) → Estoque (+1)
+- [x] `rapier-plus-2` — Rapier (+2) → Estoque (+2)
+- [x] `rapier-plus-3` — Rapier (+3) → Estoque (+3)
+- [x] `rapier-of-life-stealing` — Rapier of Life Stealing → Estoque ladrón de vida
+- [x] `rapier-of-wounding` — Rapier of Wounding → Estoque hiriente
+- [x] `rations` — Rations → Raciones
+- [x] `ring-mail` — Ring Mail → Cota guarnecida
+- [x] `ring-mail-plus-1` — Ring Mail (+1) → Cota guarnecida (+1)
+- [x] `ring-mail-plus-2` — Ring Mail (+2) → Cota guarnecida (+2)
+- [x] `ring-mail-plus-3` — Ring Mail (+3) → Cota guarnecida (+3)
+- [x] `ring-of-animal-influence` — Ring of Animal Influence → Anillo de influencia animal
+- [x] `ring-of-djinni-summoning` — Ring of Djinni Summoning → Anillo de invocar djinns
+- [x] `ring-of-elemental-command` — Ring of Elemental Command → Anillo de comandar elementales
+- [x] `ring-of-evasion` — Ring of Evasion → Anillo de evasión
+- [x] `ring-of-feather-falling` — Ring of Feather Falling → Anillo de caída de pluma
+- [x] `ring-of-free-action` — Ring of Free Action → Anillo de libertad de acción
+- [x] `ring-of-invisibility` — Ring of Invisibility → Anillo de invisibilidad
+- [x] `ring-of-jumping` — Ring of Jumping → Anillo de salto
+- [x] `ring-of-mind-shielding` — Ring of Mind Shielding → Anillo de escudo mental
+- [x] `ring-of-protection` — Ring of Protection → Anillo de protección
+- [x] `ring-of-regeneration` — Ring of Regeneration → Anillo de regeneración
+- [x] `ring-of-resistance` — Ring of Resistance → Anillo de resistencia
+- [x] `ring-of-shooting-stars` — Ring of Shooting Stars → Anillo de estrellas fugaces
+- [x] `ring-of-spell-storing` — Ring of Spell Storing → Anillo de almacenamiento de conjuros
+- [x] `ring-of-spell-turning` — Ring of Spell Turning → Anillo de retorno de conjuros
+- [x] `ring-of-swimming` — Ring of Swimming → Anillo de natación
+- [x] `ring-of-the-ram` — Ring of the Ram → Anillo del carnero
+- [x] `ring-of-three-wishes` — Ring of Three Wishes → Anillo de los tres deseos
+- [x] `ring-of-warmth` — Ring of Warmth → Anillo de calidez
+- [x] `ring-of-water-walking` — Ring of Water Walking → Anillo de caminar sobre las aguas
+- [x] `ring-of-x-ray-vision` — Ring of X-ray Vision → Anillo de visión de rayos X
+- [x] `robe` — Robe → Túnica
+- [x] `robe-of-eyes` — Robe of Eyes → Túnica de los ojos
+- [x] `robe-of-scintillating-colors` — Robe of Scintillating Colors → Túnica de colores hipnóticos
+- [x] `robe-of-stars` — Robe of Stars → Túnica de las estrellas
+- [x] `robe-of-the-archmagi` — Robe of the Archmagi → Túnica del archimago
+- [x] `robe-of-useful-items` — Robe of Useful Items → Túnica de objetos útiles
+- [x] `rod-of-absorption` — Rod of Absorption → Vara de la absorción
+- [x] `rod-of-alertness` — Rod of Alertness → Vara de la alerta
+- [x] `rod-of-lordly-might` — Rod of Lordly Might → Cetro de poder señorial
+- [x] `rod-of-rulership` — Rod of Rulership → Cetro de mando
+- [x] `rod-of-security` — Rod of Security → Vara de la seguridad
+- [x] `rope` — Rope → Cuerda
+- [x] `rope-of-climbing` — Rope of Climbing → Cuerda de escalada
+- [x] `rope-of-entanglement` — Rope of Entanglement → Cuerda enredadora
+- [x] `rowboat` — Rowboat → Bote de remos
+- [x] `sack` — Sack → Saco
+- [x] `saddle-exotic` — Saddle (Exotic) → Silla (exótica)
+- [x] `saddle-military` — Saddle (Military) → Silla (militar)
+- [x] `saddle-riding` — Saddle (Riding) → Silla (de monta)
+- [x] `sailing-ship` — Sailing Ship → Velero
+- [x] `scale-mail` — Scale Mail → Cota de escamas
+- [x] `scale-mail-plus-1` — Scale Mail (+1) → Cota de escamas (+1)
+- [x] `scale-mail-plus-2` — Scale Mail (+2) → Cota de escamas (+2)
+- [x] `scale-mail-plus-3` — Scale Mail (+3) → Cota de escamas (+3)
+- [x] `scarab-of-protection` — Scarab of Protection → Escarabajo protector
+- [x] `scholars-pack` — Scholar's Pack → Paquete de erudito
+- [x] `scimitar` — Scimitar → Cimitarra
+- [x] `scimitar-plus-1` — Scimitar (+1) → Cimitarra (+1)
+- [x] `scimitar-plus-2` — Scimitar (+2) → Cimitarra (+2)
+- [x] `scimitar-plus-3` — Scimitar (+3) → Cimitarra (+3)
+- [x] `scimitar-of-life-stealing` — Scimitar of Life Stealing → Cimitarra ladrona de vida
+- [x] `scimitar-of-sharpness` — Scimitar of Sharpness → Cimitarra de hoja afilada
+- [x] `scimitar-of-speed` — Scimitar of Speed → Cimitarra de velocidad
+- [x] `scimitar-of-wounding` — Scimitar of Wounding → Cimitarra hiriente
+- [x] `shield` — Shield → Escudo
+- [x] `shield-plus-1` — Shield (+1) → Escudo (+1)
+- [x] `shield-plus-2` — Shield (+2) → Escudo (+2)
+- [x] `shield-plus-3` — Shield (+3) → Escudo (+3)
+- [x] `shield-of-missile-attraction` — Shield of Missile Attraction → Escudo de atraer proyectiles
+- [x] `shortbow` — Shortbow → Arco corto
+- [x] `shortbow-plus-1` — Shortbow (+1) → Arco corto (+1)
+- [x] `shortbow-plus-2` — Shortbow (+2) → Arco corto (+2)
+- [x] `shortbow-plus-3` — Shortbow (+3) → Arco corto (+3)
+- [x] `shortsword` — Shortsword → Espada corta
+- [x] `shortsword-plus-1` — Shortsword (+1) → Espada corta (+1)
+- [x] `shortsword-plus-2` — Shortsword (+2) → Espada corta (+2)
+- [x] `shortsword-plus-3` — Shortsword (+3) → Espada corta (+3)
+- [x] `shortsword-of-life-stealing` — Shortsword of Life Stealing → Espada corta ladrona de vida
+- [x] `shortsword-of-wounding` — Shortsword of Wounding → Espada corta hiriente
+- [x] `shovel` — Shovel → Pala
+- [x] `sickle` — Sickle → Hoz
+- [x] `sickle-plus-1` — Sickle (+1) → Hoz (+1)
+- [x] `sickle-plus-2` — Sickle (+2) → Hoz (+2)
+- [x] `sickle-plus-3` — Sickle (+3) → Hoz (+3)
+- [x] `signal-whistle` — Signal Whistle → Silbato de supervivencia
+- [x] `sled` — Sled → Trineo
+- [x] `sling` — Sling → Honda
+- [x] `sling-plus-1` — Sling (+1) → Honda (+1)
+- [x] `sling-plus-2` — Sling (+2) → Honda (+2)
+- [x] `sling-plus-3` — Sling (+3) → Honda (+3)
+- [x] `slippers-of-spider-climbing` — Slippers of Spider Climbing → Babuchas de trepar cual arácnido
+- [x] `smiths-tools` — Smith's Tools (20 GP) → Herramientas de herrero (20 po)
+- [x] `sovereign-glue` — Sovereign Glue → Pegamento soberano
+- [x] `spear` — Spear → Lanza
+- [x] `spear-plus-1` — Spear (+1) → Lanza (+1)
+- [x] `spear-plus-2` — Spear (+2) → Lanza (+2)
+- [x] `spear-plus-3` — Spear (+3) → Lanza (+3)
+- [x] `spell-scroll` — Spell Scroll → Pergamino de conjuro
+- [x] `spellguard-shield` — Spellguard Shield → Escudo de guarda contra conjuros
+- [x] `sphere-of-annihilation` — Sphere of Annihilation → Esfera de aniquilación
+- [x] `spikes-iron` — Spikes, Iron → Puntas de hierro
+- [x] `splint-armor` — Splint Armor → Armadura de bandas
+- [x] `splint-armor-plus-1` — Splint Armor (+1) → Armadura de bandas (+1)
+- [x] `splint-armor-plus-2` — Splint Armor (+2) → Armadura de bandas (+2)
+- [x] `splint-armor-plus-3` — Splint Armor (+3) → Armadura de bandas (+3)
+- [x] `spyglass` — Spyglass → Catalejo
+- [x] `staff-of-charming` — Staff of Charming → Bastón del cautivador
+- [x] `staff-of-fire` — Staff of Fire → Bastón de fuego
+- [x] `staff-of-frost` — Staff of Frost → Bastón de escarcha
+- [x] `staff-of-healing` — Staff of Healing → Bastón de curación
+- [x] `staff-of-power` — Staff of Power → Bastón de poder
+- [x] `staff-of-striking` — Staff of Striking → Bastón de impacto
+- [x] `staff-of-swarming-insects` — Staff of Swarming Insects → Bastón de enjambre de insectos
+- [x] `staff-of-the-magi` — Staff of the Magi → Bastón de los magos
+- [x] `staff-of-the-python` — Staff of the Python → Bastón de la pitón
+- [x] `staff-of-the-woodlands` — Staff of the Woodlands → Bastón de los bosques
+- [x] `staff-of-thunder-and-lightning` — Staff of Thunder and Lightning → Bastón de truenos y relámpagos
+- [x] `staff-of-withering` — Staff of Withering → Bastón de marchitamiento
+- [x] `stone-of-controlling-earth-elementals` — Stone of Controlling Earth Elementals → Piedra de controlar elementales de tierra
+- [x] `stone-of-good-luck-luckstone` — Stone of Good Luck (Luckstone) → Piedra de la buena fortuna (piedra de la suerte)
+- [x] `string` — String → Cordel
+- [x] `studded-leather-armor` — Studded Leather Armor → Armadura de cuero tachonado
+- [x] `studded-leather-armor-plus-1` — Studded Leather Armor (+1) → Armadura de cuero tachonado (+1)
+- [x] `studded-leather-armor-plus-2` — Studded Leather Armor (+2) → Armadura de cuero tachonado (+2)
+- [x] `studded-leather-armor-plus-3` — Studded Leather Armor (+3) → Armadura de cuero tachonado (+3)
+- [x] `sun-blade` — Sun Blade → Espada solar
+- [x] `talisman-of-pure-good` — Talisman of Pure Good → Talismán del bien puro
+- [x] `talisman-of-the-sphere` — Talisman of the Sphere → Talismán de la esfera
+- [x] `talisman-of-ultimate-evil` — Talisman of Ultimate Evil → Talismán del mal definitivo
+- [x] `tent` — Tent → Tienda
+- [x] `thieves-tools` — Thieves' Tools → Herramientas de ladrón
+- [x] `tinderbox` — Tinderbox → Yesquero
+- [x] `tinkers-tools` — Tinker's Tools (50 GP) → Herramientas de manitas (50 po)
+- [x] `tome-of-clear-thought` — Tome of Clear Thought → Tomo de pensamiento claro
+- [x] `tome-of-leadership-and-influence` — Tome of Leadership and Influence → Tomo de liderazgo e influencia
+- [x] `tome-of-understanding` — Tome of Understanding → Tomo de entendimiento
+- [x] `torch` — Torch → Antorcha
+- [x] `trident` — Trident → Tridente
+- [x] `trident-plus-1` — Trident (+1) → Tridente (+1)
+- [x] `trident-plus-2` — Trident (+2) → Tridente (+2)
+- [x] `trident-plus-3` — Trident (+3) → Tridente (+3)
+- [x] `trident-of-fish-command` — Trident of Fish Command → Tridente de comandar peces
+- [x] `universal-solvent` — Universal Solvent → Disolvente universal
+- [x] `vial` — Vial
+- [x] `vicious-battleaxe` — Vicious Battleaxe → Hacha de guerra feroz
+- [x] `vicious-blowgun` — Vicious Blowgun → Cerbatana feroz
+- [x] `vicious-club` — Vicious Club → Garrote feroz
+- [x] `vicious-dagger` — Vicious Dagger → Daga feroz
+- [x] `vicious-dart` — Vicious Dart → Dardo feroz
+- [x] `vicious-flail` — Vicious Flail → Mangual feroz
+- [x] `vicious-glaive` — Vicious Glaive → Guja feroz
+- [x] `vicious-greataxe` — Vicious Greataxe → Hacha a dos manos feroz
+- [x] `vicious-greatclub` — Vicious Greatclub → Garrote grande feroz
+- [x] `vicious-greatsword` — Vicious Greatsword → Espadón feroz
+- [x] `vicious-halberd` — Vicious Halberd → Alabarda feroz
+- [x] `vicious-hand-crossbow` — Vicious Hand Crossbow → Ballesta de mano feroz
+- [x] `vicious-handaxe` — Vicious Handaxe → Hacha de mano feroz
+- [x] `vicious-heavy-crossbow` — Vicious Heavy Crossbow → Ballesta pesada feroz
+- [x] `vicious-javelin` — Vicious Javelin → Jabalina feroz
+- [x] `vicious-lance` — Vicious Lance → Lanza de caballería feroz
+- [x] `vicious-light-crossbow` — Vicious Light Crossbow → Ballesta ligera feroz
+- [x] `vicious-light-hammer` — Vicious Light Hammer → Martillo ligero feroz
+- [x] `vicious-longbow` — Vicious Longbow → Arco largo feroz
+- [x] `vicious-longsword` — Vicious Longsword → Espada larga feroz
+- [x] `vicious-mace` — Vicious Mace → Maza feroz
+- [x] `vicious-maul` — Vicious Maul → Maza a dos manos feroz
+- [x] `vicious-morningstar` — Vicious Morningstar → Lucero del alba feroz
+- [x] `vicious-musket` — Vicious Musket → Mosquete feroz
+- [x] `vicious-pike` — Vicious Pike → Pica feroz
+- [x] `vicious-pistol` — Vicious Pistol → Pistola feroz
+- [x] `vicious-quarterstaff` — Vicious Quarterstaff → Bastón feroz
+- [x] `vicious-rapier` — Vicious Rapier → Estoque feroz
+- [x] `vicious-scimitar` — Vicious Scimitar → Cimitarra feroz
+- [x] `vicious-shortbow` — Vicious Shortbow → Arco corto feroz
+- [x] `vicious-shortsword` — Vicious Shortsword → Espada corta feroz
+- [x] `vicious-sickle` — Vicious Sickle → Hoz feroz
+- [x] `vicious-sling` — Vicious Sling → Honda feroz
+- [x] `vicious-spear` — Vicious Spear → Lanza feroz
+- [x] `vicious-trident` — Vicious Trident → Tridente feroz
+- [x] `vicious-war-pick` — Vicious War Pick → Pico de guerra feroz
+- [x] `vicious-warhammer` — Vicious Warhammer → Martillo de guerra feroz
+- [x] `vicious-whip` — Vicious Whip → Látigo feroz
+- [x] `vorpal-glaive` — Vorpal Glaive → Guja vorpal
+- [x] `vorpal-greatsword` — Vorpal Greatsword → Espadón vorpal
+- [x] `vorpal-longsword` — Vorpal Longsword → Espada larga vorpal
+- [x] `vorpal-scimitar` — Vorpal Scimitar → Cimitarra vorpal
+- [x] `wagon` — Wagon → Carreta
+- [x] `wand-of-binding` — Wand of Binding → Varita de atadura
+- [x] `wand-of-enemy-detection` — Wand of Enemy Detection → Varita de detectar enemigos
+- [x] `wand-of-fireballs` — Wand of Fireballs → Varita de bolas de fuego
+- [x] `wand-of-lightning-bolts` — Wand of Lightning Bolts → Varita de relámpagos
+- [x] `wand-of-magic-detection` — Wand of Magic Detection → Varita de detección mágica
+- [x] `wand-of-magic-missiles` — Wand of Magic Missiles → Varita de proyectiles mágicos
+- [x] `wand-of-paralysis` — Wand of Paralysis → Varita de parálisis
+- [x] `wand-of-polymorph` — Wand of Polymorph → Varita de polimorfar
+- [x] `wand-of-secrets` — Wand of Secrets → Varita de secretos
+- [x] `wand-of-the-war-mage-plus-1` — Wand of the War Mage +1 → Varita del mago de guerra +1
+- [x] `wand-of-the-war-mage-plus-2` — Wand of the War Mage +2 → Varita del mago de guerra +2
+- [x] `wand-of-the-war-mage-plus-3` — Wand of the War Mage +3 → Varita del mago de guerra +3
+- [x] `wand-of-web` — Wand of Web → Varita de telaraña
+- [x] `wand-of-wonder` — Wand of Wonder → Varita de las maravillas
+- [x] `war-pick` — War Pick → Pico de guerra
+- [x] `war-pick-plus-1` — War Pick (+1) → Pico de guerra (+1)
+- [x] `war-pick-plus-2` — War Pick (+2) → Pico de guerra (+2)
+- [x] `war-pick-plus-3` — War Pick (+3) → Pico de guerra (+3)
+- [x] `warhammer` — Warhammer → Martillo de guerra
+- [x] `warhammer-plus-1` — Warhammer (+1) → Martillo de guerra (+1)
+- [x] `warhammer-plus-2` — Warhammer (+2) → Martillo de guerra (+2)
+- [x] `warhammer-plus-3` — Warhammer (+3) → Martillo de guerra (+3)
+- [x] `warhorse` — Warhorse → Caballo de guerra
+- [x] `warship` — Warship → Navío de guerra
+- [x] `waterskin` — Waterskin → Cantimplora
+- [x] `weapon-of-warning-battleaxe` — Weapon of Warning (Battleaxe) → Arma de advertencia (hacha de guerra)
+- [x] `weapon-of-warning-blowgun` — Weapon of Warning (Blowgun) → Arma de advertencia (cerbatana)
+- [x] `weapon-of-warning-club` — Weapon of Warning (Club) → Arma de advertencia (garrote)
+- [x] `weapon-of-warning-dagger` — Weapon of Warning (Dagger) → Arma de advertencia (daga)
+- [x] `weapon-of-warning-dart` — Weapon of Warning (Dart) → Arma de advertencia (dardo)
+- [x] `weapon-of-warning-flail` — Weapon of Warning (Flail) → Arma de advertencia (mangual)
+- [x] `weapon-of-warning-glaive` — Weapon of Warning (Glaive) → Arma de advertencia (guja)
+- [x] `weapon-of-warning-greataxe` — Weapon of Warning (Greataxe) → Arma de advertencia (hacha a dos manos)
+- [x] `weapon-of-warning-greatclub` — Weapon of Warning (Greatclub) → Arma de advertencia (garrote grande)
+- [x] `weapon-of-warning-greatsword` — Weapon of Warning (Greatsword) → Arma de advertencia (espadón)
+- [x] `weapon-of-warning-halberd` — Weapon of Warning (Halberd) → Arma de advertencia (alabarda)
+- [x] `weapon-of-warning-hand-crossbow` — Weapon of Warning (Hand Crossbow) → Arma de advertencia (ballesta de mano)
+- [x] `weapon-of-warning-handaxe` — Weapon of Warning (Handaxe) → Arma de advertencia (hacha de mano)
+- [x] `weapon-of-warning-heavy-crossbow` — Weapon of Warning (Heavy Crossbow) → Arma de advertencia (ballesta pesada)
+- [x] `weapon-of-warning-javelin` — Weapon of Warning (Javelin) → Arma de advertencia (jabalina)
+- [x] `weapon-of-warning-lance` — Weapon of Warning (Lance) → Arma de advertencia (lanza de caballería)
+- [x] `weapon-of-warning-light-crossbow` — Weapon of Warning (Light Crossbow) → Arma de advertencia (ballesta ligera)
+- [x] `weapon-of-warning-light-hammer` — Weapon of Warning (Light Hammer) → Arma de advertencia (martillo ligero)
+- [x] `weapon-of-warning-longbow` — Weapon of Warning (Longbow) → Arma de advertencia (arco largo)
+- [x] `weapon-of-warning-longsword` — Weapon of Warning (Longsword) → Arma de advertencia (espada larga)
+- [x] `weapon-of-warning-mace` — Weapon of Warning (Mace) → Arma de advertencia (maza)
+- [x] `weapon-of-warning-maul` — Weapon of Warning (Maul) → Arma de advertencia (maza a dos manos)
+- [x] `weapon-of-warning-morningstar` — Weapon of Warning (Morningstar) → Arma de advertencia (lucero del alba)
+- [x] `weapon-of-warning-musket` — Weapon of Warning (Musket) → Arma de advertencia (mosquete)
+- [x] `weapon-of-warning-pike` — Weapon of Warning (Pike) → Arma de advertencia (pica)
+- [x] `weapon-of-warning-pistol` — Weapon of Warning (Pistol) → Arma de advertencia (pistola)
+- [x] `weapon-of-warning-quarterstaff` — Weapon of Warning (Quarterstaff) → Arma de advertencia (bastón)
+- [x] `weapon-of-warning-rapier` — Weapon of Warning (Rapier) → Arma de advertencia (estoque)
+- [x] `weapon-of-warning-scimitar` — Weapon of Warning (Scimitar) → Arma de advertencia (cimitarra)
+- [x] `weapon-of-warning-shortbow` — Weapon of Warning (Shortbow) → Arma de advertencia (arco corto)
+- [x] `weapon-of-warning-shortsword` — Weapon of Warning (Shortsword) → Arma de advertencia (espada corta)
+- [x] `weapon-of-warning-sickle` — Weapon of Warning (Sickle) → Arma de advertencia (hoz)
+- [x] `weapon-of-warning-sling` — Weapon of Warning (Sling) → Arma de advertencia (honda)
+- [x] `weapon-of-warning-spear` — Weapon of Warning (Spear) → Arma de advertencia (lanza)
+- [x] `weapon-of-warning-trident` — Weapon of Warning (Trident) → Arma de advertencia (tridente)
+- [x] `weapon-of-warning-war-pick` — Weapon of Warning (War Pick) → Arma de advertencia (pico de guerra)
+- [x] `weapon-of-warning-warhammer` — Weapon of Warning (Warhammer) → Arma de advertencia (martillo de guerra)
+- [x] `weapon-of-warning-whip` — Weapon of Warning (Whip) → Arma de advertencia (látigo)
+- [x] `weavers-tools` — Weaver's Tools (1 GP) → Herramientas de tejedor (1 po)
+- [x] `well-of-many-worlds` — Well of Many Worlds → Pozo de los muchos mundos
+- [x] `whip` — Whip → Látigo
+- [x] `whip-plus-1` — Whip (+1) → Látigo (+1)
+- [x] `whip-plus-2` — Whip (+2) → Látigo (+2)
+- [x] `whip-plus-3` — Whip (+3) → Látigo (+3)
+- [x] `wind-fan` — Wind Fan → Abanico del viento
+- [x] `winged-boots` — Winged Boots → Botas aladas
+- [x] `wings-of-flying` — Wings of Flying → Alas de vuelo
+- [x] `woodcarvers-tools` — Woodcarver's Tools (1 GP) → Herramientas de ebanista (1 po)
+
+## ✅ magicitems — 757/757 entradas
+
+- [x] `adamantine-armor-breastplate` — Adamantine Armor (Breastplate) → Armadura adamantina (coraza)
+- [x] `adamantine-armor-chain-mail` — Adamantine Armor (Chain Mail) → Armadura adamantina (cota de malla)
+- [x] `adamantine-armor-chain-shirt` — Adamantine Armor (Chain Shirt) → Armadura adamantina (camisa de malla)
+- [x] `adamantine-armor-half-plate-armor` — Adamantine Armor (Half Plate) → Armadura adamantina (media armadura)
+- [x] `adamantine-armor-plate` — Adamantine Armor (Plate) → Armadura adamantina (armadura de placas)
+- [x] `adamantine-armor-ring-mail` — Adamantine Armor (Ring Mail) → Armadura adamantina (cota guarnecida)
+- [x] `adamantine-armor-scale-mail` — Adamantine Armor (Scale Mail) → Armadura adamantina (cota de escamas)
+- [x] `adamantine-armor-splint` — Adamantine Armor (Splint) → Armadura adamantina (armadura de bandas)
+- [x] `ammunition-of-aberration-slaying` — Ammunition of Aberration Slaying → Munición asesina de aberraciones
+- [x] `ammunition-of-beast-slaying` — Ammunition of Beast Slaying → Munición asesina de bestias
+- [x] `ammunition-of-celestial-slaying` — Ammunition of Celestial Slaying → Munición asesina de celestiales
+- [x] `ammunition-of-construct-slaying` — Ammunition of Construct Slaying → Munición asesina de autómatas
+- [x] `ammunition-of-dragon-slaying` — Ammunition of Dragon Slaying → Munición asesina de dragones
+- [x] `ammunition-of-elemental-slaying` — Ammunition of Elemental Slaying → Munición asesina de elementales
+- [x] `ammunition-of-fey-slaying` — Ammunition of Fey Slaying → Munición asesina de feéricos
+- [x] `ammunition-of-fiend-slaying` — Ammunition of Fiend Slaying → Munición asesina de infernales
+- [x] `ammunition-of-giant-slaying` — Ammunition of Giant Slaying → Munición asesina de gigantes
+- [x] `ammunition-of-humanoid-slaying` — Ammunition of Humanoid Slaying → Munición asesina de humanoides
+- [x] `ammunition-of-monstrosity-slaying` — Ammunition of Monstrosity Slaying → Munición asesina de monstruosidades
+- [x] `ammunition-of-ooze-slaying` — Ammunition of Ooze Slaying → Munición asesina de cienos
+- [x] `ammunition-of-plant-slaying` — Ammunition of Plant Slaying → Munición asesina de plantas
+- [x] `ammunition-of-undead-slaying` — Ammunition of Undead Slaying → Munición asesina de muertos vivientes
+- [x] `ammunition-plus-one` — Ammunition (+1) → Munición +1
+- [x] `ammunition-plus-three` — Ammunition (+3) → Munición +3
+- [x] `ammunition-plus-two` — Ammunition (+2) → Munición +2
+- [x] `amulet-of-health` — Amulet of Health → Amuleto de salud
+- [x] `amulet-of-proof-against-detection-and-location` — Amulet of Proof against Detection and Location → Amuleto a prueba de detección y localización
+- [x] `amulet-of-the-planes` — Amulet of the Planes → Amuleto de los planos
+- [x] `animated-shield` — Animated Shield → Escudo animado
+- [x] `apparatus-of-the-crab` — Apparatus of the Crab → Aparato del crustáceo
+- [x] `armor-of-invulnerability` — Armor of Invulnerability → Armadura de invulnerabilidad
+- [x] `armor-of-resistance-breastplate` — Armor of Resistance (Breastplate) → Armadura de resistencia (coraza)
+- [x] `armor-of-resistance-chain-mail` — Armor of Resistance (Chain Mail) → Armadura de resistencia (cota de malla)
+- [x] `armor-of-resistance-chain-shirt` — Armor of Resistance (Chain Shirt) → Armadura de resistencia (camisa de malla)
+- [x] `armor-of-resistance-half-plate` — Armor of Resistance (Half Plate) → Armadura de resistencia (media armadura)
+- [x] `armor-of-resistance-hide-armor` — Armor of Resistance (Hide Armor) → Armadura de resistencia (armadura de pieles)
+- [x] `armor-of-resistance-leather` — Armor of Resistance (Leather Armor) → Armadura de resistencia (armadura de cuero)
+- [x] `armor-of-resistance-padded` — Armor of Resistance (Padded) → Armadura de resistencia (armadura acolchada)
+- [x] `armor-of-resistance-plate` — Armor of Resistance (Plate) → Armadura de resistencia (armadura de placas)
+- [x] `armor-of-resistance-ring-mail` — Armor of Resistance (Ring Mail) → Armadura de resistencia (cota guarnecida)
+- [x] `armor-of-resistance-scale-mail` — Armor of Resistance (Scale Mail) → Armadura de resistencia (cota de escamas)
+- [x] `armor-of-resistance-splint` — Armor of Resistance (Splint) → Armadura de resistencia (armadura de bandas)
+- [x] `armor-of-resistance-studded-leather` — Armor of Resistance (Studded Leather) → Armadura de resistencia (armadura de cuero tachonado)
+- [x] `armor-of-vulnerability-breastplate` — Armor of Vulnerability (Breastplate) → Armadura de vulnerabilidad (coraza)
+- [x] `armor-of-vulnerability-chain-mail` — Armor of Vulnerability (Chain Mail) → Armadura de vulnerabilidad (cota de malla)
+- [x] `armor-of-vulnerability-chain-shirt` — Armor of Vulnerability (Chain Shirt) → Armadura de vulnerabilidad (camisa de malla)
+- [x] `armor-of-vulnerability-half-plate-armor` — Armor of Vulnerability (Half Plate Armor) → Armadura de vulnerabilidad (media armadura)
+- [x] `armor-of-vulnerability-hide-armor` — Armor of Vulnerability (Hide Armor) → Armadura de vulnerabilidad (armadura de pieles)
+- [x] `armor-of-vulnerability-leather-armor` — Armor of Vulnerability (Leather Armor) → Armadura de vulnerabilidad (armadura de cuero)
+- [x] `armor-of-vulnerability-padded-armor` — Armor of Vulnerability (Padded Armor) → Armadura de vulnerabilidad (armadura acolchada)
+- [x] `armor-of-vulnerability-plate-armor` — Armor of Vulnerability (Plate Armor) → Armadura de vulnerabilidad (armadura de placas)
+- [x] `armor-of-vulnerability-ring-mail` — Armor of Vulnerability (Ring Mail) → Armadura de vulnerabilidad (cota guarnecida)
+- [x] `armor-of-vulnerability-scale-mail` — Armor of Vulnerability (Scale Mail) → Armadura de vulnerabilidad (cota de escamas)
+- [x] `armor-of-vulnerability-splint-armor` — Armor of Vulnerability (Splint Armor) → Armadura de vulnerabilidad (armadura de bandas)
+- [x] `armor-of-vulnerability-studded-leather-armor` — Armor of Vulnerability (Studded Leather Armor) → Armadura de vulnerabilidad (armadura de cuero tachonado)
+- [x] `arrow-catching-shield` — Arrow-Catching Shield → Escudo atrapaflechas
+- [x] `bag-of-beans` — Bag of Beans → Bolsa de judías
+- [x] `bag-of-devouring` — Bag of Devouring → Bolsa devoradora
+- [x] `bag-of-holding` — Bag of Holding → Bolsa de contención
+- [x] `bag-of-tricks` — Bag of Tricks → Bolsa de trucos
+- [x] `battleaxe-plus-1` — Battleaxe (+1) → Hacha de guerra (+1)
+- [x] `battleaxe-plus-2` — Battleaxe (+2) → Hacha de guerra (+2)
+- [x] `battleaxe-plus-3` — Battleaxe (+3) → Hacha de guerra (+3)
+- [x] `bead-of-force` — Bead of Force → Canica de fuerza
+- [x] `belt-of-giant-strength-cloud` — Belt of Giant Strength (Cloud) → Cinturón de fuerza de gigante (nubes)
+- [x] `belt-of-giant-strength-fire` — Belt of Giant Strength (Fire) → Cinturón de fuerza de gigante (fuego)
+- [x] `belt-of-giant-strength-frost-or-stone` — Belt of Giant Strength (Frost or Stone) → Cinturón de fuerza de gigante (escarcha o piedra)
+- [x] `belt-of-giant-strength-hill` — Belt of Giant Strength (Hill) → Cinturón de fuerza de gigante (colinas)
+- [x] `belt-of-giant-strength-storm` — Belt of Giant Strength (Storm) → Cinturón de fuerza de gigante (tormenta)
+- [x] `berserker-battleaxe` — Berserker Battleaxe → Hacha berserker (hacha de guerra)
+- [x] `berserker-greataxe` — Berserker Greataxe → Hacha berserker (hacha a dos manos)
+- [x] `berserker-halberd` — Berserker Halberd → Hacha berserker (alabarda)
+- [x] `blowgun-plus-1` — Blowgun (+1) → Cerbatana (+1)
+- [x] `blowgun-plus-2` — Blowgun (+2) → Cerbatana (+2)
+- [x] `blowgun-plus-3` — Blowgun (+3) → Cerbatana (+3)
+- [x] `boots-of-elvenkind` — Boots of Elvenkind → Botas élficas
+- [x] `boots-of-levitation` — Boots of Levitation → Botas de levitación
+- [x] `boots-of-speed` — Boots of Speed → Botas de velocidad
+- [x] `boots-of-striding-and-springing` — Boots of Striding and Springing → Botas de zancadas y brincos
+- [x] `boots-of-the-winterlands` — Boots of the Winterlands → Botas de las tierras invernales
+- [x] `bowl-of-commanding-water-elementals` — Bowl of Commanding Water Elementals → Cuenco para controlar elementales de agua
+- [x] `bracers-of-archery` — Bracers of Archery → Brazales de arquería
+- [x] `bracers-of-defense` — Bracers of Defense → Brazales de defensa
+- [x] `brazier-of-commanding-fire-elementals` — Brazier of Commanding Fire Elementals → Brasero para controlar elementales de fuego
+- [x] `breastplate-plus-1` — Breastplate (+1) → Coraza (+1)
+- [x] `breastplate-plus-2` — Breastplate (+2) → Coraza (+2)
+- [x] `breastplate-plus-3` — Breastplate (+3) → Coraza (+3)
+- [x] `brooch-of-shielding` — Brooch of Shielding → Broche escudo
+- [x] `broom-of-flying` — Broom of Flying → Escoba voladora
+- [x] `candle-of-invocation` — Candle of Invocation → Vela de invocación
+- [x] `cape-of-the-mountebank` — Cape of the Mountebank → Capa del charlatán
+- [x] `carpet-of-flying` — Carpet of Flying → Alfombra voladora
+- [x] `censer-of-controlling-air-elementals` — Censer of Controlling Air Elementals → Incensario de controlar elementales de aire
+- [x] `chain-mail-plus-1` — Chain Mail (+1) → Cota de malla (+1)
+- [x] `chain-mail-plus-2` — Chain Mail (+2) → Cota de malla (+2)
+- [x] `chain-mail-plus-3` — Chain Mail (+3) → Cota de malla (+3)
+- [x] `chain-shirt-plus-1` — Chain Shirt (+1) → Camisa de malla (+1)
+- [x] `chain-shirt-plus-2` — Chain Shirt (+2) → Camisa de malla (+2)
+- [x] `chain-shirt-plus-3` — Chain Shirt (+3) → Camisa de malla (+3)
+- [x] `chime-of-opening` — Chime of Opening → Carillón de apertura
+- [x] `circlet-of-blasting` — Circlet of Blasting → Diadema de estallidos
+- [x] `cloak-of-arachnida` — Cloak of Arachnida → Capa arácnida
+- [x] `cloak-of-displacement` — Cloak of Displacement → Capa de desplazamiento
+- [x] `cloak-of-elvenkind` — Cloak of Elvenkind → Capa élfica
+- [x] `cloak-of-protection` — Cloak of Protection → Capa de protección
+- [x] `cloak-of-the-bat` — Cloak of the Bat → Capa del murciélago
+- [x] `cloak-of-the-manta-ray` — Cloak of the Manta Ray → Capa de la mantarraya
+- [x] `club-plus-1` — Club (+1) → Garrote (+1)
+- [x] `club-plus-2` — Club (+2) → Garrote (+2)
+- [x] `club-plus-3` — Club (+3) → Garrote (+3)
+- [x] `crystal-ball` — Crystal Ball → Bola de cristal
+- [x] `crystal-ball-of-mind-reading` — Crystal Ball of Mind Reading → Bola de cristal de leer mentes
+- [x] `crystal-ball-of-telepathy` — Crystal Ball of Telepathy → Bola de cristal de telepatía
+- [x] `crystal-ball-of-true-seeing` — Crystal Ball of True Seeing → Bola de cristal de visión verdadera
+- [x] `cube-of-force` — Cube of Force → Cubo de fuerza
+- [x] `cubic-gate` — Cubic Gate → Portal cúbico
+- [x] `dagger-of-venom` — Dagger of Venom → Daga de la ponzoña
+- [x] `dagger-plus-1` — Dagger (+1) → Daga (+1)
+- [x] `dagger-plus-2` — Dagger (+2) → Daga (+2)
+- [x] `dagger-plus-3` — Dagger (+3) → Daga (+3)
+- [x] `dancing-greatsword` — Dancing Greatsword → Espada danzarina (espadón)
+- [x] `dancing-longsword` — Dancing Longsword → Espada danzarina (espada larga)
+- [x] `dancing-rapier` — Dancing Rapier → Espada danzarina (estoque)
+- [x] `dancing-scimitar` — Dancing Scimitar → Espada danzarina (cimitarra)
+- [x] `dancing-shortsword` — Dancing Shortsword → Espada danzarina (espada corta)
+- [x] `dart-plus-1` — Dart (+1) → Dardo (+1)
+- [x] `dart-plus-2` — Dart (+2) → Dardo (+2)
+- [x] `dart-plus-3` — Dart (+3) → Dardo (+3)
+- [x] `decanter-of-endless-water` — Decanter of Endless Water → Decantador de agua interminable
+- [x] `deck-of-illusions` — Deck of Illusions → Baraja de ilusiones
+- [x] `defender` — Defender → Defensora
+- [x] `defender-battleaxe` — Defender (Battleaxe) → Defensora (hacha de guerra)
+- [x] `defender-blowgun` — Defender (Blowgun) → Defensora (cerbatana)
+- [x] `defender-club` — Defender (Club) → Defensora (garrote)
+- [x] `defender-dagger` — Defender (Dagger) → Defensora (daga)
+- [x] `defender-dart` — Defender (Dart) → Defensora (dardo)
+- [x] `defender-flail` — Defender (Flail) → Defensora (mangual)
+- [x] `defender-glaive` — Defender (Glaive) → Defensora (guja)
+- [x] `defender-greataxe` — Defender (Greataxe) → Defensora (hacha a dos manos)
+- [x] `defender-greatclub` — Defender (Greatclub) → Defensora (garrote grande)
+- [x] `defender-greatsword` — Defender (Greatsword) → Defensora (espadón)
+- [x] `defender-halberd` — Defender (Halberd) → Defensora (alabarda)
+- [x] `defender-hand-crossbow` — Defender (Hand Crossbow) → Defensora (ballesta de mano)
+- [x] `defender-handaxe` — Defender (Handaxe) → Defensora (hacha de mano)
+- [x] `defender-heavy-crossbow` — Defender (Heavy Crossbow) → Defensora (ballesta pesada)
+- [x] `defender-javelin` — Defender (Javelin) → Defensora (jabalina)
+- [x] `defender-lance` — Defender (Lance) → Defensora (lanza de caballería)
+- [x] `defender-light-crossbow` — Defender (Light Crossbow) → Defensora (ballesta ligera)
+- [x] `defender-light-hammer` — Defender (Light Hammer) → Defensora (martillo ligero)
+- [x] `defender-longbow` — Defender (Longbow) → Defensora (arco largo)
+- [x] `defender-longsword` — Defender (Longsword) → Defensora (espada larga)
+- [x] `defender-mace` — Defender (Mace) → Defensora (maza)
+- [x] `defender-maul` — Defender (Maul) → Defensora (maza a dos manos)
+- [x] `defender-morningstar` — Defender (Morningstar) → Defensora (lucero del alba)
+- [x] `defender-musket` — Defender (Musket) → Defensora (mosquete)
+- [x] `defender-pike` — Defender (Pike) → Defensora (pica)
+- [x] `defender-pistol` — Defender (Pistol) → Defensora (pistola)
+- [x] `defender-quarterstaff` — Defender (Quarterstaff) → Defensora (bastón)
+- [x] `defender-rapier` — Defender (Rapier) → Defensora (estoque)
+- [x] `defender-scimitar` — Defender (Scimitar) → Defensora (cimitarra)
+- [x] `defender-shortbow` — Defender (Shortbow) → Defensora (arco corto)
+- [x] `defender-shortsword` — Defender (Shortsword) → Defensora (espada corta)
+- [x] `defender-sickle` — Defender (Sickle) → Defensora (hoz)
+- [x] `defender-sling` — Defender (Sling) → Defensora (honda)
+- [x] `defender-spear` — Defender (Spear) → Defensora (lanza)
+- [x] `defender-trident` — Defender (Trident) → Defensora (tridente)
+- [x] `defender-war-pick` — Defender (War Pick) → Defensora (pico de guerra)
+- [x] `defender-warhammer` — Defender (Warhammer) → Defensora (martillo de guerra)
+- [x] `defender-whip` — Defender (Whip) → Defensora (látigo)
+- [x] `demon-breastplate` — Demon Breastplate → Armadura demoníaca (coraza)
+- [x] `demon-chain-mail` — Demon Chain Mail → Armadura demoníaca (cota de malla)
+- [x] `demon-chain-shirt` — Demon Chain Shirt → Armadura demoníaca (camisa de malla)
+- [x] `demon-half-plate-armor` — Demon Half Plate Armor → Armadura demoníaca (media armadura)
+- [x] `demon-hide-armor` — Demon Hide Armor → Armadura demoníaca (armadura de pieles)
+- [x] `demon-leather-armor` — Demon Leather Armor → Armadura demoníaca (armadura de cuero)
+- [x] `demon-padded-armor` — Demon Padded Armor → Armadura demoníaca (armadura acolchada)
+- [x] `demon-plate-armor` — Demon Plate Armor → Armadura demoníaca (armadura de placas)
+- [x] `demon-ring-mail` — Demon Ring Mail → Armadura demoníaca (cota guarnecida)
+- [x] `demon-scale-mail` — Demon Scale Mail → Armadura demoníaca (cota de escamas)
+- [x] `demon-splint-armor` — Demon Splint Armor → Armadura demoníaca (armadura de bandas)
+- [x] `demon-studded-leather-armor` — Demon Studded Leather Armor → Armadura demoníaca (armadura de cuero tachonado)
+- [x] `dimensional-shackles` — Dimensional Shackles → Grilletes dimensionales
+- [x] `dragon-orb` — Dragon Orb → Orbe dragontino
+- [x] `dragon-scale-mail` — Dragon Scale Mail → Cota de escamas de dragón
+- [x] `dragon-slayer` — Dragon Slayer → Matadragones
+- [x] `dust-of-disappearance` — Dust of Disappearance → Polvo de desaparición
+- [x] `dust-of-dryness` — Dust of Dryness → Polvo de sequedad
+- [x] `dust-of-sneezing-and-choking` — Dust of Sneezing and Choking → Polvo de estornudar y atragantarse
+- [x] `dwarven-half-plate` — Dwarven Half Plate → Armadura de placas enana (media armadura)
+- [x] `dwarven-plate` — Dwarven Plate → Armadura de placas enana (armadura de placas)
+- [x] `dwarven-thrower` — Dwarven Thrower → Martillo arrojadizo enano
+- [x] `efficient-quiver` — Efficient Quiver → Aljaba eficiente
+- [x] `efreeti-bottle` — Efreeti Bottle → Botella de ifrit
+- [x] `elemental-gem` — Elemental Gem → Gema elemental
+- [x] `elven-chain-mail` — Elven Chain Mail → Malla élfica (cota de malla)
+- [x] `elven-chain-shirt` — Elven Chain Shirt → Malla élfica (camisa de malla)
+- [x] `eversmoking-bottle` — Eversmoking Bottle → Botella siemprehumeante
+- [x] `eyes-of-charming` — Eyes of Charming → Anteojos de encantamiento
+- [x] `eyes-of-minute-seeing` — Eyes of Minute Seeing → Anteojos de visión minuciosa
+- [x] `eyes-of-the-eagle` — Eyes of the Eagle → Anteojos de vista de águila
+- [x] `feather-token-anchor` — Feather Token (Anchor) → Ficha de pluma (ancla)
+- [x] `feather-token-bird` — Feather Token (Bird) → Ficha de pluma (pájaro)
+- [x] `feather-token-fan` — Feather Token (Fan) → Ficha de pluma (abanico)
+- [x] `feather-token-swan-boat` — Feather Token (Swan Boat) → Ficha de pluma (bote cisne)
+- [x] `feather-token-tree` — Feather Token (Tree) → Ficha de pluma (árbol)
+- [x] `feather-token-whip` — Feather Token (Whip) → Ficha de pluma (látigo)
+- [x] `figurine-of-wondrous-power-bronze-griffon` — Figurine of Wondrous Power (Bronze Griffon) → Estatuilla de poder maravilloso (grifo de bronce)
+- [x] `figurine-of-wondrous-power-ebony-fly` — Figurine of Wondrous Power (Ebony Fly) → Estatuilla de poder maravilloso (mosca de ébano)
+- [x] `figurine-of-wondrous-power-golden-lions` — Figurine of Wondrous Power (Golden Lions) → Estatuilla de poder maravilloso (leones dorados)
+- [x] `figurine-of-wondrous-power-ivory-goats` — Figurine of Wondrous Power (Ivory Goats) → Estatuilla de poder maravilloso (cabras de marfil)
+- [x] `figurine-of-wondrous-power-marble-elephant` — Figurine of Wondrous Power (Marble Elephant) → Estatuilla de poder maravilloso (elefante de mármol)
+- [x] `figurine-of-wondrous-power-obsidian-stead` — Figurine of Wondrous Power (Obsidian Stead) → Estatuilla de poder maravilloso (corcel de obsidiana)
+- [x] `figurine-of-wondrous-power-onyx-dog` — Figurine of Wondrous Power (Onyx Dog) → Estatuilla de poder maravilloso (perro de ónice)
+- [x] `figurine-of-wondrous-power-serpentine-owl` — Figurine of Wondrous Power (Serpentine Owl) → Estatuilla de poder maravilloso (búho de serpentina)
+- [x] `figurine-of-wondrous-power-silver-raven` — Figurine of Wondrous Power (Silver Raven) → Estatuilla de poder maravilloso (cuervo de plata)
+- [x] `flail-plus-1` — Flail (+1) → Mangual (+1)
+- [x] `flail-plus-2` — Flail (+2) → Mangual (+2)
+- [x] `flail-plus-3` — Flail (+3) → Mangual (+3)
+- [x] `flame-tongue-battleaxe` — Flame Tongue Battleaxe → Lengua de fuego (hacha de guerra)
+- [x] `flame-tongue-club` — Flame Tongue Club → Lengua de fuego (garrote)
+- [x] `flame-tongue-dagger` — Flame Tongue Dagger → Lengua de fuego (daga)
+- [x] `flame-tongue-dart` — Flame Tongue Dart → Lengua de fuego (dardo)
+- [x] `flame-tongue-flail` — Flame Tongue Flail → Lengua de fuego (mangual)
+- [x] `flame-tongue-glaive` — Flame Tongue Glaive → Lengua de fuego (guja)
+- [x] `flame-tongue-greataxe` — Flame Tongue Greataxe → Lengua de fuego (hacha a dos manos)
+- [x] `flame-tongue-greatclub` — Flame Tongue Greatclub → Lengua de fuego (garrote grande)
+- [x] `flame-tongue-greatsword` — Flame Tongue Greatsword → Lengua de fuego (espadón)
+- [x] `flame-tongue-halberd` — Flame Tongue Halberd → Lengua de fuego (alabarda)
+- [x] `flame-tongue-handaxe` — Flame Tongue Handaxe → Lengua de fuego (hacha de mano)
+- [x] `flame-tongue-javelin` — Flame Tongue Javelin → Lengua de fuego (jabalina)
+- [x] `flame-tongue-lance` — Flame Tongue Lance → Lengua de fuego (lanza de caballería)
+- [x] `flame-tongue-light-hammer` — Flame Tongue Light Hammer → Lengua de fuego (martillo ligero)
+- [x] `flame-tongue-longsword` — Flame Tongue Longsword → Lengua de fuego (espada larga)
+- [x] `flame-tongue-mace` — Flame Tongue Mace → Lengua de fuego (maza)
+- [x] `flame-tongue-maul` — Flame Tongue Maul → Lengua de fuego (maza a dos manos)
+- [x] `flame-tongue-morningstar` — Flame Tongue Morningstar → Lengua de fuego (lucero del alba)
+- [x] `flame-tongue-pike` — Flame Tongue Pike → Lengua de fuego (pica)
+- [x] `flame-tongue-quarterstaff` — Flame Tongue Quarterstaff → Lengua de fuego (bastón)
+- [x] `flame-tongue-rapier` — Flame Tongue Rapier → Lengua de fuego (estoque)
+- [x] `flame-tongue-scimitar` — Flame Tongue Scimitar → Lengua de fuego (cimitarra)
+- [x] `flame-tongue-shortsword` — Flame Tongue Shortsword → Lengua de fuego (espada corta)
+- [x] `flame-tongue-sickle` — Flame Tongue Sickle → Lengua de fuego (hoz)
+- [x] `flame-tongue-spear` — Flame Tongue Spear → Lengua de fuego (lanza)
+- [x] `flame-tongue-trident` — Flame Tongue Trident → Lengua de fuego (tridente)
+- [x] `flame-tongue-war-pick` — Flame Tongue War Pick → Lengua de fuego (pico de guerra)
+- [x] `flame-tongue-warhammer` — Flame Tongue Warhammer → Lengua de fuego (martillo de guerra)
+- [x] `flame-tongue-whip` — Flame Tongue Whip → Lengua de fuego (látigo)
+- [x] `folding-boat` — Folding Boat → Bote plegable
+- [x] `frost-brand-glaive` — Frost Brand (Glaive) → Hierro de escarcha (guja)
+- [x] `frost-brand-greatsword` — Frost Brand (Greatsword) → Hierro de escarcha (espadón)
+- [x] `frost-brand-longsword` — Frost Brand (Longsword) → Hierro de escarcha (espada larga)
+- [x] `frost-brand-rapier` — Frost Brand (Rapier) → Hierro de escarcha (estoque)
+- [x] `frost-brand-scimitar` — Frost Brand (Scimitar) → Hierro de escarcha (cimitarra)
+- [x] `frost-brand-shortsword` — Frost Brand (Shortsword) → Hierro de escarcha (espada corta)
+- [x] `gauntlets-of-ogre-power` — Gauntlets of Ogre Power → Guanteletes de fuerza de ogro
+- [x] `gem-of-brightness` — Gem of Brightness → Gema del resplandor
+- [x] `gem-of-seeing` — Gem of Seeing → Gema de visión
+- [x] `giant-slayer-battleaxe` — Giant Slayer (Battleaxe) → Matagigantes (hacha de guerra)
+- [x] `giant-slayer-blowgun` — Giant Slayer (Blowgun) → Matagigantes (cerbatana)
+- [x] `giant-slayer-club` — Giant Slayer (Club) → Matagigantes (garrote)
+- [x] `giant-slayer-dagger` — Giant Slayer (Dagger) → Matagigantes (daga)
+- [x] `giant-slayer-dart` — Giant Slayer (Dart) → Matagigantes (dardo)
+- [x] `giant-slayer-flail` — Giant Slayer (Flail) → Matagigantes (mangual)
+- [x] `giant-slayer-glaive` — Giant Slayer (Glaive) → Matagigantes (guja)
+- [x] `giant-slayer-greataxe` — Giant Slayer (Greataxe) → Matagigantes (hacha a dos manos)
+- [x] `giant-slayer-greatclub` — Giant Slayer (Greatclub) → Matagigantes (garrote grande)
+- [x] `giant-slayer-greatsword` — Giant Slayer (Greatsword) → Matagigantes (espadón)
+- [x] `giant-slayer-halberd` — Giant Slayer (Halberd) → Matagigantes (alabarda)
+- [x] `giant-slayer-hand-crossbow` — Giant Slayer (Hand Crossbow) → Matagigantes (ballesta de mano)
+- [x] `giant-slayer-handaxe` — Giant Slayer (Handaxe) → Matagigantes (hacha de mano)
+- [x] `giant-slayer-heavy-crossbow` — Giant Slayer (Heavy Crossbow) → Matagigantes (ballesta pesada)
+- [x] `giant-slayer-javelin` — Giant Slayer (Javelin) → Matagigantes (jabalina)
+- [x] `giant-slayer-lance` — Giant Slayer (Lance) → Matagigantes (lanza de caballería)
+- [x] `giant-slayer-light-crossbow` — Giant Slayer (Light Crossbow) → Matagigantes (ballesta ligera)
+- [x] `giant-slayer-light-hammer` — Giant Slayer (Light Hammer) → Matagigantes (martillo ligero)
+- [x] `giant-slayer-longbow` — Giant Slayer (Longbow) → Matagigantes (arco largo)
+- [x] `giant-slayer-longsword` — Giant Slayer (Longsword) → Matagigantes (espada larga)
+- [x] `giant-slayer-mace` — Giant Slayer (Mace) → Matagigantes (maza)
+- [x] `giant-slayer-maul` — Giant Slayer (Maul) → Matagigantes (maza a dos manos)
+- [x] `giant-slayer-morningstar` — Giant Slayer (Morningstar) → Matagigantes (lucero del alba)
+- [x] `giant-slayer-musket` — Giant Slayer (Musket) → Matagigantes (mosquete)
+- [x] `giant-slayer-pike` — Giant Slayer (Pike) → Matagigantes (pica)
+- [x] `giant-slayer-pistol` — Giant Slayer (Pistol) → Matagigantes (pistola)
+- [x] `giant-slayer-quarterstaff` — Giant Slayer (Quarterstaff) → Matagigantes (bastón)
+- [x] `giant-slayer-rapier` — Giant Slayer (Rapier) → Matagigantes (estoque)
+- [x] `giant-slayer-scimitar` — Giant Slayer (Scimitar) → Matagigantes (cimitarra)
+- [x] `giant-slayer-shortbow` — Giant Slayer (Shortbow) → Matagigantes (arco corto)
+- [x] `giant-slayer-shortsword` — Giant Slayer (Shortsword) → Matagigantes (espada corta)
+- [x] `giant-slayer-sickle` — Giant Slayer (Sickle) → Matagigantes (hoz)
+- [x] `giant-slayer-sling` — Giant Slayer (Sling) → Matagigantes (honda)
+- [x] `giant-slayer-spear` — Giant Slayer (Spear) → Matagigantes (lanza)
+- [x] `giant-slayer-trident` — Giant Slayer (Trident) → Matagigantes (tridente)
+- [x] `giant-slayer-war-pick` — Giant Slayer (War Pick) → Matagigantes (pico de guerra)
+- [x] `giant-slayer-warhammer` — Giant Slayer (Warhammer) → Matagigantes (martillo de guerra)
+- [x] `giant-slayer-whip` — Giant Slayer (Whip) → Matagigantes (látigo)
+- [x] `glaive-of-life-stealing` — Glaive of Life Stealing → Guja ladrona de vida
+- [x] `glaive-of-sharpness` — Glaive of Sharpness → Guja de hoja afilada
+- [x] `glaive-of-wounding` — Glaive of Wounding → Guja hiriente
+- [x] `glaive-plus-1` — Glaive (+1) → Guja (+1)
+- [x] `glaive-plus-2` — Glaive (+2) → Guja (+2)
+- [x] `glaive-plus-3` — Glaive (+3) → Guja (+3)
+- [x] `glamoured-studded-leather` — Glamoured Studded Leather → Cuero tachonado encantado
+- [x] `gloves-of-missile-snaring` — Gloves of Missile Snaring → Guantes atrapaflechas
+- [x] `gloves-of-swimming-and-climbing` — Gloves of Swimming and Climbing → Guantes de natación y escalada
+- [x] `goggles-of-night` — Goggles of Night → Anteojos de la noche
+- [x] `greataxe-plus-1` — Greataxe (+1) → Hacha a dos manos (+1)
+- [x] `greataxe-plus-2` — Greataxe (+2) → Hacha a dos manos (+2)
+- [x] `greataxe-plus-3` — Greataxe (+3) → Hacha a dos manos (+3)
+- [x] `greatclub-plus-1` — Greatclub (+1) → Garrote grande (+1)
+- [x] `greatclub-plus-2` — Greatclub (+2) → Garrote grande (+2)
+- [x] `greatclub-plus-3` — Greatclub (+3) → Garrote grande (+3)
+- [x] `greatsword-of-life-stealing` — Greatsword of Life Stealing → Espadón ladrón de vida
+- [x] `greatsword-of-sharpness` — Greatsword of Sharpness → Espadón de hoja afilada
+- [x] `greatsword-of-wounding` — Greatsword of Wounding → Espadón hiriente
+- [x] `greatsword-plus-1` — Greatsword (+1) → Espadón (+1)
+- [x] `greatsword-plus-2` — Greatsword (+2) → Espadón (+2)
+- [x] `greatsword-plus-3` — Greatsword (+3) → Espadón (+3)
+- [x] `halberd-plus-1` — Halberd (+1) → Alabarda (+1)
+- [x] `halberd-plus-2` — Halberd (+2) → Alabarda (+2)
+- [x] `halberd-plus-3` — Halberd (+3) → Alabarda (+3)
+- [x] `half-plate-armor-of-etherealness` — Half Plate Armor of Etherealness → Media armadura de etereidad
+- [x] `half-plate-armor-plus-1` — Half Plate Armor (+1) → Media armadura (+1)
+- [x] `half-plate-armor-plus-2` — Half Plate Armor (+2) → Media armadura (+2)
+- [x] `half-plate-armor-plus-3` — Half Plate Armor (+3) → Media armadura (+3)
+- [x] `hammer-of-thunderbolts-maul` — Hammer of Thunderbolts (Maul) → Martillo de rayos (maza a dos manos)
+- [x] `hammer-of-thunderbolts-warhammer` — Hammer of Thunderbolts (Warhammer) → Martillo de rayos (martillo de guerra)
+- [x] `hand-crossbow-plus-1` — Hand Crossbow (+1) → Ballesta de mano (+1)
+- [x] `hand-crossbow-plus-2` — Hand Crossbow (+2) → Ballesta de mano (+2)
+- [x] `hand-crossbow-plus-3` — Hand Crossbow (+3) → Ballesta de mano (+3)
+- [x] `handaxe-plus-1` — Handaxe (+1) → Hacha de mano (+1)
+- [x] `handaxe-plus-2` — Handaxe (+2) → Hacha de mano (+2)
+- [x] `handaxe-plus-3` — Handaxe (+3) → Hacha de mano (+3)
+- [x] `handy-haversack` — Handy Haversack → Morral práctico
+- [x] `hat-of-disguise` — Hat of Disguise → Sombrero de disfraz
+- [x] `headband-of-intellect` — Headband of Intellect → Diadema de intelecto
+- [x] `heavy-crossbow-plus-1` — Heavy Crossbow (+1) → Ballesta pesada (+1)
+- [x] `heavy-crossbow-plus-2` — Heavy Crossbow (+2) → Ballesta pesada (+2)
+- [x] `heavy-crossbow-plus-3` — Heavy Crossbow (+3) → Ballesta pesada (+3)
+- [x] `helm-of-brilliance` — Helm of Brilliance → Yelmo de fulgor
+- [x] `helm-of-comprehending-languages` — Helm of Comprehending Languages → Yelmo de entender idiomas
+- [x] `helm-of-telepathy` — Helm of Telepathy → Yelmo de telepatía
+- [x] `helm-of-teleportation` — Helm of Teleportation → Yelmo de teletransporte
+- [x] `hide-armor-plus-1` — Hide Armor (+1) → Armadura de pieles (+1)
+- [x] `hide-armor-plus-2` — Hide Armor (+2) → Armadura de pieles (+2)
+- [x] `hide-armor-plus-3` — Hide Armor (+3) → Armadura de pieles (+3)
+- [x] `holy-avenger` — Holy Avenger → Vengadora sagrada
+- [x] `holy-avenger-battleaxe` — Holy Avenger (Battleaxe) → Vengadora sagrada (hacha de guerra)
+- [x] `holy-avenger-blowgun` — Holy Avenger (Blowgun) → Vengadora sagrada (cerbatana)
+- [x] `holy-avenger-club` — Holy Avenger (Club) → Vengadora sagrada (garrote)
+- [x] `holy-avenger-dagger` — Holy Avenger (Dagger) → Vengadora sagrada (daga)
+- [x] `holy-avenger-dart` — Holy Avenger (Dart) → Vengadora sagrada (dardo)
+- [x] `holy-avenger-flail` — Holy Avenger (Flail) → Vengadora sagrada (mangual)
+- [x] `holy-avenger-glaive` — Holy Avenger (Glaive) → Vengadora sagrada (guja)
+- [x] `holy-avenger-greataxe` — Holy Avenger (Greataxe) → Vengadora sagrada (hacha a dos manos)
+- [x] `holy-avenger-greatclub` — Holy Avenger (Greatclub) → Vengadora sagrada (garrote grande)
+- [x] `holy-avenger-greatsword` — Holy Avenger (Greatsword) → Vengadora sagrada (espadón)
+- [x] `holy-avenger-halberd` — Holy Avenger (Halberd) → Vengadora sagrada (alabarda)
+- [x] `holy-avenger-hand-crossbow` — Holy Avenger (Hand Crossbow) → Vengadora sagrada (ballesta de mano)
+- [x] `holy-avenger-handaxe` — Holy Avenger (Handaxe) → Vengadora sagrada (hacha de mano)
+- [x] `holy-avenger-heavy-crossbow` — Holy Avenger (Heavy Crossbow) → Vengadora sagrada (ballesta pesada)
+- [x] `holy-avenger-javelin` — Holy Avenger (Javelin) → Vengadora sagrada (jabalina)
+- [x] `holy-avenger-lance` — Holy Avenger (Lance) → Vengadora sagrada (lanza de caballería)
+- [x] `holy-avenger-light-crossbow` — Holy Avenger (Light Crossbow) → Vengadora sagrada (ballesta ligera)
+- [x] `holy-avenger-light-hammer` — Holy Avenger (Light Hammer) → Vengadora sagrada (martillo ligero)
+- [x] `holy-avenger-longbow` — Holy Avenger (Longbow) → Vengadora sagrada (arco largo)
+- [x] `holy-avenger-longsword` — Holy Avenger (Longsword) → Vengadora sagrada (espada larga)
+- [x] `holy-avenger-mace` — Holy Avenger (Mace) → Vengadora sagrada (maza)
+- [x] `holy-avenger-maul` — Holy Avenger (Maul) → Vengadora sagrada (maza a dos manos)
+- [x] `holy-avenger-morningstar` — Holy Avenger (Morningstar) → Vengadora sagrada (lucero del alba)
+- [x] `holy-avenger-musket` — Holy Avenger (Musket) → Vengadora sagrada (mosquete)
+- [x] `holy-avenger-pike` — Holy Avenger (Pike) → Vengadora sagrada (pica)
+- [x] `holy-avenger-pistol` — Holy Avenger (Pistol) → Vengadora sagrada (pistola)
+- [x] `holy-avenger-quarterstaff` — Holy Avenger (Quarterstaff) → Vengadora sagrada (bastón)
+- [x] `holy-avenger-rapier` — Holy Avenger (Rapier) → Vengadora sagrada (estoque)
+- [x] `holy-avenger-scimitar` — Holy Avenger (Scimitar) → Vengadora sagrada (cimitarra)
+- [x] `holy-avenger-shortbow` — Holy Avenger (Shortbow) → Vengadora sagrada (arco corto)
+- [x] `holy-avenger-shortsword` — Holy Avenger (Shortsword) → Vengadora sagrada (espada corta)
+- [x] `holy-avenger-sickle` — Holy Avenger (Sickle) → Vengadora sagrada (hoz)
+- [x] `holy-avenger-sling` — Holy Avenger (Sling) → Vengadora sagrada (honda)
+- [x] `holy-avenger-spear` — Holy Avenger (Spear) → Vengadora sagrada (lanza)
+- [x] `holy-avenger-trident` — Holy Avenger (Trident) → Vengadora sagrada (tridente)
+- [x] `holy-avenger-war-pick` — Holy Avenger (War Pick) → Vengadora sagrada (pico de guerra)
+- [x] `holy-avenger-warhammer` — Holy Avenger (Warhammer) → Vengadora sagrada (martillo de guerra)
+- [x] `holy-avenger-whip` — Holy Avenger (Whip) → Vengadora sagrada (látigo)
+- [x] `horn-of-blasting` — Horn of Blasting → Cuerno de estallido
+- [x] `horn-of-valhalla` — Horn of Valhalla → Cuerno del Valhalla
+- [x] `horseshoes-of-a-zephyr` — Horseshoes of a Zephyr → Herraduras del céfiro
+- [x] `horseshoes-of-speed` — Horseshoes of Speed → Herraduras de velocidad
+- [x] `immovable-rod` — Immovable Rod → Vara inamovible
+- [x] `instant-fortress` — Instant Fortress → Fortaleza instantánea
+- [x] `iron-bands` — Iron Bands → Bandas de hierro
+- [x] `iron-flask` — Iron Flask → Frasco de hierro
+- [x] `javelin-of-lightning` — Javelin of Lightning → Jabalina del relámpago
+- [x] `javelin-plus-1` — Javelin (+1) → Jabalina (+1)
+- [x] `javelin-plus-2` — Javelin (+2) → Jabalina (+2)
+- [x] `javelin-plus-3` — Javelin (+3) → Jabalina (+3)
+- [x] `lance-plus-1` — Lance (+1) → Lanza de caballería (+1)
+- [x] `lance-plus-2` — Lance (+2) → Lanza de caballería (+2)
+- [x] `lance-plus-3` — Lance (+3) → Lanza de caballería (+3)
+- [x] `lantern-of-revealing` — Lantern of Revealing → Linterna de revelación
+- [x] `leather-armor-plus-1` — Leather Armor (+1) → Armadura de cuero (+1)
+- [x] `leather-armor-plus-2` — Leather Armor (+2) → Armadura de cuero (+2)
+- [x] `leather-armor-plus-3` — Leather Armor (+3) → Armadura de cuero (+3)
+- [x] `light-crossbow-plus-1` — Light Crossbow (+1) → Ballesta ligera (+1)
+- [x] `light-crossbow-plus-2` — Light Crossbow (+2) → Ballesta ligera (+2)
+- [x] `light-crossbow-plus-3` — Light Crossbow (+3) → Ballesta ligera (+3)
+- [x] `light-hammer-plus-1` — Light Hammer (+1) → Martillo ligero (+1)
+- [x] `light-hammer-plus-2` — Light Hammer (+2) → Martillo ligero (+2)
+- [x] `light-hammer-plus-3` — Light Hammer (+3) → Martillo ligero (+3)
+- [x] `longbow-plus-1` — Longbow (+1) → Arco largo (+1)
+- [x] `longbow-plus-2` — Longbow (+2) → Arco largo (+2)
+- [x] `longbow-plus-3` — Longbow (+3) → Arco largo (+3)
+- [x] `longsword-of-life-stealing` — Longsword of Life Stealing → Espada larga ladrona de vida
+- [x] `longsword-of-sharpness` — Longsword of Sharpness → Espada larga de hoja afilada
+- [x] `longsword-of-wounding` — Longsword of Wounding → Espada larga hiriente
+- [x] `longsword-plus-1` — Longsword (+1) → Espada larga (+1)
+- [x] `longsword-plus-2` — Longsword (+2) → Espada larga (+2)
+- [x] `longsword-plus-3` — Longsword (+3) → Espada larga (+3)
+- [x] `luck-blade-glaive` — Luck Blade (Glaive) → Filo de la fortuna (guja)
+- [x] `luck-blade-greatsword` — Luck Blade (Greatsword) → Filo de la fortuna (espadón)
+- [x] `luck-blade-longsword` — Luck Blade (Longsword) → Filo de la fortuna (espada larga)
+- [x] `luck-blade-rapier` — Luck Blade (Rapier) → Filo de la fortuna (estoque)
+- [x] `luck-blade-scimitar` — Luck Blade (Scimitar) → Filo de la fortuna (cimitarra)
+- [x] `luck-blade-shortsword` — Luck Blade (Shortsword) → Filo de la fortuna (espada corta)
+- [x] `luck-blade-sickle` — Luck Blade (Sickle) → Filo de la fortuna (hoz)
+- [x] `mace-of-disruption` — Mace of Disruption → Maza disruptiva
+- [x] `mace-of-smiting` — Mace of Smiting → Maza castigadora
+- [x] `mace-of-terror` — Mace of Terror → Maza del terror
+- [x] `mace-plus-1` — Mace (+1) → Maza (+1)
+- [x] `mace-plus-2` — Mace (+2) → Maza (+2)
+- [x] `mace-plus-3` — Mace (+3) → Maza (+3)
+- [x] `mantle-of-spell-resistance` — Mantle of Spell Resistance → Manto de resistencia a conjuros
+- [x] `manual-of-bodily-health` — Manual of Bodily Health → Manual de la salud corporal
+- [x] `manual-of-gainful-exercise` — Manual of Gainful Exercise → Manual del ejercicio beneficioso
+- [x] `manual-of-golems` — Manual of Golems → Manual de gólems
+- [x] `manual-of-quickness-of-action` — Manual of Quickness of Action → Manual de rapidez de acción
+- [x] `marvelous-pigments` — Marvelous Pigments → Pigmentos maravillosos
+- [x] `maul-plus-1` — Maul (+1) → Maza a dos manos (+1)
+- [x] `maul-plus-2` — Maul (+2) → Maza a dos manos (+2)
+- [x] `maul-plus-3` — Maul (+3) → Maza a dos manos (+3)
+- [x] `medallion-of-thoughts` — Medallion of Thoughts → Medallón de los pensamientos
+- [x] `mirror-of-life-trapping` — Mirror of Life Trapping → Espejo atrapavidas
+- [x] `mithral-armor-breastplate` — Mithral Armor (Breastplate) → Armadura de mithral (coraza)
+- [x] `mithral-armor-chain-mail` — Mithral Armor (Chain Mail) → Armadura de mithral (cota de malla)
+- [x] `mithral-armor-chain-shirt` — Mithral Armor (Chain Shirt) → Armadura de mithral (camisa de malla)
+- [x] `mithral-armor-half-plate` — Mithral Armor (Half Plate) → Armadura de mithral (media armadura)
+- [x] `mithral-armor-plate` — Mithral Armor (Plate) → Armadura de mithral (armadura de placas)
+- [x] `mithral-armor-ring-mail` — Mithral Armor (Ring Mail) → Armadura de mithral (cota guarnecida)
+- [x] `mithral-armor-scale-mail` — Mithral Armor (Scale Mail) → Armadura de mithral (cota de escamas)
+- [x] `mithral-armor-splint` — Mithral Armor (Splint) → Armadura de mithral (armadura de bandas)
+- [x] `morningstar-plus-1` — Morningstar (+1) → Lucero del alba (+1)
+- [x] `morningstar-plus-2` — Morningstar (+2) → Lucero del alba (+2)
+- [x] `morningstar-plus-3` — Morningstar (+3) → Lucero del alba (+3)
+- [x] `musket-plus-1` — Musket (+1) → Mosquete (+1)
+- [x] `musket-plus-2` — Musket (+2) → Mosquete (+2)
+- [x] `musket-plus-3` — Musket (+3) → Mosquete (+3)
+- [x] `mysterious-deck` — Mysterious Deck → Baraja misteriosa
+- [x] `necklace-of-adaptation` — Necklace of Adaptation → Collar de adaptación
+- [x] `necklace-of-fireballs` — Necklace of Fireballs → Collar de bolas de fuego
+- [x] `necklace-of-prayer-beads` — Necklace of Prayer Beads → Collar de plegarias
+- [x] `nine-lives-stealer-battleaxe` — Nine Lives Stealer (Battleaxe) → Ladrona de nueve vidas (hacha de guerra)
+- [x] `nine-lives-stealer-blowgun` — Nine Lives Stealer (Blowgun) → Ladrona de nueve vidas (cerbatana)
+- [x] `nine-lives-stealer-club` — Nine Lives Stealer (Club) → Ladrona de nueve vidas (garrote)
+- [x] `nine-lives-stealer-dagger` — Nine Lives Stealer (Dagger) → Ladrona de nueve vidas (daga)
+- [x] `nine-lives-stealer-dart` — Nine Lives Stealer (Dart) → Ladrona de nueve vidas (dardo)
+- [x] `nine-lives-stealer-flail` — Nine Lives Stealer (Flail) → Ladrona de nueve vidas (mangual)
+- [x] `nine-lives-stealer-glaive` — Nine Lives Stealer (Glaive) → Ladrona de nueve vidas (guja)
+- [x] `nine-lives-stealer-greataxe` — Nine Lives Stealer (Greataxe) → Ladrona de nueve vidas (hacha a dos manos)
+- [x] `nine-lives-stealer-greatclub` — Nine Lives Stealer (Greatclub) → Ladrona de nueve vidas (garrote grande)
+- [x] `nine-lives-stealer-greatsword` — Nine Lives Stealer (Greatsword) → Ladrona de nueve vidas (espadón)
+- [x] `nine-lives-stealer-halberd` — Nine Lives Stealer (Halberd) → Ladrona de nueve vidas (alabarda)
+- [x] `nine-lives-stealer-hand-crossbow` — Nine Lives Stealer (Hand Crossbow) → Ladrona de nueve vidas (ballesta de mano)
+- [x] `nine-lives-stealer-handaxe` — Nine Lives Stealer (Handaxe) → Ladrona de nueve vidas (hacha de mano)
+- [x] `nine-lives-stealer-heavy-crossbow` — Nine Lives Stealer (Heavy Crossbow) → Ladrona de nueve vidas (ballesta pesada)
+- [x] `nine-lives-stealer-javelin` — Nine Lives Stealer (Javelin) → Ladrona de nueve vidas (jabalina)
+- [x] `nine-lives-stealer-lance` — Nine Lives Stealer (Lance) → Ladrona de nueve vidas (lanza de caballería)
+- [x] `nine-lives-stealer-light-crossbow` — Nine Lives Stealer (Light Crossbow) → Ladrona de nueve vidas (ballesta ligera)
+- [x] `nine-lives-stealer-light-hammer` — Nine Lives Stealer (Light Hammer) → Ladrona de nueve vidas (martillo ligero)
+- [x] `nine-lives-stealer-longbow` — Nine Lives Stealer (Longbow) → Ladrona de nueve vidas (arco largo)
+- [x] `nine-lives-stealer-longsword` — Nine Lives Stealer (Longsword) → Ladrona de nueve vidas (espada larga)
+- [x] `nine-lives-stealer-mace` — Nine Lives Stealer (Mace) → Ladrona de nueve vidas (maza)
+- [x] `nine-lives-stealer-maul` — Nine Lives Stealer (Maul) → Ladrona de nueve vidas (maza a dos manos)
+- [x] `nine-lives-stealer-morningstar` — Nine Lives Stealer (Morningstar) → Ladrona de nueve vidas (lucero del alba)
+- [x] `nine-lives-stealer-musket` — Nine Lives Stealer (Musket) → Ladrona de nueve vidas (mosquete)
+- [x] `nine-lives-stealer-pike` — Nine Lives Stealer (Pike) → Ladrona de nueve vidas (pica)
+- [x] `nine-lives-stealer-pistol` — Nine Lives Stealer (Pistol) → Ladrona de nueve vidas (pistola)
+- [x] `nine-lives-stealer-quarterstaff` — Nine Lives Stealer (Quarterstaff) → Ladrona de nueve vidas (bastón)
+- [x] `nine-lives-stealer-rapier` — Nine Lives Stealer (Rapier) → Ladrona de nueve vidas (estoque)
+- [x] `nine-lives-stealer-scimitar` — Nine Lives Stealer (Scimitar) → Ladrona de nueve vidas (cimitarra)
+- [x] `nine-lives-stealer-shortbow` — Nine Lives Stealer (Shortbow) → Ladrona de nueve vidas (arco corto)
+- [x] `nine-lives-stealer-shortsword` — Nine Lives Stealer (Shortsword) → Ladrona de nueve vidas (espada corta)
+- [x] `nine-lives-stealer-sickle` — Nine Lives Stealer (Sickle) → Ladrona de nueve vidas (hoz)
+- [x] `nine-lives-stealer-sling` — Nine Lives Stealer (Sling) → Ladrona de nueve vidas (honda)
+- [x] `nine-lives-stealer-spear` — Nine Lives Stealer (Spear) → Ladrona de nueve vidas (lanza)
+- [x] `nine-lives-stealer-trident` — Nine Lives Stealer (Trident) → Ladrona de nueve vidas (tridente)
+- [x] `nine-lives-stealer-war-pick` — Nine Lives Stealer (War Pick) → Ladrona de nueve vidas (pico de guerra)
+- [x] `nine-lives-stealer-warhammer` — Nine Lives Stealer (Warhammer) → Ladrona de nueve vidas (martillo de guerra)
+- [x] `nine-lives-stealer-whip` — Nine Lives Stealer (Whip) → Ladrona de nueve vidas (látigo)
+- [x] `oathbow-longbow` — Oathbow (Longbow) → Arco juramentado (arco largo)
+- [x] `oathbow-shortbow` — Oathbow (Shortbow) → Arco juramentado (arco corto)
+- [x] `oil-of-etherealness` — Oil of Etherealness → Aceite de etereidad
+- [x] `oil-of-sharpness` — Oil of Sharpness → Aceite de afilado
+- [x] `oil-of-slipperiness` — Oil of Slipperiness → Aceite escurridizo
+- [x] `padded-armor-plus-1` — Padded Armor (+1) → Armadura acolchada (+1)
+- [x] `padded-armor-plus-2` — Padded Armor (+2) → Armadura acolchada (+2)
+- [x] `padded-armor-plus-3` — Padded Armor (+3) → Armadura acolchada (+3)
+- [x] `pearl-of-power` — Pearl of Power → Perla de poder
+- [x] `periapt-of-health` — Periapt of Health → Amuleto de salud
+- [x] `periapt-of-proof-against-poison` — Periapt of Proof against Poison → Colgante de inmunidad al veneno
+- [x] `periapt-of-wound-closure` — Periapt of Wound Closure → Talismán de cerrar heridas
+- [x] `philter-of-love` — Philter of Love → Filtro de amor
+- [x] `pike-plus-1` — Pike (+1) → Pica (+1)
+- [x] `pike-plus-2` — Pike (+2) → Pica (+2)
+- [x] `pike-plus-3` — Pike (+3) → Pica (+3)
+- [x] `pipes-of-haunting` — Pipes of Haunting → Flauta de la aparición
+- [x] `pipes-of-the-sewers` — Pipes of the Sewers → Flauta de las cloacas
+- [x] `pistol-plus-1` — Pistol (+1) → Pistola (+1)
+- [x] `pistol-plus-2` — Pistol (+2) → Pistola (+2)
+- [x] `pistol-plus-3` — Pistol (+3) → Pistola (+3)
+- [x] `plate-armor-of-etherealness` — Plate Armor of Etherealness → Armadura de placas de etereidad
+- [x] `plate-armor-plus-1` — Plate Armor (+1) → Armadura de placas (+1)
+- [x] `plate-armor-plus-2` — Plate Armor (+2) → Armadura de placas (+2)
+- [x] `plate-armor-plus-3` — Plate Armor (+3) → Armadura de placas (+3)
+- [x] `portable-hole` — Portable Hole → Agujero portátil
+- [x] `potion-of-animal-friendship` — Potion of Animal Friendship → Poción de amistad animal
+- [x] `potion-of-clairvoyance` — Potion of Clairvoyance → Poción de clarividencia
+- [x] `potion-of-climbing` — Potion of Climbing → Poción de trepar
+- [x] `potion-of-diminution` — Potion of Diminution → Poción de encoger
+- [x] `potion-of-flying` — Potion of Flying → Poción de vuelo
+- [x] `potion-of-gaseous-form` — Potion of Gaseous Form → Poción de forma gaseosa
+- [x] `potion-of-growth` — Potion of Growth → Poción de crecimiento
+- [x] `potion-of-heroism` — Potion of Heroism → Poción de heroísmo
+- [x] `potion-of-invisibility` — Potion of Invisibility → Poción de invisibilidad
+- [x] `potion-of-mind-reading` — Potion of Mind Reading → Poción de leer mentes
+- [x] `potion-of-poison` — Potion of Poison → Poción de veneno
+- [x] `potion-of-resistance` — Potion of Resistance → Poción de resistencia
+- [x] `potion-of-speed` — Potion of Speed → Poción de velocidad
+- [x] `potion-of-water-breathing` — Potion of Water Breathing → Poción de respirar bajo el agua
+- [x] `quarterstaff-plus-1` — Quarterstaff (+1) → Bastón (+1)
+- [x] `quarterstaff-plus-2` — Quarterstaff (+2) → Bastón (+2)
+- [x] `quarterstaff-plus-3` — Quarterstaff (+3) → Bastón (+3)
+- [x] `rapier-of-life-stealing` — Rapier of Life Stealing → Estoque ladrón de vida
+- [x] `rapier-of-wounding` — Rapier of Wounding → Estoque hiriente
+- [x] `rapier-plus-1` — Rapier (+1) → Estoque (+1)
+- [x] `rapier-plus-2` — Rapier (+2) → Estoque (+2)
+- [x] `rapier-plus-3` — Rapier (+3) → Estoque (+3)
+- [x] `ring-mail-plus-1` — Ring Mail (+1) → Cota guarnecida (+1)
+- [x] `ring-mail-plus-2` — Ring Mail (+2) → Cota guarnecida (+2)
+- [x] `ring-mail-plus-3` — Ring Mail (+3) → Cota guarnecida (+3)
+- [x] `ring-of-animal-influence` — Ring of Animal Influence → Anillo de influencia animal
+- [x] `ring-of-djinni-summoning` — Ring of Djinni Summoning → Anillo de invocar djinns
+- [x] `ring-of-elemental-command` — Ring of Elemental Command → Anillo de comandar elementales
+- [x] `ring-of-evasion` — Ring of Evasion → Anillo de evasión
+- [x] `ring-of-feather-falling` — Ring of Feather Falling → Anillo de caída de pluma
+- [x] `ring-of-free-action` — Ring of Free Action → Anillo de libertad de acción
+- [x] `ring-of-invisibility` — Ring of Invisibility → Anillo de invisibilidad
+- [x] `ring-of-jumping` — Ring of Jumping → Anillo de salto
+- [x] `ring-of-mind-shielding` — Ring of Mind Shielding → Anillo de escudo mental
+- [x] `ring-of-protection` — Ring of Protection → Anillo de protección
+- [x] `ring-of-regeneration` — Ring of Regeneration → Anillo de regeneración
+- [x] `ring-of-resistance` — Ring of Resistance → Anillo de resistencia
+- [x] `ring-of-shooting-stars` — Ring of Shooting Stars → Anillo de estrellas fugaces
+- [x] `ring-of-spell-storing` — Ring of Spell Storing → Anillo de almacenamiento de conjuros
+- [x] `ring-of-spell-turning` — Ring of Spell Turning → Anillo de retorno de conjuros
+- [x] `ring-of-swimming` — Ring of Swimming → Anillo de natación
+- [x] `ring-of-the-ram` — Ring of the Ram → Anillo del carnero
+- [x] `ring-of-three-wishes` — Ring of Three Wishes → Anillo de los tres deseos
+- [x] `ring-of-warmth` — Ring of Warmth → Anillo de calidez
+- [x] `ring-of-water-walking` — Ring of Water Walking → Anillo de caminar sobre las aguas
+- [x] `ring-of-x-ray-vision` — Ring of X-ray Vision → Anillo de visión de rayos X
+- [x] `robe-of-eyes` — Robe of Eyes → Túnica de los ojos
+- [x] `robe-of-scintillating-colors` — Robe of Scintillating Colors → Túnica de colores hipnóticos
+- [x] `robe-of-stars` — Robe of Stars → Túnica de las estrellas
+- [x] `robe-of-the-archmagi` — Robe of the Archmagi → Túnica del archimago
+- [x] `robe-of-useful-items` — Robe of Useful Items → Túnica de objetos útiles
+- [x] `rod-of-absorption` — Rod of Absorption → Vara de la absorción
+- [x] `rod-of-alertness` — Rod of Alertness → Vara de la alerta
+- [x] `rod-of-lordly-might` — Rod of Lordly Might → Cetro de poder señorial
+- [x] `rod-of-rulership` — Rod of Rulership → Cetro de mando
+- [x] `rod-of-security` — Rod of Security → Vara de la seguridad
+- [x] `rope-of-climbing` — Rope of Climbing → Cuerda de escalada
+- [x] `rope-of-entanglement` — Rope of Entanglement → Cuerda enredadora
+- [x] `scale-mail-plus-1` — Scale Mail (+1) → Cota de escamas (+1)
+- [x] `scale-mail-plus-2` — Scale Mail (+2) → Cota de escamas (+2)
+- [x] `scale-mail-plus-3` — Scale Mail (+3) → Cota de escamas (+3)
+- [x] `scarab-of-protection` — Scarab of Protection → Escarabajo protector
+- [x] `scimitar-of-life-stealing` — Scimitar of Life Stealing → Cimitarra ladrona de vida
+- [x] `scimitar-of-sharpness` — Scimitar of Sharpness → Cimitarra de hoja afilada
+- [x] `scimitar-of-speed` — Scimitar of Speed → Cimitarra de velocidad
+- [x] `scimitar-of-wounding` — Scimitar of Wounding → Cimitarra hiriente
+- [x] `scimitar-plus-1` — Scimitar (+1) → Cimitarra (+1)
+- [x] `scimitar-plus-2` — Scimitar (+2) → Cimitarra (+2)
+- [x] `scimitar-plus-3` — Scimitar (+3) → Cimitarra (+3)
+- [x] `shield-of-missile-attraction` — Shield of Missile Attraction → Escudo de atraer proyectiles
+- [x] `shield-plus-1` — Shield (+1) → Escudo (+1)
+- [x] `shield-plus-2` — Shield (+2) → Escudo (+2)
+- [x] `shield-plus-3` — Shield (+3) → Escudo (+3)
+- [x] `shortbow-plus-1` — Shortbow (+1) → Arco corto (+1)
+- [x] `shortbow-plus-2` — Shortbow (+2) → Arco corto (+2)
+- [x] `shortbow-plus-3` — Shortbow (+3) → Arco corto (+3)
+- [x] `shortsword-of-life-stealing` — Shortsword of Life Stealing → Espada corta ladrona de vida
+- [x] `shortsword-of-wounding` — Shortsword of Wounding → Espada corta hiriente
+- [x] `shortsword-plus-1` — Shortsword (+1) → Espada corta (+1)
+- [x] `shortsword-plus-2` — Shortsword (+2) → Espada corta (+2)
+- [x] `shortsword-plus-3` — Shortsword (+3) → Espada corta (+3)
+- [x] `sickle-plus-1` — Sickle (+1) → Hoz (+1)
+- [x] `sickle-plus-2` — Sickle (+2) → Hoz (+2)
+- [x] `sickle-plus-3` — Sickle (+3) → Hoz (+3)
+- [x] `sling-plus-1` — Sling (+1) → Honda (+1)
+- [x] `sling-plus-2` — Sling (+2) → Honda (+2)
+- [x] `sling-plus-3` — Sling (+3) → Honda (+3)
+- [x] `slippers-of-spider-climbing` — Slippers of Spider Climbing → Babuchas de trepar cual arácnido
+- [x] `sovereign-glue` — Sovereign Glue → Pegamento soberano
+- [x] `spear-plus-1` — Spear (+1) → Lanza (+1)
+- [x] `spear-plus-2` — Spear (+2) → Lanza (+2)
+- [x] `spear-plus-3` — Spear (+3) → Lanza (+3)
+- [x] `spellguard-shield` — Spellguard Shield → Escudo de guarda contra conjuros
+- [x] `sphere-of-annihilation` — Sphere of Annihilation → Esfera de aniquilación
+- [x] `splint-armor-plus-1` — Splint Armor (+1) → Armadura de bandas (+1)
+- [x] `splint-armor-plus-2` — Splint Armor (+2) → Armadura de bandas (+2)
+- [x] `splint-armor-plus-3` — Splint Armor (+3) → Armadura de bandas (+3)
+- [x] `staff-of-charming` — Staff of Charming → Bastón del cautivador
+- [x] `staff-of-fire` — Staff of Fire → Bastón de fuego
+- [x] `staff-of-frost` — Staff of Frost → Bastón de escarcha
+- [x] `staff-of-healing` — Staff of Healing → Bastón de curación
+- [x] `staff-of-power` — Staff of Power → Bastón de poder
+- [x] `staff-of-striking` — Staff of Striking → Bastón de impacto
+- [x] `staff-of-swarming-insects` — Staff of Swarming Insects → Bastón de enjambre de insectos
+- [x] `staff-of-the-magi` — Staff of the Magi → Bastón de los magos
+- [x] `staff-of-the-python` — Staff of the Python → Bastón de la pitón
+- [x] `staff-of-the-woodlands` — Staff of the Woodlands → Bastón de los bosques
+- [x] `staff-of-thunder-and-lightning` — Staff of Thunder and Lightning → Bastón de truenos y relámpagos
+- [x] `staff-of-withering` — Staff of Withering → Bastón de marchitamiento
+- [x] `stone-of-controlling-earth-elementals` — Stone of Controlling Earth Elementals → Piedra de controlar elementales de tierra
+- [x] `stone-of-good-luck-luckstone` — Stone of Good Luck (Luckstone) → Piedra de la buena fortuna (piedra de la suerte)
+- [x] `studded-leather-armor-plus-1` — Studded Leather Armor (+1) → Armadura de cuero tachonado (+1)
+- [x] `studded-leather-armor-plus-2` — Studded Leather Armor (+2) → Armadura de cuero tachonado (+2)
+- [x] `studded-leather-armor-plus-3` — Studded Leather Armor (+3) → Armadura de cuero tachonado (+3)
+- [x] `sun-blade` — Sun Blade → Espada solar
+- [x] `talisman-of-pure-good` — Talisman of Pure Good → Talismán del bien puro
+- [x] `talisman-of-the-sphere` — Talisman of the Sphere → Talismán de la esfera
+- [x] `talisman-of-ultimate-evil` — Talisman of Ultimate Evil → Talismán del mal definitivo
+- [x] `tome-of-clear-thought` — Tome of Clear Thought → Tomo de pensamiento claro
+- [x] `tome-of-leadership-and-influence` — Tome of Leadership and Influence → Tomo de liderazgo e influencia
+- [x] `tome-of-understanding` — Tome of Understanding → Tomo de entendimiento
+- [x] `trident-of-fish-command` — Trident of Fish Command → Tridente de comandar peces
+- [x] `trident-plus-1` — Trident (+1) → Tridente (+1)
+- [x] `trident-plus-2` — Trident (+2) → Tridente (+2)
+- [x] `trident-plus-3` — Trident (+3) → Tridente (+3)
+- [x] `universal-solvent` — Universal Solvent → Disolvente universal
+- [x] `vicious-battleaxe` — Vicious Battleaxe → Hacha de guerra feroz
+- [x] `vicious-blowgun` — Vicious Blowgun → Cerbatana feroz
+- [x] `vicious-club` — Vicious Club → Garrote feroz
+- [x] `vicious-dagger` — Vicious Dagger → Daga feroz
+- [x] `vicious-dart` — Vicious Dart → Dardo feroz
+- [x] `vicious-flail` — Vicious Flail → Mangual feroz
+- [x] `vicious-glaive` — Vicious Glaive → Guja feroz
+- [x] `vicious-greataxe` — Vicious Greataxe → Hacha a dos manos feroz
+- [x] `vicious-greatclub` — Vicious Greatclub → Garrote grande feroz
+- [x] `vicious-greatsword` — Vicious Greatsword → Espadón feroz
+- [x] `vicious-halberd` — Vicious Halberd → Alabarda feroz
+- [x] `vicious-hand-crossbow` — Vicious Hand Crossbow → Ballesta de mano feroz
+- [x] `vicious-handaxe` — Vicious Handaxe → Hacha de mano feroz
+- [x] `vicious-heavy-crossbow` — Vicious Heavy Crossbow → Ballesta pesada feroz
+- [x] `vicious-javelin` — Vicious Javelin → Jabalina feroz
+- [x] `vicious-lance` — Vicious Lance → Lanza de caballería feroz
+- [x] `vicious-light-crossbow` — Vicious Light Crossbow → Ballesta ligera feroz
+- [x] `vicious-light-hammer` — Vicious Light Hammer → Martillo ligero feroz
+- [x] `vicious-longbow` — Vicious Longbow → Arco largo feroz
+- [x] `vicious-longsword` — Vicious Longsword → Espada larga feroz
+- [x] `vicious-mace` — Vicious Mace → Maza feroz
+- [x] `vicious-maul` — Vicious Maul → Maza a dos manos feroz
+- [x] `vicious-morningstar` — Vicious Morningstar → Lucero del alba feroz
+- [x] `vicious-musket` — Vicious Musket → Mosquete feroz
+- [x] `vicious-pike` — Vicious Pike → Pica feroz
+- [x] `vicious-pistol` — Vicious Pistol → Pistola feroz
+- [x] `vicious-quarterstaff` — Vicious Quarterstaff → Bastón feroz
+- [x] `vicious-rapier` — Vicious Rapier → Estoque feroz
+- [x] `vicious-scimitar` — Vicious Scimitar → Cimitarra feroz
+- [x] `vicious-shortbow` — Vicious Shortbow → Arco corto feroz
+- [x] `vicious-shortsword` — Vicious Shortsword → Espada corta feroz
+- [x] `vicious-sickle` — Vicious Sickle → Hoz feroz
+- [x] `vicious-sling` — Vicious Sling → Honda feroz
+- [x] `vicious-spear` — Vicious Spear → Lanza feroz
+- [x] `vicious-trident` — Vicious Trident → Tridente feroz
+- [x] `vicious-war-pick` — Vicious War Pick → Pico de guerra feroz
+- [x] `vicious-warhammer` — Vicious Warhammer → Martillo de guerra feroz
+- [x] `vicious-whip` — Vicious Whip → Látigo feroz
+- [x] `vorpal-glaive` — Vorpal Glaive → Guja vorpal
+- [x] `vorpal-greatsword` — Vorpal Greatsword → Espadón vorpal
+- [x] `vorpal-longsword` — Vorpal Longsword → Espada larga vorpal
+- [x] `vorpal-scimitar` — Vorpal Scimitar → Cimitarra vorpal
+- [x] `wand-of-binding` — Wand of Binding → Varita de atadura
+- [x] `wand-of-enemy-detection` — Wand of Enemy Detection → Varita de detectar enemigos
+- [x] `wand-of-fireballs` — Wand of Fireballs → Varita de bolas de fuego
+- [x] `wand-of-lightning-bolts` — Wand of Lightning Bolts → Varita de relámpagos
+- [x] `wand-of-magic-detection` — Wand of Magic Detection → Varita de detección mágica
+- [x] `wand-of-magic-missiles` — Wand of Magic Missiles → Varita de proyectiles mágicos
+- [x] `wand-of-paralysis` — Wand of Paralysis → Varita de parálisis
+- [x] `wand-of-polymorph` — Wand of Polymorph → Varita de polimorfar
+- [x] `wand-of-secrets` — Wand of Secrets → Varita de secretos
+- [x] `wand-of-the-war-mage-plus-1` — Wand of the War Mage +1 → Varita del mago de guerra +1
+- [x] `wand-of-the-war-mage-plus-2` — Wand of the War Mage +2 → Varita del mago de guerra +2
+- [x] `wand-of-the-war-mage-plus-3` — Wand of the War Mage +3 → Varita del mago de guerra +3
+- [x] `wand-of-web` — Wand of Web → Varita de telaraña
+- [x] `wand-of-wonder` — Wand of Wonder → Varita de las maravillas
+- [x] `war-pick-plus-1` — War Pick (+1) → Pico de guerra (+1)
+- [x] `war-pick-plus-2` — War Pick (+2) → Pico de guerra (+2)
+- [x] `war-pick-plus-3` — War Pick (+3) → Pico de guerra (+3)
+- [x] `warhammer-plus-1` — Warhammer (+1) → Martillo de guerra (+1)
+- [x] `warhammer-plus-2` — Warhammer (+2) → Martillo de guerra (+2)
+- [x] `warhammer-plus-3` — Warhammer (+3) → Martillo de guerra (+3)
+- [x] `weapon-of-warning-battleaxe` — Weapon of Warning (Battleaxe) → Arma de advertencia (hacha de guerra)
+- [x] `weapon-of-warning-blowgun` — Weapon of Warning (Blowgun) → Arma de advertencia (cerbatana)
+- [x] `weapon-of-warning-club` — Weapon of Warning (Club) → Arma de advertencia (garrote)
+- [x] `weapon-of-warning-dagger` — Weapon of Warning (Dagger) → Arma de advertencia (daga)
+- [x] `weapon-of-warning-dart` — Weapon of Warning (Dart) → Arma de advertencia (dardo)
+- [x] `weapon-of-warning-flail` — Weapon of Warning (Flail) → Arma de advertencia (mangual)
+- [x] `weapon-of-warning-glaive` — Weapon of Warning (Glaive) → Arma de advertencia (guja)
+- [x] `weapon-of-warning-greataxe` — Weapon of Warning (Greataxe) → Arma de advertencia (hacha a dos manos)
+- [x] `weapon-of-warning-greatclub` — Weapon of Warning (Greatclub) → Arma de advertencia (garrote grande)
+- [x] `weapon-of-warning-greatsword` — Weapon of Warning (Greatsword) → Arma de advertencia (espadón)
+- [x] `weapon-of-warning-halberd` — Weapon of Warning (Halberd) → Arma de advertencia (alabarda)
+- [x] `weapon-of-warning-hand-crossbow` — Weapon of Warning (Hand Crossbow) → Arma de advertencia (ballesta de mano)
+- [x] `weapon-of-warning-handaxe` — Weapon of Warning (Handaxe) → Arma de advertencia (hacha de mano)
+- [x] `weapon-of-warning-heavy-crossbow` — Weapon of Warning (Heavy Crossbow) → Arma de advertencia (ballesta pesada)
+- [x] `weapon-of-warning-javelin` — Weapon of Warning (Javelin) → Arma de advertencia (jabalina)
+- [x] `weapon-of-warning-lance` — Weapon of Warning (Lance) → Arma de advertencia (lanza de caballería)
+- [x] `weapon-of-warning-light-crossbow` — Weapon of Warning (Light Crossbow) → Arma de advertencia (ballesta ligera)
+- [x] `weapon-of-warning-light-hammer` — Weapon of Warning (Light Hammer) → Arma de advertencia (martillo ligero)
+- [x] `weapon-of-warning-longbow` — Weapon of Warning (Longbow) → Arma de advertencia (arco largo)
+- [x] `weapon-of-warning-longsword` — Weapon of Warning (Longsword) → Arma de advertencia (espada larga)
+- [x] `weapon-of-warning-mace` — Weapon of Warning (Mace) → Arma de advertencia (maza)
+- [x] `weapon-of-warning-maul` — Weapon of Warning (Maul) → Arma de advertencia (maza a dos manos)
+- [x] `weapon-of-warning-morningstar` — Weapon of Warning (Morningstar) → Arma de advertencia (lucero del alba)
+- [x] `weapon-of-warning-musket` — Weapon of Warning (Musket) → Arma de advertencia (mosquete)
+- [x] `weapon-of-warning-pike` — Weapon of Warning (Pike) → Arma de advertencia (pica)
+- [x] `weapon-of-warning-pistol` — Weapon of Warning (Pistol) → Arma de advertencia (pistola)
+- [x] `weapon-of-warning-quarterstaff` — Weapon of Warning (Quarterstaff) → Arma de advertencia (bastón)
+- [x] `weapon-of-warning-rapier` — Weapon of Warning (Rapier) → Arma de advertencia (estoque)
+- [x] `weapon-of-warning-scimitar` — Weapon of Warning (Scimitar) → Arma de advertencia (cimitarra)
+- [x] `weapon-of-warning-shortbow` — Weapon of Warning (Shortbow) → Arma de advertencia (arco corto)
+- [x] `weapon-of-warning-shortsword` — Weapon of Warning (Shortsword) → Arma de advertencia (espada corta)
+- [x] `weapon-of-warning-sickle` — Weapon of Warning (Sickle) → Arma de advertencia (hoz)
+- [x] `weapon-of-warning-sling` — Weapon of Warning (Sling) → Arma de advertencia (honda)
+- [x] `weapon-of-warning-spear` — Weapon of Warning (Spear) → Arma de advertencia (lanza)
+- [x] `weapon-of-warning-trident` — Weapon of Warning (Trident) → Arma de advertencia (tridente)
+- [x] `weapon-of-warning-war-pick` — Weapon of Warning (War Pick) → Arma de advertencia (pico de guerra)
+- [x] `weapon-of-warning-warhammer` — Weapon of Warning (Warhammer) → Arma de advertencia (martillo de guerra)
+- [x] `weapon-of-warning-whip` — Weapon of Warning (Whip) → Arma de advertencia (látigo)
+- [x] `well-of-many-worlds` — Well of Many Worlds → Pozo de los muchos mundos
+- [x] `whip-plus-1` — Whip (+1) → Látigo (+1)
+- [x] `whip-plus-2` — Whip (+2) → Látigo (+2)
+- [x] `whip-plus-3` — Whip (+3) → Látigo (+3)
+- [x] `wind-fan` — Wind Fan → Abanico del viento
+- [x] `winged-boots` — Winged Boots → Botas aladas
+- [x] `wings-of-flying` — Wings of Flying → Alas de vuelo
+
+## ✅ monsters — 331/331 entradas
+
+- [x] `aboleth` — Aboleth
+- [x] `adult-black-dragon` — Adult Black Dragon → Dragón negro adulto
+- [x] `adult-blue-dragon` — Adult Blue Dragon → Dragón azul adulto
+- [x] `adult-brass-dragon` — Adult Brass Dragon → Dragón de oropel adulto
+- [x] `adult-bronze-dragon` — Adult Bronze Dragon → Dragón de bronce adulto
+- [x] `adult-copper-dragon` — Adult Copper Dragon → Dragón de cobre adulto
+- [x] `adult-gold-dragon` — Adult Gold Dragon → Dragón de oro adulto
+- [x] `adult-green-dragon` — Adult Green Dragon → Dragón verde adulto
+- [x] `adult-red-dragon` — Adult Red Dragon → Dragón rojo adulto
+- [x] `adult-silver-dragon` — Adult Silver Dragon → Dragón de plata adulto
+- [x] `adult-white-dragon` — Adult White Dragon → Dragón blanco adulto
+- [x] `air-elemental` — Air Elemental → Elemental de aire
+- [x] `allosaurus` — Allosaurus → Alosaurio
+- [x] `ancient-black-dragon` — Ancient Black Dragon → Dragón negro anciano
+- [x] `ancient-blue-dragon` — Ancient Blue Dragon → Dragón azul anciano
+- [x] `ancient-brass-dragon` — Ancient Brass Dragon → Dragón de oropel anciano
+- [x] `ancient-bronze-dragon` — Ancient Bronze Dragon → Dragón de bronce anciano
+- [x] `ancient-copper-dragon` — Ancient Copper Dragon → Dragón de cobre anciano
+- [x] `ancient-gold-dragon` — Ancient Gold Dragon → Dragón de oro anciano
+- [x] `ancient-green-dragon` — Ancient Green Dragon → Dragón verde anciano
+- [x] `ancient-red-dragon` — Ancient Red Dragon → Dragón rojo anciano
+- [x] `ancient-silver-dragon` — Ancient Silver Dragon → Dragón de plata anciano
+- [x] `ancient-white-dragon` — Ancient White Dragon → Dragón blanco anciano
+- [x] `animated-armor` — Animated Armor → Armadura animada
+- [x] `animated-flying-sword` — Animated Flying Sword → Espada voladora animada
+- [x] `animated-rug-of-smothering` — Animated Rug of Smothering → Alfombra asfixiante animada
+- [x] `ankheg` — Ankheg
+- [x] `ankylosaurus` — Ankylosaurus → Anquilosaurio
+- [x] `ape` — Ape → Simio
+- [x] `archelon` — Archelon
+- [x] `archmage` — Archmage → Archimago
+- [x] `assassin` — Assassin → Asesino
+- [x] `awakened-shrub` — Awakened Shrub → Arbusto despertado
+- [x] `awakened-tree` — Awakened Tree → Árbol despertado
+- [x] `axe-beak` — Axe Beak → Pico de hacha
+- [x] `azer-sentinel` — Azer Sentinel → Centinela azer
+- [x] `baboon` — Baboon → Babuino
+- [x] `badger` — Badger → Tejón
+- [x] `balor` — Balor
+- [x] `bandit` — Bandit → Bandido
+- [x] `bandit-captain` — Bandit Captain → Capitán bandido
+- [x] `barbed-devil` — Barbed Devil → Diablo punzante
+- [x] `basilisk` — Basilisk → Basilisco
+- [x] `bat` — Bat → Murciélago
+- [x] `bearded-devil` — Bearded Devil → Diablo barbado
+- [x] `behir` — Behir
+- [x] `berserker` — Berserker
+- [x] `black-bear` — Black Bear → Oso negro
+- [x] `black-dragon-wyrmling` — Black Dragon Wyrmling → Cría de dragón negro
+- [x] `black-pudding` — Black Pudding → Pudin negro
+- [x] `blink-dog` — Blink Dog → Perro intermitente
+- [x] `blood-hawk` — Blood Hawk → Halcón sanguinario
+- [x] `blue-dragon-wyrmling` — Blue Dragon Wyrmling → Cría de dragón azul
+- [x] `boar` — Boar → Jabalí
+- [x] `bone-devil` — Bone Devil → Diablo de hueso
+- [x] `brass-dragon-wyrmling` — Brass Dragon Wyrmling → Cría de dragón de oropel
+- [x] `bronze-dragon-wyrmling` — Bronze Dragon Wyrmling → Cría de dragón de bronce
+- [x] `brown-bear` — Brown Bear → Oso pardo
+- [x] `bugbear-stalker` — Bugbear Stalker → Acechador bugbear
+- [x] `bugbear-warrior` — Bugbear Warrior → Guerrero bugbear
+- [x] `bulette` — Bulette
+- [x] `camel` — Camel → Camello
+- [x] `cat` — Cat → Gato
+- [x] `centaur-trooper` — Centaur Trooper → Soldado centauro
+- [x] `chain-devil` — Chain Devil → Diablo de las cadenas
+- [x] `chimera` — Chimera → Quimera
+- [x] `chuul` — Chuul
+- [x] `clay-golem` — Clay Golem → Gólem de arcilla
+- [x] `cloaker` — Cloaker → Manto
+- [x] `cloud-giant` — Cloud Giant → Gigante de las nubes
+- [x] `cockatrice` — Cockatrice → Cocatriz
+- [x] `commoner` — Commoner → Plebeyo
+- [x] `constrictor-snake` — Constrictor Snake → Serpiente constrictora
+- [x] `copper-dragon-wyrmling` — Copper Dragon Wyrmling → Cría de dragón de cobre
+- [x] `couatl` — Couatl
+- [x] `crab` — Crab → Cangrejo
+- [x] `crocodile` — Crocodile → Cocodrilo
+- [x] `cultist` — Cultist → Sectario
+- [x] `cultist-fanatic` — Cultist Fanatic → Fanático sectario
+- [x] `darkmantle` — Darkmantle → Mantoscuro
+- [x] `death-dog` — Death Dog → Perro del inframundo
+- [x] `deer` — Deer → Ciervo
+- [x] `deva` — Deva
+- [x] `dire-wolf` — Dire Wolf → Lobo terrible
+- [x] `djinni` — Djinni → Djinn
+- [x] `doppelganger` — Doppelganger
+- [x] `draft-horse` — Draft Horse → Caballo de tiro
+- [x] `dragon-turtle` — Dragon Turtle → Dragón tortuga
+- [x] `dretch` — Dretch
+- [x] `drider` — Drider → Draña
+- [x] `druid` — Druid → Druida
+- [x] `dryad` — Dryad → Dríade
+- [x] `dust-mephit` — Dust Mephit → Mephit de polvo
+- [x] `eagle` — Eagle → Águila
+- [x] `earth-elemental` — Earth Elemental → Elemental de tierra
+- [x] `efreeti` — Efreeti → Ifrit
+- [x] `elephant` — Elephant → Elefante
+- [x] `elk` — Elk → Alce
+- [x] `erinyes` — Erinyes → Erinia
+- [x] `ettercap` — Ettercap
+- [x] `ettin` — Ettin
+- [x] `fire-elemental` — Fire Elemental → Elemental de fuego
+- [x] `fire-giant` — Fire Giant → Gigante de fuego
+- [x] `flesh-golem` — Flesh Golem → Gólem de carne
+- [x] `flying-snake` — Flying Snake → Serpiente voladora
+- [x] `frog` — Frog → Rana
+- [x] `frost-giant` — Frost Giant → Gigante de escarcha
+- [x] `gargoyle` — Gargoyle → Gárgola
+- [x] `gelatinous-cube` — Gelatinous Cube → Cubo gelatinoso
+- [x] `ghast` — Ghast
+- [x] `ghost` — Ghost → Fantasma
+- [x] `ghoul` — Ghoul → Gul
+- [x] `giant-ape` — Giant Ape → Simio gigante
+- [x] `giant-badger` — Giant Badger → Tejón gigante
+- [x] `giant-bat` — Giant Bat → Murciélago gigante
+- [x] `giant-boar` — Giant Boar → Jabalí gigante
+- [x] `giant-centipede` — Giant Centipede → Ciempiés gigante
+- [x] `giant-constrictor-snake` — Giant Constrictor Snake → Serpiente constrictora gigante
+- [x] `giant-crab` — Giant Crab → Cangrejo gigante
+- [x] `giant-crocodile` — Giant Crocodile → Cocodrilo gigante
+- [x] `giant-eagle` — Giant Eagle → Águila gigante
+- [x] `giant-elk` — Giant Elk → Alce gigante
+- [x] `giant-fire-beetle` — Giant Fire Beetle → Escarabajo de fuego gigante
+- [x] `giant-fly` — Giant Fly → Mosca gigante
+- [x] `giant-frog` — Giant Frog → Rana gigante
+- [x] `giant-goat` — Giant Goat → Cabra gigante
+- [x] `giant-hyena` — Giant Hyena → Hiena gigante
+- [x] `giant-lizard` — Giant Lizard → Lagarto gigante
+- [x] `giant-octopus` — Giant Octopus → Pulpo gigante
+- [x] `giant-owl` — Giant Owl → Búho gigante
+- [x] `giant-rat` — Giant Rat → Rata gigante
+- [x] `giant-scorpion` — Giant Scorpion → Escorpión gigante
+- [x] `giant-seahorse` — Giant Seahorse → Caballito de mar gigante
+- [x] `giant-shark` — Giant Shark → Tiburón gigante
+- [x] `giant-spider` — Giant Spider → Araña gigante
+- [x] `giant-toad` — Giant Toad → Sapo gigante
+- [x] `giant-venomous-snake` — Giant Venomous Snake → Serpiente venenosa gigante
+- [x] `giant-vulture` — Giant Vulture → Buitre gigante
+- [x] `giant-wasp` — Giant Wasp → Avispa gigante
+- [x] `giant-weasel` — Giant Weasel → Comadreja gigante
+- [x] `giant-wolf-spider` — Giant Wolf Spider → Tarántula gigante
+- [x] `gibbering-mouther` — Gibbering Mouther → Bocón barbotante
+- [x] `glabrezu` — Glabrezu
+- [x] `gladiator` — Gladiator → Gladiador
+- [x] `gnoll-warrior` — Gnoll Warrior → Guerrero gnoll
+- [x] `goat` — Goat → Cabra
+- [x] `goblin-boss` — Goblin Boss → Jefe goblin
+- [x] `goblin-minion` — Goblin Minion → Secuaz goblin
+- [x] `goblin-warrior` — Goblin Warrior → Guerrero goblin
+- [x] `gold-dragon-wyrmling` — Gold Dragon Wyrmling → Cría de dragón de oro
+- [x] `gorgon` — Gorgon
+- [x] `gray-ooze` — Gray Ooze → Cieno gris
+- [x] `green-dragon-wyrmling` — Green Dragon Wyrmling → Cría de dragón verde
+- [x] `green-hag` — Green Hag → Saga cetrina
+- [x] `grick` — Grick
+- [x] `griffon` — Griffon → Grifo
+- [x] `grimlock` — Grimlock
+- [x] `guard` — Guard → Guardia
+- [x] `guard-captain` — Guard Captain → Capitán de la guardia
+- [x] `guardian-naga` — Guardian Naga → Naga guardiana
+- [x] `half-dragon` — Half-Dragon → Semidragón
+- [x] `harpy` — Harpy → Arpía
+- [x] `hawk` — Hawk → Halcón
+- [x] `hell-hound` — Hell Hound → Sabueso infernal
+- [x] `hezrou` — Hezrou
+- [x] `hill-giant` — Hill Giant → Gigante de las colinas
+- [x] `hippogriff` — Hippogriff → Hipogrifo
+- [x] `hippopotamus` — Hippopotamus → Hipopótamo
+- [x] `hobgoblin-captain` — Hobgoblin Captain → Capitán hobgoblin
+- [x] `hobgoblin-warrior` — Hobgoblin Warrior → Guerrero hobgoblin
+- [x] `homunculus` — Homunculus → Homúnculo
+- [x] `horned-devil` — Horned Devil → Diablo astado
+- [x] `hunter-shark` — Hunter Shark → Tiburón cazador
+- [x] `hydra` — Hydra → Hidra
+- [x] `hyena` — Hyena → Hiena
+- [x] `ice-devil` — Ice Devil → Diablo de hielo
+- [x] `ice-mephit` — Ice Mephit → Mephit de hielo
+- [x] `imp` — Imp → Diablillo
+- [x] `incubus` — Incubus → Íncubo
+- [x] `invisible-stalker` — Invisible Stalker → Acechador invisible
+- [x] `iron-golem` — Iron Golem → Gólem de hierro
+- [x] `jackal` — Jackal → Chacal
+- [x] `killer-whale` — Killer Whale → Orca
+- [x] `knight` — Knight → Caballero
+- [x] `kobold-warrior` — Kobold Warrior → Guerrero kobold
+- [x] `kraken` — Kraken
+- [x] `lamia` — Lamia
+- [x] `lemure` — Lemure → Lémur
+- [x] `lich` — Lich → Liche
+- [x] `lion` — Lion → León
+- [x] `lizard` — Lizard → Lagarto
+- [x] `mage` — Mage → Mago
+- [x] `magma-mephit` — Magma Mephit → Mephit de magma
+- [x] `magmin` — Magmin
+- [x] `mammoth` — Mammoth → Mamut
+- [x] `manticore` — Manticore → Mantícora
+- [x] `marilith` — Marilith
+- [x] `mastiff` — Mastiff → Mastín
+- [x] `medusa` — Medusa
+- [x] `merfolk-skirmisher` — Merfolk Skirmisher → Experto en escaramuzas sirénido
+- [x] `merrow` — Merrow
+- [x] `mimic` — Mimic → Mimeto
+- [x] `minotaur-of-baphomet` — Minotaur of Baphomet → Minotauro de Bafomet
+- [x] `minotaur-skeleton` — Minotaur Skeleton → Minotauro esqueleto
+- [x] `mule` — Mule → Mula
+- [x] `mummy` — Mummy → Momia
+- [x] `mummy-lord` — Mummy Lord → Señor de las momias
+- [x] `nalfeshnee` — Nalfeshnee
+- [x] `night-hag` — Night Hag → Saga de la noche
+- [x] `nightmare` — Nightmare → Pesadilla
+- [x] `noble` — Noble
+- [x] `ochre-jelly` — Ochre Jelly → Gelatina ocre
+- [x] `octopus` — Octopus → Pulpo
+- [x] `ogre` — Ogre → Ogro
+- [x] `ogre-zombie` — Ogre Zombie → Ogro zombi
+- [x] `oni` — Oni
+- [x] `otyugh` — Otyugh
+- [x] `owl` — Owl → Búho
+- [x] `owlbear` — Owlbear → Oso lechuza
+- [x] `panther` — Panther → Pantera
+- [x] `pegasus` — Pegasus → Pegaso
+- [x] `phase-spider` — Phase Spider → Araña de fase
+- [x] `piranha` — Piranha → Piraña
+- [x] `pirate` — Pirate → Pirata
+- [x] `pirate-captain` — Pirate Captain → Capitán pirata
+- [x] `pit-fiend` — Pit Fiend → Diablo de la sima
+- [x] `planetar` — Planetar
+- [x] `plesiosaurus` — Plesiosaurus → Plesiosaurio
+- [x] `polar-bear` — Polar Bear → Oso polar
+- [x] `pony` — Pony → Poni
+- [x] `priest` — Priest → Sacerdote
+- [x] `priest-acolyte` — Priest Acolyte → Sacerdote acólito
+- [x] `pseudodragon` — Pseudodragon → Pseudodragón
+- [x] `pteranodon` — Pteranodon
+- [x] `purple-worm` — Purple Worm → Gusano púrpura
+- [x] `quasit` — Quasit
+- [x] `rakshasa` — Rakshasa
+- [x] `rat` — Rat → Rata
+- [x] `raven` — Raven → Cuervo
+- [x] `red-dragon-wyrmling` — Red Dragon Wyrmling → Cría de dragón rojo
+- [x] `reef-shark` — Reef Shark → Tiburón de arrecife
+- [x] `remorhaz` — Remorhaz
+- [x] `rhinoceros` — Rhinoceros → Rinoceronte
+- [x] `riding-horse` — Riding Horse → Caballo de monta
+- [x] `roc` — Roc
+- [x] `roper` — Roper
+- [x] `rust-monster` — Rust Monster → Monstruo corrosivo
+- [x] `saber-toothed-tiger` — Saber-Toothed Tiger → Tigre dientes de sable
+- [x] `sahuagin-warrior` — Sahuagin Warrior → Guerrero sahuagin
+- [x] `salamander` — Salamander → Salamandra
+- [x] `satyr` — Satyr → Sátiro
+- [x] `scorpion` — Scorpion → Escorpión
+- [x] `scout` — Scout → Explorador
+- [x] `sea-hag` — Sea Hag → Saga de los mares
+- [x] `seahorse` — Seahorse → Caballito de mar
+- [x] `shadow` — Shadow → Sombra
+- [x] `shambling-mound` — Shambling Mound → Montículo tambaleante
+- [x] `shield-guardian` — Shield Guardian → Guardián escudo
+- [x] `shrieker-fungus` — Shrieker Fungus → Hongo chillón
+- [x] `silver-dragon-wyrmling` — Silver Dragon Wyrmling → Cría de dragón de plata
+- [x] `skeleton` — Skeleton → Esqueleto
+- [x] `solar` — Solar
+- [x] `specter` — Specter → Espectro
+- [x] `sphinx-of-lore` — Sphinx of Lore → Esfinge del conocimiento
+- [x] `sphinx-of-valor` — Sphinx of Valor → Esfinge del valor
+- [x] `sphinx-of-wonder` — Sphinx of Wonder → Esfinge de las maravillas
+- [x] `spider` — Spider → Araña
+- [x] `spirit-naga` — Spirit Naga → Naga espiritual
+- [x] `sprite` — Sprite → Duende
+- [x] `spy` — Spy → Espía
+- [x] `steam-mephit` — Steam Mephit → Mephit de vapor
+- [x] `stirge` — Stirge → Estirge
+- [x] `stone-giant` — Stone Giant → Gigante de piedra
+- [x] `stone-golem` — Stone Golem → Gólem de piedra
+- [x] `storm-giant` — Storm Giant → Gigante de las tormentas
+- [x] `succubus` — Succubus → Súcubo
+- [x] `swarm-of-bats` — Swarm of Bats → Enjambre de murciélagos
+- [x] `swarm-of-crawling-claws` — Swarm of Crawling Claws → Enjambre de garras reptantes
+- [x] `swarm-of-insects` — Swarm of Insects → Enjambre de insectos
+- [x] `swarm-of-piranhas` — Swarm of Piranhas → Enjambre de pirañas
+- [x] `swarm-of-rats` — Swarm of Rats → Enjambre de ratas
+- [x] `swarm-of-ravens` — Swarm of Ravens → Enjambre de cuervos
+- [x] `swarm-of-venomous-snakes` — Swarm of Venomous Snakes → Enjambre de serpientes venenosas
+- [x] `tarrasque` — Tarrasque → Tarasca
+- [x] `tiger` — Tiger → Tigre
+- [x] `tough` — Tough → Pendenciero
+- [x] `tough-boss` — Tough Boss → Jefe pendenciero
+- [x] `treant` — Treant → Ent
+- [x] `triceratops` — Triceratops
+- [x] `troll` — Troll
+- [x] `troll-limb` — Troll Limb → Extremidad de troll
+- [x] `tyrannosaurus-rex` — Tyrannosaurus Rex → Tiranosaurio rex
+- [x] `unicorn` — Unicorn → Unicornio
+- [x] `vampire` — Vampire → Vampiro
+- [x] `vampire-familiar` — Vampire Familiar → Familiar de vampiro
+- [x] `vampire-spawn` — Vampire Spawn → Siervo de vampiro
+- [x] `venomous-snake` — Venomous Snake → Serpiente venenosa
+- [x] `violet-fungus` — Violet Fungus → Hongo violeta
+- [x] `vrock` — Vrock
+- [x] `vulture` — Vulture → Buitre
+- [x] `warhorse` — Warhorse → Caballo de guerra
+- [x] `warhorse-skeleton` — Warhorse Skeleton → Caballo de guerra esqueleto
+- [x] `warrior-infantry` — Warrior Infantry → Guerrero de infantería
+- [x] `warrior-veteran` — Warrior Veteran → Guerrero veterano
+- [x] `water-elemental` — Water Elemental → Elemental de agua
+- [x] `weasel` — Weasel → Comadreja
+- [x] `werebear` — Werebear → Hombre oso
+- [x] `wereboar` — Wereboar → Hombre jabalí
+- [x] `wererat` — Wererat → Hombre rata
+- [x] `weretiger` — Weretiger → Hombre tigre
+- [x] `werewolf` — Werewolf → Hombre lobo
+- [x] `white-dragon-wyrmling` — White Dragon Wyrmling → Cría de dragón blanco
+- [x] `wight` — Wight → Tumulario
+- [x] `will-o-wisp` — Will-o'-Wisp → Fuego fatuo
+- [x] `winter-wolf` — Winter Wolf → Lobo invernal
+- [x] `wolf` — Wolf → Lobo
+- [x] `worg` — Worg → Huargo
+- [x] `wraith` — Wraith → Aparición
+- [x] `wyvern` — Wyvern → Guiverno
+- [x] `xorn` — Xorn
+- [x] `young-black-dragon` — Young Black Dragon → Dragón negro joven
+- [x] `young-blue-dragon` — Young Blue Dragon → Dragón azul joven
+- [x] `young-brass-dragon` — Young Brass Dragon → Dragón de oropel joven
+- [x] `young-bronze-dragon` — Young Bronze Dragon → Dragón de bronce joven
+- [x] `young-copper-dragon` — Young Copper Dragon → Dragón de cobre joven
+- [x] `young-gold-dragon` — Young Gold Dragon → Dragón de oro joven
+- [x] `young-green-dragon` — Young Green Dragon → Dragón verde joven
+- [x] `young-red-dragon` — Young Red Dragon → Dragón rojo joven
+- [x] `young-silver-dragon` — Young Silver Dragon → Dragón de plata joven
+- [x] `young-white-dragon` — Young White Dragon → Dragón blanco joven
+- [x] `zombie` — Zombie → Zombi
