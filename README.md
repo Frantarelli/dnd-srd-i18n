@@ -33,7 +33,7 @@ data/es/spells.json   { "acid-arrow.name": "Flecha ácida", … }
 ### Desde un proyecto con npm
 
 ```json
-"dependencies": { "dnd-srd-i18n": "github:Frantarelli/dnd-srd-i18n#v0.1.0" }
+"dependencies": { "dnd-srd-i18n": "github:Frantarelli/dnd-srd-i18n#v0.1.1" }
 ```
 
 Los archivos quedan en `node_modules/dnd-srd-i18n/data/`. **Fijá siempre la versión** (la

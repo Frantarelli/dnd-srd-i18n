@@ -4,6 +4,12 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.1.1] — 2026-10-10
+
+### Cambiado
+- El paquete npm incluye `tools/`, para que quien consuma los datos pueda validarlos
+  (`node node_modules/dnd-srd-i18n/tools/cli.mjs validate all`).
+
 ## [0.1.0] — 2026-10-10
 
 ### Agregado
