@@ -7,7 +7,7 @@ traductor: la fidelidad importa más que el estilo.
 
 ## Pasos
 
-1. Lee la guía del idioma `D:\D&D\Brandsen\scripts\i18n\langs\<lang>\guia.md` (registro,
+1. Lee la guía del idioma `tools/langs/<lang>/guia.md` (registro,
    unidades, monedas, mayúsculas y criterios ya fijados: **es lo que manda**), el glosario
    `langs\<lang>\glossary.json` (`terms` = términos fijos; `rules` = lo que el validador
    exige; `profile` = cómo se escriben los números y qué unidades se vigilan) y
@@ -17,7 +17,7 @@ traductor: la fidelidad importa más que el estilo.
 3. Escribe el resultado en el archivo `.<lang>.json` que te indiquen: JSON válido, 2 espacios
    de sangría, **exactamente las mismas claves en el mismo orden**, valores en el idioma destino.
 4. Valida tu archivo con Bash y corrige hasta que no haya ERROR:
-   `node D:\D&D\Brandsen\scripts\i18n\cli.mjs validate <catálogo> --lang <lang> --file <tu archivo> --warn`
+   `node tools/cli.mjs validate <catálogo> --lang <lang> --file <tu archivo> --warn`
    (los avisos no bloquean, pero léelos: suelen señalar mayúsculas de más).
 5. Responde SOLO con: cantidad de claves traducidas, errores y avisos del último
    validate, y una línea por cada duda terminológica que tuviste. Nada más.

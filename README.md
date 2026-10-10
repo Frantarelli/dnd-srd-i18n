@@ -39,6 +39,20 @@ data/es/spells.json   { "acid-arrow.name": "Flecha ácida", … }
 Los archivos quedan en `node_modules/dnd-srd-i18n/data/`. **Fijá siempre la versión** (la
 etiqueta): así tu aplicación cambia de traducción cuando vos decidas.
 
+## Recibir actualizaciones y nuevos idiomas
+
+- **Idiomas disponibles:** [`data/languages.json`](data/languages.json) lista cada idioma con su
+  cobertura. Una aplicación puede leerlo para ofrecer los idiomas que existan, sin tocar código:
+  cuando se suma un idioma al repositorio, aparece ahí solo.
+- **Con npm:** cambiá la etiqueta de versión en tu `package.json` (por ejemplo `#v0.2.0`) y corré
+  `npm install`. Cada versión nueva se anuncia en [Releases](../../releases) y en el
+  [`CHANGELOG`](CHANGELOG.md).
+- **Con git:** `git pull`, o `git submodule update --remote` si lo usás como submódulo.
+- **Sin nada de eso:** bajá el ZIP de la última [release](../../releases).
+- Las versiones siguen SemVer: un idioma nuevo sube la versión **menor** (`0.2.0`), una
+  corrección de texto la de **parche**, y un cambio de claves o de formato la **mayor**. Mientras
+  fijes la etiqueta, nada cambia por sorpresa.
+
 ## Versiones
 
 `data/VERSION.json` dice con qué versión del SRD y de los datos se armó cada lanzamiento. Los
@@ -62,6 +76,8 @@ controla el validador, cómo revisar y cuánto cuesta— está en
 **[`docs/MANUAL.md`](docs/MANUAL.md)**.
 
 ## Contribuir
+
+Guía completa en [`CONTRIBUTING.md`](CONTRIBUTING.md).
 
 - ¿Un error de traducción? Abrí un *issue* con la clave (`goblin-warrior.actions.0.desc`) y la
   corrección.

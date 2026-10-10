@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "source": "en",
+  "languages": {
+    "es": {
+      "name": "Español",
+      "translated": 8157,
+      "total": 8157,
+      "coverage": 1,
+      "complete": true,
+      "catalogs": {
+        "origin": {
+          "translated": 177,
+          "total": 177
+        },
+        "spells": {
+          "translated": 987,
+          "total": 987
+        },
+        "classes": {
+          "translated": 534,
+          "total": 534
+        },
+        "items": {
+          "translated": 1920,
+          "total": 1920
+        },
+        "magicitems": {
+          "translated": 1533,
+          "total": 1533
+        },
+        "monsters": {
+          "translated": 3006,
+          "total": 3006
+        }
+      }
+    }
+  }
+}

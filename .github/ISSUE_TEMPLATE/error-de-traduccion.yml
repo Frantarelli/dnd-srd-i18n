@@ -1,0 +1,31 @@
+name: Error de traducción
+description: Un texto está mal traducido
+title: "[traducción] "
+labels: ["traducción"]
+body:
+  - type: input
+    id: idioma
+    attributes:
+      label: Idioma
+      placeholder: es
+    validations:
+      required: true
+  - type: input
+    id: clave
+    attributes:
+      label: Clave del texto
+      description: La clave del JSON, por ejemplo `goblin-warrior.actions.0.desc`
+      placeholder: goblin-warrior.actions.0.desc
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué está mal
+    validations:
+      required: true
+  - type: textarea
+    id: correccion
+    attributes:
+      label: Cómo debería decir
+      description: Si tu idioma tiene un SRD oficial, indicá dónde figura.

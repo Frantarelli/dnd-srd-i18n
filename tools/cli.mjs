@@ -313,6 +313,25 @@ function cmdStatus() {
   ].join('\n');
   fs.writeFileSync(path.join(I18N, 'ESTADO.md'), md);
 
+  // languages.json: el índice que lee cualquier aplicación para saber qué idiomas hay y cuánto
+  // está hecho. Sumar un idioma al repositorio lo hace aparecer acá sin tocar código.
+  const index = { schema: 1, source: 'en', languages: {} };
+  for (const l of langs) {
+    const rows = stats[l] ?? [];
+    const done = rows.reduce((a, r) => a + r.done, 0);
+    const total = rows.reduce((a, r) => a + r.total, 0);
+    const errors = rows.reduce((a, r) => a + r.errors, 0);
+    index.languages[l] = {
+      name: loadGlossary(l).name ?? l,
+      translated: done,
+      total,
+      coverage: total ? Math.round((done / total) * 1000) / 1000 : 0,
+      complete: total > 0 && done === total && errors === 0,
+      catalogs: Object.fromEntries(rows.map((r) => [r.c, { translated: r.done, total: r.total }])),
+    };
+  }
+  fs.writeFileSync(path.join(I18N, 'languages.json'), `${JSON.stringify(index, null, 2)}\n`);
+
   // CHECKLIST.<idioma>.md: una casilla por entrada, marcada cuando está entera traducida.
   for (const l of langs) {
     const out = [

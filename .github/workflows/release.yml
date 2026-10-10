@@ -1,0 +1,34 @@
+name: Publicar versión
+
+# Cada etiqueta vX.Y.Z publica una "release" con los datos en un ZIP, para quien prefiera
+# descargar antes que usar git o npm.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validar antes de publicar
+        run: |
+          npm run check
+          npm run stale
+          npm test
+      - name: Armar el ZIP
+        run: |
+          zip -r "dnd-srd-i18n-${GITHUB_REF_NAME}.zip" data ATTRIBUTION.md LICENSE-DATA.md README.md
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" "dnd-srd-i18n-${GITHUB_REF_NAME}.zip" \
+            --title "${GITHUB_REF_NAME}" \
+            --notes "Datos del SRD 5.2.1 traducidos. Ver CHANGELOG.md y data/languages.json (idiomas disponibles y cobertura). Atribución y licencia: ATTRIBUTION.md y LICENSE-DATA.md."

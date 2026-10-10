@@ -14,6 +14,9 @@ un idioma nuevo, menor; una corrección de texto, parche.
 - Herramientas: validador por perfil de idioma, circuito de lotes, traductor con modelo local,
   `new-language`, `snapshot` y `stale`.
 - Manual de traducción (`docs/MANUAL.md`).
+- `data/languages.json`: índice de idiomas disponibles y su cobertura (generado por `status`).
+- Publicación automática de cada versión (release con ZIP), guía de contribución y plantilla
+  para reportar errores de traducción.
 
 ### Notas
 - Primera versión. Origen del historial: proyecto Brandsen
