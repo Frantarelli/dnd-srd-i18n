@@ -4,6 +4,20 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.5.1] — 2026-10-11
+
+### Aviso
+- **No usar `v0.5.0`**: la etiqueta se creó por error sobre el mismo commit que `v0.4.0` (no tiene el contenido de abajo)
+  y las etiquetas son inmutables. Todo lo que se describe en 0.5.0 está en **0.5.1**.
+
+## [0.5.0] — 2026-10-11
+
+### Agregado
+- **Opciones de creación de personaje**: las elecciones de especie (ascendencia dracónica ×10, linaje élfico ×3,
+  linaje gnómico ×2, linaje gigante ×6, legado infernal ×3), los idiomas estándar (×10), los nueve alineamientos
+  más «sin alineamiento», y las opciones de nivel 1 de clase (Orden divina ×2, Orden primigenia ×2, invocaciones
+  sobrenaturales sin requisito ×5). Español tomado del SRD oficial.
+
 ## [0.4.0] — 2026-10-11
 
 ### Agregado
