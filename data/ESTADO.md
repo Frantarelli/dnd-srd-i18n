@@ -13,6 +13,7 @@ El detalle de cada entrada está en `CHECKLIST.<idioma>.md`.
 | items | 1920 | 408434 | ✅ 100 % (1920/1920) |
 | magicitems | 1533 | 379300 | ✅ 100 % (1533/1533) |
 | monsters | 3006 | 226409 | ✅ 100 % (3006/3006) |
+| glossary | 616 | 30157 | ✅ 100 % (616/616) |
 
 Errores = lo que la validación rechaza (números que faltan, estructura rota, registro,
 unidades sin convertir, términos obligatorios). Para sumar un idioma:
@@ -28,3 +29,4 @@ unidades sin convertir, términos obligatorios). Para sumar un idioma:
 | items | 0 | 24 |
 | magicitems | 0 | 15 |
 | monsters | 0 | 72 |
+| glossary | 0 | 19 |

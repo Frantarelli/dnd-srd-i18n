@@ -6,7 +6,7 @@ de IA.
 
 | Idioma | Estado |
 |---|---|
-| Español (`es`) | ✅ 100 % — 8157 textos (origen, hechizos, clases, objetos, objetos mágicos, criaturas) |
+| Español (`es`) | ✅ 100 % — 8773 textos (origen, hechizos, clases, objetos, objetos mágicos, criaturas, glosario) |
 | Otros | Ver [`docs/MANUAL.md`](docs/MANUAL.md) para sumar uno |
 
 > **Estado honesto:** el español fue traducido con ayuda de IA y **revisado por IA contra el SRD
@@ -23,7 +23,8 @@ data/es/spells.json   { "acid-arrow.name": "Flecha ácida", … }
 ```
 
 - Catálogos: `origin` (especies, dotes, trasfondos), `spells`, `classes`, `items`, `magicitems`,
-  `monsters`.
+  `monsters`, `glossary` (las explicaciones de las reglas: una entrada por término, claves
+  `<término>.name`, `.summary` y `.rules.<n>`).
 - **Las claves son estables y no se renombran** (`goblin-warrior.name`, `fireball.desc`).
 - Solo está la **prosa y los nombres**. Lo estructurado (nivel, escuela, dados, costos) vive en
   los datos del SRD (por ejemplo, [Open5e](https://open5e.com)) y se une por la clave.

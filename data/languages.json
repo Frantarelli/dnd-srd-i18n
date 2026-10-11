@@ -4,8 +4,8 @@
   "languages": {
     "es": {
       "name": "Español",
-      "translated": 8157,
-      "total": 8157,
+      "translated": 8773,
+      "total": 8773,
       "coverage": 1,
       "complete": true,
       "catalogs": {
@@ -32,6 +32,10 @@
         "monsters": {
           "translated": 3006,
           "total": 3006
+        },
+        "glossary": {
+          "translated": 616,
+          "total": 616
         }
       }
     }

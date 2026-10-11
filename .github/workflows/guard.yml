@@ -1,0 +1,41 @@
+name: Barrera de seguridad
+
+# Un pull request a este repo solo puede traer TRADUCCIONES (ver tools/guard.mjs).
+#
+# Corre con `pull_request_target`: el código que se ejecuta es el de la rama principal, no el del
+# pull request, así que un pull request no puede aflojar la barrera cambiándola. El contenido del
+# pull request se baja como DATOS (`git fetch`) y se lee con `git show`: nunca se hace checkout
+# de él, nunca se instala ni se ejecuta. El permiso es de solo lectura y no usa secretos.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  guard:
+    name: guard
+    runs-on: ubuntu-latest
+    steps:
+      - name: Código de la rama principal (no el del pull request)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - name: Traer el pull request como datos
+        env:
+          PR: ${{ github.event.pull_request.number }}
+        run: git fetch --no-tags origin "refs/pull/${PR}/head:refs/remotes/pr/head"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Que solo traiga traducciones válidas
+        env:
+          BASE: ${{ github.event.pull_request.base.ref }}
+          ASSOC: ${{ github.event.pull_request.author_association }}
+        run: |
+          FLAGS=""
+          if [ "$ASSOC" = "OWNER" ]; then FLAGS="--maintainer"; fi
+          node tools/guard.mjs --base "origin/${BASE}" --head refs/remotes/pr/head $FLAGS
