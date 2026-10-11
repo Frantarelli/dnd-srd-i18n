@@ -4,6 +4,13 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.3.2] — 2026-10-11
+
+### Cambiado
+- Se saca `ui` de los catálogos admitidos por la barrera: este repo es solo contenido y vocabulario de
+  reglas del SRD, neutral para cualquier aplicación (Foundry VTT, otros VTT, bots). Los textos de
+  interfaz de cada aplicación se traducen en su propio repositorio. `docs/FORMATO.md` lo aclara.
+
 ## [0.3.1] — 2026-10-11
 
 ### Agregado

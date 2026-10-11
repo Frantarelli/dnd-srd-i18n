@@ -20,6 +20,10 @@ tools/langs/<idioma>/       guía de estilo y glosario de traducción de cada id
 
 ## Catálogos
 
+Este repositorio contiene **solo contenido y vocabulario de reglas del SRD**, neutral para cualquier
+aplicación. Los textos de la interfaz de cada aplicación (menús, botones) **no** van acá: son de esa
+aplicación y se traducen en su propio repositorio.
+
 Todos son **JSON plano**: un objeto `{ "clave": "texto" }`. Nada anidado, nada que no sea texto.
 
 | Catálogo | Contiene | Claves |
@@ -32,7 +36,6 @@ Todos son **JSON plano**: un objeto `{ "clave": "texto" }`. Nada anidado, nada q
 | `monsters` | criaturas | `<id>.name`, `.desc`, `.actions.<n>.name`, `.actions.<n>.desc`… |
 | `glossary` | explicaciones de reglas (ver abajo) | `<término>.name`, `.summary`, `.rules.<n>` |
 | `prose` | reglas de enlazado (ver abajo) | `<término>.forms`, `.case`, `.before`, `.after` |
-| `ui` | *(reservado)* textos de interfaz de las aplicaciones | `<clave>` |
 
 **Solo está la prosa y los nombres.** Lo estructurado (nivel, escuela, dados, costos, CA) vive en los
 datos del SRD (por ejemplo [Open5e](https://open5e.com)) y se une por la clave (`<id>`).
