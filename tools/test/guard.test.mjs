@@ -106,6 +106,8 @@ test('frena el contenido inyectado', () => {
     tpl: 'valor ${process.env.X}',
     bidi: 'texto ‮oculto',
     zero: 'tex​to',
+    isolate: 'texto ⁦oculto',
+    joiner: 'a⁠b',
     ctrl: 'a\u0001b',
   };
   for (const [name, text] of Object.entries(bad)) {
@@ -155,4 +157,10 @@ test('las reglas de enlazado son formas literales: frena regex, términos invent
   const many = Array.from({ length: 41 }, (_, i) => `forma${i}`).join(' | ');
   assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': many }), ids).length > 0);
   assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': 'a'.repeat(61) }), ids).length > 0);
+});
+
+test('deja pasar lo que otros idiomas necesitan: ZWNJ, ZWJ y marcas de dirección', () => {
+  // Persa (ZWNJ), hindi (ZWJ) y árabe/hebreo (marcas LRM/RLM): son texto legítimo.
+  const ok = { 'a.name': 'می‌خواهم', 'b.name': 'क्‍ष', 'a.desc': 'ערך ‏שלום‎' };
+  assert.deepEqual(contentProblems('f', JSON.stringify(ok), { 'a.name': 'x', 'b.name': 'y', 'a.desc': 'z' }), []);
 });
