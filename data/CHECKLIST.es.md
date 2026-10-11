@@ -405,7 +405,7 @@ Generado: no se edita a mano.
 - [x] `warrior-of-the-open-hand` — Warrior of the Open Hand → Guerrero de la mano abierta
 - [x] `wizard` — Wizard → Mago
 
-## ✅ items — 960/960 entradas
+## ✅ items — 966/966 entradas
 
 - [x] `acid` — Acid → Ácido
 - [x] `adamantine-armor-breastplate` — Adamantine Armor (Breastplate) → Armadura adamantina (coraza)
@@ -418,7 +418,7 @@ Generado: no se edita a mano.
 - [x] `adamantine-armor-splint` — Adamantine Armor (Splint) → Armadura adamantina (armadura de bandas)
 - [x] `airship` — Airship → Aeronave
 - [x] `alchemists-fire` — Alchemist's Fire → Fuego de alquimista
-- [x] `alchemists-supplies` — Alchemist's Supplies (50 GP) → Suministros de alquimista (50 po)
+- [x] `alchemists-supplies` — Alchemist's Supplies → Suministros de alquimista
 - [x] `ammunition-plus-one` — Ammunition (+1) → Munición +1
 - [x] `ammunition-plus-two` — Ammunition (+2) → Munición +2
 - [x] `ammunition-plus-three` — Ammunition (+3) → Munición +3
@@ -514,24 +514,24 @@ Generado: no se edita a mano.
 - [x] `breastplate-plus-1` — Breastplate (+1) → Coraza (+1)
 - [x] `breastplate-plus-2` — Breastplate (+2) → Coraza (+2)
 - [x] `breastplate-plus-3` — Breastplate (+3) → Coraza (+3)
-- [x] `brewers-supplies` — Brewer's Supplies (20 GP) → Suministros de cervecero (20 po)
+- [x] `brewers-supplies` — Brewer's Supplies → Suministros de cervecero
 - [x] `brooch-of-shielding` — Brooch of Shielding → Broche escudo
 - [x] `broom-of-flying` — Broom of Flying → Escoba voladora
 - [x] `bucket` — Bucket → Cubo
 - [x] `bullets-firearm-10` — Bullets, Firearm (10) → Balas de arma de fuego (10)
 - [x] `bullets-sling-20` — Bullets, Sling (20) → Balas de honda (20)
 - [x] `burglars-pack` — Burglar's Pack → Paquete de ladrón
-- [x] `calligraphers-supplies` — Calligrapher's Supplies (10 GP) → Suministros de calígrafo (10 po)
+- [x] `calligraphers-supplies` — Calligrapher's Supplies → Suministros de calígrafo
 - [x] `caltrops` — Caltrops → Abrojos
 - [x] `camel` — Camel → Camello
 - [x] `candle` — Candle → Vela
 - [x] `candle-of-invocation` — Candle of Invocation → Vela de invocación
 - [x] `cape-of-the-mountebank` — Cape of the Mountebank → Capa del charlatán
-- [x] `carpenters-tools` — Carpenter's Tools (8 GP) → Herramientas de carpintero (8 po)
+- [x] `carpenters-tools` — Carpenter's Tools → Herramientas de carpintero
 - [x] `carpet-of-flying` — Carpet of Flying → Alfombra voladora
 - [x] `carriage` — Carriage → Carruaje
 - [x] `cart` — Cart → Carro
-- [x] `cartographers-tools` — Cartographer's Tools (15 GP) → Herramientas de cartógrafo (15 po)
+- [x] `cartographers-tools` — Cartographer's Tools → Herramientas de cartógrafo
 - [x] `case-crossbow-bolt` — Case, Crossbow Bolt → Estuche para virotes de ballesta
 - [x] `case-map-or-scroll` — Case, Map or Scroll → Estuche para mapas o pergaminos
 - [x] `censer-of-controlling-air-elementals` — Censer of Controlling Air Elementals → Incensario de controlar elementales de aire
@@ -561,9 +561,9 @@ Generado: no se edita a mano.
 - [x] `club-plus-1` — Club (+1) → Garrote (+1)
 - [x] `club-plus-2` — Club (+2) → Garrote (+2)
 - [x] `club-plus-3` — Club (+3) → Garrote (+3)
-- [x] `cobblers-tools` — Cobbler's Tools (5 GP) → Herramientas de zapatero (5 po)
+- [x] `cobblers-tools` — Cobbler's Tools → Herramientas de zapatero
 - [x] `component-pouch` — Component Pouch → Saquito de componentes
-- [x] `cooks-utensils` — Cook's Utensils (1 GP) → Útiles de cocinero (1 po)
+- [x] `cooks-utensils` — Cook's Utensils → Útiles de cocinero
 - [x] `costume` — Costume → Disfraz
 - [x] `crowbar` — Crowbar → Palanqueta
 - [x] `crystal-ball` — Crystal Ball → Bola de cristal
@@ -647,7 +647,7 @@ Generado: no se edita a mano.
 - [x] `dragon-slayer` — Dragon Slayer → Matadragones
 - [x] `druidic-focus-sprig-of-mistletoe` — Druidic Focus, Sprig of Mistletoe → Canalizador druídico, rama de muérdago
 - [x] `druidic-focus-wooden-staff` — Druidic Focus, Wooden Staff → Canalizador druídico, bastón de madera
-- [x] `druidic-focus-yew-wand` — Druidic Focus, Yew Wand → Canalizador druídico, vara de tejo
+- [x] `druidic-focus-yew-wand` — Druidic Focus, Yew Wand → Canalizador druídico, varita de tejo
 - [x] `dungeoneers-pack` — Dungeoneer's Pack → Paquete de explorador de mazmorras
 - [x] `dust-of-disappearance` — Dust of Disappearance → Polvo de desaparición
 - [x] `dust-of-dryness` — Dust of Dryness → Polvo de sequedad
@@ -779,7 +779,7 @@ Generado: no se edita a mano.
 - [x] `glaive-of-sharpness` — Glaive of Sharpness → Guja de hoja afilada
 - [x] `glaive-of-wounding` — Glaive of Wounding → Guja hiriente
 - [x] `glamoured-studded-leather` — Glamoured Studded Leather → Armadura de cuero tachonado encantada
-- [x] `glassblowers-tools` — Glassblower's Tools (30 GP) → Herramientas de vidriero (30 po)
+- [x] `glassblowers-tools` — Glassblower's Tools → Herramientas de vidriero
 - [x] `gloves-of-missile-snaring` — Gloves of Missile Snaring → Guantes atrapaflechas
 - [x] `gloves-of-swimming-and-climbing` — Gloves of Swimming and Climbing → Guantes de natación y escalada
 - [x] `goggles-of-night` — Goggles of Night → Anteojos de la noche
@@ -874,9 +874,9 @@ Generado: no se edita a mano.
 - [x] `holy-avenger-war-pick` — Holy Avenger (War Pick) → Vengadora sagrada (pico de guerra)
 - [x] `holy-avenger-warhammer` — Holy Avenger (Warhammer) → Vengadora sagrada (martillo de guerra)
 - [x] `holy-avenger-whip` — Holy Avenger (Whip) → Vengadora sagrada (látigo)
-- [x] `holy-symbol-amulet` — Holy Symbol, Amulet) → Símbolo sagrado (amuleto)
-- [x] `holy-symbol-emblem` — Holy Symbol, Emblem) → Símbolo sagrado (emblema)
-- [x] `holy-symbol-reliquary` — Holy Symbol, Reliquary → Símbolo sagrado (relicario)
+- [x] `holy-symbol-amulet` — Holy Symbol, Amulet → Símbolo sagrado, amuleto
+- [x] `holy-symbol-emblem` — Holy Symbol, Emblem → Símbolo sagrado, emblema
+- [x] `holy-symbol-reliquary` — Holy Symbol, Reliquary → Símbolo sagrado, relicario
 - [x] `holy-water` — Holy Water → Agua bendita
 - [x] `horn-of-blasting` — Horn of Blasting → Cuerno de estallido
 - [x] `horn-of-valhalla` — Horn of Valhalla → Cuerno del Valhalla
@@ -897,7 +897,7 @@ Generado: no se edita a mano.
 - [x] `javelin-plus-2` — Javelin (+2) → Jabalina (+2)
 - [x] `javelin-plus-3` — Javelin (+3) → Jabalina (+3)
 - [x] `javelin-of-lightning` — Javelin of Lightning → Jabalina del relámpago
-- [x] `jewelers-tools` — Jeweler's Tools (25 GP) → Herramientas de joyero (25 po)
+- [x] `jewelers-tools` — Jeweler's Tools → Herramientas de joyero
 - [x] `jug` — Jug → Jarro
 - [x] `keelboat` — Keelboat → Barcaza
 - [x] `ladder` — Ladder → Escalera
@@ -913,7 +913,7 @@ Generado: no se edita a mano.
 - [x] `leather-armor-plus-1` — Leather Armor (+1) → Armadura de cuero (+1)
 - [x] `leather-armor-plus-2` — Leather Armor (+2) → Armadura de cuero (+2)
 - [x] `leather-armor-plus-3` — Leather Armor (+3) → Armadura de cuero (+3)
-- [x] `leatherworkers-tools` — Leatherworker's Tools (5 GP) → Herramientas de curtidor (5 po)
+- [x] `leatherworkers-tools` — Leatherworker's Tools → Herramientas de curtidor
 - [x] `light-crossbow` — Light Crossbow → Ballesta ligera
 - [x] `light-crossbow-plus-1` — Light Crossbow (+1) → Ballesta ligera (+1)
 - [x] `light-crossbow-plus-2` — Light Crossbow (+2) → Ballesta ligera (+2)
@@ -958,7 +958,7 @@ Generado: no se edita a mano.
 - [x] `manual-of-quickness-of-action` — Manual of Quickness of Action → Manual de rapidez de acción
 - [x] `map` — Map → Mapa
 - [x] `marvelous-pigments` — Marvelous Pigments → Pigmentos maravillosos
-- [x] `masons-tools` — Mason's Tools (10 GP) → Herramientas de albañil (10 po)
+- [x] `masons-tools` — Mason's Tools → Herramientas de albañil
 - [x] `mastiff` — Mastiff → Mastín
 - [x] `maul` — Maul → Maza a dos manos
 - [x] `maul-plus-1` — Maul (+1) → Maza a dos manos (+1)
@@ -1049,7 +1049,7 @@ Generado: no se edita a mano.
 - [x] `padded-armor-plus-1` — Padded Armor (+1) → Armadura acolchada (+1)
 - [x] `padded-armor-plus-2` — Padded Armor (+2) → Armadura acolchada (+2)
 - [x] `padded-armor-plus-3` — Padded Armor (+3) → Armadura acolchada (+3)
-- [x] `painters-supplies` — Painter's Supplies (10 GP) → Suministros de pintor (10 po)
+- [x] `painters-supplies` — Painter's Supplies → Suministros de pintor
 - [x] `paper` — Paper → Papel
 - [x] `parchment` — Parchment → Pergamino
 - [x] `pearl-of-power` — Pearl of Power → Perla de poder
@@ -1096,7 +1096,7 @@ Generado: no se edita a mano.
 - [x] `potion-of-speed` — Potion of Speed → Poción de velocidad
 - [x] `potion-of-water-breathing` — Potion of Water Breathing → Poción de respirar bajo el agua
 - [x] `potions-of-healing` — Potions of Healing → Pociones de curación
-- [x] `potters-tools` — Potter's Tools (10 GP) → Herramientas de alfarero (10 po)
+- [x] `potters-tools` — Potter's Tools → Herramientas de alfarero
 - [x] `pouch` — Pouch → Bolsa
 - [x] `priests-pack` — Priest's Pack → Paquete de sacerdote
 - [x] `quarterstaff` — Quarterstaff → Bastón
@@ -1198,7 +1198,7 @@ Generado: no se edita a mano.
 - [x] `sling-plus-2` — Sling (+2) → Honda (+2)
 - [x] `sling-plus-3` — Sling (+3) → Honda (+3)
 - [x] `slippers-of-spider-climbing` — Slippers of Spider Climbing → Babuchas de trepar cual arácnido
-- [x] `smiths-tools` — Smith's Tools (20 GP) → Herramientas de herrero (20 po)
+- [x] `smiths-tools` — Smith's Tools → Herramientas de herrero
 - [x] `sovereign-glue` — Sovereign Glue → Pegamento soberano
 - [x] `spear` — Spear → Lanza
 - [x] `spear-plus-1` — Spear (+1) → Lanza (+1)
@@ -1239,7 +1239,7 @@ Generado: no se edita a mano.
 - [x] `tent` — Tent → Tienda
 - [x] `thieves-tools` — Thieves' Tools → Herramientas de ladrón
 - [x] `tinderbox` — Tinderbox → Yesquero
-- [x] `tinkers-tools` — Tinker's Tools (50 GP) → Herramientas de manitas (50 po)
+- [x] `tinkers-tools` — Tinker's Tools → Herramientas de manitas
 - [x] `tome-of-clear-thought` — Tome of Clear Thought → Tomo de pensamiento claro
 - [x] `tome-of-leadership-and-influence` — Tome of Leadership and Influence → Tomo de liderazgo e influencia
 - [x] `tome-of-understanding` — Tome of Understanding → Tomo de entendimiento
@@ -1357,7 +1357,7 @@ Generado: no se edita a mano.
 - [x] `weapon-of-warning-war-pick` — Weapon of Warning (War Pick) → Arma de advertencia (pico de guerra)
 - [x] `weapon-of-warning-warhammer` — Weapon of Warning (Warhammer) → Arma de advertencia (martillo de guerra)
 - [x] `weapon-of-warning-whip` — Weapon of Warning (Whip) → Arma de advertencia (látigo)
-- [x] `weavers-tools` — Weaver's Tools (1 GP) → Herramientas de tejedor (1 po)
+- [x] `weavers-tools` — Weaver's Tools → Herramientas de tejedor
 - [x] `well-of-many-worlds` — Well of Many Worlds → Pozo de los muchos mundos
 - [x] `whip` — Whip → Látigo
 - [x] `whip-plus-1` — Whip (+1) → Látigo (+1)
@@ -1366,7 +1366,13 @@ Generado: no se edita a mano.
 - [x] `wind-fan` — Wind Fan → Abanico del viento
 - [x] `winged-boots` — Winged Boots → Botas aladas
 - [x] `wings-of-flying` — Wings of Flying → Alas de vuelo
-- [x] `woodcarvers-tools` — Woodcarver's Tools (1 GP) → Herramientas de ebanista (1 po)
+- [x] `woodcarvers-tools` — Woodcarver's Tools → Herramientas de ebanista
+- [x] `arcane-focus-crystal` — Arcane Focus, Crystal → Canalizador arcano, cristal
+- [x] `arcane-focus-orb` — Arcane Focus, Orb → Canalizador arcano, orbe
+- [x] `arcane-focus-rod` — Arcane Focus, Rod → Canalizador arcano, vara
+- [x] `arcane-focus-staff` — Arcane Focus, Staff → Canalizador arcano, bastón
+- [x] `arcane-focus-wand` — Arcane Focus, Wand → Canalizador arcano, varita
+- [x] `spellbook` — Spellbook → Libro de conjuros
 
 ## ✅ magicitems — 757/757 entradas
 

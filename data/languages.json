@@ -4,8 +4,8 @@
   "languages": {
     "es": {
       "name": "Español",
-      "translated": 8773,
-      "total": 8773,
+      "translated": 8785,
+      "total": 8785,
       "coverage": 1,
       "complete": true,
       "catalogs": {
@@ -22,8 +22,8 @@
           "total": 534
         },
         "items": {
-          "translated": 1920,
-          "total": 1920
+          "translated": 1932,
+          "total": 1932
         },
         "magicitems": {
           "translated": 1533,

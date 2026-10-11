@@ -4,6 +4,19 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.4.0] — 2026-10-11
+
+### Agregado
+- **Canalizadores arcanos y libro de conjuros** (`arcane-focus-crystal`, `-orb`, `-rod`, `-staff`, `-wand`,
+  `spellbook`): el equipo inicial de Brujo, Hechicero y Mago los nombra y no estaban. Textos del SRD 5.2.1 en
+  inglés y español (el de español, del SRD oficial).
+
+### Cambiado
+- **Nombres de equipo sin el precio incrustado** (`Alchemist's Supplies (50 GP)` → `Alchemist's Supplies`,
+  19 nombres): el precio es un dato del ítem, no parte del nombre; así el nombre se puede mostrar solo.
+- Corregidos `Holy Symbol, Amulet)` y `Holy Symbol, Emblem)` (paréntesis suelto) y, en español, «varita de tejo»
+  (el SRD oficial dice «varita», no «vara») y el formato de «Símbolo sagrado, relicario».
+
 ## [0.3.4] — 2026-10-11
 
 ### Cambiado
