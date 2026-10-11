@@ -15,6 +15,7 @@ const EN = { 'a.name': 'Acid Arrow', 'a.desc': 'Deals {n} damage. See the rules.
 function repo() {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), 'guard-'));
   const git = (...a) => execFileSync('git', a, { cwd: dir, stdio: 'pipe' });
+  git.dir = dir;
   git('init', '-q', '-b', 'main');
   git('config', 'user.email', 't@t');
   git('config', 'user.name', 't');
@@ -29,12 +30,13 @@ function repo() {
   git('add', '-A');
   git('commit', '-q', '-m', 'base');
   /** Un pull request: una rama que aplica `edit` y se compara con main. */
-  const pr = (edit, maintainer = false) => {
+  const pr = (edit, maintainer = false, raw = false) => {
     git('checkout', '-q', '-B', 'pr', 'main');
-    edit({ write, rm: (rel) => fs.rmSync(path.join(dir, rel)), git });
-    git('add', '-A');
+    edit({ write, rm: (rel) => fs.rmSync(path.join(dir, rel)), git, hash: (t) => git('hash-object', '-w', '--stdin', '--', t) });
+    if (!raw) git('add', '-A');
     git('commit', '-q', '-m', 'pr');
     const r = review({ cwd: dir, base: 'main', head: 'pr', maintainer });
+    git('reset', '-q', '--hard');
     git('checkout', '-q', 'main');
     return r;
   };
@@ -77,18 +79,20 @@ test('frena el inglés (es la fuente) y las claves nuevas', () => {
 test('frena borrar, enlaces simbólicos y archivos ejecutables', () => {
   const { pr } = repo();
   assert.ok(pr(({ rm }) => rm('data/es/spells.json')).some((p) => p.includes('borrar')));
+  // Un enlace simbólico de verdad (blob con modo 120000) y un archivo ejecutable (100755): se
+  // arman directo en el índice, porque `git add` los normalizaría según el sistema.
   assert.ok(
-    pr(({ git, write }) => {
-      write('data/es/hack.json', '{}');
-      git('update-index', '--add', '--cacheinfo', '120000,e69de29bb2d1d6434b8b29ae775ad8c2e48c5391,data/es/spells.json');
-    }).some((p) => p.includes('enlace simbólico')),
+    pr(({ git }) => {
+      const sha = execFileSync('git', ['hash-object', '-w', '--stdin'], { cwd: git.dir, input: '/etc/passwd' }).toString().trim();
+      git('update-index', '--add', '--cacheinfo', `120000,${sha},data/es/spells.json`);
+    }, false, true).some((p) => p.includes('enlace simbólico')),
   );
   assert.ok(
     pr(({ write, git }) => {
       write('data/es/items.json', '{}');
       git('add', 'data/es/items.json');
       git('update-index', '--chmod=+x', 'data/es/items.json');
-    }).some((p) => p.includes('modo de archivo')),
+    }, false, true).some((p) => p.includes('modo de archivo')),
   );
 });
 
