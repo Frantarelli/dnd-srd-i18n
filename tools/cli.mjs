@@ -89,7 +89,7 @@ function cmdBatch() {
   const max = Number(flag('chars', '14000'));
   const count = Number(flag('count', '1'));
   const start = Number(flag('start', '1'));
-  const out = flag('out', path.join(os.tmpdir(), 'brandsen-i18n'));
+  const out = flag('out', path.join(os.tmpdir(), 'dnd-srd-i18n'));
   const en = readJson(enFile(catalog), {});
   const done = readJson(langFile(catalog), {});
   // Lotes que ya están con un traductor o un revisor y todavía no se mergearon:

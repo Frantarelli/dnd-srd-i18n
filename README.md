@@ -217,7 +217,7 @@ se puede aportar.
 
 1. El mantenedor revisa y mergea tu *pull request* (todo pasa por él).
 2. Publica una versión (`v0.3.1`…) y se genera la *release* con un ZIP.
-3. Las aplicaciones que fijan la versión (como [Brandsen](https://github.com/Frantarelli/brandsen))
+3. Las aplicaciones que fijan la versión (por ejemplo, con un flujo que revisa las versiones nuevas)
    reciben un *pull request* automático con la versión nueva, y **vuelven a validar todo** antes de
    usarla.
 

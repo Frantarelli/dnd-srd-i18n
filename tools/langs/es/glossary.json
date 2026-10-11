@@ -43,7 +43,7 @@
     "leakIgnore": []
   },
   "style": [
-    "Español neutro de juego de rol, TUTEO para la segunda persona (\"puedes\", \"tienes\", \"elige\"). Nunca voseo: la interfaz de Brandsen usa voseo, el contenido del juego no.",
+    "Español neutro de juego de rol, TUTEO para la segunda persona (\"puedes\", \"tienes\", \"elige\"). Nunca voseo: la interfaz de una aplicación puede usar voseo; el contenido del juego no.",
     "NUNCA vosotros (tenéis, podéis, usáis, vuestro): cuando el original habla de varias personas o criaturas (\"you and your allies\", \"you or another creature\"), usa la tercera persona del plural (tú y tus aliados tienen, ellos pueden) o el singular genérico.",
     "Tamaños de criatura (Tiny…Gargantuan) en minúscula dentro del texto corrido (\"una criatura grande\", \"bestia mediana\"); con mayúscula solo como valor aislado de un campo.",
     "Unidades en MÉTRICO con la conversión oficial: 5 pies = 1,5 m, 10 = 3 m, 15 = 4,5 m, 20 = 6 m, 30 = 9 m, 60 = 18 m, 120 = 36 m (pies × 0,3, coma decimal); 1 milla = 1,5 km; 1 libra = 0,5 kg. Nunca dejes \"pies\", \"millas\" ni \"libras\".",
