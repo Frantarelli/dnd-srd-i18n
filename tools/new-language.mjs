@@ -94,6 +94,6 @@ export function scaffoldLanguage({ code, name, langsDir, i18nDir }) {
       '',
     ].join('\n'),
   );
-  for (const c of CATALOGS) write(path.join(i18nDir, code, `${c}.json`), '{}\n');
+  for (const c of [...CATALOGS, 'prose']) write(path.join(i18nDir, code, `${c}.json`), '{}\n');
   return created;
 }

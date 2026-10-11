@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { test } from 'node:test';
-import { contentProblems, regexProblems, review } from '../guard.mjs';
+import { contentProblems, proseProblems, regexProblems, review } from '../guard.mjs';
 
 const EN = { 'a.name': 'Acid Arrow', 'a.desc': 'Deals {n} damage. See the rules.', 'b.name': 'Bless' };
 
@@ -137,4 +137,22 @@ test('revisa las expresiones regulares del perfil de un idioma antes de correrla
   assert.ok(regexProblems('g', evil).length > 0);
   assert.ok(regexProblems('g', JSON.stringify({ profile: { forbidden: [{ pattern: '(', flags: 'u', message: 'x' }] } })).length > 0);
   assert.deepEqual(regexProblems('g', JSON.stringify({ profile: { forbidden: [{ pattern: '\\bvos\\b', flags: 'iu', message: 'x' }] } })), []);
+});
+
+test('las reglas de enlazado son formas literales: frena regex, términos inventados y excesos', () => {
+  const ids = new Set(['condition.prone', 'damage.fire']);
+  const ok = JSON.stringify({ 'condition.prone.forms': 'derribado | derribada', 'damage.fire.forms': 'fuego', 'damage.fire.before': 'daño de | daño', 'damage.fire.case': 'exact' });
+  assert.deepEqual(proseProblems('p', ok, ids), []);
+  // Una expresión regular no es una forma literal.
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': '(a+)+$' }), ids).length > 0);
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': 'derrib.*' }), ids).length > 0);
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': '<b>x</b>' }), ids).length > 0);
+  // Un término que no existe, una clave de otra forma, un «case» raro, y reglas sin formas.
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.nada.forms': 'x' }), ids).some((p) => p.includes('no es un término')));
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.regex': 'x' }), ids).length > 0);
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': 'x', 'condition.prone.case': 'si' }), ids).length > 0);
+  assert.ok(proseProblems('p', JSON.stringify({ 'damage.fire.before': 'daño' }), ids).some((p) => p.includes('pero no')));
+  const many = Array.from({ length: 41 }, (_, i) => `forma${i}`).join(' | ');
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': many }), ids).length > 0);
+  assert.ok(proseProblems('p', JSON.stringify({ 'condition.prone.forms': 'a'.repeat(61) }), ids).length > 0);
 });

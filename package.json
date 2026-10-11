@@ -1,6 +1,6 @@
 {
   "name": "dnd-srd-i18n",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "El SRD 5.2.1 de D&D (reglas 2024) traducido a varios idiomas: datos planos por idioma y las herramientas para sumar más.",
   "type": "module",
   "license": "MIT AND CC-BY-4.0",
@@ -13,7 +13,7 @@
     "LICENSE"
   ],
   "scripts": {
-    "check": "node tools/cli.mjs validate all",
+    "check": "node tools/cli.mjs validate all && node tools/guard.mjs --all",
     "status": "node tools/cli.mjs status",
     "snapshot": "node tools/cli.mjs snapshot",
     "stale": "node tools/cli.mjs stale",

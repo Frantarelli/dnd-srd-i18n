@@ -25,6 +25,9 @@ medir cada paso. Todo lo que dice acá se probó; lo que no, está marcado como 
 6. **Se marca el estado de cada texto** (borrador de IA / revisado por IA / revisado por una
    persona). Es honesto y le dice a la comunidad dónde ayudar.
 
+> **Las reglas para contribuir** (qué acepta el repositorio, el formato de cada catálogo y de las
+> reglas de enlazado `prose.json`) están en la sección «Contribuir» del [README](../README.md#contribuir).
+
 ## 1. Mapa de archivos
 
 ```

@@ -1,5 +1,8 @@
 # Cómo contribuir
 
+> La guía completa —las reglas, el formato de cada catálogo y el paso a paso— está en la
+> sección **[Contribuir del README](README.md#contribuir)**. Este archivo es un resumen.
+
 ¡Gracias! Hay tres formas de ayudar, de menor a mayor esfuerzo.
 
 ## 1. Reportar un error de traducción (2 minutos)

@@ -78,13 +78,145 @@ controla el validador, cómo revisar y cuánto cuesta— está en
 
 ## Contribuir
 
-Guía completa en [`CONTRIBUTING.md`](CONTRIBUTING.md).
+> **Esta sección tiene todo lo necesario para aportar.** No hace falta leer nada más para corregir
+> un texto. Para sumar un idioma completo, además, el [manual](docs/MANUAL.md).
 
-- ¿Un error de traducción? Abrí un *issue* con la clave (`goblin-warrior.actions.0.desc`) y la
-  corrección.
-- ¿Querés sumar un idioma? Seguí el manual. El validador rechaza todo texto con errores de
-  números, dados o estructura.
-- Solo contenido del **SRD**. Nada de los manuales comerciales.
+### Las reglas, en una mirada
+
+Un *pull request* a este repositorio **solo puede traer traducciones**. Una verificación
+automática (`guard`) lo comprueba y bloquea el merge si no se cumple. Nadie —ni siquiera con
+buenas intenciones— puede cambiar acá código, flujos de trabajo ni configuración.
+
+| ✅ Se acepta | ❌ Se rechaza |
+|---|---|
+| Editar `data/<idioma>/<catálogo>.json` (cualquier idioma menos `en`) | Cambiar `data/en/` (el inglés es la fuente: lo cambia el mantenedor) |
+| Sumar un idioma nuevo: `data/<idioma>/` y `tools/langs/<idioma>/` | Cualquier otro archivo: `tools/*.mjs`, `.github/`, `package.json`, licencias, documentación |
+| Corregir una regla de enlazado (`prose.json`) | Borrar o renombrar archivos; enlaces simbólicos; archivos ejecutables |
+| Texto plano, con las mismas claves que el inglés | HTML, scripts, enlaces o imágenes que el inglés no tenga, plantillas (`${…}`, `{{…}}`), caracteres de control o invisibles |
+| Los mismos marcadores `{n}` que el inglés | Claves nuevas que el inglés no tenga; marcadores distintos |
+| Contenido del **SRD 5.2.1** (CC-BY-4.0) | Contenido de los manuales comerciales o de cualquier otra fuente |
+
+Si tu cambio es legítimo y la verificación lo rechaza, abrí un *issue* en lugar de insistir: puede
+ser un falso positivo y se arregla en el repo, no en tu *pull request*.
+
+### Corregir un texto (5 minutos)
+
+1. **Hacé un fork** del repositorio y cloná tu copia.
+2. **Buscá la clave.** Los textos están en `data/<idioma>/<catálogo>.json`, un JSON plano
+   `clave → texto`. Por ejemplo, la descripción de Bola de fuego en español es
+   `data/es/spells.json` → `"fireball.desc"`. El inglés de esa misma clave está en
+   `data/en/spells.json`.
+3. **Editá solo el texto.** No cambies las claves. No agregues ni borres claves.
+4. **Mirá el SRD oficial en tu idioma** si el cambio toca un nombre o un término: existe en
+   español, francés, alemán e italiano, y para nombres y términos **manda el oficial**.
+5. **Corré los controles** (necesitás Node 20 o más; no hay nada que instalar):
+   ```bash
+   npm run check    # números, dados, estructura, glosario, y la barrera de seguridad
+   npm test         # pruebas de las herramientas
+   ```
+   Un texto con un error no entra: el validador compara cada número, dado y CD contra el inglés.
+   Si algo falla, el mensaje dice la clave y el motivo.
+6. **Abrí el *pull request*.** La verificación corre sola. Describí qué cambiaste y por qué (y si
+   usaste IA para traducir, decilo: ver «Honestidad» abajo).
+
+Para un error puntual sin querer editar archivos, abrí un *issue* con la plantilla «Error de
+traducción»: la **clave**, el idioma y cómo debería decir.
+
+### Qué catálogos hay y cómo se llaman las claves
+
+| Catálogo | Qué contiene | Claves |
+|---|---|---|
+| `origin` | especies, dotes, trasfondos | `<id>.name`, `<id>.desc`… |
+| `spells` | hechizos | `<id>.name`, `.desc`, `.higher_level`, `.material` |
+| `classes` | clases y subclases | `<id>.name`, `.desc`, `<id>.features.<n>…` |
+| `items` | equipo común: armas, armaduras, herramientas | `<id>.name`, `.desc` |
+| `magicitems` | objetos mágicos | `<id>.name`, `.desc` |
+| `monsters` | criaturas | `<id>.name`, `.desc`, `.actions.<n>.name`, `.actions.<n>.desc`… |
+| `glossary` | las explicaciones de las reglas que usan las aplicaciones | `<término>.name`, `.summary`, `.rules.<n>` |
+| `prose` | **reglas de enlazado**: cómo aparece cada término en un texto largo | `<término>.forms`, `.case`, `.before`, `.after` |
+
+Las claves son **estables y no se renombran**. Si a un idioma le falta una clave, la aplicación cae
+al inglés: se puede publicar un idioma incompleto.
+
+### Las reglas de enlazado (`prose.json`)
+
+Las aplicaciones subrayan, dentro de un texto largo, las palabras de reglas («Paralizado», «acción
+adicional», «daño de fuego») y al tocarlas muestran la explicación del glosario. Para saber **qué
+palabra del texto corresponde a qué término**, cada idioma trae su propia lista de *formas*. No son
+expresiones regulares: son **palabras y frases literales**, y la aplicación se encarga del resto.
+
+```jsonc
+// data/es/prose.json
+{
+  "condition.paralyzed.forms": "paralizado | paralizada | paralizados | paralizadas",
+  "rule.bonus-action.forms":   "acción adicional | acciones adicionales",
+  "damage.fire.forms":         "fuego",
+  "damage.fire.before":        "daño de | daño por | daño",   // solo cuenta si va justo después de esto
+  "rule.dc.forms":             "CD",
+  "rule.dc.case":              "exact"                         // distingue mayúsculas de minúsculas
+}
+```
+
+- `<término>.forms` (obligatoria): las formas separadas por ` | `. Incluí plurales, género y
+  conjugaciones que aparezcan en los textos. Hasta 40 formas, de 1 a 60 caracteres, solo letras,
+  números, espacios, apóstrofe, punto y guion.
+- `<término>.case` (opcional): `"exact"` si las mayúsculas importan (por ejemplo «CD» o los tipos
+  de criatura, para no confundir «Gigante» con «gigante»).
+- `<término>.before` / `.after` (opcionales): una palabra o frase que debe ir **justo antes** o
+  **justo después** (con un espacio entre medio). Sirve para que «fuego» cuente como el tipo de
+  daño solo en «daño de fuego», y no en «Elemental de fuego».
+- El `<término>` tiene que ser un id del glosario (los de `data/en/glossary.json`, sin el
+  `.name`).
+- Un idioma sin `prose.json` funciona igual: simplemente no subraya palabras.
+- Cuando en un texto el mismo término aparece varias veces, se enlaza solo la primera.
+
+### Sumar un idioma nuevo
+
+```bash
+node tools/cli.mjs new-language de "Deutsch"
+```
+
+crea `data/de/` con los catálogos vacíos, `tools/langs/de/guia.md` (decisiones de estilo),
+`tools/langs/de/glossary.json` (los términos de tu idioma y el **perfil** del validador: cómo se
+escriben los decimales, qué unidades imperiales hay que convertir, qué registro está prohibido) y un
+`prose.json` vacío. Después:
+
+1. Completá la guía y el glosario del idioma **antes** de traducir (ahorra mucho trabajo).
+2. Traducí por lotes, con IA o a mano; el validador rechaza todo lo que tenga errores. El proceso
+   completo, con prompts, controles y costos medidos, está en el [manual](docs/MANUAL.md).
+3. Podés abrir el *pull request* con un idioma **incompleto**: se publica con su porcentaje de
+   cobertura en `data/languages.json` (lo genera el mantenedor con `npm run status`).
+4. Cuando se publica la versión, las aplicaciones que usan este repo **descubren el idioma solas**.
+
+### Estilo y fidelidad
+
+- **El SRD oficial manda.** Si existe en tu idioma, los nombres y términos salen de ahí.
+- **Fidelidad antes que gracia:** ningún número, dado, CD, unidad o condición puede cambiar.
+- **Español:** tuteo (no voseo ni «vosotros»), unidades métricas (5 pies → 1,5 m), «tirada de
+  salvación», «acción adicional», «espacio de conjuro».
+- **Un texto que pasa el validador no está necesariamente bien**: el validador no detecta un
+  «bonus» traducido como «ventaja» ni un nombre inventado. Por eso se revisa todo, no una muestra.
+
+### Honestidad
+
+Los textos hechos con IA se declaran. El estado de cada idioma está en
+[`data/VERSION.json`](data/VERSION.json) y el de cada entrada, en
+[`data/CHECKLIST.<idioma>.md`](data/CHECKLIST.es.md). Una revisión humana es lo más valioso que
+se puede aportar.
+
+### Cómo llegan tus cambios a las aplicaciones
+
+1. El mantenedor revisa y mergea tu *pull request* (todo pasa por él).
+2. Publica una versión (`v0.3.1`…) y se genera la *release* con un ZIP.
+3. Las aplicaciones que fijan la versión (como [Brandsen](https://github.com/Frantarelli/brandsen))
+   reciben un *pull request* automático con la versión nueva, y **vuelven a validar todo** antes de
+   usarla.
+
+### Licencia al contribuir
+
+Al contribuir aceptás que tus textos se publiquen bajo **CC-BY-4.0** y tu código (si lo hubiera,
+solo el mantenedor lo cambia) bajo MIT. Solo contenido del **SRD**, nada de los manuales
+comerciales.
 
 ## Licencias
 

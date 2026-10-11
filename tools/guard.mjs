@@ -36,6 +36,7 @@ export const CATALOGS = [
   'monsters',
   'glossary',
   'ui',
+  'prose',
 ];
 
 const LANG = '[a-z]{2,3}(?:-[A-Za-z0-9]{2,8})?';
@@ -130,6 +131,51 @@ export function contentProblems(file, text, english) {
   return problems;
 }
 
+/**
+ * Las reglas de enlazado (`data/<idioma>/prose.json`): para cada término del glosario, las FORMAS
+ * literales con que aparece en un texto largo («paralizado | paralizada…»). No son expresiones
+ * regulares: la aplicación escapa cada forma, así que no hay código ajeno ni nada que colgar.
+ *
+ *   <término>.forms    obligatoria: formas separadas por « | » (hasta 40, de 1 a 60 caracteres)
+ *   <término>.case     opcional: «exact» si distingue mayúsculas de minúsculas
+ *   <término>.before   opcional: la palabra o frase que tiene que ir justo antes
+ *   <término>.after    opcional: la palabra o frase que tiene que ir justo después
+ */
+const FORM = /^[\p{L}\p{N}][\p{L}\p{N} '’.-]{0,59}$/u;
+export function proseProblems(file, text, termIds) {
+  let map;
+  try {
+    map = JSON.parse(text);
+  } catch {
+    return [`${file}: no es JSON válido`];
+  }
+  const out = [];
+  const seen = new Set();
+  for (const [key, value] of Object.entries(map)) {
+    const m = /^(.+).(forms|case|before|after)$/.exec(key);
+    if (!m) {
+      out.push(`${file} «${key}»: la clave tiene que ser <término>.forms, .case, .before o .after`);
+      continue;
+    }
+    const [, id, kind] = m;
+    if (termIds && !termIds.has(id)) out.push(`${file} «${key}»: «${id}» no es un término del glosario`);
+    if (typeof value !== 'string') continue; // lo marca contentProblems
+    seen.add(id);
+    if (kind === 'case') {
+      if (value !== 'exact') out.push(`${file} «${key}»: el único valor admitido es «exact»`);
+      continue;
+    }
+    const items = value.split(' | ').map((x) => x.trim());
+    const max = kind === 'forms' ? 40 : 10;
+    if (items.length === 0 || items.length > max) out.push(`${file} «${key}»: entre 1 y ${max} formas`);
+    for (const it of items)
+      if (!FORM.test(it)) out.push(`${file} «${key}»: forma no válida «${it.slice(0, 30)}» (solo letras, números, espacios, apóstrofe, punto y guion; hasta 60 caracteres)`);
+  }
+  for (const id of seen)
+    if (typeof map[`${id}.forms`] !== 'string') out.push(`${file}: «${id}» tiene reglas pero no ${id}.forms`);
+  return out;
+}
+
 /** El glosario de un idioma trae expresiones regulares (su perfil): se revisan antes de correrlas. */
 export function regexProblems(file, text) {
   let g;
@@ -153,6 +199,17 @@ export function regexProblems(file, text) {
       }
     }
   return out;
+}
+
+/** Los ids de término del glosario (del inglés), para saber a qué términos puede apuntar una regla. */
+function glossaryIds(cwd, head, base) {
+  const text = readBlob(cwd, head, 'data/en/glossary.json') ?? readBlob(cwd, base, 'data/en/glossary.json');
+  if (!text) return null;
+  try {
+    return new Set(Object.keys(JSON.parse(text)).filter((k) => k.endsWith('.name')).map((k) => k.slice(0, -5)));
+  } catch {
+    return null;
+  }
 }
 
 const readBlob = (cwd, ref, path) => {
@@ -187,6 +244,7 @@ export function review({ cwd = '.', base, head, maintainer = false }) {
     }
     const data = DATA_FILE.exec(c.path);
     if (data) {
+      if (data[2] === 'prose') problems.push(...proseProblems(c.path, blob, glossaryIds(cwd, head, base)));
       const enText = readBlob(cwd, head, `data/en/${data[2]}.json`) ?? readBlob(cwd, base, `data/en/${data[2]}.json`);
       let english = null;
       try {
@@ -195,13 +253,40 @@ export function review({ cwd = '.', base, head, maintainer = false }) {
         english = null;
       }
       // El inglés lo valida el mantenedor; si no existe, no hay contra qué comparar las claves.
-      problems.push(...contentProblems(c.path, blob, data[1] === 'en' ? null : english));
+      problems.push(...contentProblems(c.path, blob, data[1] === 'en' || data[2] === 'prose' ? null : english));
     } else if (LANG_FILE.test(c.path) && c.path.endsWith('.json')) problems.push(...regexProblems(c.path, blob));
     else if (LANG_FILE.test(c.path)) {
       if (INVISIBLE.test(blob)) problems.push(`${c.path}: caracteres de control o invisibles`);
     }
   }
   return problems;
+}
+
+/** Revisa TODOS los datos de traducción del árbol de trabajo (para `npm run check` y la CI). */
+export function reviewTree(root = '.') {
+  const fs = process.getBuiltinModule ? process.getBuiltinModule('node:fs') : null;
+  return fs ? reviewTreeWith(fs, root) : [];
+}
+
+function reviewTreeWith(fs, root) {
+  const out = [];
+  const read = (p) => (fs.existsSync(p) ? fs.readFileSync(p, 'utf8') : null);
+  const ids = (() => {
+    const t = read(`${root}/data/en/glossary.json`);
+    return t ? new Set(Object.keys(JSON.parse(t)).filter((k) => k.endsWith('.name')).map((k) => k.slice(0, -5))) : null;
+  })();
+  for (const dir of fs.readdirSync(`${root}/data`, { withFileTypes: true })) {
+    if (!dir.isDirectory() || dir.name === 'en') continue;
+    for (const c of CATALOGS) {
+      const file = `data/${dir.name}/${c}.json`;
+      const text = read(`${root}/${file}`);
+      if (text === null) continue;
+      const enText = read(`${root}/data/en/${c}.json`);
+      out.push(...contentProblems(file, text, c === 'prose' || !enText ? null : JSON.parse(enText)));
+      if (c === 'prose') out.push(...proseProblems(file, text, ids));
+    }
+  }
+  return out;
 }
 
 // ── Línea de comandos ──
@@ -211,6 +296,16 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
     const i = args.indexOf(`--${n}`);
     return i >= 0 ? args[i + 1] : undefined;
   };
+  if (args.includes('--all')) {
+    const problems = reviewTree();
+    if (problems.length === 0) console.log('guard: todos los datos pasan la barrera.');
+    else {
+      console.error(`guard: ${problems.length} problema(s):`);
+      for (const p of problems.slice(0, 60)) console.error(`  ✗ ${p}`);
+      process.exit(1);
+    }
+    process.exit(0);
+  }
   const base = flag('base');
   const head = flag('head');
   if (!base || !head) {
