@@ -1,5 +1,7 @@
 # dnd-srd-i18n
 
+**English:** see [`README.en.md`](README.en.md) — everything to use the data and to contribute.
+
 El **SRD 5.2.1 de D&D (reglas 2024)** traducido a varios idiomas, como **archivos planos listos
 para usar en cualquier proyecto**, más las herramientas para sumar y verificar idiomas con ayuda
 de IA.
@@ -81,6 +83,9 @@ controla el validador, cómo revisar y cuánto cuesta— está en
 > **Esta sección tiene todo lo necesario para aportar.** No hace falta leer nada más para corregir
 > un texto. Para sumar un idioma completo, además, el [manual](docs/MANUAL.md).
 
+> Para **usar** los datos en una aplicación: [`docs/INTEGRACION.md`](docs/INTEGRACION.md) y
+> [`docs/FORMATO.md`](docs/FORMATO.md). Seguridad: [`SECURITY.md`](SECURITY.md).
+
 ### Las reglas, en una mirada
 
 Un *pull request* a este repositorio **solo puede traer traducciones**. Una verificación
@@ -100,6 +105,10 @@ Si tu cambio es legítimo y la verificación lo rechaza, abrí un *issue* en lug
 ser un falso positivo y se arregla en el repo, no en tu *pull request*.
 
 ### Corregir un texto (5 minutos)
+
+> **Sin instalar nada:** abrí el archivo en GitHub, tocá el lápiz, editá **solo el texto** y
+> proponé el cambio: GitHub crea el fork y el *pull request* por vos. Los pasos de abajo son para
+> quien prefiere trabajar en su computadora.
 
 1. **Hacé un fork** del repositorio y cloná tu copia.
 2. **Buscá la clave.** Los textos están en `data/<idioma>/<catálogo>.json`, un JSON plano

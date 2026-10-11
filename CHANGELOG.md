@@ -4,6 +4,20 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.3.1] — 2026-10-11
+
+### Agregado
+- Documentación para integrar (`docs/INTEGRACION.md`) y referencia del formato y sus garantías
+  (`docs/FORMATO.md`); README en inglés (`README.en.md`); `SECURITY.md`; plantilla de *pull request* y de
+  *issues* (idioma nuevo, regla de enlazado); edición desde el navegador explicada.
+- Dependabot para las acciones de GitHub; las acciones están fijadas por commit.
+
+### Cambiado
+- La barrera deja pasar U+200C/U+200D (no-unión/unión de ancho cero) y U+200E/U+200F (marcas de
+  dirección): el persa, el hindi, el árabe y el hebreo no se pueden escribir bien sin ellos. Sigue
+  rechazando el espacio de ancho cero, los controles de dirección que reordenan el texto
+  («Trojan Source») y los joiners de palabra.
+
 ## [0.3.0] — 2026-10-11
 
 ### Agregado

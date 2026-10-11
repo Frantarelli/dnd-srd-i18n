@@ -1,0 +1,26 @@
+name: Regla de enlazado (prose)
+description: Falta una forma de un término, o una palabra se enlaza mal
+title: "[enlazado] "
+labels: ["prose"]
+body:
+  - type: input
+    id: idioma
+    attributes:
+      label: Idioma
+      placeholder: es
+    validations:
+      required: true
+  - type: input
+    id: termino
+    attributes:
+      label: Término del glosario
+      description: El id, por ejemplo `condition.paralyzed` o `damage.fire`
+    validations:
+      required: true
+  - type: textarea
+    id: caso
+    attributes:
+      label: Qué pasa
+      description: La frase donde falta (o sobra) el enlace. Si ya sabés la forma que falta, escribila.
+    validations:
+      required: true

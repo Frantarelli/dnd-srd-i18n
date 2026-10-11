@@ -1,0 +1,27 @@
+name: Quiero sumar un idioma
+description: Aviso de que voy a traducir a un idioma nuevo, o pregunta antes de empezar
+title: "[idioma nuevo] "
+labels: ["idioma"]
+body:
+  - type: input
+    id: idioma
+    attributes:
+      label: Idioma y código
+      placeholder: Deutsch (de)
+    validations:
+      required: true
+  - type: dropdown
+    id: fuente
+    attributes:
+      label: ¿Existe el SRD 5.2.1 oficial en ese idioma?
+      options:
+        - Sí (español, francés, alemán o italiano)
+        - No
+        - No sé
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: Cómo pensás traducir
+      description: A mano, con IA (cuál), por partes. Leíste el manual (docs/MANUAL.md) y la sección Contribuir del README.
