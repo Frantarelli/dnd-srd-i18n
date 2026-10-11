@@ -12,6 +12,16 @@ glossary). Adding a language is adding a folder: see below.
 Most documentation is in Spanish; this page has everything you need to **contribute** or **use** the
 data in English.
 
+## Free to use, with one condition: attribution
+
+The texts are free for **any project** (apps, character sheets, bots, modules; commercial too). **The only
+condition is attribution**, visible in your product (credits, app footer, licenses page or README).
+Copy this line:
+
+> D&D SRD 5.2.1 translations: © 2026 Frantarelli and contributors, CC-BY-4.0 — https://github.com/Frantarelli/dnd-srd-i18n. Based on the System Reference Document 5.2.1 by Wizards of the Coast LLC (CC-BY-4.0). Not endorsed by Wizards of the Coast.
+
+Details in [`ATTRIBUTION.md`](ATTRIBUTION.md) and [`LICENSE-DATA.md`](LICENSE-DATA.md).
+
 ## Use the data
 
 Plain JSON, `key → text`, no install needed:

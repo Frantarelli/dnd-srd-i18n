@@ -15,6 +15,16 @@ de IA.
 > oficial en español**. Todavía no lo revisó una persona. Está abierto a correcciones.
 > Detalle de cada entrada en [`data/CHECKLIST.es.md`](data/CHECKLIST.es.md).
 
+## Uso libre, con una sola condición: la atribución
+
+Los textos se pueden usar **gratis y para cualquier proyecto** (aplicaciones, hojas de personaje, bots,
+módulos; también comerciales). **La única condición es atribuir**, de forma visible en tu producto
+(créditos, pie de la aplicación, página de licencias o README). Copiá esta línea:
+
+> Traducciones del SRD 5.2.1 de D&D: © 2026 Frantarelli y colaboradores, CC-BY-4.0 — https://github.com/Frantarelli/dnd-srd-i18n. Basadas en el System Reference Document 5.2.1 de Wizards of the Coast LLC (CC-BY-4.0). No avaladas por Wizards of the Coast.
+
+Detalle en [`ATTRIBUTION.md`](ATTRIBUTION.md) y [`LICENSE-DATA.md`](LICENSE-DATA.md).
+
 ## Usar los datos
 
 No hace falta instalar nada: son JSON planos, `clave → texto`.
