@@ -4,6 +4,12 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.3.3] — 2026-10-11
+
+### Cambiado
+- Documentación y ejemplos sin referencias a aplicaciones concretas: el repositorio es neutral para cualquier
+  consumidor.
+
 ## [0.3.2] — 2026-10-11
 
 ### Cambiado
@@ -76,5 +82,4 @@ un idioma nuevo, menor; una corrección de texto, parche.
   para reportar errores de traducción.
 
 ### Notas
-- Primera versión. Origen del historial: proyecto Brandsen
-  (<https://github.com/Frantarelli/brandsen>), rama `feat/es-oficial`.
+- Primera versión. El español se tradujo y revisó antes de publicarse como repositorio.

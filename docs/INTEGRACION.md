@@ -27,9 +27,8 @@ import { contentProblems, proseProblems } from 'dnd-srd-i18n/tools/guard.mjs';
 // para prose.json:                         proseProblems(archivo, texto, idsDeTerminosDelGlosario)
 ```
 
-Si devuelven problemas, **cortá la instalación**. Brandsen lo hace en
-[`scripts/sync-i18n.mjs`](https://github.com/Frantarelli/brandsen/blob/main/scripts/sync-i18n.mjs)
-(copia los JSON a `src/` solo si pasan).
+Si devuelven problemas, **cortá la instalación**: un script de `postinstall` que valida cada JSON del
+paquete y copia a tu carpeta de trabajo solo lo que pasa (y sale con error si algo no pasa) alcanza.
 
 ## 3. Leerlos
 
@@ -43,7 +42,7 @@ const text = (key, lang) => (lang === 'en' ? en : es)[key] ?? en[key] ?? key; //
   nuevo aparece solo al subir la versión; no hace falta tocar código.
 - **Mostralos como texto**, nunca como HTML.
 - Los textos pueden traer `**negrita**`, `*cursiva*`, listas con `- ` y tablas con `|`: un
-  intérprete mínimo de Markdown alcanza (Brandsen: `src/ui/prose/markdown.ts`).
+  intérprete mínimo de Markdown alcanza.
 
 ## 4. El glosario y el enlazado con los textos largos
 
@@ -60,15 +59,16 @@ const re = new RegExp(`(?<![\\p{L}\\p{N}])(?:${forms.join('|')})(?![\\p{L}\\p{N}
 
   Con `.before` / `.after` agregá un lookbehind/lookahead de la frase (también escapada) más un
   espacio. Enlazá solo la **primera** aparición de cada término en un texto. Un idioma sin
-  `prose.json` simplemente no enlaza nada. Implementación completa: Brandsen,
-  `src/ui/prose/proseTerms.ts` y `link.ts`.
+  `prose.json` simplemente no enlaza nada. La regla de oro: las formas del catálogo
+  son datos, nunca código.
 
 ## 5. Mantenerse al día
 
 - Cada versión se anuncia en [Releases](https://github.com/Frantarelli/dnd-srd-i18n/releases) y en el
   [`CHANGELOG`](../CHANGELOG.md).
-- Subí la etiqueta cuando quieras (por ejemplo, un flujo semanal que abra un *pull request* con la
-  versión nueva, valide y corra tus pruebas; Brandsen tiene uno en `.github/workflows/i18n-update.yml`).
+- Subí la etiqueta cuando quieras. Un flujo semanal que mire la última *release*, suba la etiqueta en
+  `package.json`, instale (con la validación de arriba), corra tus pruebas y abra un *pull request* para que
+  lo revises te ahorra el trabajo manual sin quitarte el control.
 - Mientras fijes la etiqueta, **nada cambia por sorpresa**.
 
 ## 6. Obligaciones de licencia

@@ -43,7 +43,7 @@ contenido que no sea texto plano: HTML, scripts, enlaces que el inglés no tenga
 (`${…}`), caracteres de control o invisibles, claves nuevas y marcadores `{…}` distintos de los
 del inglés. Si tu cambio es legítimo y no pasa, abrí un *issue* en lugar de insistir.
 
-Las aplicaciones que usan estos textos (como Brandsen) los incluyen como **texto plano** y los
+Las aplicaciones que usan estos textos (por ejemplo, un VTT) los incluyen como **texto plano** y los
 vuelven a validar al instalarlos.
 
 ## Reglas
