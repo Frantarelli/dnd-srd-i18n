@@ -6,8 +6,9 @@ Los textos de `data/` están bajo la licencia
 
 Podés copiarlos, adaptarlos y redistribuirlos, incluso con fines comerciales, **siempre que**:
 
-1. Mantengas la atribución de `ATTRIBUTION.md` (System Reference Document 5.2.1, Wizards of the
-   Coast LLC, CC-BY-4.0).
+1. **Atribuyas**, de forma visible en tu producto, con el texto de `ATTRIBUTION.md`: el System
+   Reference Document 5.2.1 (Wizards of the Coast LLC, CC-BY-4.0) **y** las traducciones, el glosario y
+   las reglas de enlazado (**Frantarelli y colaboradores**, con el enlace a este repositorio).
 2. Indiques que los textos son una adaptación (traducción) y no una versión oficial.
 3. No sugieras que Wizards of the Coast ni los autores de este repositorio respaldan tu uso.
 

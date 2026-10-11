@@ -73,9 +73,10 @@ const re = new RegExp(`(?<![\\p{L}\\p{N}])(?:${forms.join('|')})(?![\\p{L}\\p{N}
 
 ## 6. Obligaciones de licencia
 
-Los textos son **CC-BY-4.0** (SRD 5.2.1 de Wizards of the Coast). Tu aplicación tiene que mostrar la
-atribución de [`ATTRIBUTION.md`](../ATTRIBUTION.md) (por ejemplo, en el pie de la app) y no sugerir
-que Wizards la avala. El código de `tools/` es MIT.
+Los textos son **CC-BY-4.0**. El uso es libre; **la única condición es la atribución**. Tu aplicación tiene
+que mostrar, en algún lado visible (créditos, pie, página de licencias), la línea de
+[`ATTRIBUTION.md`](../ATTRIBUTION.md): el SRD 5.2.1 de Wizards of the Coast **y** las traducciones de
+Frantarelli y colaboradores, con el enlace al repo. No sugieras que Wizards la avala. El código de `tools/` es MIT.
 
 ## 7. Cuando tu aplicación necesita términos nuevos
 

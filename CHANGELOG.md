@@ -4,6 +4,14 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.3.4] — 2026-10-11
+
+### Cambiado
+- **La atribución a las traducciones es obligatoria y está explícita.** `ATTRIBUTION.md` trae la línea lista para
+  copiar (español e inglés) que nombra a Wizards of the Coast y a «Frantarelli y colaboradores»; `LICENSE-DATA.md`
+  la exige; el README (y `README.en.md`) la muestran arriba de todo. El uso sigue siendo libre: la atribución es la
+  única condición.
+
 ## [0.3.3] — 2026-10-11
 
 ### Cambiado
