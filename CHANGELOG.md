@@ -4,6 +4,18 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.3.0] — 2026-10-11
+
+### Agregado
+- **Catálogo `prose`** (inglés y español): las **reglas de enlazado**, cómo aparece cada término del
+  glosario en un texto largo. Son listas de **formas literales** (`<término>.forms`, `.case`,
+  `.before`, `.after`), nunca expresiones regulares: la aplicación escapa cada forma, así que no
+  hay código ajeno. Un idioma nuevo suma las suyas sin tocar la aplicación.
+- La barrera valida `prose.json` (términos que existen, formas válidas, límites) y `npm run check`
+  revisa también todo el árbol de datos con ella.
+- README: sección «Contribuir» completa (reglas, paso a paso, formato de cada catálogo, reglas de
+  enlazado, cómo sumar un idioma, estilo, licencia y cómo llegan los cambios a las aplicaciones).
+
 ## [0.2.0] — 2026-10-11
 
 ### Agregado
