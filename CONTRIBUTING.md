@@ -30,6 +30,19 @@ completás la guía y el glosario del idioma, y traducís por lotes (con IA o a 
 rechaza todo texto con errores de números, dados o estructura. Podés abrir el *pull request* con un
 idioma **incompleto**: se publica con su porcentaje de cobertura (`data/languages.json`).
 
+## Qué acepta este repositorio (y qué no)
+
+Un pull request solo puede traer **traducciones**: archivos `data/<idioma>/<catálogo>.json` (menos
+el inglés, que es la fuente) y los de un idioma nuevo (`tools/langs/<idioma>/`). Una verificación
+automática (`tools/guard.mjs`, job `guard`) rechaza todo lo demás: flujos de trabajo,
+herramientas, `package.json`, borrados, enlaces simbólicos, archivos ejecutables. Y rechaza el
+contenido que no sea texto plano: HTML, scripts, enlaces que el inglés no tenga, plantillas
+(`${…}`), caracteres de control o invisibles, claves nuevas y marcadores `{…}` distintos de los
+del inglés. Si tu cambio es legítimo y no pasa, abrí un *issue* en lugar de insistir.
+
+Las aplicaciones que usan estos textos (como Brandsen) los incluyen como **texto plano** y los
+vuelven a validar al instalarlos.
+
 ## Reglas
 
 - **Solo contenido del SRD** (CC-BY-4.0). Nada de los manuales comerciales.

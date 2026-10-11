@@ -15,7 +15,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-const CATALOGS = ['origin', 'spells', 'classes', 'items', 'magicitems', 'monsters'];
+const CATALOGS = ['origin', 'spells', 'classes', 'items', 'magicitems', 'monsters', 'glossary'];
 
 /** Perfil por defecto de un idioma nuevo: lo mínimo para validar números y unidades. */
 export function defaultProfile() {

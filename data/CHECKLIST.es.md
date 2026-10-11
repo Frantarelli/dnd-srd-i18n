@@ -2461,3 +2461,19 @@ Generado: no se edita a mano.
 - [x] `young-silver-dragon` — Young Silver Dragon → Dragón de plata joven
 - [x] `young-white-dragon` — Young White Dragon → Dragón blanco joven
 - [x] `zombie` — Zombie → Zombi
+
+## ✅ glossary — 13/13 entradas
+
+- [x] `condition`
+- [x] `action`
+- [x] `rule`
+- [x] `ability`
+- [x] `skill`
+- [x] `sense`
+- [x] `damage`
+- [x] `ctype`
+- [x] `spell`
+- [x] `item`
+- [x] `weapon`
+- [x] `mastery`
+- [x] `armor`

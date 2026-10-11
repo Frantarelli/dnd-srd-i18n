@@ -4,6 +4,24 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.2.0] — 2026-10-11
+
+### Agregado
+- **Catálogo `glossary`** (inglés y español, 170 términos, 616 textos): las explicaciones de las
+  reglas que usan las aplicaciones (condiciones, acciones, reglas, características, habilidades,
+  sentidos, tipos de daño y de criatura, hechizos, rarezas y tipos de ítem mágico, sintonía,
+  cargas, propiedades y maestrías de armas, categorías de armadura). Claves
+  `<término>.name`, `<término>.summary` y `<término>.rules.<n>`. Los ids y las categorías de
+  los términos los define la aplicación; acá está solo el texto.
+- **Barrera de seguridad** (`tools/guard.mjs`, job `guard`): un pull request solo puede traer
+  traducciones; rechaza archivos ajenos a los datos, borrados, enlaces simbólicos y todo
+  contenido que no sea texto plano (HTML, scripts, enlaces, plantillas, caracteres invisibles).
+  Corre con el código de la rama principal, no con el del pull request.
+- `.github/CODEOWNERS`: todo cambio pasa por el mantenedor.
+
+### Cambiado
+- El glosario en español pasa de voseo a tuteo y a unidades métricas, como el resto del repo.
+
 ## [0.1.1] — 2026-10-10
 
 ### Cambiado

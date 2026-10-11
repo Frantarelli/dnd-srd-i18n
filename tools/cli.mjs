@@ -30,7 +30,7 @@ import { validateMap } from './validate-lib.mjs';
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const I18N = path.resolve(HERE, '../data');
 const LANGS = path.join(HERE, 'langs');
-const CATALOGS = ['origin', 'spells', 'classes', 'items', 'magicitems', 'monsters'];
+const CATALOGS = ['origin', 'spells', 'classes', 'items', 'magicitems', 'monsters', 'glossary'];
 
 const args = process.argv.slice(2);
 const cmd = args[0];
