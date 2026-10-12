@@ -4,6 +4,12 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.7.0] — 2026-10-12
+
+### Agregado
+- **Golpe desarmado** en el glosario (`action.unarmed-strike`): el ataque básico con el cuerpo, 1 más el modificador
+  de Fuerza.
+
 ## [0.6.0] — 2026-10-12
 
 ### Agregado
