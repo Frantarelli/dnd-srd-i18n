@@ -4,6 +4,19 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.7.1] — 2026-10-12
+
+### Corregido
+- **Alcances y movimientos de las criaturas** sin la cifra imperial suelta: «alcance 80/320 (24/96 m)» → «alcance 24/96 m»,
+  «se movió 20 (6 m) o más» → «se movió 6 m o más» (69 textos). La guía dice «nunca pies» y el SRD oficial pone solo metros.
+- **Glosario**: terminología oficial («tirada de ataque», «prueba de característica», «golpe crítico», «golpe
+  desarmado», «bonificador de competencia») y una frase mal conjugada ("las tiradas de ataque contra ti…", decía «contra tú»).
+
+### Cambiado
+- El validador entiende los alcances de dos cifras («80/320 ft») y los «N+ feet», que daban «números extra» falsos.
+  Avisos: 139 → 49. Los que quedan se revisaron uno por uno: conversiones correctas que el validador no sabe leer
+  («media libra» = 250 g, pintas, onzas, °F, «un pie» = 30 cm) y nombres propios (Valhalla, Ioun, Bafomet).
+
 ## [0.7.0] — 2026-10-12
 
 ### Agregado

@@ -92,6 +92,16 @@ function convertUnits(text) {
       .replace(/(\d+)\/(\d+)(?:-| )?inch(?:es)?(?![a-z])/gi, (_, a, b) =>
         String(Math.round((Number(a) / Number(b)) * IN_TO_CM * 100) / 100),
       )
+      // Alcance con dos cifras ("80/320 ft"): las dos pasan a metros ("24/96"), no solo la última.
+      .replace(
+        /(\d+)\/(\d+)(?:-| )?(?:feet|foot|ft\.?)(?![a-z])/gi,
+        (_, a, b) => `${dot(Number(a) * FT_TO_M)}/${dot(Number(b) * FT_TO_M)}`,
+      )
+      // "30+ feet" ("se movió 30 pies o más"): el signo + corta la unidad del número.
+      .replace(
+        /(\d+)\+(?:-| )?(?:feet|foot|ft\.?)(?![a-z])/gi,
+        (_, n) => `${dot(Number(n) * FT_TO_M)}+`,
+      )
       .replace(
         /(\d+) (to|or) (\d+)(?:-| )?(?:feet|foot|ft\.?)(?![a-z])/gi,
         (_, a, w, b) => `${dot(Number(a) * FT_TO_M)} ${w} ${dot(Number(b) * FT_TO_M)}`,
