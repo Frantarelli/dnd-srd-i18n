@@ -36,6 +36,7 @@ Todos son **JSON plano**: un objeto `{ "clave": "texto" }`. Nada anidado, nada q
 | `monsters` | criaturas | `<id>.name`, `.desc`, `.actions.<n>.name`, `.actions.<n>.desc`… |
 | `glossary` | explicaciones de reglas (ver abajo) | `<término>.name`, `.summary`, `.rules.<n>` |
 | `prose` | reglas de enlazado (ver abajo) | `<término>.forms`, `.case`, `.before`, `.after` |
+| `aliases` | otros nombres con que se conoce algo (ver abajo) | `spells.<id>` |
 
 **Solo está la prosa y los nombres.** Lo estructurado (nivel, escuela, dados, costos, CA) vive en los
 datos del SRD (por ejemplo [Open5e](https://open5e.com)) y se une por la clave (`<id>`).
@@ -75,6 +76,19 @@ nunca expresiones regulares**:
 
 El `<término>` tiene que existir en el glosario. En `prose` cada idioma puede usar las claves que
 necesite (no tienen que ser las mismas que en el inglés).
+
+### Los nombres alternativos (`aliases`)
+
+Un mismo hechizo se traduce de más de una manera («Guarda contra la muerte» / «Guardia contra la muerte»).
+Este catálogo guarda las otras formas **para que un buscador las encuentre**; el nombre que se muestra sigue
+siendo `<id>.name` de `spells`. Solo existe por idioma (no tiene versión en `en`).
+
+| Clave | Valor |
+|---|---|
+| `spells.<id>` | nombres alternativos separados por ` | ` (1 a 10; hasta 80 caracteres; letras, números, espacios y `. : , / - '`) |
+
+El `<id>` tiene que existir en `data/en/spells.json`. Son texto literal: se comparan, nunca se ejecutan.
+Un idioma sin `aliases.json` simplemente no tiene alternativas.
 
 ## `data/languages.json`
 
