@@ -33,6 +33,22 @@ completás la guía y el glosario del idioma, y traducís por lotes (con IA o a 
 rechaza todo texto con errores de números, dados o estructura. Podés abrir el *pull request* con un
 idioma **incompleto**: se publica con su porcentaje de cobertura (`data/languages.json`).
 
+## 3 bis. Sumar un nombre alternativo (alias)
+
+Si los jugadores buscan un hechizo con **otro nombre de traducción** que el nuestro («Guardia contra la muerte» en
+vez de «Guarda contra la muerte»), se agrega a `data/<idioma>/aliases.json`, no se cambia el nombre oficial:
+
+```json
+{ "spells.death-ward": "Guardia contra la muerte" }
+```
+
+- La clave es `spells.<id>` (el mismo id que `data/en/spells.json`). Varios nombres van separados por ` | `.
+- **Es un alias solo si es el mismo hechizo.** Si cambia el nivel, el efecto o el nombre en inglés, es otro hechizo y no
+  va acá. Ejemplo: «Fragmento mental» es el truco *Mind Sliver*, no «Clavo mental» (*Mind Spike*).
+- Nombre oficial y alias se cotejan con el SRD oficial; si el alias solo difiere en acentos o mayúsculas no hace falta
+  (los buscadores ya los ignoran).
+- `npm run check` valida el archivo.
+
 ## Qué acepta este repositorio (y qué no)
 
 Un pull request solo puede traer **traducciones**: archivos `data/<idioma>/<catálogo>.json` (menos
