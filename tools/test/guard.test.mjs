@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { test } from 'node:test';
-import { contentProblems, proseProblems, regexProblems, review } from '../guard.mjs';
+import { aliasProblems, contentProblems, proseProblems, regexProblems, review } from '../guard.mjs';
 
 const EN = { 'a.name': 'Acid Arrow', 'a.desc': 'Deals {n} damage. See the rules.', 'b.name': 'Bless' };
 
@@ -163,4 +163,15 @@ test('deja pasar lo que otros idiomas necesitan: ZWNJ, ZWJ y marcas de direcció
   // Persa (ZWNJ), hindi (ZWJ) y árabe/hebreo (marcas LRM/RLM): son texto legítimo.
   const ok = { 'a.name': 'می‌خواهم', 'b.name': 'क्‍ष', 'a.desc': 'ערך ‏שלום‎' };
   assert.deepEqual(contentProblems('f', JSON.stringify(ok), { 'a.name': 'x', 'b.name': 'y', 'a.desc': 'z' }), []);
+});
+
+test('los nombres alternativos son texto literal de hechizos que existen', () => {
+  const ids = { spells: new Set(['death-ward', 'reverse-gravity']) };
+  const ok = JSON.stringify({ 'spells.death-ward': 'Guardia contra la muerte', 'spells.reverse-gravity': 'Invertir gravedad | Gravedad inversa' });
+  assert.deepEqual(aliasProblems('a', ok, ids), []);
+  assert.ok(aliasProblems('a', JSON.stringify({ 'spells.nada': 'x' }), ids).some((p) => p.includes('no existe')));
+  assert.ok(aliasProblems('a', JSON.stringify({ 'items.death-ward': 'x' }), ids).length > 0);
+  assert.ok(aliasProblems('a', JSON.stringify({ 'spells.death-ward': '<b>x</b>' }), ids).length > 0);
+  assert.ok(aliasProblems('a', JSON.stringify({ 'spells.death-ward': '(a+)+$' }), ids).length > 0);
+  assert.ok(aliasProblems('a', JSON.stringify({ 'spells.death-ward': 'a'.repeat(81) }), ids).length > 0);
 });

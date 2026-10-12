@@ -62,6 +62,9 @@ const re = new RegExp(`(?<![\\p{L}\\p{N}])(?:${forms.join('|')})(?![\\p{L}\\p{N}
   `prose.json` simplemente no enlaza nada. La regla de oro: las formas del catálogo
   son datos, nunca código.
 
+- **Buscador**: si tenés uno, indexá también `aliases.json` (`spells.<id>` → nombres separados por ` | `) apuntando al
+  mismo hechizo que `<id>.name`; mostrá siempre el nombre oficial. Normalizá acentos y mayúsculas al comparar.
+
 ## 5. Mantenerse al día
 
 - Cada versión se anuncia en [Releases](https://github.com/Frantarelli/dnd-srd-i18n/releases) y en el

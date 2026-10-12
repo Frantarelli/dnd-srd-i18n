@@ -4,6 +4,14 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.8.0] — 2026-10-12
+
+### Agregado
+- **Catálogo `aliases`** (`data/<idioma>/aliases.json`): otros nombres con que la gente conoce un hechizo, para que un
+  buscador los encuentre. Español: «Guardia contra la muerte», «Invertir gravedad», «Tormenta de venganza» y
+  «Conjurar seres de los bosques», las cuatro variantes de otra traducción comunitaria del SRD 5.2.
+  El nombre oficial no cambia. El validador y la barrera de seguridad lo revisan (el `<id>` debe existir en el inglés).
+
 ## [0.7.1] — 2026-10-12
 
 ### Corregido
