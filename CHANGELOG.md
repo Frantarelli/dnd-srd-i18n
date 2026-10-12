@@ -4,6 +4,14 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.6.0] — 2026-10-12
+
+### Agregado
+- **Descripción de cada opción de nivel 1 de clase** (`.desc` junto a cada `.name`): Orden divina ×2, Orden primigenia ×2 e
+  invocaciones sobrenaturales ×5. Inglés del SRD 5.2.1; español del SRD oficial.
+- **Glosario de creación de personaje**: Dado de golpe de la clase (`rule.class-hit-die`), Matriz estándar
+  (`rule.standard-array`) y Compra de puntos (`rule.point-buy`).
+
 ## [0.5.1] — 2026-10-11
 
 ### Aviso
