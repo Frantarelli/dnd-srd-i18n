@@ -90,3 +90,12 @@ test('stale: las traducciones corresponden al inglés actual', () => {
   const out = execFileSync('node', [path.join(ROOT, 'tools/cli.mjs'), 'stale'], { encoding: 'utf8' });
   assert.match(out, /corresponden al inglés actual/);
 });
+
+test('el validador convierte los alcances «A/B ft» y «N+ feet»', () => {
+  assert.deepEqual(numbersOf('range 80/320 ft.', 'en'), ['24', '96']);
+  assert.deepEqual(numbersOf('moved 20+ feet straight toward it', 'en'), ['6']);
+  assert.deepEqual(numbersOf('moved 30+ feet', 'en'), ['9']);
+  // Una cifra suelta sigue igual que antes, y los dados no se tocan.
+  assert.deepEqual(numbersOf('reach 5 ft.', 'en'), ['1.5']);
+  assert.deepEqual(numbersOf('8 (1d8 + 4) damage within 30 feet', 'en'), ['8', '1d8', '4', '9']);
+});
