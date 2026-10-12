@@ -9,6 +9,8 @@ un idioma nuevo, menor; una corrección de texto, parche.
 ### Agregado
 - **Descripción de cada opción de nivel 1 de clase** (`.desc` junto a cada `.name`): Orden divina ×2, Orden primigenia ×2 e
   invocaciones sobrenaturales ×5. Inglés del SRD 5.2.1; español del SRD oficial.
+- **Glosario de creación de personaje**: Dado de golpe de la clase (`rule.class-hit-die`), Matriz estándar
+  (`rule.standard-array`) y Compra de puntos (`rule.point-buy`).
 
 ## [0.5.1] — 2026-10-11
 
