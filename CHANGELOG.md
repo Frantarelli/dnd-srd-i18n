@@ -4,6 +4,19 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.9.0] — 2026-10-12
+
+### Agregado
+- **Opciones de clase de nivel alto** (nombre y descripción de cada una): las 23 **invocaciones sobrenaturales** que faltaban
+  (con su requisito de nivel y de pacto), las 10 opciones de **Metamagia**, las de **Golpes benditos** (Clérigo), **Furia
+  elemental** (Druida), **El cazador y la presa** y **Tácticas defensivas** (Cazador), los cuatro **terrenos** del Círculo de la
+  Tierra y los cinco tipos de daño de la **Afinidad elemental** del Hechicero dracónico. Inglés del SRD 5.2.1; español del SRD
+  oficial.
+
+### Nota
+- En «Lanza sobrenatural» el SRD oficial en español dice «10 veces tu nivel… metros», que no equivale a los «30 veces… pies» del
+  original; el texto conserva la cifra del original y agrega la conversión (9 m por nivel).
+
 ## [0.8.0] — 2026-10-12
 
 ### Agregado
