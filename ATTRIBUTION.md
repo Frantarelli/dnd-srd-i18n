@@ -28,7 +28,12 @@ In English:
 ## Qué es cada cosa
 
 - `data/en/` es el **texto en inglés del SRD 5.2.1**, tal cual lo publica Open5e API v2
-  (documento `srd-2024`), sin cambios, separado en claves estables.
+  (documento `srd-2024`), sin cambios, separado en claves estables. **Salvo las claves `.summary`**
+  (ver abajo).
+- Las claves `<clave>.summary` (en `data/en/` y en cada idioma) son **resúmenes cortos adaptados** del
+  texto oficial de la misma entrada, para mostrar en una tarjeta. Son una adaptación (escritos con ayuda
+  de IA y verificados contra el texto oficial), **no** texto del SRD: el texto oficial completo sigue en su
+  clave de siempre (`.desc`, `.text`).
 - `data/<idioma>/` son **traducciones derivadas** de ese texto. Son una adaptación: están
   traducidas con ayuda de IA y revisadas (ver `ESTADO` de cada idioma), con las unidades
   imperiales convertidas a métricas. **No** son una versión oficial ni están avaladas por

@@ -4,6 +4,16 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [Sin publicar]
+
+### Agregado
+- **Resúmenes de tarjeta** (`<clave>.summary`): la convención, los chequeos (`tools/summary-lib.mjs`: ningún número ni término
+  de reglas que el texto oficial no tenga, un renglón, largo, vigencia), los comandos `summary-batch`, `summary-check`,
+  `summary-merge` y `summary-review`, el borrador local con Ollama (`local-summarize.mjs`, `summary-night.mjs`), los prompts del
+  resumidor y del verificador, y 21 ejemplos hechos a mano en inglés y español (`tools/summary-examples.json`). Todavía sin
+  resúmenes publicados. Ver `docs/MANUAL.md` § 13.
+- `npm run check` corre también `summary-check`.
+
 ## [0.10.0] — 2026-10-13
 
 ### Agregado

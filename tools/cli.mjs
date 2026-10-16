@@ -18,6 +18,14 @@
 //       Los nombres de hechizo aprobados entran al glosario del idioma.
 //   new-language <código> [nombre]
 //       Crea la estructura de un idioma nuevo (perfil, glosario por completar, guía, carpeta).
+//   summary-batch <catálogo> [--count 40] [--batches 1] [--keys a,b | --keys-file f] [--no-legendary] [--out DIR]
+//       La próxima tanda de textos largos sin resumen (`<clave>.summary`), con el texto al lado.
+//   summary-check [<catálogo> --file lote.json] [--lang] [--warn]
+//       Los resúmenes contra su texto oficial (números, términos, forma, vigencia).
+//   summary-merge <catálogo> <lote.json> [--lang]
+//       Suma un lote de resúmenes revisado (un «?» no se publica: queda como «no se resume»).
+//   summary-review <catálogo> --src lote.src.json --files a.en.json,b.es.json [--out f] [--json]
+//       La tabla oficial | resumen de una tanda, para revisarla.
 
 import crypto from 'node:crypto';
 import fs from 'node:fs';
@@ -26,6 +34,14 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { scaffoldLanguage } from './new-language.mjs';
 import { validateMap } from './validate-lib.mjs';
+import {
+  checkSummaries,
+  isSummaryKey,
+  pending,
+  SKIP,
+  sourceKeyOf,
+  termsOf,
+} from './summary-lib.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const I18N = path.resolve(HERE, '../data');
@@ -100,7 +116,8 @@ function cmdBatch() {
   // Pendientes agrupados por entrada, en el orden del archivo.
   const groups = new Map();
   for (const [k, v] of Object.entries(en)) {
-    if (k in done) continue;
+    // Los resúmenes se traducen con su propio flujo (summary-merge los chequea contra el texto oficial).
+    if (k in done || isSummaryKey(k)) continue;
     const e = entityOf(catalog, k);
     if (!groups.has(e)) groups.set(e, {});
     groups.get(e)[k] = v;
@@ -243,9 +260,11 @@ function cmdMerge() {
 
 function languageStats(l, glossary) {
   const rows = [];
+  // Los resúmenes no cuentan como traducción pendiente: tienen su propio estado (summary-check).
+  const noSummaries = (m) => Object.fromEntries(Object.entries(m).filter(([k]) => !isSummaryKey(k)));
   for (const c of CATALOGS) {
-    const en = readJson(enFile(c), {});
-    const tr = readJson(trFile(l, c), {});
+    const en = noSummaries(readJson(enFile(c), {}));
+    const tr = noSummaries(readJson(trFile(l, c), {}));
     const entities = new Map();
     for (const k of Object.keys(en)) {
       const e = entityOf(c, k);
@@ -422,7 +441,217 @@ function cmdStale() {
   process.exitCode = bad ? 1 : 0;
 }
 
+// ── Resúmenes cortos (`<clave>.summary`) ───────────────────────────────────
+// Ver `tools/summary-lib.mjs` (qué se chequea) y `docs/MANUAL.md` § «Resúmenes» (el proceso).
+// `data/en/_summary-source.json` guarda, por resumen inglés, la huella del texto completo con que se
+// escribió (y los que se decidió no resumir, `skip`). Si el texto cambia, el resumen queda vencido.
+
+const SUMMARY_CATALOGS = ['spells', 'monsters', 'classes', 'origin'];
+const summarySourceFile = path.join(I18N, 'en', '_summary-source.json');
+const readSummarySource = () => readJson(summarySourceFile, {});
+const proseOf = (l) => readJson(trFile(l, 'prose'), {});
+
+/** El contexto de los chequeos de un idioma: perfil (números) y términos de reglas. */
+function summaryCtx(l) {
+  return { lang: l, glossary: l === 'en' ? null : loadGlossary(l), terms: termsOf(proseOf(l)) };
+}
+
+/** Las legendarias están en pausa en Brandsen: `--no-legendary` las deja fuera de las tandas. */
+const summaryFilter = () => (k) => !(has('no-legendary') && /\.legendary_actions\./.test(k));
+
+function cmdSummaryBatch() {
+  const catalog = args[1];
+  if (!SUMMARY_CATALOGS.includes(catalog)) throw new Error(`catálogo sin resúmenes: ${catalog}`);
+  const count = Number(flag('count', '40'));
+  const start = Number(flag('start', '1'));
+  const out = flag('out', path.join(os.tmpdir(), 'dnd-srd-i18n', 'summaries'));
+  const en = readJson(enFile(catalog), {});
+  const skipped = readSummarySource()[catalog] ?? {};
+  // Lo que ya está en una tanda sin mergear no se vuelve a ofrecer.
+  const taken = new Set();
+  for (const f of flag('exclude', '').split(',').filter(Boolean))
+    for (const k of Object.keys(readJson(f, {}))) taken.add(k);
+  // `--keys a,b,c` (claves `.summary`): una tanda elegida a mano, en ese orden (la piloto).
+  const keysFile = flag('keys-file');
+  const only = keysFile
+    ? fs
+        .readFileSync(keysFile, 'utf8')
+        .split(/\r?\n/)
+        .map((l) => l.trim())
+        .filter((l) => l && !l.startsWith('#'))
+    : flag('keys', '').split(',').filter(Boolean);
+  let list = pending(en, summaryFilter()).filter(
+    (p) => !taken.has(p.summaryKey) && !(p.summaryKey in skipped),
+  );
+  if (only.length) {
+    const byKey = new Map(list.map((p) => [p.summaryKey, p]));
+    list = only.map((k) => byKey.get(k)).filter(Boolean);
+  }
+  const files = [];
+  for (let i = 0; i < Math.max(1, Number(flag('batches', '1'))) && list.length; i++) {
+    const part = list.splice(0, count);
+    const n = String(start + i).padStart(3, '0');
+    const file = path.join(out, `${catalog}-sum-${n}.src.json`);
+    save(file, Object.fromEntries(part.map((p) => [p.summaryKey, p.text])));
+    files.push(`${file}\t${part.length} textos`);
+  }
+  for (const f of files) console.log(f);
+  console.log(`sin resumen todavía: ${pending(en, summaryFilter()).length} textos de ${catalog}`);
+}
+
+/** Chequea un lote (`--file`) o todo lo publicado, en un idioma o en todos. */
+function cmdSummaryCheck() {
+  const warn = has('warn');
+  const file = flag('file');
+  if (file) {
+    const catalog = args[1];
+    if (!SUMMARY_CATALOGS.includes(catalog)) throw new Error('uso: summary-check <catálogo> --file <lote> [--lang]');
+    const r = checkSummaries(readJson(file, {}), readJson(trFile(lang, catalog), {}), summaryCtx(lang));
+    printReport(`[${lang}] ${path.basename(file)}`, r, warn);
+    process.exit(r.errors.length ? 1 : 0);
+  }
+  const langs = flag('lang') ? [lang] : ['en', ...targetLanguages()];
+  const src = readSummarySource();
+  let bad = 0;
+  for (const l of langs) {
+    const ctx = summaryCtx(l);
+    for (const c of SUMMARY_CATALOGS) {
+      const texts = readJson(trFile(l, c), {});
+      const sums = Object.fromEntries(Object.entries(texts).filter(([k]) => isSummaryKey(k)));
+      if (!Object.keys(sums).length) continue;
+      const r = checkSummaries(sums, texts, ctx);
+      // Vigencia: el texto inglés con que se escribió cada resumen no cambió.
+      if (l === 'en')
+        for (const k of Object.keys(sums)) {
+          const sk = sourceKeyOf(k, texts);
+          const h = src[c]?.[k]?.hash;
+          if (!h) r.errors.push({ key: k, msg: 'sin huella en _summary-source.json (mergear con summary-merge)' });
+          else if (sk && hash(texts[sk]) !== h)
+            r.errors.push({ key: k, msg: 'vencido: el texto completo cambió desde que se escribió' });
+        }
+      printReport(`[${l}] ${c} (resúmenes)`, r, warn);
+      bad += r.errors.length;
+    }
+  }
+  process.exit(bad ? 1 : 0);
+}
+
+/**
+ * Suma un lote de resúmenes revisado. En inglés, cada uno queda justo después del texto que resume
+ * y se guarda su huella; un `?` no se publica: queda anotado como «no se resume». En otro idioma,
+ * además del chequeo contra su texto, pasa el validador de siempre contra el resumen inglés.
+ */
+function cmdSummaryMerge() {
+  const catalog = args[1];
+  const file = args[2];
+  if (!SUMMARY_CATALOGS.includes(catalog) || !file) throw new Error('uso: summary-merge <catálogo> <lote> [--lang]');
+  const batch = readJson(file, null);
+  if (!batch) throw new Error(`no se pudo leer el lote: ${file}`);
+  const en = readJson(enFile(catalog), {});
+  const texts = readJson(trFile(lang === 'en' ? 'en' : lang, catalog), {});
+  const keep = Object.fromEntries(Object.entries(batch).filter(([, v]) => v.trim() !== SKIP));
+  const r = checkSummaries(keep, texts, summaryCtx(lang));
+  if (lang !== 'en') {
+    const v = validateMap(en, keep, loadGlossary(lang));
+    r.errors.push(...v.errors);
+    r.warnings.push(...v.warnings);
+  }
+  if (r.errors.length) {
+    printReport(`RECHAZADO ${path.basename(file)}`, r, true);
+    process.exit(1);
+  }
+  if (lang === 'en') {
+    const src = readSummarySource();
+    src[catalog] ??= {};
+    for (const [k, v] of Object.entries(batch)) {
+      const sk = sourceKeyOf(k, en);
+      if (!sk) continue;
+      src[catalog][k] = v.trim() === SKIP ? { hash: hash(en[sk]), skip: true } : { hash: hash(en[sk]) };
+    }
+    const merged = {};
+    for (const [k, v] of Object.entries(en)) {
+      if (isSummaryKey(k) && k in keep) continue;
+      merged[k] = v;
+      const sk = `${k.replace(/\.(desc|text)$/, '')}.summary`;
+      if (/\.(desc|text)$/.test(k) && sk in keep) merged[sk] = keep[sk];
+    }
+    save(enFile(catalog), merged);
+    save(summarySourceFile, src);
+  } else {
+    const merged = { ...readJson(langFile(catalog), {}), ...keep };
+    const enNow = readJson(enFile(catalog), {});
+    const ordered = {};
+    for (const k of Object.keys(enNow)) if (k in merged) ordered[k] = merged[k];
+    save(langFile(catalog), ordered);
+  }
+  const skips = Object.keys(batch).length - Object.keys(keep).length;
+  console.log(
+    `[${lang}] ${catalog}: +${Object.keys(keep).length} resúmenes${skips ? `, ${skips} sin resumir (?)` : ''} (${r.warnings.length} avisos)`,
+  );
+}
+
+/**
+ * La tabla para leer una tanda: texto oficial y resumen, en cada idioma, con lo que dijeron los
+ * chequeos. `--json` la deja en el formato que lee el verificador.
+ *   summary-review <catálogo> --src lote.src.json --files lote.en.json,lote.es.json --out revisar.md
+ */
+function cmdSummaryReview() {
+  const catalog = args[1];
+  const srcBatch = readJson(flag('src', ''), null);
+  if (!SUMMARY_CATALOGS.includes(catalog) || !srcBatch) throw new Error('uso: summary-review <catálogo> --src <lote.src.json> --files <a.en.json,b.es.json> [--out f] [--json]');
+  const byLang = {};
+  for (const f of flag('files', '').split(',').filter(Boolean)) {
+    const m = /\.([a-z]{2,3}(?:-[A-Za-z0-9]+)?)\.json$/.exec(f);
+    if (m) byLang[m[1]] = readJson(f, {});
+  }
+  const langs = Object.keys(byLang);
+  const ctx = Object.fromEntries(langs.map((l) => [l, summaryCtx(l)]));
+  const texts = Object.fromEntries(langs.map((l) => [l, readJson(trFile(l, catalog), {})]));
+  const rows = Object.keys(srcBatch).map((k) => {
+    const row = { key: k };
+    for (const l of langs) {
+      const sk = sourceKeyOf(k, texts[l]);
+      const official = sk ? texts[l][sk] : '';
+      const summary = byLang[l][k] ?? null;
+      const r = summary === null ? null : checkSummaries({ [k]: summary }, texts[l], ctx[l]);
+      row[l] = {
+        official,
+        summary,
+        problems: r ? [...r.errors.map((e) => e.msg), ...r.warnings.map((w) => `aviso: ${w.msg}`)] : ['falta'],
+      };
+    }
+    return row;
+  });
+  const outFile = flag('out');
+  if (has('json')) {
+    const text = `${JSON.stringify(rows, null, 2)}\n`;
+    if (outFile) fs.writeFileSync(outFile, text);
+    else console.log(text);
+    return;
+  }
+  const cell = (s) => String(s ?? '—').replace(/\|/g, '\\|').replace(/\n/g, '<br>');
+  const md = [
+    `# Revisión de resúmenes · ${catalog}`,
+    '',
+    `| Clave | ${langs.map((l) => `Oficial (${l}) | Resumen (${l})`).join(' | ')} | Chequeos |`,
+    `|---|${langs.map(() => '---|---').join('|')}|---|`,
+    ...rows.map(
+      (r) =>
+        `| \`${r.key}\` | ${langs.map((l) => `${cell(r[l].official)} | **${cell(r[l].summary)}**`).join(' | ')} | ${cell(
+          langs.flatMap((l) => r[l].problems.map((p) => `${l}: ${p}`)).join('; ') || 'ok',
+        )} |`,
+    ),
+    '',
+  ].join('\n');
+  if (outFile) fs.writeFileSync(outFile, md);
+  else console.log(md);
+}
+
 const commands = {
+  'summary-batch': cmdSummaryBatch,
+  'summary-check': cmdSummaryCheck,
+  'summary-merge': cmdSummaryMerge,
+  'summary-review': cmdSummaryReview,
   snapshot: cmdSnapshot,
   stale: cmdStale,
   batch: cmdBatch,
