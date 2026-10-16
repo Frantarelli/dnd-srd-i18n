@@ -1,0 +1,7 @@
+{
+  "rogue.feature.cunning-action.summary": "Acción adicional: Correr, Retirarse o Esconderse.",
+  "bard.feature.bardic-inspiration.summary": "Acción adicional: una criatura a 18 m recibe tu dado de Inspiración bárdica (d6) para sumarlo a una prueba de d20 fallida en la siguiente hora.",
+  "druid.feature.wild-shape.summary": "Acción adicional: adoptas una forma de bestia conocida por la mitad de tu nivel de druida en horas. Dos usos; uno vuelve con descanso corto.",
+  "sorcerer.feature.innate-sorcery.summary": "Acción adicional, 1 minuto: +1 a la CD de salvación de tus conjuros de hechicero y ventaja en sus tiradas de ataque. Dos veces por descanso largo.",
+  "monk.feature.monks-focus.summary": "Gastas puntos de enfoque: Ráfaga de golpes (dos golpes desarmados), Defensa paciente (Retirarse y Esquivar), Paso del viento (Correr)."
+}

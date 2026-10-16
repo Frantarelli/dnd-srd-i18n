@@ -72,6 +72,27 @@ test('forma: largo, un renglón, sin tablas ni negrita', () => {
   assert.doesNotMatch(checkSummary('a'.repeat(140), FIREBALL_ES, ctx.es).errors.join('; '), /largo/);
 });
 
+test('lo que se vio en el piloto: «?» suelto, «etc.», «half» inventado, palabras sin traducir', () => {
+  const errs = (s, l = 'en', english) =>
+    checkSummary(s, l === 'en' ? FIREBALL_EN : FIREBALL_ES, ctx[l], english).errors.join('; ');
+  assert.match(errs('Choose one benefit: ?'), /suelto/);
+  assert.match(errs('Breeze, dust, embers, etc.'), /etc/);
+  const acid = readJson('data/en/spells.json')['acid-splash.desc'];
+  assert.match(checkSummary('1d6 Acid damage, or half on a success.', acid, ctx.en).errors.join('; '), /half/);
+  const en = 'On your turn, take Dash, Disengage, or Hide as a Bonus Action.';
+  const cunning = readJson('data/es/classes.json')['rogue.feature.cunning-action.desc'];
+  assert.match(
+    checkSummary('En tu turno, Dash, Disengage o Hide como acción adicional.', cunning, ctx.es, en).errors.join('; '),
+    /sin traducir .*: Dash, Disengage, Hide/,
+  );
+  // «Con.» está dentro de «Constitución»: no es una palabra sin traducir.
+  const breath = readJson('data/es/origin.json')['species.dragonborn.trait.breath-weapon.text'];
+  assert.doesNotMatch(
+    checkSummary('Salvación de Destreza (CD 8 + Con.): 1d10.', breath, ctx.es, 'Dexterity save (DC 8 + Con.): 1d10.').errors.join('; '),
+    /sin traducir/,
+  );
+});
+
 test('«?» = no se resume: no es error', () => {
   assert.deepEqual(checkSummary('?', FIREBALL_EN, ctx.en), { errors: [], warnings: [] });
 });

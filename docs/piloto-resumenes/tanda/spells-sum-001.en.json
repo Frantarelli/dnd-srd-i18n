@@ -1,0 +1,17 @@
+{
+  "acid-splash.summary": "A 5-foot-radius Sphere explodes: creatures make a Dexterity saving throw, taking 1d6 Acid damage on a failure.",
+  "elementalism.summary": "Create one minor effect within range: a breeze, dust or sand, harmless embers and smoke, mist or water, or a crude shape.",
+  "mending.summary": "Repairs a single break or tear in an object you touch, up to 1 foot in any dimension; can't restore magic to magic items.",
+  "produce-flame.summary": "A flame in your hand sheds Bright Light 20 feet. Magic action: ranged spell attack within 60 feet, 1d8 Fire damage.",
+  "shocking-grasp.summary": "Melee spell attack: 1d8 Lightning damage; the target can't make Opportunity Attacks until the start of its next turn.",
+  "alarm.summary": "Wards a door, window or area up to a 20-foot Cube: an audible or mental alarm alerts you when a creature touches or enters.",
+  "comprehend-languages.summary": "Understand spoken and signed languages, and written languages while touching the surface; 1 minute per page of text.",
+  "ensnaring-strike.summary": "Target makes a Strength save; failure means Restrained (1d6 Piercing damage each turn) until spell ends; success ends the spell.",
+  "grease.summary": "Creates Difficult Terrain in a 10-foot square: creatures must make a Dexterity saving throw or fall Prone.",
+  "illusory-script.summary": "?",
+  "acid-arrow.summary": "Ranged spell attack: 4d4 Acid damage, then 2d4 Acid damage at the end of its next turn; on a miss, half initial damage.",
+  "calm-emotions.summary": "Charisma save for each Humanoid in a 20-foot-radius Sphere; on a failure, Immunity to Charmed and Frightened or Indifferent.",
+  "flame-blade.summary": "Evoke a fiery blade: melee spell attack deals 3d6 Fire damage plus your spellcasting ability modifier.",
+  "magic-mouth.summary": "?",
+  "rope-trick.summary": "?"
+}

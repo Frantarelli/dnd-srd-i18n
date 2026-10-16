@@ -1,0 +1,17 @@
+{
+  "air-elemental.actions.2.summary": "Una criatura Mediana o más pequeña en su espacio: salvación de Fuerza CD 13 o 4d10 + 2 de trueno, empujada 6 m y Derribada; la mitad si tiene éxito.",
+  "bronze-dragon-wyrmling.actions.3.summary": "Cada criatura en un cono de 9 m hace una salvación de Fuerza CD 12 o es empujada 9 m y queda Derribada.",
+  "darkmantle.actions.1.summary": "Crea oscuridad mágica en una emanación de 4,5 m; dura hasta 10 minutos con Concentración; bloquea visión en la oscuridad e iluminación.",
+  "fire-elemental.actions.0.summary": "Cuerpo a cuerpo +6, alcance 1,5 m: 2d6 + 3 de daño de fuego; el objetivo (criatura u objeto inflamable) empieza a arder.",
+  "giant-scorpion.actions.0.summary": "Cuerpo a cuerpo +5, alcance 1,5 m: 1d6 + 3 de daño contundente; una criatura Grande o más pequeña queda Agarrada (CD 13 para escapar) por una pinza.",
+  "green-dragon-wyrmling.actions.1.summary": "Cada criatura en un cono de 4,5 m hace una salvación de Constitución CD 11: 6d6 de daño de veneno, o la mitad si tiene éxito.",
+  "lion.actions.2.summary": "Una criatura a 4,5 m hace una salvación de Sabiduría CD 11 o queda Asustada hasta el inicio del próximo turno del león.",
+  "phase-spider.actions.0.summary": "Cuerpo a cuerpo +5, alcance 1,5 m: 1d10 + 3 perforante y 2d8 de veneno; a 0 puntos de golpe queda estable, Envenenado y Paralizado 1 hora.",
+  "shambling-mound.actions.0.summary": "Cuerpo a cuerpo +7, alcance 3 m: 1d6 + 4 contundente y 2d4 de relámpago; los objetivos Medianos o más pequeños son arrastrados 1,5 m.",
+  "vampire-familiar.actions.1.summary": "+5, alcance 1,5 m o 6/18 m: 1d4 + 3 perforante y 3d4 necrótico; a 0 puntos de golpe, Estable pero Envenenado y Paralizado 1 hora.",
+  "bandit-captain.reactions.0.summary": "El capitán suma 2 a su CA contra un ataque cuerpo a cuerpo si ve al atacante y empuña un arma cuerpo a cuerpo.",
+  "dryad.bonus_actions.0.summary": "A 1,5 m de un árbol Grande o más grande, la dríade se teletransporta a 1,5 m de otro árbol Grande a 18 m.",
+  "gorgon.bonus_actions.0.summary": "Una criatura Derribada a 1,5 m hace una salvación de Destreza CD 16; fallo: 2d10 + 5 de daño contundente, éxito: la mitad.",
+  "octopus.reactions.0.summary": "Bajo el agua, si una criatura termina su turno a 1,5 m: la tinta llena un cubo de 1,5 m (muy oscurecido, 1 minuto) y el pulpo nada.",
+  "werebear.bonus_actions.0.summary": "Se transforma en un híbrido de oso y humanoide Grande o en un oso Grande, o vuelve a su forma humanoide; solo cambia el tamaño."
+}

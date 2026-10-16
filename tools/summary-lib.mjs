@@ -34,6 +34,16 @@ export const LIMITS = {
 
 export const limitsOf = (lang) => (lang === 'en' ? LIMITS.en : LIMITS.other);
 
+/**
+ * Palabras de reglas que no son términos del glosario pero que un modelo inventa a menudo: «half on a
+ * success» en un hechizo que no da la mitad (lo hizo Qwen 2.5 en el piloto). Si el resumen las dice, el texto
+ * también. Por idioma; un idioma sin lista no se chequea por esto.
+ */
+export const RULE_WORDS = {
+  en: [/\bhalf\b/i],
+  es: [/\bmitad\b/i],
+};
+
 /** El marcador de «no se puede resumir sin perder una regla»: la tarjeta cae al texto completo. */
 export const SKIP = '?';
 
@@ -106,9 +116,10 @@ export function termsIn(text, terms) {
  * @param {string} summary
  * @param {string} source el texto oficial completo
  * @param {{ lang: string, glossary?: object, terms?: {id: string, re: RegExp}[] }} ctx
+ * @param {string} [english] en otro idioma, el resumen inglés del que salió (para ver lo que quedó sin traducir)
  * @returns {{ errors: string[], warnings: string[] }}
  */
-export function checkSummary(summary, source, ctx) {
+export function checkSummary(summary, source, ctx, english) {
   const errors = [];
   const warnings = [];
   const { lang } = ctx;
@@ -129,6 +140,23 @@ export function checkSummary(summary, source, ctx) {
   if (/\*\*|__/.test(summary)) errors.push('negrita: un resumen no la lleva (la cursiva *…* solo para nombres de hechizo)');
   if (summary !== summary.trim()) errors.push('espacios al principio o al final');
   if (/[{}<>]/.test(summary)) errors.push('caracteres no permitidos ({ } < >)');
+  // «?» es la respuesta entera o nada: el modelo local a veces lo pega al final de un resumen a medias.
+  if (/\?/.test(summary)) errors.push(`«${SKIP}» suelto: o el resumen entero es «${SKIP}» o no lleva`);
+  if (/\b(?:etc|e\.g|i\.e)\b|…/.test(summary))
+    errors.push('«etc.», «e.g.» o «…»: un resumen dice qué, no deja la lista abierta');
+  // Lo que quedó en inglés: una palabra con mayúscula, una sigla o una abreviatura del resumen inglés («Dash»,
+  // «HP», «hr») que el texto oficial de este idioma no tiene, ni siquiera dentro de otra palabra («Con.» está
+  // dentro de «Constitución»).
+  if (english && lang !== 'en') {
+    const words = (t) => new Set(t.match(/\p{L}+/gu) ?? []);
+    const enWords = words(english);
+    const suspicious = (w) => /^\p{Lu}/u.test(w) || ['hr', 'hrs', 'ft', 'min', 'sec'].includes(w);
+    const left = [...words(summary)].filter(
+      (w) => w.length > 1 && suspicious(w) && enWords.has(w) && !source.includes(w),
+    );
+    if (left.length)
+      errors.push(`sin traducir (está en el resumen inglés y no en el texto oficial): ${left.join(', ')}`);
+  }
 
   // 2. Ningún número nuevo: los del resumen son un subconjunto de los del texto (mismo idioma).
   const kind = lang === 'en' ? 'en' : 'tr';
@@ -143,6 +171,9 @@ export function checkSummary(summary, source, ctx) {
     const added = [...termsIn(summary, ctx.terms)].filter((id) => !inSource.has(id));
     if (added.length) errors.push(`términos de reglas que el texto no nombra: ${added.join(', ')}`);
   }
+  for (const re of RULE_WORDS[lang] ?? [])
+    if (re.test(summary) && !re.test(source))
+      errors.push(`dice «${summary.match(re)?.[0]}» y el texto no: ¿la mitad de qué?`);
 
   return { errors, warnings };
 }
@@ -153,6 +184,7 @@ export function checkSummary(summary, source, ctx) {
  * @param {Record<string,string>} texts el catálogo del idioma (de ahí salen los textos completos)
  */
 export function checkSummaries(summaries, texts, ctx) {
+  // `ctx.english` (opcional): los resúmenes ingleses, para ver lo que quedó sin traducir.
   const errors = [];
   const warnings = [];
   let checked = 0;
@@ -164,7 +196,7 @@ export function checkSummaries(summaries, texts, ctx) {
       errors.push({ key, msg: 'no hay texto padre (.desc / .text) para este resumen' });
       continue;
     }
-    const r = checkSummary(value, texts[src], ctx);
+    const r = checkSummary(value, texts[src], ctx, ctx.english?.[key]);
     for (const msg of r.errors) errors.push({ key, msg });
     for (const msg of r.warnings) warnings.push({ key, msg });
   }

@@ -115,7 +115,7 @@ function messagesFor(catalog, key, input) {
 
 /** Los errores de un resultado: contra su texto oficial y, en otro idioma, contra el resumen inglés. */
 function problems(key, text, input) {
-  const r = checkSummary(text, input.source, { lang, glossary: gloss, terms: terms[lang] });
+  const r = checkSummary(text, input.source, { lang, glossary: gloss, terms: terms[lang] }, input.en);
   const errors = [...r.errors];
   if (lang !== 'en') {
     if (text.trim() === SKIP) errors.push('el resumen inglés existe: traducilo, no devuelvas «?»');
@@ -134,14 +134,23 @@ async function summarize(catalog, key, input) {
     const p = problems(key, last, input);
     errors = p.errors;
     if (errors.length === 0) return { text: last, tries, errors, warnings: p.warnings };
+    // En el piloto, 4 de cada 5 rechazos fueron solo por largo: el modelo tiende a agregar «y además».
+    // Se le pide sacar, no reescribir, con el número de caracteres que sobran.
+    const onlyLength = errors.every((e) => e.startsWith('largo'));
+    const over = [...last].length - lim.target;
+    const hint = onlyLength
+      ? lang === 'en'
+        ? `It is ${over} characters too long. Drop the least important detail (flavor, a duration, a second effect) and keep the roll and the main effect.`
+        : `Sobran ${over} caracteres. Saca el detalle menos importante (el adorno, una duración, un segundo efecto) y conserva la tirada y el efecto principal.`
+      : '';
     messages.push(
       { role: 'assistant', content: last },
       {
         role: 'user',
         content:
           lang === 'en'
-            ? `Your summary has these problems. Fix them and answer with the summary only:\n- ${errors.join('\n- ')}`
-            : `Tu resumen tiene estos errores. Corrígelos y responde solo con el resumen:\n- ${errors.join('\n- ')}`,
+            ? `Your summary has these problems. Fix them and answer with the summary only:\n- ${errors.join('\n- ')}${hint ? `\n${hint}` : ''}`
+            : `Tu resumen tiene estos errores. Corrígelos y responde solo con el resumen:\n- ${errors.join('\n- ')}${hint ? `\n${hint}` : ''}`,
       },
     );
   }

@@ -20,7 +20,7 @@
 //       Crea la estructura de un idioma nuevo (perfil, glosario por completar, guía, carpeta).
 //   summary-batch <catálogo> [--count 40] [--batches 1] [--keys a,b | --keys-file f] [--no-legendary] [--out DIR]
 //       La próxima tanda de textos largos sin resumen (`<clave>.summary`), con el texto al lado.
-//   summary-check [<catálogo> --file lote.json] [--lang] [--warn]
+//   summary-check [<catálogo> --file lote.json [--english lote.en.json]] [--lang] [--warn]
 //       Los resúmenes contra su texto oficial (números, términos, forma, vigencia).
 //   summary-merge <catálogo> <lote.json> [--lang]
 //       Suma un lote de resúmenes revisado (un «?» no se publica: queda como «no se resume»).
@@ -452,8 +452,14 @@ const readSummarySource = () => readJson(summarySourceFile, {});
 const proseOf = (l) => readJson(trFile(l, 'prose'), {});
 
 /** El contexto de los chequeos de un idioma: perfil (números) y términos de reglas. */
-function summaryCtx(l) {
-  return { lang: l, glossary: l === 'en' ? null : loadGlossary(l), terms: termsOf(proseOf(l)) };
+function summaryCtx(l, english) {
+  return {
+    lang: l,
+    glossary: l === 'en' ? null : loadGlossary(l),
+    terms: termsOf(proseOf(l)),
+    // En otro idioma, los resúmenes ingleses: para ver lo que quedó sin traducir.
+    english: l === 'en' ? undefined : english,
+  };
 }
 
 /** Las legendarias están en pausa en Brandsen: `--no-legendary` las deja fuera de las tandas. */
@@ -506,7 +512,9 @@ function cmdSummaryCheck() {
   if (file) {
     const catalog = args[1];
     if (!SUMMARY_CATALOGS.includes(catalog)) throw new Error('uso: summary-check <catálogo> --file <lote> [--lang]');
-    const r = checkSummaries(readJson(file, {}), readJson(trFile(lang, catalog), {}), summaryCtx(lang));
+    // `--english <lote.en.json>`: los resúmenes ingleses de la tanda, si todavía no están publicados.
+    const english = { ...readJson(enFile(catalog), {}), ...readJson(flag('english', ''), {}) };
+    const r = checkSummaries(readJson(file, {}), readJson(trFile(lang, catalog), {}), summaryCtx(lang, english));
     printReport(`[${lang}] ${path.basename(file)}`, r, warn);
     process.exit(r.errors.length ? 1 : 0);
   }
@@ -514,8 +522,8 @@ function cmdSummaryCheck() {
   const src = readSummarySource();
   let bad = 0;
   for (const l of langs) {
-    const ctx = summaryCtx(l);
     for (const c of SUMMARY_CATALOGS) {
+      const ctx = summaryCtx(l, readJson(enFile(c), {}));
       const texts = readJson(trFile(l, c), {});
       const sums = Object.fromEntries(Object.entries(texts).filter(([k]) => isSummaryKey(k)));
       if (!Object.keys(sums).length) continue;
@@ -550,7 +558,7 @@ function cmdSummaryMerge() {
   const en = readJson(enFile(catalog), {});
   const texts = readJson(trFile(lang === 'en' ? 'en' : lang, catalog), {});
   const keep = Object.fromEntries(Object.entries(batch).filter(([, v]) => v.trim() !== SKIP));
-  const r = checkSummaries(keep, texts, summaryCtx(lang));
+  const r = checkSummaries(keep, texts, summaryCtx(lang, en));
   if (lang !== 'en') {
     const v = validateMap(en, keep, loadGlossary(lang));
     r.errors.push(...v.errors);
@@ -605,7 +613,8 @@ function cmdSummaryReview() {
     if (m) byLang[m[1]] = readJson(f, {});
   }
   const langs = Object.keys(byLang);
-  const ctx = Object.fromEntries(langs.map((l) => [l, summaryCtx(l)]));
+  const english = { ...readJson(enFile(catalog), {}), ...(byLang.en ?? {}) };
+  const ctx = Object.fromEntries(langs.map((l) => [l, summaryCtx(l, english)]));
   const texts = Object.fromEntries(langs.map((l) => [l, readJson(trFile(l, catalog), {})]));
   const rows = Object.keys(srcBatch).map((k) => {
     const row = { key: k };

@@ -1,0 +1,17 @@
+{
+  "acid-splash.summary": "Una esfera de 1,5 m de radio explota: cada criatura hace una salvación de Destreza o sufre 1d6 de daño de ácido.",
+  "elementalism.summary": "Creas un efecto menor dentro del alcance: una brisa, polvo o arena, brasas y humo inofensivos, bruma o agua, o una forma tosca.",
+  "mending.summary": "Repara una rotura o desgarro en un objeto que toques, hasta 30 cm en cualquier dimensión; no restaura la magia de objetos mágicos.",
+  "produce-flame.summary": "Una llama en tu mano emite luz brillante en 6 m. Acción de Magia: ataque de conjuro a distancia a 18 m o menos, 1d8 de daño de fuego.",
+  "shocking-grasp.summary": "Ataque de conjuro cuerpo a cuerpo: 1d8 de daño de relámpago; el objetivo no puede hacer ataques de oportunidad hasta el inicio de su siguiente turno.",
+  "alarm.summary": "Protege una puerta, ventana o área de hasta un cubo de 6 m: una alarma audible o mental te avisa si una criatura la toca o entra.",
+  "comprehend-languages.summary": "Entiendes cualquier idioma que oigas o veas en señas, y el escrito si tocas la superficie; 1 minuto por página.",
+  "ensnaring-strike.summary": "El objetivo hace una salvación de Fuerza; fallo significa Apresado (1d6 de daño perforante por turno) hasta que termine el conjuro.",
+  "grease.summary": "Crea terreno difícil en un cuadrado de 3 m: las criaturas hacen una salvación de Destreza o quedan Derribadas.",
+  "illusory-script.summary": "?",
+  "acid-arrow.summary": "Ataque de conjuro a distancia: 4d4 de daño de ácido y 2d4 al final de su siguiente turno; si fallas, la mitad del daño inicial.",
+  "calm-emotions.summary": "Salvación de Carisma de cada Humanoide en una esfera de 6 m de radio; si falla, inmunidad a Hechizado y Asustado o Indiferente.",
+  "flame-blade.summary": "Evocas una hoja de fuego: ataque de conjuro cuerpo a cuerpo que inflige 3d6 de daño de fuego más tu modificador de lanzamiento.",
+  "magic-mouth.summary": "?",
+  "rope-trick.summary": "?"
+}

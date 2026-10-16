@@ -1,0 +1,7 @@
+{
+  "rogue.feature.cunning-action.summary": "Bonus Action: Dash, Disengage, or Hide.",
+  "bard.feature.bardic-inspiration.summary": "Bonus Action: a creature within 60 feet gains your Bardic Inspiration die (d6), to add to a failed D20 Test within the next hour.",
+  "druid.feature.wild-shape.summary": "Bonus Action: take a known Beast form for hours equal to half your Druid level. Two uses; one returns on a Short Rest.",
+  "sorcerer.feature.innate-sorcery.summary": "Bonus Action, 1 minute: +1 to your Sorcerer spell save DC and Advantage on Sorcerer spell attack rolls. Twice per Long Rest.",
+  "monk.feature.monks-focus.summary": "Spend Focus Points: Flurry of Blows (two Unarmed Strikes), Patient Defense (Disengage and Dodge), Step of the Wind (Dash)."
+}
