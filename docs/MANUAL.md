@@ -37,11 +37,20 @@ data/
   ESTADO.md                 matriz catálogo × idioma (generada)
   CHECKLIST.<idioma>.md     una casilla por entrada (generada)
   <idioma>/_source.json     huella del inglés con el que se tradujo cada texto (para detectar lo viejo)
+  en/_summary-source.json   huella del texto con que se escribió cada resumen (y los que no se resumen)
   VERSION.json              versión de los datos y del SRD
 tools/
   cli.mjs                   batch · validate · merge · status · snapshot · stale · fix-names · glossary-sync · new-language
+                            · summary-batch · summary-check · summary-merge · summary-review
   validate-lib.mjs          el validador (agnóstico: todo lo propio de un idioma sale de su perfil)
+  summary-lib.mjs           los chequeos de los resúmenes de tarjeta (§ 13)
   local-translate.mjs       borrador con un modelo local (Ollama), validado por el mismo validador
+  local-summarize.mjs       borrador de los resúmenes con un modelo local (§ 13)
+  summary-night.mjs         la corrida de noche de los resúmenes (reanudable)
+  summary-examples.json     los resúmenes hechos a mano: modelo y vara del resumidor
+  ollama.mjs                la llamada a Ollama (streaming), para el resumidor
+  prompts/resumidor.md      reglas de un resumen (para el modelo local, Claude o una persona)
+  prompts/verificador-resumenes.md   instrucciones para la IA que verifica los resúmenes
   new-language.mjs          arma las carpetas y plantillas de un idioma nuevo
   prompts/traductor.md      instrucciones para la IA traductora (genéricas)
   prompts/revisor.md        instrucciones para la IA revisora (genéricas)
@@ -257,3 +266,53 @@ hechizo alineados con el oficial; *Recuperación* infernal/diabólica/…; *Tumu
   automática de GitHub lo corre en cada cambio.
 - Cada lanzamiento lleva un número de versión (`data/VERSION.json`, `CHANGELOG.md` y etiqueta de
   Git). Quien consume los datos fija la etiqueta y decide cuándo actualizar.
+
+## 13. Resúmenes de tarjeta (`<clave>.summary`)
+
+Un **resumen de tarjeta** es una versión de un renglón (≈ 3 renglones en una tarjeta angosta) de un
+texto largo: un hechizo, una acción de criatura, un rasgo. Lo muestra una aplicación en lugar del texto
+entero, que queda a un clic o a un *hover*. Vive en el **mismo catálogo** que el texto que resume, con el
+último tramo de la clave cambiado (`fireball.desc` → `fireball.summary`,
+`aboleth.actions.2.desc` → `aboleth.actions.2.summary`). Catálogos con resúmenes: `spells`, `monsters`,
+`classes`, `origin`. Un texto de hasta 120 caracteres no necesita resumen.
+
+**No es texto del SRD**: es una adaptación (ver `ATTRIBUTION.md`). Por eso la regla de oro es otra: **un
+resumen solo puede decir lo que dice el texto oficial del mismo idioma.** Omite; nunca agrega.
+
+### Qué controla el script (`summary-lib.mjs`)
+
+1. Que tenga texto padre (`.desc` o `.text`).
+2. Ningún número, dado, CD ni bono que el texto no tenga (con las unidades convertidas, como el validador).
+3. Ningún término de reglas que el texto no nombre (condiciones, tipos de daño, características, tipos de
+   criatura… con las formas del catálogo `prose` de cada idioma).
+4. Forma: un renglón, sin tablas, viñetas ni negrita; inglés ≤ 130 caracteres (objetivo 115), otros
+   idiomas ≤ 150 (objetivo 135).
+5. Vigencia: si el texto inglés cambia después de escrito el resumen, `summary-check` lo marca vencido.
+
+En otro idioma, además, el resumen pasa el validador de siempre contra el resumen inglés (números,
+metros, monedas, glosario, nombres de hechizo).
+
+### El circuito: borrador en la PC, verificación con IA
+
+1. **Tandas**: `node tools/cli.mjs summary-batch <catálogo> --count 40 [--keys-file prioridad.txt] [--no-legendary]`.
+2. **Borrador local** (Ollama, $0): `node tools/summary-night.mjs --catalog <catálogo> --batches N` hace,
+   tanda por tanda, el inglés desde el texto oficial (`local-summarize.mjs`) y el español traduciendo el
+   resumen inglés y chequeándolo **también** contra el texto oficial en español. Cada respuesta pasa los
+   chequeos dentro de un bucle de hasta 3 reintentos (se le pasan los errores al modelo); lo que no pasa
+   queda en `*.fuera.json`, nunca en la salida. Es reanudable.
+3. **Verificación** (Claude u otra IA, `prompts/verificador-resumenes.md`): **todas** las entradas, en
+   grupos de 4–5 tandas, contra el texto oficial de cada idioma. Corrige solo errores reales y escribe a
+   mano lo de `*.fuera.json`.
+4. **Lectura del mantenedor**: `summary-review <catálogo> --src … --files ….en.json,….es.json --out revisar.md`.
+5. **Publicar**: `summary-merge <catálogo> <tanda>.en.json` y después `summary-merge <catálogo> <tanda>.es.json --lang es`.
+
+`batch` (la traducción de siempre) no ofrece las claves `.summary`: se traducen por este circuito, que es
+el que las chequea contra el texto oficial. `status` tampoco las cuenta como traducción pendiente.
+
+### Los ejemplos hechos a mano
+
+`tools/summary-examples.json` trae resúmenes escritos a mano desde el texto oficial, en cada idioma, de
+cada tipo (salvación, ataque, curación, condición, reacción, ataque de criatura, rasgo con usos). Son los
+ejemplos que ve el modelo (*few-shot*) y la prueba fija: `node tools/local-summarize.mjs --test [--lang es]
+[--model …]` rehace cada uno sin verlo y deja el resultado lado a lado. Un test exige que todos pasen los
+chequeos. Un idioma nuevo suma su campo a cada ejemplo.

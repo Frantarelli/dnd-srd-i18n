@@ -4,6 +4,19 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [Sin publicar]
+
+### Agregado
+- **Resúmenes de tarjeta** (`<clave>.summary`): la convención, los chequeos (`tools/summary-lib.mjs`: ningún número ni término
+  de reglas que el texto oficial no tenga, un renglón, largo, vigencia), los comandos `summary-batch`, `summary-check`,
+  `summary-merge` y `summary-review`, el borrador local con Ollama (`local-summarize.mjs`, `summary-night.mjs`), los prompts del
+  resumidor y del verificador, y 21 ejemplos hechos a mano en inglés y español (`tools/summary-examples.json`). Todavía sin
+  Ver `docs/MANUAL.md` § 13.
+- **Los primeros 36 resúmenes**, en inglés y español: 12 hechizos, 15 acciones de criaturas, 5 rasgos de clase y 4 de especie
+  (la tanda piloto, verificada contra el texto oficial y aprobada por el mantenedor). Otros 4 quedan sin resumir a propósito
+  («?» en `data/en/_summary-source.json`). Informe: `docs/piloto-resumenes/INFORME.md`.
+- `npm run check` corre también `summary-check`.
+
 ## [0.10.0] — 2026-10-13
 
 ### Agregado

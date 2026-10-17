@@ -1,0 +1,509 @@
+{
+  "spells": {
+    "acid-splash.summary": {
+      "hash": "9ae30360af"
+    },
+    "elementalism.summary": {
+      "hash": "ddc2299fd3"
+    },
+    "mending.summary": {
+      "hash": "30d6446536"
+    },
+    "produce-flame.summary": {
+      "hash": "7682fdb798"
+    },
+    "shocking-grasp.summary": {
+      "hash": "d2a27888d8"
+    },
+    "alarm.summary": {
+      "hash": "21a33dd0b7"
+    },
+    "comprehend-languages.summary": {
+      "hash": "8e02b92b97"
+    },
+    "ensnaring-strike.summary": {
+      "hash": "ec911a9a07"
+    },
+    "grease.summary": {
+      "hash": "ab69187f78"
+    },
+    "illusory-script.summary": {
+      "hash": "e6db35cb0b",
+      "skip": true
+    },
+    "acid-arrow.summary": {
+      "hash": "506be887d8"
+    },
+    "calm-emotions.summary": {
+      "hash": "6faaed3c59"
+    },
+    "flame-blade.summary": {
+      "hash": "686dbb16c5"
+    },
+    "magic-mouth.summary": {
+      "hash": "029abd8201",
+      "skip": true
+    },
+    "rope-trick.summary": {
+      "hash": "1c505296b7",
+      "skip": true
+    },
+    "chill-touch.summary": {
+      "hash": "c39078680c"
+    },
+    "dancing-lights.summary": {
+      "hash": "dce012c8e6"
+    },
+    "druidcraft.summary": {
+      "hash": "b805b69b58",
+      "skip": true
+    },
+    "eldritch-blast.summary": {
+      "hash": "0ec3d89a87"
+    },
+    "fire-bolt.summary": {
+      "hash": "9bbf3396d7"
+    },
+    "guidance.summary": {
+      "hash": "ac22f9558b"
+    },
+    "light.summary": {
+      "hash": "efb55dc7e6"
+    },
+    "mage-hand.summary": {
+      "hash": "dcb2f8e7bd"
+    },
+    "message.summary": {
+      "hash": "fe7bd4a025"
+    },
+    "minor-illusion.summary": {
+      "hash": "fca71f8db0"
+    },
+    "poison-spray.summary": {
+      "hash": "4dd4e038ff"
+    },
+    "prestidigitation.summary": {
+      "hash": "663fcec699",
+      "skip": true
+    },
+    "ray-of-frost.summary": {
+      "hash": "9589bd634e"
+    },
+    "resistance.summary": {
+      "hash": "75829b60e1"
+    },
+    "sacred-flame.summary": {
+      "hash": "c7546fd0db"
+    },
+    "shillelagh.summary": {
+      "hash": "943e67c52e"
+    },
+    "sorcerous-burst.summary": {
+      "hash": "f183b8bc08"
+    },
+    "starry-wisp.summary": {
+      "hash": "30937aed5b"
+    },
+    "thaumaturgy.summary": {
+      "hash": "a719a0b7d4",
+      "skip": true
+    },
+    "true-strike.summary": {
+      "hash": "6cf6e9d454"
+    },
+    "vicious-mockery.summary": {
+      "hash": "3724c658b0"
+    },
+    "animal-friendship.summary": {
+      "hash": "9808d74f0c"
+    },
+    "bane.summary": {
+      "hash": "723b7a0c2d"
+    },
+    "bless.summary": {
+      "hash": "c49ea7a71e"
+    },
+    "burning-hands.summary": {
+      "hash": "b00380980e"
+    },
+    "charm-person.summary": {
+      "hash": "40e20fdb01"
+    },
+    "chromatic-orb.summary": {
+      "hash": "e393f2a41f"
+    },
+    "color-spray.summary": {
+      "hash": "3f0cb6d5eb"
+    },
+    "command.summary": {
+      "hash": "01f0a77f69"
+    },
+    "create-or-destroy-water.summary": {
+      "hash": "47ecdb7ab4",
+      "skip": true
+    },
+    "detect-evil-and-good.summary": {
+      "hash": "01fcccb415"
+    },
+    "detect-magic.summary": {
+      "hash": "75d374c133"
+    },
+    "detect-poison-and-disease.summary": {
+      "hash": "213fe8da6b"
+    },
+    "disguise-self.summary": {
+      "hash": "7447c2eaf5",
+      "skip": true
+    },
+    "dissonant-whispers.summary": {
+      "hash": "c4a9e2d449"
+    },
+    "divine-smite.summary": {
+      "hash": "b93f4191f3"
+    },
+    "entangle.summary": {
+      "hash": "174b36c7ff"
+    },
+    "faerie-fire.summary": {
+      "hash": "b844194e94"
+    },
+    "feather-fall.summary": {
+      "hash": "0ebece0b95"
+    },
+    "find-familiar.summary": {
+      "hash": "4ed5fa11c7"
+    },
+    "floating-disk.summary": {
+      "hash": "63fe21739f"
+    },
+    "fog-cloud.summary": {
+      "hash": "2891910db7"
+    },
+    "goodberry.summary": {
+      "hash": "13961b1c89"
+    },
+    "guiding-bolt.summary": {
+      "hash": "45fff57415"
+    },
+    "healing-word.summary": {
+      "hash": "e443f24136"
+    },
+    "hellish-rebuke.summary": {
+      "hash": "a8d63053cb"
+    },
+    "heroism.summary": {
+      "hash": "ce4472ad01"
+    },
+    "hex.summary": {
+      "hash": "9d16b80f9a"
+    },
+    "hideous-laughter.summary": {
+      "hash": "bf459ae7cf"
+    },
+    "hunters-mark.summary": {
+      "hash": "d9811cb742"
+    },
+    "ice-knife.summary": {
+      "hash": "22fc62507e"
+    },
+    "identify.summary": {
+      "hash": "558127b8da",
+      "skip": true
+    },
+    "inflict-wounds.summary": {
+      "hash": "2831ef7188"
+    },
+    "jump.summary": {
+      "hash": "5fe809da28"
+    },
+    "mage-armor.summary": {
+      "hash": "341b41e5a8"
+    },
+    "magic-missile.summary": {
+      "hash": "14f0da10a1"
+    },
+    "protection-from-evil-and-good.summary": {
+      "hash": "8eec182581"
+    },
+    "ray-of-sickness.summary": {
+      "hash": "4e2d760bfe"
+    },
+    "sanctuary.summary": {
+      "hash": "79164ec133"
+    },
+    "searing-smite.summary": {
+      "hash": "a39b60ee76"
+    },
+    "shield.summary": {
+      "hash": "f0d5e0df26"
+    },
+    "silent-image.summary": {
+      "hash": "8e384572a9",
+      "skip": true
+    },
+    "sleep.summary": {
+      "hash": "344dfdf52f"
+    },
+    "speak-with-animals.summary": {
+      "hash": "e78ea15782"
+    },
+    "thunderwave.summary": {
+      "hash": "3920fb580b"
+    },
+    "unseen-servant.summary": {
+      "hash": "df7737a82b"
+    },
+    "aid.summary": {
+      "hash": "b0a7427ec7"
+    },
+    "alter-self.summary": {
+      "hash": "e73ae66796"
+    },
+    "animal-messenger.summary": {
+      "hash": "8c1fee35fc",
+      "skip": true
+    },
+    "arcane-lock.summary": {
+      "hash": "403686dc94"
+    },
+    "arcanists-magic-aura.summary": {
+      "hash": "8eb2a18ab1",
+      "skip": true
+    },
+    "augury.summary": {
+      "hash": "f0c2e3675e",
+      "skip": true
+    },
+    "barkskin.summary": {
+      "hash": "e35eb4251f"
+    },
+    "blindnessdeafness.summary": {
+      "hash": "2b61a06a30"
+    },
+    "blur.summary": {
+      "hash": "33cef9c4ac"
+    },
+    "continual-flame.summary": {
+      "hash": "8e26314fa7"
+    },
+    "darkness.summary": {
+      "hash": "a7d3875f65"
+    },
+    "detect-thoughts.summary": {
+      "hash": "c99b51a69a",
+      "skip": true
+    },
+    "dragons-breath.summary": {
+      "hash": "e88da617c7"
+    },
+    "enhance-ability.summary": {
+      "hash": "4c8070c6e5"
+    },
+    "enlargereduce.summary": {
+      "hash": "535f243984"
+    },
+    "enthrall.summary": {
+      "hash": "177a36255f"
+    },
+    "find-steed.summary": {
+      "hash": "4b3e7949e5"
+    },
+    "find-traps.summary": {
+      "hash": "6ffb71c3cf",
+      "skip": true
+    },
+    "flaming-sphere.summary": {
+      "hash": "97ae1f187b"
+    },
+    "gentle-repose.summary": {
+      "hash": "c8f5d846be"
+    },
+    "gust-of-wind.summary": {
+      "hash": "aaf62ec657"
+    },
+    "heat-metal.summary": {
+      "hash": "8070ea7703"
+    },
+    "hold-person.summary": {
+      "hash": "305b88fc75"
+    },
+    "invisibility.summary": {
+      "hash": "93e6d8b723"
+    },
+    "knock.summary": {
+      "hash": "6b15e64348"
+    },
+    "levitate.summary": {
+      "hash": "546ce8cdc0",
+      "skip": true
+    },
+    "locate-animals-or-plants.summary": {
+      "hash": "1b379db035"
+    },
+    "locate-object.summary": {
+      "hash": "2631757da9",
+      "skip": true
+    },
+    "magic-weapon.summary": {
+      "hash": "012a6a997a"
+    },
+    "mind-spike.summary": {
+      "hash": "f98fc92060"
+    },
+    "mirror-image.summary": {
+      "hash": "a54bf76bde"
+    },
+    "moonbeam.summary": {
+      "hash": "bb1778cf44"
+    },
+    "pass-without-trace.summary": {
+      "hash": "71bc2c6f1e"
+    },
+    "phantasmal-force.summary": {
+      "hash": "75b2fe1fc2"
+    },
+    "prayer-of-healing.summary": {
+      "hash": "94c795489a"
+    },
+    "protection-from-poison.summary": {
+      "hash": "a09a050474"
+    },
+    "ray-of-enfeeblement.summary": {
+      "hash": "0ff65cbc12"
+    },
+    "scorching-ray.summary": {
+      "hash": "8f51bb9540"
+    },
+    "see-invisibility.summary": {
+      "hash": "77bd4be74d"
+    },
+    "shatter.summary": {
+      "hash": "1bf096816c"
+    },
+    "shining-smite.summary": {
+      "hash": "092c202a37"
+    },
+    "silence.summary": {
+      "hash": "00eea9a4a1"
+    },
+    "spider-climb.summary": {
+      "hash": "c42b6c2bf1"
+    },
+    "spike-growth.summary": {
+      "hash": "3314bf004f"
+    },
+    "spiritual-weapon.summary": {
+      "hash": "98cba70a14"
+    },
+    "suggestion.summary": {
+      "hash": "45e475aece"
+    },
+    "warding-bond.summary": {
+      "hash": "425691fe0c"
+    },
+    "web.summary": {
+      "hash": "7a6780b1aa"
+    },
+    "zone-of-truth.summary": {
+      "hash": "dfd3218867",
+      "skip": true
+    },
+    "animate-dead.summary": {
+      "hash": "5ea100dc90"
+    },
+    "beacon-of-hope.summary": {
+      "hash": "23759f32ef"
+    },
+    "bestow-curse.summary": {
+      "hash": "11972a3ec2"
+    },
+    "blink.summary": {
+      "hash": "3f46c19ccf"
+    },
+    "call-lightning.summary": {
+      "hash": "7ecb19b802"
+    }
+  },
+  "monsters": {
+    "air-elemental.actions.2.summary": {
+      "hash": "2b814f0528"
+    },
+    "bronze-dragon-wyrmling.actions.3.summary": {
+      "hash": "c024982012"
+    },
+    "darkmantle.actions.1.summary": {
+      "hash": "9d81b45dbb"
+    },
+    "fire-elemental.actions.0.summary": {
+      "hash": "003f0d2f85"
+    },
+    "giant-scorpion.actions.0.summary": {
+      "hash": "407f89db20"
+    },
+    "green-dragon-wyrmling.actions.1.summary": {
+      "hash": "e7281b5666"
+    },
+    "lion.actions.2.summary": {
+      "hash": "a4c10f5f15"
+    },
+    "phase-spider.actions.0.summary": {
+      "hash": "e541c2b367"
+    },
+    "shambling-mound.actions.0.summary": {
+      "hash": "0332eb45d1"
+    },
+    "vampire-familiar.actions.1.summary": {
+      "hash": "035d612a88"
+    },
+    "bandit-captain.reactions.0.summary": {
+      "hash": "3efea671fd"
+    },
+    "dryad.bonus_actions.0.summary": {
+      "hash": "67d43721ed"
+    },
+    "gorgon.bonus_actions.0.summary": {
+      "hash": "00c2c7ade9"
+    },
+    "octopus.reactions.0.summary": {
+      "hash": "5add0f87e9"
+    },
+    "werebear.bonus_actions.0.summary": {
+      "hash": "23903f3378"
+    }
+  },
+  "classes": {
+    "rogue.feature.cunning-action.summary": {
+      "hash": "3bdec0bb0e"
+    },
+    "bard.feature.bardic-inspiration.summary": {
+      "hash": "c44ecd9db2"
+    },
+    "druid.feature.wild-shape.summary": {
+      "hash": "8a81947021"
+    },
+    "sorcerer.feature.innate-sorcery.summary": {
+      "hash": "c32bb16780"
+    },
+    "monk.feature.monks-focus.summary": {
+      "hash": "895cea5453"
+    }
+  },
+  "origin": {
+    "species.dwarf.trait.stonecunning.summary": {
+      "hash": "6e029f588e"
+    },
+    "species.goliath.trait.giant-ancestry.summary": {
+      "hash": "d75b836bdb",
+      "skip": true
+    },
+    "species.goliath.trait.large-form.summary": {
+      "hash": "3dcf34f127"
+    },
+    "species.dragonborn.trait.draconic-flight.summary": {
+      "hash": "3adc4861bf"
+    },
+    "species.orc.trait.relentless-endurance.summary": {
+      "hash": "c01c7e90f1"
+    }
+  }
+}
