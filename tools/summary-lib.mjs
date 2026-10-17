@@ -150,7 +150,15 @@ export function checkSummary(summary, source, ctx, english) {
   if (english && lang !== 'en') {
     const words = (t) => new Set(t.match(/\p{L}+/gu) ?? []);
     const enWords = words(english);
-    const suspicious = (w) => /^\p{Lu}/u.test(w) || ['hr', 'hrs', 'ft', 'min', 'sec'].includes(w);
+    // La palabra que abre una oración lleva mayúscula en cualquier idioma («No», «El»): no cuenta, salvo que
+    // sea una sigla («HP»).
+    const starts = new Set(
+      (summary.match(/(?:^|[.:;!?]\s+)\p{L}+/gu) ?? []).map((m) => m.replace(/^[.:;!?]?\s*/u, '')),
+    );
+    const suspicious = (w) =>
+      /^\p{Lu}{2,}$/u.test(w) ||
+      (/^\p{Lu}/u.test(w) && !starts.has(w)) ||
+      ['hr', 'hrs', 'ft', 'min', 'sec'].includes(w);
     const left = [...words(summary)].filter(
       (w) => w.length > 1 && suspicious(w) && enWords.has(w) && !source.includes(w),
     );

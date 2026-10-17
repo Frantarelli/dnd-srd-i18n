@@ -514,7 +514,15 @@ function cmdSummaryCheck() {
     if (!SUMMARY_CATALOGS.includes(catalog)) throw new Error('uso: summary-check <catálogo> --file <lote> [--lang]');
     // `--english <lote.en.json>`: los resúmenes ingleses de la tanda, si todavía no están publicados.
     const english = { ...readJson(enFile(catalog), {}), ...readJson(flag('english', ''), {}) };
-    const r = checkSummaries(readJson(file, {}), readJson(trFile(lang, catalog), {}), summaryCtx(lang, english));
+    const batch = readJson(file, {});
+    const r = checkSummaries(batch, readJson(trFile(lang, catalog), {}), summaryCtx(lang, english));
+    // En otro idioma, lo mismo que exige summary-merge: el validador de siempre contra el resumen inglés.
+    if (lang !== 'en') {
+      const keep = Object.fromEntries(Object.entries(batch).filter(([, v]) => v.trim() !== SKIP));
+      const v = validateMap(english, keep, loadGlossary(lang));
+      r.errors.push(...v.errors);
+      r.warnings.push(...v.warnings);
+    }
     printReport(`[${lang}] ${path.basename(file)}`, r, warn);
     process.exit(r.errors.length ? 1 : 0);
   }
