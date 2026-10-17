@@ -1,0 +1,134 @@
+{
+  "spells": {
+    "acid-splash.summary": {
+      "hash": "9ae30360af"
+    },
+    "elementalism.summary": {
+      "hash": "ddc2299fd3"
+    },
+    "mending.summary": {
+      "hash": "30d6446536"
+    },
+    "produce-flame.summary": {
+      "hash": "7682fdb798"
+    },
+    "shocking-grasp.summary": {
+      "hash": "d2a27888d8"
+    },
+    "alarm.summary": {
+      "hash": "21a33dd0b7"
+    },
+    "comprehend-languages.summary": {
+      "hash": "8e02b92b97"
+    },
+    "ensnaring-strike.summary": {
+      "hash": "ec911a9a07"
+    },
+    "grease.summary": {
+      "hash": "ab69187f78"
+    },
+    "illusory-script.summary": {
+      "hash": "e6db35cb0b",
+      "skip": true
+    },
+    "acid-arrow.summary": {
+      "hash": "506be887d8"
+    },
+    "calm-emotions.summary": {
+      "hash": "6faaed3c59"
+    },
+    "flame-blade.summary": {
+      "hash": "686dbb16c5"
+    },
+    "magic-mouth.summary": {
+      "hash": "029abd8201",
+      "skip": true
+    },
+    "rope-trick.summary": {
+      "hash": "1c505296b7",
+      "skip": true
+    }
+  },
+  "monsters": {
+    "air-elemental.actions.2.summary": {
+      "hash": "2b814f0528"
+    },
+    "bronze-dragon-wyrmling.actions.3.summary": {
+      "hash": "c024982012"
+    },
+    "darkmantle.actions.1.summary": {
+      "hash": "9d81b45dbb"
+    },
+    "fire-elemental.actions.0.summary": {
+      "hash": "003f0d2f85"
+    },
+    "giant-scorpion.actions.0.summary": {
+      "hash": "407f89db20"
+    },
+    "green-dragon-wyrmling.actions.1.summary": {
+      "hash": "e7281b5666"
+    },
+    "lion.actions.2.summary": {
+      "hash": "a4c10f5f15"
+    },
+    "phase-spider.actions.0.summary": {
+      "hash": "e541c2b367"
+    },
+    "shambling-mound.actions.0.summary": {
+      "hash": "0332eb45d1"
+    },
+    "vampire-familiar.actions.1.summary": {
+      "hash": "035d612a88"
+    },
+    "bandit-captain.reactions.0.summary": {
+      "hash": "3efea671fd"
+    },
+    "dryad.bonus_actions.0.summary": {
+      "hash": "67d43721ed"
+    },
+    "gorgon.bonus_actions.0.summary": {
+      "hash": "00c2c7ade9"
+    },
+    "octopus.reactions.0.summary": {
+      "hash": "5add0f87e9"
+    },
+    "werebear.bonus_actions.0.summary": {
+      "hash": "23903f3378"
+    }
+  },
+  "classes": {
+    "rogue.feature.cunning-action.summary": {
+      "hash": "3bdec0bb0e"
+    },
+    "bard.feature.bardic-inspiration.summary": {
+      "hash": "c44ecd9db2"
+    },
+    "druid.feature.wild-shape.summary": {
+      "hash": "8a81947021"
+    },
+    "sorcerer.feature.innate-sorcery.summary": {
+      "hash": "c32bb16780"
+    },
+    "monk.feature.monks-focus.summary": {
+      "hash": "895cea5453"
+    }
+  },
+  "origin": {
+    "species.dwarf.trait.stonecunning.summary": {
+      "hash": "6e029f588e"
+    },
+    "species.goliath.trait.giant-ancestry.summary": {
+      "hash": "d75b836bdb",
+      "skip": true
+    },
+    "species.goliath.trait.large-form.summary": {
+      "hash": "3dcf34f127"
+    },
+    "species.dragonborn.trait.draconic-flight.summary": {
+      "hash": "3adc4861bf"
+    },
+    "species.orc.trait.relentless-endurance.summary": {
+      "hash": "c01c7e90f1"
+    }
+  }
+}

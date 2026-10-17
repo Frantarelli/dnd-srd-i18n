@@ -11,7 +11,10 @@ un idioma nuevo, menor; una corrección de texto, parche.
   de reglas que el texto oficial no tenga, un renglón, largo, vigencia), los comandos `summary-batch`, `summary-check`,
   `summary-merge` y `summary-review`, el borrador local con Ollama (`local-summarize.mjs`, `summary-night.mjs`), los prompts del
   resumidor y del verificador, y 21 ejemplos hechos a mano en inglés y español (`tools/summary-examples.json`). Todavía sin
-  resúmenes publicados. Ver `docs/MANUAL.md` § 13.
+  Ver `docs/MANUAL.md` § 13.
+- **Los primeros 36 resúmenes**, en inglés y español: 12 hechizos, 15 acciones de criaturas, 5 rasgos de clase y 4 de especie
+  (la tanda piloto, verificada contra el texto oficial y aprobada por el mantenedor). Otros 4 quedan sin resumir a propósito
+  («?» en `data/en/_summary-source.json`). Informe: `docs/piloto-resumenes/INFORME.md`.
 - `npm run check` corre también `summary-check`.
 
 ## [0.10.0] — 2026-10-13

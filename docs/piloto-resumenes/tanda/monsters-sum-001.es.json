@@ -11,7 +11,7 @@
   "vampire-familiar.actions.1.summary": "+5, alcance 1,5 m o 6/18 m: 1d4 + 3 perforante y 3d4 necrótico; a 0 puntos de golpe, Estable pero Envenenado y Paralizado 1 hora.",
   "bandit-captain.reactions.0.summary": "El capitán suma 2 a su CA contra un ataque cuerpo a cuerpo si ve al atacante y empuña un arma cuerpo a cuerpo.",
   "dryad.bonus_actions.0.summary": "A 1,5 m de un árbol Grande o más grande, la dríade se teletransporta a 1,5 m de otro árbol Grande a 18 m.",
-  "gorgon.bonus_actions.0.summary": "Una criatura Derribada a 1,5 m hace una salvación de Destreza CD 16; fallo: 2d10 + 5 de daño contundente, éxito: la mitad.",
+  "gorgon.bonus_actions.0.summary": "Una criatura Derribada a 1,5 m hace una salvación de Destreza CD 16: 2d10 + 5 de daño contundente, o la mitad si tiene éxito.",
   "octopus.reactions.0.summary": "Bajo el agua, si una criatura termina su turno a 1,5 m: la tinta llena un cubo de 1,5 m (muy oscurecido, 1 minuto) y el pulpo nada.",
   "werebear.bonus_actions.0.summary": "Se transforma en un híbrido de oso y humanoide Grande o en un oso Grande, o vuelve a su forma humanoide; solo cambia el tamaño."
 }

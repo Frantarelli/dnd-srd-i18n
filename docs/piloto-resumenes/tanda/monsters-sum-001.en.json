@@ -9,9 +9,9 @@
   "phase-spider.actions.0.summary": "Melee +5, reach 5 ft.: 1d10 + 3 Piercing, 2d8 Poison; reduced to 0 HP makes the target Stable, Poisoned, and Paralyzed for 1 hour.",
   "shambling-mound.actions.0.summary": "Melee +7, reach 10 ft.: 1d6 + 4 Bludgeoning and 2d4 Lightning; Medium or smaller targets are pulled 5 feet toward it.",
   "vampire-familiar.actions.1.summary": "+5, reach 5 ft. or range 20/60 ft.: 1d4 + 3 Piercing and 3d4 Necrotic; at 0 HP, Stable but Poisoned and Paralyzed for 1 hour.",
-  "bandit-captain.reactions.0.summary": "The captain adds 2 to its AC against one melee attack, seeing the attacker and wielding a melee weapon.",
+  "bandit-captain.reactions.0.summary": "The captain adds 2 to its AC against one melee attack that would hit it, if it sees the attacker and wields a melee weapon.",
   "dryad.bonus_actions.0.summary": "Within 5 feet of a Large or bigger tree, it teleports to within 5 feet of another such tree up to 60 feet away.",
-  "gorgon.bonus_actions.0.summary": "A prone creature within 5 feet makes a DC 16 Dexterity save; failure takes 2d10 + 5 Bludgeoning damage, success halves it.",
+  "gorgon.bonus_actions.0.summary": "A Prone creature within 5 feet makes a DC 16 Dexterity save: 2d10 + 5 Bludgeoning damage, or half on a success.",
   "octopus.reactions.0.summary": "Underwater, when a creature ends its turn within 5 feet: ink fills a 5-foot Cube (Heavily Obscured, 1 minute) and it swims away.",
   "werebear.bonus_actions.0.summary": "Shape-shifts into a Large bear-humanoid hybrid or a Large bear, or back to humanoid form; same statistics except size."
 }
