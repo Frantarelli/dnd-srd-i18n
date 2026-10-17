@@ -37,7 +37,22 @@ const model = opt('model', 'gemma3:12b');
 const langs = opt('langs', 'es').split(',').filter(Boolean);
 fs.mkdirSync(out, { recursive: true });
 
-const node = (script, scriptArgs) =>
+// Antes de nada, que Ollama esté prendido y tenga el modelo: si no, se corta acá con un mensaje claro y no
+// a mitad de la primera tanda (después de reiniciar la PC, Ollama puede no haber arrancado).
+const OLLAMA = (process.env.OLLAMA_URL ?? 'http://localhost:11434/api/chat').replace(/\/api\/chat$/, '');
+try {
+  const res = await fetch(`${OLLAMA}/api/tags`);
+  const { models = [] } = await res.json();
+  if (!models.some((m) => m.name === model || m.model === model)) {
+    console.error(`Ollama no tiene el modelo «${model}». Bajalo con: ollama pull ${model}`);
+    process.exit(1);
+  }
+} catch {
+  console.error(`Ollama no responde en ${OLLAMA}. Abrí la aplicación de Ollama (o corré «ollama serve») y volvé a lanzar.`);
+  process.exit(1);
+}
+
+const node =(script, scriptArgs) =>
   execFileSync(process.execPath, [path.join(HERE, script), ...scriptArgs], { cwd: ROOT, stdio: 'inherit' });
 
 const srcFiles = () =>
