@@ -4,7 +4,7 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
-## [Sin publicar]
+## [0.11.0] — 2026-10-17
 
 ### Agregado
 - **Resúmenes de tarjeta** (`<clave>.summary`): la convención, los chequeos (`tools/summary-lib.mjs`: ningún número ni término
@@ -12,9 +12,11 @@ un idioma nuevo, menor; una corrección de texto, parche.
   `summary-merge` y `summary-review`, el borrador local con Ollama (`local-summarize.mjs`, `summary-night.mjs`), los prompts del
   resumidor y del verificador, y 21 ejemplos hechos a mano en inglés y español (`tools/summary-examples.json`). Todavía sin
   Ver `docs/MANUAL.md` § 13.
-- **Los primeros 36 resúmenes**, en inglés y español: 12 hechizos, 15 acciones de criaturas, 5 rasgos de clase y 4 de especie
-  (la tanda piloto, verificada contra el texto oficial y aprobada por el mantenedor). Otros 4 quedan sin resumir a propósito
-  («?» en `data/en/_summary-source.json`). Informe: `docs/piloto-resumenes/INFORME.md`.
+- **Los primeros 174 resúmenes**, en inglés y español: 150 hechizos (todos los de nivel 0 a 3 que necesitan resumen, más algunos
+  de nivel 4), 15 acciones de criaturas, 5 rasgos de clase y 4 de especie. Escritos con un modelo local (Gemma 3 12B, Ollama) y
+  verificados uno por uno contra el texto oficial en los dos idiomas. Otros 26 quedan sin resumir a propósito (hechizos y
+  rasgos sin nada que tirar en combate, o con una tabla de efectos: «?» en `data/en/_summary-source.json`); en esos la
+  aplicación muestra el texto entero. Informe del piloto: `docs/piloto-resumenes/INFORME.md`.
 - `npm run check` corre también `summary-check`.
 
 ## [0.10.0] — 2026-10-13
