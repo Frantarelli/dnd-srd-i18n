@@ -422,6 +422,133 @@
     },
     "call-lightning.summary": {
       "hash": "7ecb19b802"
+    },
+    "clairvoyance.summary": {
+      "hash": "4faa798207"
+    },
+    "conjure-animals.summary": {
+      "hash": "5ba49cd65a"
+    },
+    "counterspell.summary": {
+      "hash": "524ec63b92"
+    },
+    "create-food-and-water.summary": {
+      "hash": "33ca443045"
+    },
+    "daylight.summary": {
+      "hash": "51b36ae84a"
+    },
+    "dispel-magic.summary": {
+      "hash": "78a47cb3ae"
+    },
+    "fear.summary": {
+      "hash": "bbd6b1f882"
+    },
+    "fireball.summary": {
+      "hash": "64c054a076"
+    },
+    "fly.summary": {
+      "hash": "5a3adf24c6"
+    },
+    "gaseous-form.summary": {
+      "hash": "2990703e19"
+    },
+    "glyph-of-warding.summary": {
+      "hash": "91eb710669",
+      "skip": true
+    },
+    "haste.summary": {
+      "hash": "24e28d1a88"
+    },
+    "hypnotic-pattern.summary": {
+      "hash": "15d3fb4f7f"
+    },
+    "lightning-bolt.summary": {
+      "hash": "66fd996a52"
+    },
+    "magic-circle.summary": {
+      "hash": "cd94d4c1e8",
+      "skip": true
+    },
+    "major-image.summary": {
+      "hash": "7d381c5067"
+    },
+    "mass-healing-word.summary": {
+      "hash": "eaccf3c484"
+    },
+    "meld-into-stone.summary": {
+      "hash": "c833ac471b"
+    },
+    "nondetection.summary": {
+      "hash": "7ff6bbcb5d"
+    },
+    "phantom-steed.summary": {
+      "hash": "aa41f86a21",
+      "skip": true
+    },
+    "plant-growth.summary": {
+      "hash": "abb92fd4ad",
+      "skip": true
+    },
+    "protection-from-energy.summary": {
+      "hash": "be7cd7332a"
+    },
+    "remove-curse.summary": {
+      "hash": "1dfa35af09"
+    },
+    "revivify.summary": {
+      "hash": "ae1f4cbcb2"
+    },
+    "sending.summary": {
+      "hash": "7670faa96e"
+    },
+    "sleet-storm.summary": {
+      "hash": "878c417016"
+    },
+    "slow.summary": {
+      "hash": "99281bd1d9"
+    },
+    "speak-with-dead.summary": {
+      "hash": "eb12851319",
+      "skip": true
+    },
+    "speak-with-plants.summary": {
+      "hash": "d259a49cea",
+      "skip": true
+    },
+    "spirit-guardians.summary": {
+      "hash": "396d0af10b"
+    },
+    "stinking-cloud.summary": {
+      "hash": "b5f42a676b"
+    },
+    "tiny-hut.summary": {
+      "hash": "63bcaff2c1",
+      "skip": true
+    },
+    "tongues.summary": {
+      "hash": "edbbc7294b"
+    },
+    "vampiric-touch.summary": {
+      "hash": "610f33c215"
+    },
+    "water-breathing.summary": {
+      "hash": "16c3d3ff42"
+    },
+    "water-walk.summary": {
+      "hash": "c3ff4414b8"
+    },
+    "wind-wall.summary": {
+      "hash": "e32b751bf7"
+    },
+    "arcane-eye.summary": {
+      "hash": "5043816fb0"
+    },
+    "aura-of-life.summary": {
+      "hash": "a6e0edaee9"
+    },
+    "banishment.summary": {
+      "hash": "c97981a531"
     }
   },
   "monsters": {
