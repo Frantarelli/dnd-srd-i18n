@@ -1,0 +1,131 @@
+{
+  "_": "Resúmenes hechos a mano desde el texto oficial (SRD 5.2.1 en inglés y su traducción revisada en español). Son el modelo que imita el resumidor local (few-shot) y la vara contra la que se lo mide (local-summarize --test). Los aprueba el mantenedor. Un idioma nuevo suma su campo a cada entrada.",
+  "examples": [
+    {
+      "catalog": "spells",
+      "key": "fireball.summary",
+      "en": "Each creature in a 20-foot-radius Sphere makes a Dexterity saving throw: 8d6 Fire damage, or half on a success.",
+      "es": "Cada criatura en una esfera de 6 m de radio hace una salvación de Destreza: 8d6 de daño de fuego, o la mitad si tiene éxito."
+    },
+    {
+      "catalog": "spells",
+      "key": "hold-person.summary",
+      "en": "A Humanoid you see makes a Wisdom save or is Paralyzed; it repeats the save at the end of each of its turns.",
+      "es": "Un humanoide que veas hace una salvación de Sabiduría o queda Paralizado; la repite al final de cada uno de sus turnos."
+    },
+    {
+      "catalog": "spells",
+      "key": "bless.summary",
+      "en": "Up to three creatures add 1d4 to their attack rolls and saving throws until the spell ends.",
+      "es": "Hasta tres criaturas suman 1d4 a sus tiradas de ataque y de salvación hasta que termine el conjuro."
+    },
+    {
+      "catalog": "spells",
+      "key": "shield.summary",
+      "en": "Until your next turn starts: +5 bonus to AC, even against the triggering attack; no damage from Magic Missile.",
+      "es": "Hasta el comienzo de tu siguiente turno: +5 a la CA, incluso contra el ataque desencadenante, y sin daño de proyectil mágico."
+    },
+    {
+      "catalog": "spells",
+      "key": "healing-word.summary",
+      "en": "A creature you can see regains Hit Points equal to 2d4 plus your spellcasting ability modifier.",
+      "es": "Una criatura que puedas ver recupera puntos de golpe: 2d4 más tu modificador de característica de lanzamiento de conjuros."
+    },
+    {
+      "catalog": "spells",
+      "key": "guiding-bolt.summary",
+      "en": "Ranged spell attack: 4d6 Radiant damage; the next attack against it before your next turn ends has Advantage.",
+      "es": "Ataque de conjuro a distancia: 4d6 de daño radiante; el siguiente ataque contra él hasta el final de tu siguiente turno tiene ventaja."
+    },
+    {
+      "catalog": "spells",
+      "key": "counterspell.summary",
+      "en": "A creature casting a spell makes a Constitution save; if it fails, the spell has no effect and no slot is spent.",
+      "es": "Una criatura que lanza un conjuro hace una salvación de Constitución; si falla, el conjuro no tiene efecto y no gasta su espacio."
+    },
+    {
+      "catalog": "spells",
+      "key": "magic-missile.summary",
+      "en": "Three darts of force hit creatures you choose and can see: 1d4 + 1 Force damage each, all at once.",
+      "es": "Tres dardos de fuerza alcanzan a criaturas que elijas y puedas ver: 1d4 + 1 de daño de fuerza cada uno, todos a la vez."
+    },
+    {
+      "catalog": "spells",
+      "key": "spiritual-weapon.summary",
+      "en": "Melee spell attack: 1d8 + spellcasting modifier Force damage; later, a Bonus Action moves it 20 feet to attack again.",
+      "es": "Ataque de conjuro cuerpo a cuerpo: 1d8 + tu modificador de daño de fuerza; luego, como acción adicional, la mueves 6 m y repites."
+    },
+    {
+      "catalog": "spells",
+      "key": "sleep.summary",
+      "en": "Chosen creatures in a 5-foot-radius Sphere make a Wisdom save or are Incapacitated, then Unconscious on a second failure.",
+      "es": "Criaturas que elijas en una esfera de 1,5 m de radio: salvación de Sabiduría o Incapacitadas; si vuelven a fallar, Inconscientes."
+    },
+    {
+      "catalog": "monsters",
+      "key": "ghoul.actions.1.summary",
+      "en": "Melee +4, reach 5 ft.: 1d4 + 2 Slashing; a non-Undead, non-elf target makes a DC 10 Constitution save or is Paralyzed.",
+      "es": "Cuerpo a cuerpo +4, 1,5 m: 1d4 + 2 cortante; si no es muerto viviente ni elfo, salvación de Constitución CD 10 o Paralizado."
+    },
+    {
+      "catalog": "monsters",
+      "key": "wolf.actions.0.summary",
+      "en": "Melee +4, reach 5 ft.: 1d6 + 2 Piercing damage; a Medium or smaller target has the Prone condition.",
+      "es": "Cuerpo a cuerpo +4, alcance 1,5 m: 1d6 + 2 de daño perforante; un objetivo Mediano o más pequeño queda Derribado."
+    },
+    {
+      "catalog": "monsters",
+      "key": "giant-spider.actions.1.summary",
+      "en": "One creature within 60 feet makes a DC 13 Dexterity save or is Restrained until the web (AC 10, 5 HP) is destroyed.",
+      "es": "Una criatura a 18 m hace una salvación de Destreza CD 13 o queda Apresada hasta que se destruya la telaraña (CA 10, 5 PG)."
+    },
+    {
+      "catalog": "monsters",
+      "key": "knight.reactions.0.summary",
+      "en": "Hit by a melee attack while holding a weapon: the knight adds 2 to its AC against it, possibly causing a miss.",
+      "es": "Si lo impacta un ataque cuerpo a cuerpo mientras empuña un arma, suma 2 a su CA contra ese ataque y puede hacerlo fallar."
+    },
+    {
+      "catalog": "monsters",
+      "key": "goblin-boss.reactions.0.summary",
+      "en": "When a creature attacks it, the goblin swaps places with a Small or Medium ally within 5 feet, who becomes the target.",
+      "es": "Cuando una criatura lo ataca, el goblin intercambia posiciones con un aliado Pequeño o Mediano a 1,5 m, que pasa a ser el objetivo."
+    },
+    {
+      "catalog": "classes",
+      "key": "barbarian.feature.rage.summary",
+      "en": "Bonus Action, no Heavy armor: Resistance to Bludgeoning, Piercing and Slashing damage; extra Strength attack damage.",
+      "es": "Acción adicional, sin armadura pesada: resistencia al daño contundente, perforante y cortante y más daño en ataques de Fuerza."
+    },
+    {
+      "catalog": "classes",
+      "key": "fighter.feature.second-wind.summary",
+      "en": "Bonus Action: regain 1d10 + your Fighter level Hit Points. One use returns on a Short Rest, all on a Long Rest.",
+      "es": "Acción adicional: recuperas 1d10 + tu nivel de guerrero en puntos de golpe. Un uso vuelve con descanso corto; todos, con descanso largo."
+    },
+    {
+      "catalog": "classes",
+      "key": "fighter.feature.action-surge.summary",
+      "en": "On your turn, take one additional action (not the Magic action). Once per Short or Long Rest; twice from level 17.",
+      "es": "En tu turno, una acción más (excepto la acción de Magia). Una vez por descanso corto o largo; dos desde el nivel 17."
+    },
+    {
+      "catalog": "classes",
+      "key": "paladin.feature.lay-on-hands.summary",
+      "en": "Bonus Action: touch to restore Hit Points from a pool of 5 × your Paladin level, or spend 5 to end Poisoned.",
+      "es": "Acción adicional: al tocar, curas puntos de golpe de una reserva de 5 × tu nivel de paladín, o gastas 5 para quitar Envenenado."
+    },
+    {
+      "catalog": "origin",
+      "key": "species.dragonborn.trait.breath-weapon.summary",
+      "en": "Replace an attack: 15-foot Cone or 30-foot Line; Dexterity save (DC 8 + Con. + proficiency): 1d10, half on a success.",
+      "es": "Sustituye un ataque: cono de 4,5 m o línea de 9 m; salvación de Destreza (CD 8 + Con. + competencia): 1d10, mitad si tiene éxito."
+    },
+    {
+      "catalog": "origin",
+      "key": "species.orc.trait.adrenaline-rush.summary",
+      "en": "Take the Dash action as a Bonus Action and gain Temporary Hit Points equal to your Proficiency Bonus.",
+      "es": "Realizas la acción de Correr como acción adicional y obtienes puntos de golpe temporales iguales a tu bonificador de competencia."
+    }
+  ]
+}
