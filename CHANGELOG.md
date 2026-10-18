@@ -4,6 +4,21 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.12.0] — 2026-10-18
+
+### Agregado
+- **525 resúmenes de tarjeta más**, en inglés y español, con lo que hay **699 por idioma**: 251 hechizos (todos los que
+  necesitan resumen y lo admiten), 412 acciones de criaturas (acciones, acciones adicionales y reacciones; las legendarias y
+  los rasgos especiales siguen sin resumen), 23 rasgos de clase con acción y 13 de especie. Los escribió Gemma 3 12B en la
+  PC (Ollama) y se verificaron **todos, uno por uno**, contra el texto oficial en los dos idiomas: se corrigió o se
+  escribió a mano más de la mitad de los de combate (omisiones de lo que decide la mesa, números o condiciones mal
+  trasladados, español que no sonaba a tuteo). Otros 80 quedan sin resumir a propósito («?» en `data/en/_summary-source.json`):
+  hechizos y rasgos sin nada que tirar en combate o con una tabla de efectos; ahí la aplicación muestra el texto entero.
+
+### Cambiado
+- `summary-check --file` en otro idioma corre también el validador contra el resumen inglés, igual que `summary-merge`.
+- El chequeo de palabras sin traducir ya no cuenta la que abre una oración («No», «El»).
+
 ## [0.11.0] — 2026-10-17
 
 ### Agregado

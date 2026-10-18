@@ -549,6 +549,505 @@
     },
     "banishment.summary": {
       "hash": "c97981a531"
+    },
+    "black-tentacles.summary": {
+      "hash": "6f02ba0e80"
+    },
+    "blight.summary": {
+      "hash": "dbca40fd56"
+    },
+    "charm-monster.summary": {
+      "hash": "7f92d1c4da"
+    },
+    "compulsion.summary": {
+      "hash": "a7a40ea4bb"
+    },
+    "confusion.summary": {
+      "hash": "4ca4438306"
+    },
+    "conjure-minor-elementals.summary": {
+      "hash": "ce61b70f28"
+    },
+    "conjure-woodland-beings.summary": {
+      "hash": "ca046f2c96"
+    },
+    "control-water.summary": {
+      "hash": "b0de87462b",
+      "skip": true
+    },
+    "death-ward.summary": {
+      "hash": "4ddc613c8b"
+    },
+    "dimension-door.summary": {
+      "hash": "8f43154a9b"
+    },
+    "divination.summary": {
+      "hash": "06f2c30cf6",
+      "skip": true
+    },
+    "dominate-beast.summary": {
+      "hash": "7930e66e1e"
+    },
+    "fabricate.summary": {
+      "hash": "7b6b5b3193",
+      "skip": true
+    },
+    "faithful-hound.summary": {
+      "hash": "f0db0ece9c",
+      "skip": true
+    },
+    "fire-shield.summary": {
+      "hash": "c4c07177bd"
+    },
+    "freedom-of-movement.summary": {
+      "hash": "203db32911"
+    },
+    "giant-insect.summary": {
+      "hash": "0c9cb497f4"
+    },
+    "guardian-of-faith.summary": {
+      "hash": "30ed51dda8"
+    },
+    "hallucinatory-terrain.summary": {
+      "hash": "3196f400fc",
+      "skip": true
+    },
+    "ice-storm.summary": {
+      "hash": "b7d6b8305c"
+    },
+    "locate-creature.summary": {
+      "hash": "3f308754b1",
+      "skip": true
+    },
+    "phantasmal-killer.summary": {
+      "hash": "d996c7f6b6"
+    },
+    "polymorph.summary": {
+      "hash": "183c7e01f4"
+    },
+    "private-sanctum.summary": {
+      "hash": "d7fb3ca20f",
+      "skip": true
+    },
+    "resilient-sphere.summary": {
+      "hash": "25b7a4952f"
+    },
+    "secret-chest.summary": {
+      "hash": "fb382e40cc",
+      "skip": true
+    },
+    "stone-shape.summary": {
+      "hash": "2b97878316"
+    },
+    "vitriolic-sphere.summary": {
+      "hash": "115d703bbd"
+    },
+    "wall-of-fire.summary": {
+      "hash": "e41004ee05"
+    },
+    "animate-objects.summary": {
+      "hash": "ae8bfab44b"
+    },
+    "antilife-shell.summary": {
+      "hash": "f66f58e6ed"
+    },
+    "arcane-hand.summary": {
+      "hash": "d3c94ca5de"
+    },
+    "awaken.summary": {
+      "hash": "7b59638d48",
+      "skip": true
+    },
+    "cloudkill.summary": {
+      "hash": "266c1c09a8"
+    },
+    "commune.summary": {
+      "hash": "76b9e35636",
+      "skip": true
+    },
+    "commune-with-nature.summary": {
+      "hash": "af6b2b05ec",
+      "skip": true
+    },
+    "cone-of-cold.summary": {
+      "hash": "62f9a0d2d4"
+    },
+    "conjure-elemental.summary": {
+      "hash": "fa58ef3ca1"
+    },
+    "contact-other-plane.summary": {
+      "hash": "cb19cdb5b6"
+    },
+    "contagion.summary": {
+      "hash": "c91e02d19f"
+    },
+    "creation.summary": {
+      "hash": "6066571dd5"
+    },
+    "dispel-evil-and-good.summary": {
+      "hash": "96469b1395"
+    },
+    "dominate-person.summary": {
+      "hash": "53970a3e79"
+    },
+    "dream.summary": {
+      "hash": "89bb574a06",
+      "skip": true
+    },
+    "flame-strike.summary": {
+      "hash": "9f0f3b4075"
+    },
+    "geas.summary": {
+      "hash": "83ca4afec6"
+    },
+    "greater-restoration.summary": {
+      "hash": "3ddffee6e0"
+    },
+    "hallow.summary": {
+      "hash": "86d0692d75",
+      "skip": true
+    },
+    "hold-monster.summary": {
+      "hash": "277c9379c0"
+    },
+    "insect-plague.summary": {
+      "hash": "618db79deb"
+    },
+    "legend-lore.summary": {
+      "hash": "af61ce1d73"
+    },
+    "mass-cure-wounds.summary": {
+      "hash": "ff0ef6162f"
+    },
+    "mislead.summary": {
+      "hash": "8fa9b4f610"
+    },
+    "modify-memory.summary": {
+      "hash": "f3ce979216",
+      "skip": true
+    },
+    "passwall.summary": {
+      "hash": "85e1deff84"
+    },
+    "planar-binding.summary": {
+      "hash": "144ae80805",
+      "skip": true
+    },
+    "raise-dead.summary": {
+      "hash": "45d5ecf067"
+    },
+    "reincarnate.summary": {
+      "hash": "3178ccb097"
+    },
+    "scrying.summary": {
+      "hash": "3a49131ef1"
+    },
+    "seeming.summary": {
+      "hash": "29d75ec907"
+    },
+    "summon-dragon.summary": {
+      "hash": "060b2c880b"
+    },
+    "telekinesis.summary": {
+      "hash": "4a7808551b"
+    },
+    "telepathic-bond.summary": {
+      "hash": "d980906fd6"
+    },
+    "teleportation-circle.summary": {
+      "hash": "fe17636c1b",
+      "skip": true
+    },
+    "tree-stride.summary": {
+      "hash": "a737005b7c",
+      "skip": true
+    },
+    "wall-of-force.summary": {
+      "hash": "9b1ea6cc4e"
+    },
+    "wall-of-stone.summary": {
+      "hash": "1487b12eb9",
+      "skip": true
+    },
+    "blade-barrier.summary": {
+      "hash": "1f8dadf93c"
+    },
+    "chain-lightning.summary": {
+      "hash": "ed02018c0a"
+    },
+    "circle-of-death.summary": {
+      "hash": "a2baf6745f"
+    },
+    "conjure-fey.summary": {
+      "hash": "7680d15c80"
+    },
+    "contingency.summary": {
+      "hash": "ae8ada0817",
+      "skip": true
+    },
+    "create-undead.summary": {
+      "hash": "750f87adb3",
+      "skip": true
+    },
+    "disintegrate.summary": {
+      "hash": "20c45780b7"
+    },
+    "eyebite.summary": {
+      "hash": "ff11d08be6"
+    },
+    "find-the-path.summary": {
+      "hash": "0fa9007c1a",
+      "skip": true
+    },
+    "flesh-to-stone.summary": {
+      "hash": "f1e2f56cb2"
+    },
+    "forbiddance.summary": {
+      "hash": "4d80b810a8"
+    },
+    "freezing-sphere.summary": {
+      "hash": "1582f0b139"
+    },
+    "globe-of-invulnerability.summary": {
+      "hash": "be89182354"
+    },
+    "guards-and-wards.summary": {
+      "hash": "a0bd9e5df2"
+    },
+    "harm.summary": {
+      "hash": "56e809355b"
+    },
+    "heal.summary": {
+      "hash": "926e7be5ac"
+    },
+    "heroes-feast.summary": {
+      "hash": "35bdc5796c",
+      "skip": true
+    },
+    "instant-summons.summary": {
+      "hash": "667671e5cd",
+      "skip": true
+    },
+    "irresistible-dance.summary": {
+      "hash": "899b71a0e1"
+    },
+    "magic-jar.summary": {
+      "hash": "e286b5f8b0",
+      "skip": true
+    },
+    "mass-suggestion.summary": {
+      "hash": "eb6532e079"
+    },
+    "move-earth.summary": {
+      "hash": "54839ad858",
+      "skip": true
+    },
+    "planar-ally.summary": {
+      "hash": "0acb4a17dc",
+      "skip": true
+    },
+    "programmed-illusion.summary": {
+      "hash": "f4bc48e452",
+      "skip": true
+    },
+    "sunbeam.summary": {
+      "hash": "caa2c7aad1"
+    },
+    "transport-via-plants.summary": {
+      "hash": "d490585ad9"
+    },
+    "wall-of-ice.summary": {
+      "hash": "0942143a9e"
+    },
+    "wall-of-thorns.summary": {
+      "hash": "5f514bbbbd"
+    },
+    "wind-walk.summary": {
+      "hash": "fd47a784f4",
+      "skip": true
+    },
+    "word-of-recall.summary": {
+      "hash": "9d1a04d084",
+      "skip": true
+    },
+    "arcane-sword.summary": {
+      "hash": "b6ecf7583f"
+    },
+    "conjure-celestial.summary": {
+      "hash": "51bb6a44fc"
+    },
+    "delayed-blast-fireball.summary": {
+      "hash": "b1eb58b975"
+    },
+    "divine-word.summary": {
+      "hash": "13dbe81f7a"
+    },
+    "etherealness.summary": {
+      "hash": "c1f9fc109f",
+      "skip": true
+    },
+    "finger-of-death.summary": {
+      "hash": "9fea06626f"
+    },
+    "fire-storm.summary": {
+      "hash": "67aa711577"
+    },
+    "forcecage.summary": {
+      "hash": "8019033c44"
+    },
+    "magnificent-mansion.summary": {
+      "hash": "24cb8a079e",
+      "skip": true
+    },
+    "mirage-arcane.summary": {
+      "hash": "8e38d35a61",
+      "skip": true
+    },
+    "plane-shift.summary": {
+      "hash": "2ad40d3592",
+      "skip": true
+    },
+    "prismatic-spray.summary": {
+      "hash": "22fecef5e2"
+    },
+    "project-image.summary": {
+      "hash": "278db27e98",
+      "skip": true
+    },
+    "regenerate.summary": {
+      "hash": "24f414b37b"
+    },
+    "resurrection.summary": {
+      "hash": "9451e819df"
+    },
+    "reverse-gravity.summary": {
+      "hash": "c54dff8c8e",
+      "skip": true
+    },
+    "sequester.summary": {
+      "hash": "1f6fdcd389",
+      "skip": true
+    },
+    "simulacrum.summary": {
+      "hash": "059689372e",
+      "skip": true
+    },
+    "symbol.summary": {
+      "hash": "4aa4cb21d1",
+      "skip": true
+    },
+    "teleport.summary": {
+      "hash": "b7bfeeea0f"
+    },
+    "animal-shapes.summary": {
+      "hash": "de7ab5b891",
+      "skip": true
+    },
+    "antimagic-field.summary": {
+      "hash": "1a0865f995"
+    },
+    "antipathysympathy.summary": {
+      "hash": "6d9761692a"
+    },
+    "befuddlement.summary": {
+      "hash": "68e99ca3a9"
+    },
+    "clone.summary": {
+      "hash": "cf342d3241",
+      "skip": true
+    },
+    "control-weather.summary": {
+      "hash": "0df466f0e7"
+    },
+    "demiplane.summary": {
+      "hash": "ab437eb98a",
+      "skip": true
+    },
+    "dominate-monster.summary": {
+      "hash": "b1bf963d15"
+    },
+    "earthquake.summary": {
+      "hash": "9fc8e2a136"
+    },
+    "glibness.summary": {
+      "hash": "9875ab1d50"
+    },
+    "holy-aura.summary": {
+      "hash": "9a51931033"
+    },
+    "incendiary-cloud.summary": {
+      "hash": "aaa47fc5f4"
+    },
+    "maze.summary": {
+      "hash": "d5c30cf237"
+    },
+    "mind-blank.summary": {
+      "hash": "6944cdfcad"
+    },
+    "power-word-stun.summary": {
+      "hash": "fc0d5f3f09"
+    },
+    "sunburst.summary": {
+      "hash": "2bb7fef1dd"
+    },
+    "tsunami.summary": {
+      "hash": "4ec3b2fa23"
+    },
+    "astral-projection.summary": {
+      "hash": "6f850e0b80",
+      "skip": true
+    },
+    "foresight.summary": {
+      "hash": "038aeca7be"
+    },
+    "gate.summary": {
+      "hash": "e5bddb150e",
+      "skip": true
+    },
+    "imprisonment.summary": {
+      "hash": "f005b3e204"
+    },
+    "mass-heal.summary": {
+      "hash": "5337c444a0"
+    },
+    "meteor-swarm.summary": {
+      "hash": "8662e115d4"
+    },
+    "power-word-heal.summary": {
+      "hash": "a9c2308456"
+    },
+    "power-word-kill.summary": {
+      "hash": "68a2a352da"
+    },
+    "prismatic-wall.summary": {
+      "hash": "504cd02e4a",
+      "skip": true
+    },
+    "shapechange.summary": {
+      "hash": "bed64e0ef4",
+      "skip": true
+    },
+    "storm-of-vengeance.summary": {
+      "hash": "690f69dc80"
+    },
+    "time-stop.summary": {
+      "hash": "8f46c151b7",
+      "skip": true
+    },
+    "true-polymorph.summary": {
+      "hash": "6b78f2ecb8",
+      "skip": true
+    },
+    "true-resurrection.summary": {
+      "hash": "e3da460f5a",
+      "skip": true
+    },
+    "weird.summary": {
+      "hash": "01727e1a91"
+    },
+    "wish.summary": {
+      "hash": "e4919dbf82",
+      "skip": true
     }
   },
   "monsters": {
@@ -596,6 +1095,1213 @@
     },
     "werebear.bonus_actions.0.summary": {
       "hash": "23903f3378"
+    },
+    "shrieker-fungus.reactions.0.summary": {
+      "hash": "69bb0dd2df"
+    },
+    "noble.reactions.0.summary": {
+      "hash": "2910175aaf"
+    },
+    "gnoll-warrior.bonus_actions.0.summary": {
+      "hash": "a200d54a0a"
+    },
+    "magmin.bonus_actions.0.summary": {
+      "hash": "3c3d961b85"
+    },
+    "giant-hyena.bonus_actions.0.summary": {
+      "hash": "378e5bccdc"
+    },
+    "giant-octopus.reactions.0.summary": {
+      "hash": "604860ab8d"
+    },
+    "goblin-boss.reactions.0.summary": {
+      "hash": "b8f65cd7f5"
+    },
+    "sphinx-of-wonder.reactions.0.summary": {
+      "hash": "b909e025a9"
+    },
+    "centaur-trooper.bonus_actions.0.summary": {
+      "hash": "e51f88ec0b"
+    },
+    "ettercap.bonus_actions.0.summary": {
+      "hash": "27d00fe231"
+    },
+    "mimic.bonus_actions.0.summary": {
+      "hash": "43a9070448"
+    },
+    "ochre-jelly.reactions.0.summary": {
+      "hash": "25a8b2f3cc"
+    },
+    "priest.bonus_actions.0.summary": {
+      "hash": "841c71daf2"
+    },
+    "wererat.bonus_actions.0.summary": {
+      "hash": "aa22eb541f"
+    },
+    "will-o-wisp.bonus_actions.0.summary": {
+      "hash": "8fdd31de80"
+    },
+    "will-o-wisp.bonus_actions.1.summary": {
+      "hash": "4c95a911e9"
+    },
+    "basilisk.bonus_actions.0.summary": {
+      "hash": "23ea4868a8"
+    },
+    "bugbear-stalker.bonus_actions.0.summary": {
+      "hash": "808a971854"
+    },
+    "doppelganger.bonus_actions.0.summary": {
+      "hash": "de5c3a70ea"
+    },
+    "knight.reactions.0.summary": {
+      "hash": "9672d11471"
+    },
+    "warrior-veteran.reactions.0.summary": {
+      "hash": "8cecc62bc5"
+    },
+    "werewolf.bonus_actions.0.summary": {
+      "hash": "b7ffd4809d"
+    },
+    "black-pudding.reactions.0.summary": {
+      "hash": "6b30dc8b8c"
+    },
+    "couatl.bonus_actions.0.summary": {
+      "hash": "a8fcec3d3d"
+    },
+    "elephant.bonus_actions.0.summary": {
+      "hash": "170bacc6e4"
+    },
+    "incubus.bonus_actions.0.summary": {
+      "hash": "0648fe15b4"
+    },
+    "succubus.bonus_actions.0.summary": {
+      "hash": "9e5f86d9e0"
+    },
+    "wereboar.bonus_actions.0.summary": {
+      "hash": "0e68ae0959"
+    },
+    "weretiger.bonus_actions.0.summary": {
+      "hash": "e320586f4a"
+    },
+    "weretiger.bonus_actions.1.summary": {
+      "hash": "39c410af4f"
+    },
+    "gladiator.reactions.0.summary": {
+      "hash": "4147af31bb"
+    },
+    "night-hag.bonus_actions.0.summary": {
+      "hash": "feb93f13af"
+    },
+    "unicorn.bonus_actions.0.summary": {
+      "hash": "ac0ed84078"
+    },
+    "drider.bonus_actions.0.summary": {
+      "hash": "8b7768e697"
+    },
+    "mage.reactions.0.summary": {
+      "hash": "8dfe11aac7"
+    },
+    "mammoth.bonus_actions.0.summary": {
+      "hash": "8abec7d690"
+    },
+    "medusa.bonus_actions.0.summary": {
+      "hash": "6ea7f42e2f"
+    },
+    "pirate-captain.bonus_actions.0.summary": {
+      "hash": "98e63b28b4"
+    },
+    "pirate-captain.reactions.0.summary": {
+      "hash": "d2f4800886"
+    },
+    "oni.bonus_actions.0.summary": {
+      "hash": "afbda965b6"
+    },
+    "shield-guardian.reactions.0.summary": {
+      "hash": "1ae383769a"
+    },
+    "stone-giant.reactions.0.summary": {
+      "hash": "3420336c2b"
+    },
+    "chain-devil.reactions.0.summary": {
+      "hash": "53f55e1398"
+    },
+    "cloaker.bonus_actions.0.summary": {
+      "hash": "2b7fd0c18d"
+    },
+    "cloaker.bonus_actions.1.summary": {
+      "hash": "82f60e1492"
+    },
+    "frost-giant.bonus_actions.0.summary": {
+      "hash": "1a033be849"
+    },
+    "stone-golem.bonus_actions.0.summary": {
+      "hash": "6f16ce7754"
+    },
+    "behir.bonus_actions.0.summary": {
+      "hash": "5c608e8881"
+    },
+    "remorhaz.bonus_actions.0.summary": {
+      "hash": "c75697d83c"
+    },
+    "roc.bonus_actions.0.summary": {
+      "hash": "983973ad0e"
+    },
+    "archmage.reactions.0.summary": {
+      "hash": "ce69f0bbb9"
+    },
+    "erinyes.reactions.0.summary": {
+      "hash": "ac20e33505"
+    },
+    "nalfeshnee.bonus_actions.0.summary": {
+      "hash": "f16cd0aa3d"
+    },
+    "nalfeshnee.reactions.0.summary": {
+      "hash": "431f32c85d"
+    },
+    "vampire.bonus_actions.0.summary": {
+      "hash": "6942ea52ea"
+    },
+    "vampire.bonus_actions.1.summary": {
+      "hash": "b6ce09b237"
+    },
+    "mummy-lord.reactions.0.summary": {
+      "hash": "1ab9cdc684"
+    },
+    "purple-worm.bonus_actions.0.summary": {
+      "hash": "da18b257b0"
+    },
+    "marilith.reactions.0.summary": {
+      "hash": "17e317b8d7"
+    },
+    "planetar.bonus_actions.0.summary": {
+      "hash": "6c24b4be33"
+    },
+    "balor.bonus_actions.0.summary": {
+      "hash": "65ffd07ac7"
+    },
+    "lich.reactions.0.summary": {
+      "hash": "f26ea32148"
+    },
+    "solar.bonus_actions.0.summary": {
+      "hash": "54829ea3b5"
+    },
+    "tarrasque.bonus_actions.0.summary": {
+      "hash": "75fd02d85c"
+    },
+    "goat.actions.0.summary": {
+      "hash": "6051418e99"
+    },
+    "homunculus.actions.0.summary": {
+      "hash": "10cb4ed24b"
+    },
+    "blood-hawk.actions.0.summary": {
+      "hash": "f58e66d3bd"
+    },
+    "giant-crab.actions.0.summary": {
+      "hash": "21dcf77ed5"
+    },
+    "mastiff.actions.0.summary": {
+      "hash": "5fe2879724"
+    },
+    "merfolk-skirmisher.actions.0.summary": {
+      "hash": "351c6e396e"
+    },
+    "stirge.actions.0.summary": {
+      "hash": "385c3ee79f"
+    },
+    "boar.actions.0.summary": {
+      "hash": "d2359448f1"
+    },
+    "constrictor-snake.actions.1.summary": {
+      "hash": "2c8c60ce2d"
+    },
+    "dretch.actions.0.summary": {
+      "hash": "358139dd0e"
+    },
+    "elk.actions.0.summary": {
+      "hash": "ce51b556d8"
+    },
+    "giant-centipede.actions.0.summary": {
+      "hash": "dab993b699"
+    },
+    "giant-frog.actions.0.summary": {
+      "hash": "f848701a9d"
+    },
+    "giant-frog.actions.1.summary": {
+      "hash": "b8bd5981b2"
+    },
+    "giant-owl.actions.0.summary": {
+      "hash": "d12a198fcc"
+    },
+    "goblin-warrior.actions.0.summary": {
+      "hash": "296e86f201"
+    },
+    "goblin-warrior.actions.1.summary": {
+      "hash": "c392d10360"
+    },
+    "priest-acolyte.actions.2.summary": {
+      "hash": "5631d26358"
+    },
+    "pseudodragon.actions.2.summary": {
+      "hash": "4bb5b3bd51"
+    },
+    "sprite.actions.0.summary": {
+      "hash": "6dc9c82c41"
+    },
+    "sprite.actions.1.summary": {
+      "hash": "5206a2e01d"
+    },
+    "steam-mephit.actions.1.summary": {
+      "hash": "c98e574289"
+    },
+    "swarm-of-ravens.actions.1.summary": {
+      "hash": "ae0f1d0d34"
+    },
+    "wolf.actions.0.summary": {
+      "hash": "9af6e77995"
+    },
+    "cockatrice.actions.0.summary": {
+      "hash": "4d1808b2d4"
+    },
+    "crocodile.actions.0.summary": {
+      "hash": "c629b9545d"
+    },
+    "darkmantle.actions.0.summary": {
+      "hash": "453777969f"
+    },
+    "dust-mephit.actions.0.summary": {
+      "hash": "71897fca25"
+    },
+    "dust-mephit.actions.2.summary": {
+      "hash": "d8ce9b3d74"
+    },
+    "giant-goat.actions.0.summary": {
+      "hash": "3f17e58aa1"
+    },
+    "giant-seahorse.actions.0.summary": {
+      "hash": "ec3540b648"
+    },
+    "gray-ooze.actions.0.summary": {
+      "hash": "6029611be8"
+    },
+    "ice-mephit.actions.1.summary": {
+      "hash": "023bd93f23"
+    },
+    "magmin.actions.0.summary": {
+      "hash": "fd84a5b901"
+    },
+    "rust-monster.actions.0.summary": {
+      "hash": "78ed76e546"
+    },
+    "rust-monster.actions.2.summary": {
+      "hash": "1483d8cfc1"
+    },
+    "satyr.actions.0.summary": {
+      "hash": "322efd67c6"
+    },
+    "shadow.actions.0.summary": {
+      "hash": "2b026eeda3"
+    },
+    "warhorse-skeleton.actions.0.summary": {
+      "hash": "058464e432"
+    },
+    "warhorse.actions.0.summary": {
+      "hash": "156fbdc0c7"
+    },
+    "worg.actions.0.summary": {
+      "hash": "d25548def6"
+    },
+    "brass-dragon-wyrmling.actions.0.summary": {
+      "hash": "cc3e0ec479"
+    },
+    "brass-dragon-wyrmling.actions.2.summary": {
+      "hash": "89a31da4e3"
+    },
+    "brown-bear.actions.1.summary": {
+      "hash": "8b80ced322"
+    },
+    "bugbear-warrior.actions.0.summary": {
+      "hash": "f9e980b0e0"
+    },
+    "bugbear-warrior.actions.1.summary": {
+      "hash": "c49d01da52"
+    },
+    "copper-dragon-wyrmling.actions.0.summary": {
+      "hash": "e7e2449032"
+    },
+    "copper-dragon-wyrmling.actions.2.summary": {
+      "hash": "f1f80c669c"
+    },
+    "death-dog.actions.0.summary": {
+      "hash": "06012f22ee"
+    },
+    "dire-wolf.actions.0.summary": {
+      "hash": "3da4a1a5e7"
+    },
+    "dryad.actions.1.summary": {
+      "hash": "230c153c8f"
+    },
+    "ghoul.actions.1.summary": {
+      "hash": "8ee9b52f1d"
+    },
+    "giant-octopus.actions.0.summary": {
+      "hash": "67c14d1b52"
+    },
+    "giant-spider.actions.1.summary": {
+      "hash": "02337e6278"
+    },
+    "giant-toad.actions.0.summary": {
+      "hash": "6331f5975f"
+    },
+    "giant-toad.actions.1.summary": {
+      "hash": "164c7f030e"
+    },
+    "giant-vulture.actions.0.summary": {
+      "hash": "f00a7ba99c"
+    },
+    "goblin-boss.actions.1.summary": {
+      "hash": "296e86f201"
+    },
+    "goblin-boss.actions.2.summary": {
+      "hash": "c392d10360"
+    },
+    "harpy.actions.1.summary": {
+      "hash": "c02af59df5"
+    },
+    "imp.actions.0.summary": {
+      "hash": "8ea76a86b4"
+    },
+    "imp.actions.1.summary": {
+      "hash": "e6bb515a2f"
+    },
+    "pirate.actions.1.summary": {
+      "hash": "40f83e612a"
+    },
+    "quasit.actions.1.summary": {
+      "hash": "cb6ecc5a61"
+    },
+    "quasit.actions.2.summary": {
+      "hash": "4b45701d7c"
+    },
+    "quasit.actions.3.summary": {
+      "hash": "42c80ab88d"
+    },
+    "specter.actions.0.summary": {
+      "hash": "b7c33a57f9"
+    },
+    "swarm-of-piranhas.actions.0.summary": {
+      "hash": "2e7bcdc315"
+    },
+    "tiger.actions.0.summary": {
+      "hash": "a69ccda32b"
+    },
+    "allosaurus.actions.1.summary": {
+      "hash": "44f5fb6ef4"
+    },
+    "animated-rug-of-smothering.actions.0.summary": {
+      "hash": "a07d1f0516"
+    },
+    "ankheg.actions.0.summary": {
+      "hash": "b5bf662dda"
+    },
+    "ankheg.actions.1.summary": {
+      "hash": "34a9eff200"
+    },
+    "black-dragon-wyrmling.actions.0.summary": {
+      "hash": "ce33ff6200"
+    },
+    "bronze-dragon-wyrmling.actions.0.summary": {
+      "hash": "5c3f89ef09"
+    },
+    "cultist-fanatic.actions.1.summary": {
+      "hash": "099917bd1a"
+    },
+    "druid.actions.1.summary": {
+      "hash": "3a2efb535a"
+    },
+    "ettercap.actions.0.summary": {
+      "hash": "5ed199b440"
+    },
+    "ettercap.actions.3.summary": {
+      "hash": "f9c191457f"
+    },
+    "gelatinous-cube.actions.0.summary": {
+      "hash": "e8f74d5d4e"
+    },
+    "ghast.actions.1.summary": {
+      "hash": "f002e6633d"
+    },
+    "giant-boar.actions.0.summary": {
+      "hash": "02ac45123b"
+    },
+    "giant-constrictor-snake.actions.1.summary": {
+      "hash": "dca6cdebaa"
+    },
+    "giant-elk.actions.0.summary": {
+      "hash": "e75035fa16"
+    },
+    "gibbering-mouther.actions.0.summary": {
+      "hash": "c229bfea2e"
+    },
+    "gibbering-mouther.actions.1.summary": {
+      "hash": "b8c3f1ae16"
+    },
+    "grick.actions.2.summary": {
+      "hash": "85bdfeceb5"
+    },
+    "griffon.actions.1.summary": {
+      "hash": "e1b60329bf"
+    },
+    "hunter-shark.actions.0.summary": {
+      "hash": "81d3a28aad"
+    },
+    "merrow.actions.0.summary": {
+      "hash": "bbaf978f23"
+    },
+    "merrow.actions.2.summary": {
+      "hash": "3f8157aaef"
+    },
+    "mimic.actions.0.summary": {
+      "hash": "2d2b44f28a"
+    },
+    "mimic.actions.1.summary": {
+      "hash": "3e90a16cdf"
+    },
+    "minotaur-skeleton.actions.0.summary": {
+      "hash": "138f2358c4"
+    },
+    "priest.actions.3.summary": {
+      "hash": "3f50996f62"
+    },
+    "rhinoceros.actions.0.summary": {
+      "hash": "9989bada01"
+    },
+    "sea-hag.actions.1.summary": {
+      "hash": "b4045a5dfb"
+    },
+    "sea-hag.actions.2.summary": {
+      "hash": "ab12e6961c"
+    },
+    "silver-dragon-wyrmling.actions.2.summary": {
+      "hash": "5cae12cc92"
+    },
+    "swarm-of-venomous-snakes.actions.0.summary": {
+      "hash": "6637aa858e"
+    },
+    "wererat.actions.0.summary": {
+      "hash": "f0ce758002"
+    },
+    "wererat.actions.2.summary": {
+      "hash": "ff6e7c345a"
+    },
+    "ankylosaurus.actions.1.summary": {
+      "hash": "1cdfc417f4"
+    },
+    "bearded-devil.actions.0.summary": {
+      "hash": "cb078ca3ba"
+    },
+    "bearded-devil.actions.1.summary": {
+      "hash": "eb6f0d7afe"
+    },
+    "blue-dragon-wyrmling.actions.0.summary": {
+      "hash": "de18380f40"
+    },
+    "bugbear-stalker.actions.1.summary": {
+      "hash": "c98ffebd68"
+    },
+    "doppelganger.actions.1.summary": {
+      "hash": "ba7205d140"
+    },
+    "doppelganger.actions.2.summary": {
+      "hash": "b9a55af9fc"
+    },
+    "doppelganger.actions.3.summary": {
+      "hash": "e284d6cd34"
+    },
+    "gold-dragon-wyrmling.actions.3.summary": {
+      "hash": "fb6563da7b"
+    },
+    "green-hag.actions.2.summary": {
+      "hash": "0f43d925ad"
+    },
+    "minotaur-of-baphomet.actions.1.summary": {
+      "hash": "5bdbd4e835"
+    },
+    "mummy.actions.0.summary": {
+      "hash": "8dd5c78fe9"
+    },
+    "mummy.actions.2.summary": {
+      "hash": "4b47c7305c"
+    },
+    "nightmare.actions.0.summary": {
+      "hash": "ef6cd6880f"
+    },
+    "swarm-of-crawling-claws.actions.0.summary": {
+      "hash": "9d9b761857"
+    },
+    "werewolf.actions.0.summary": {
+      "hash": "3be4a0a786"
+    },
+    "werewolf.actions.2.summary": {
+      "hash": "78dff9fafc"
+    },
+    "wight.actions.0.summary": {
+      "hash": "8f8acf6155"
+    },
+    "wight.actions.1.summary": {
+      "hash": "a7766cbbc9"
+    },
+    "winter-wolf.actions.0.summary": {
+      "hash": "7b24601566"
+    },
+    "black-pudding.actions.0.summary": {
+      "hash": "5e2c5c9d32"
+    },
+    "chuul.actions.1.summary": {
+      "hash": "c624e8a736"
+    },
+    "chuul.actions.2.summary": {
+      "hash": "62a47b4de1"
+    },
+    "couatl.actions.0.summary": {
+      "hash": "46dbd01f67"
+    },
+    "couatl.actions.1.summary": {
+      "hash": "6c8856ad80"
+    },
+    "couatl.actions.2.summary": {
+      "hash": "40d4c71f56"
+    },
+    "elephant.actions.0.summary": {
+      "hash": "822ba23d04"
+    },
+    "ettin.actions.0.summary": {
+      "hash": "75a2ecc16e"
+    },
+    "ettin.actions.1.summary": {
+      "hash": "39e8b0406a"
+    },
+    "ghost.actions.0.summary": {
+      "hash": "9714a8b88d"
+    },
+    "ghost.actions.1.summary": {
+      "hash": "3df5a7f52a"
+    },
+    "ghost.actions.3.summary": {
+      "hash": "10f48281c6"
+    },
+    "incubus.actions.1.summary": {
+      "hash": "dc10ca9a3f"
+    },
+    "incubus.actions.2.summary": {
+      "hash": "b50a737a19"
+    },
+    "lamia.actions.1.summary": {
+      "hash": "81e7c6889d"
+    },
+    "lamia.actions.3.summary": {
+      "hash": "efa8386160"
+    },
+    "succubus.actions.0.summary": {
+      "hash": "050f1379c7"
+    },
+    "succubus.actions.1.summary": {
+      "hash": "2ab4a5bc86"
+    },
+    "tough-boss.actions.2.summary": {
+      "hash": "bd8a60ac64"
+    },
+    "wereboar.actions.0.summary": {
+      "hash": "bc790d1cf2"
+    },
+    "wereboar.actions.3.summary": {
+      "hash": "ee19a7fc21"
+    },
+    "weretiger.actions.0.summary": {
+      "hash": "7b068f6e75"
+    },
+    "weretiger.actions.2.summary": {
+      "hash": "ac96ec1418"
+    },
+    "barbed-devil.actions.0.summary": {
+      "hash": "21ef1a5bf1"
+    },
+    "barbed-devil.actions.1.summary": {
+      "hash": "3193aadc56"
+    },
+    "bulette.actions.1.summary": {
+      "hash": "d19c6ea946"
+    },
+    "earth-elemental.actions.1.summary": {
+      "hash": "644e9b21fc"
+    },
+    "giant-crocodile.actions.0.summary": {
+      "hash": "1ff140553c"
+    },
+    "giant-crocodile.actions.2.summary": {
+      "hash": "2f65df7c79"
+    },
+    "giant-shark.actions.0.summary": {
+      "hash": "ae1591fb78"
+    },
+    "gladiator.actions.1.summary": {
+      "hash": "59bdf1f068"
+    },
+    "gorgon.actions.0.summary": {
+      "hash": "3e367253a9"
+    },
+    "gorgon.actions.1.summary": {
+      "hash": "af8a164920"
+    },
+    "half-dragon.actions.0.summary": {
+      "hash": "2eba4e1afd"
+    },
+    "half-dragon.actions.1.summary": {
+      "hash": "95ccfb3d87"
+    },
+    "hill-giant.actions.1.summary": {
+      "hash": "44ebf4fa3c"
+    },
+    "hill-giant.actions.2.summary": {
+      "hash": "2f65df7c79"
+    },
+    "night-hag.actions.2.summary": {
+      "hash": "64111149bd",
+      "skip": true
+    },
+    "night-hag.actions.3.summary": {
+      "hash": "36d783f576"
+    },
+    "otyugh.actions.0.summary": {
+      "hash": "c0d822cf8b"
+    },
+    "otyugh.actions.2.summary": {
+      "hash": "ec46b0faf7"
+    },
+    "otyugh.actions.3.summary": {
+      "hash": "1f9ad9296d"
+    },
+    "roper.actions.3.summary": {
+      "hash": "56d59d7c45"
+    },
+    "salamander.actions.0.summary": {
+      "hash": "b0a800e96a"
+    },
+    "salamander.actions.1.summary": {
+      "hash": "444ad3ec38"
+    },
+    "shambling-mound.actions.1.summary": {
+      "hash": "a49f8b1aa9"
+    },
+    "triceratops.actions.0.summary": {
+      "hash": "56f076dd3d"
+    },
+    "unicorn.actions.3.summary": {
+      "hash": "0698e0472f"
+    },
+    "vampire-spawn.actions.0.summary": {
+      "hash": "e278ce46d4"
+    },
+    "vampire-spawn.actions.1.summary": {
+      "hash": "6af4b1ff78"
+    },
+    "water-elemental.actions.1.summary": {
+      "hash": "ae0efc127e"
+    },
+    "water-elemental.actions.2.summary": {
+      "hash": "53f5ae1fce"
+    },
+    "werebear.actions.0.summary": {
+      "hash": "c02f9dcb28"
+    },
+    "wraith.actions.0.summary": {
+      "hash": "091904d246"
+    },
+    "wraith.actions.1.summary": {
+      "hash": "ef736a80b9"
+    },
+    "chimera.actions.0.summary": {
+      "hash": "ece5a9d9da"
+    },
+    "chimera.actions.3.summary": {
+      "hash": "b6e8b2a2ce"
+    },
+    "chimera.actions.4.summary": {
+      "hash": "924c6a3a64"
+    },
+    "invisible-stalker.actions.1.summary": {
+      "hash": "939d621f89"
+    },
+    "mage.actions.2.summary": {
+      "hash": "f9f04144bd"
+    },
+    "mammoth.actions.0.summary": {
+      "hash": "109fe255cd"
+    },
+    "pirate-captain.actions.2.summary": {
+      "hash": "589d33dad5"
+    },
+    "vrock.actions.2.summary": {
+      "hash": "7fcd014f41"
+    },
+    "vrock.actions.3.summary": {
+      "hash": "8428525378"
+    },
+    "wyvern.actions.2.summary": {
+      "hash": "92f446f8a7"
+    },
+    "young-brass-dragon.actions.0.summary": {
+      "hash": "4761077b8e"
+    },
+    "young-brass-dragon.actions.3.summary": {
+      "hash": "0b65d385e0"
+    },
+    "giant-ape.actions.0.summary": {
+      "hash": "842dff9c37"
+    },
+    "oni.actions.2.summary": {
+      "hash": "7095f854cb"
+    },
+    "oni.actions.3.summary": {
+      "hash": "de05bbb84d"
+    },
+    "oni.actions.4.summary": {
+      "hash": "91f6402fc8"
+    },
+    "stone-giant.actions.0.summary": {
+      "hash": "3f9404f816"
+    },
+    "young-black-dragon.actions.0.summary": {
+      "hash": "68272c82ac"
+    },
+    "young-copper-dragon.actions.0.summary": {
+      "hash": "9d9606d10b"
+    },
+    "young-copper-dragon.actions.3.summary": {
+      "hash": "333b931105"
+    },
+    "assassin.actions.2.summary": {
+      "hash": "2a4269f7c6"
+    },
+    "chain-devil.actions.0.summary": {
+      "hash": "dc0cb6d701"
+    },
+    "chain-devil.actions.1.summary": {
+      "hash": "0832bc7f7a"
+    },
+    "cloaker.actions.0.summary": {
+      "hash": "6d25b69330"
+    },
+    "frost-giant.actions.1.summary": {
+      "hash": "9eb826f001"
+    },
+    "spirit-naga.actions.3.summary": {
+      "hash": "fd25634d35"
+    },
+    "tyrannosaurus-rex.actions.0.summary": {
+      "hash": "64dcb8c7a1"
+    },
+    "tyrannosaurus-rex.actions.2.summary": {
+      "hash": "d1cc1d7af9"
+    },
+    "young-bronze-dragon.actions.0.summary": {
+      "hash": "b08170b4d9"
+    },
+    "young-bronze-dragon.actions.3.summary": {
+      "hash": "9d34c3df67"
+    },
+    "young-green-dragon.actions.1.summary": {
+      "hash": "9fd6189edb"
+    },
+    "bone-devil.actions.1.summary": {
+      "hash": "c275568f09"
+    },
+    "clay-golem.actions.1.summary": {
+      "hash": "4224d0c6a0"
+    },
+    "cloud-giant.actions.0.summary": {
+      "hash": "0bbe0ce7fa"
+    },
+    "cloud-giant.actions.1.summary": {
+      "hash": "8c26cf62b7"
+    },
+    "cloud-giant.actions.2.summary": {
+      "hash": "4f4893b75b"
+    },
+    "fire-giant.actions.1.summary": {
+      "hash": "8919733745"
+    },
+    "glabrezu.actions.1.summary": {
+      "hash": "cb531c592e"
+    },
+    "glabrezu.actions.2.summary": {
+      "hash": "9f07412e1e"
+    },
+    "glabrezu.actions.3.summary": {
+      "hash": "6f34026d42"
+    },
+    "treant.actions.0.summary": {
+      "hash": "bcaac79865"
+    },
+    "young-blue-dragon.actions.0.summary": {
+      "hash": "1f212dbca2"
+    },
+    "young-silver-dragon.actions.2.summary": {
+      "hash": "f2fbf402bf"
+    },
+    "aboleth.actions.0.summary": {
+      "hash": "5ed4e07a47"
+    },
+    "aboleth.actions.1.summary": {
+      "hash": "1c443ae5c6"
+    },
+    "aboleth.actions.3.summary": {
+      "hash": "d73378b87b"
+    },
+    "deva.actions.2.summary": {
+      "hash": "48b22a2fa2"
+    },
+    "guardian-naga.actions.2.summary": {
+      "hash": "3c8d2ae43e"
+    },
+    "guardian-naga.actions.3.summary": {
+      "hash": "f096a16042"
+    },
+    "young-gold-dragon.actions.3.summary": {
+      "hash": "f3114c5a3c"
+    },
+    "behir.actions.1.summary": {
+      "hash": "219aac8250"
+    },
+    "behir.actions.2.summary": {
+      "hash": "608b492d93"
+    },
+    "djinni.actions.0.summary": {
+      "hash": "39e79b09c2"
+    },
+    "djinni.actions.2.summary": {
+      "hash": "6ebfb26dc9"
+    },
+    "djinni.actions.4.summary": {
+      "hash": "459b0b6dc2"
+    },
+    "efreeti.actions.3.summary": {
+      "hash": "ac6575e433"
+    },
+    "horned-devil.actions.0.summary": {
+      "hash": "e778eef909"
+    },
+    "horned-devil.actions.1.summary": {
+      "hash": "ec36252a00"
+    },
+    "horned-devil.actions.2.summary": {
+      "hash": "b7dcae3677"
+    },
+    "remorhaz.actions.0.summary": {
+      "hash": "7e90805c8a"
+    },
+    "roc.actions.2.summary": {
+      "hash": "0126c1fcc5"
+    },
+    "sphinx-of-lore.actions.1.summary": {
+      "hash": "3f3ca20b08"
+    },
+    "sphinx-of-lore.actions.3.summary": {
+      "hash": "4c3804a7c6"
+    },
+    "archmage.actions.2.summary": {
+      "hash": "a1232f8c8c"
+    },
+    "erinyes.actions.0.summary": {
+      "hash": "353bc545af"
+    },
+    "adult-brass-dragon.actions.0.summary": {
+      "hash": "ebdfc51d95"
+    },
+    "adult-brass-dragon.actions.1.summary": {
+      "hash": "40ccb102a6"
+    },
+    "adult-brass-dragon.actions.3.summary": {
+      "hash": "a93cc77b5b"
+    },
+    "adult-brass-dragon.actions.4.summary": {
+      "hash": "be0f37ca94"
+    },
+    "rakshasa.actions.0.summary": {
+      "hash": "618ad3f15f"
+    },
+    "rakshasa.actions.1.summary": {
+      "hash": "f970b40c93"
+    },
+    "rakshasa.actions.3.summary": {
+      "hash": "289d27b98e"
+    },
+    "storm-giant.actions.0.summary": {
+      "hash": "15959b3386"
+    },
+    "storm-giant.actions.2.summary": {
+      "hash": "aef68d2b81"
+    },
+    "storm-giant.actions.4.summary": {
+      "hash": "fd82f09231"
+    },
+    "vampire.actions.0.summary": {
+      "hash": "020d0a99ba"
+    },
+    "vampire.actions.1.summary": {
+      "hash": "a81f257e19"
+    },
+    "adult-black-dragon.actions.0.summary": {
+      "hash": "3b7d681338"
+    },
+    "adult-black-dragon.actions.1.summary": {
+      "hash": "103785d2c5"
+    },
+    "adult-black-dragon.actions.3.summary": {
+      "hash": "b21914cde5"
+    },
+    "adult-copper-dragon.actions.0.summary": {
+      "hash": "1ad6f64057"
+    },
+    "adult-copper-dragon.actions.1.summary": {
+      "hash": "046ba87030"
+    },
+    "adult-copper-dragon.actions.3.summary": {
+      "hash": "19b3f9145f"
+    },
+    "adult-copper-dragon.actions.4.summary": {
+      "hash": "0443849792"
+    },
+    "ice-devil.actions.0.summary": {
+      "hash": "02d3d97aaf"
+    },
+    "ice-devil.actions.1.summary": {
+      "hash": "aa1be98796"
+    },
+    "adult-bronze-dragon.actions.0.summary": {
+      "hash": "846e4b166e"
+    },
+    "adult-bronze-dragon.actions.1.summary": {
+      "hash": "e6fd50d7b3"
+    },
+    "adult-bronze-dragon.actions.3.summary": {
+      "hash": "2dff1c3382"
+    },
+    "adult-bronze-dragon.actions.4.summary": {
+      "hash": "fe9a1f987e"
+    },
+    "adult-green-dragon.actions.0.summary": {
+      "hash": "2d89aec320"
+    },
+    "adult-green-dragon.actions.1.summary": {
+      "hash": "f006bcd603"
+    },
+    "adult-green-dragon.actions.3.summary": {
+      "hash": "8c82674da9"
+    },
+    "mummy-lord.actions.1.summary": {
+      "hash": "6eba8475ea"
+    },
+    "mummy-lord.actions.3.summary": {
+      "hash": "8b82ffa23e"
+    },
+    "mummy-lord.actions.4.summary": {
+      "hash": "5c89f23b2b"
+    },
+    "purple-worm.actions.0.summary": {
+      "hash": "766defb1e7"
+    },
+    "adult-blue-dragon.actions.0.summary": {
+      "hash": "52aee0f25c"
+    },
+    "adult-blue-dragon.actions.3.summary": {
+      "hash": "f4217be781"
+    },
+    "adult-silver-dragon.actions.1.summary": {
+      "hash": "e5a71790b1"
+    },
+    "adult-silver-dragon.actions.2.summary": {
+      "hash": "a435c0a44b"
+    },
+    "adult-silver-dragon.actions.4.summary": {
+      "hash": "56dbc18f56"
+    },
+    "iron-golem.actions.3.summary": {
+      "hash": "a2595bef1f"
+    },
+    "marilith.actions.0.summary": {
+      "hash": "293b51b592"
+    },
+    "planetar.actions.0.summary": {
+      "hash": "c879999038"
+    },
+    "planetar.actions.3.summary": {
+      "hash": "363eda15ac"
+    },
+    "adult-gold-dragon.actions.1.summary": {
+      "hash": "28b6efebc1"
+    },
+    "adult-gold-dragon.actions.3.summary": {
+      "hash": "e2aed727bc"
+    },
+    "adult-gold-dragon.actions.4.summary": {
+      "hash": "44659bffe2"
+    },
+    "adult-red-dragon.actions.3.summary": {
+      "hash": "1c049bde28"
+    },
+    "dragon-turtle.actions.0.summary": {
+      "hash": "e0aefb100f"
+    },
+    "dragon-turtle.actions.2.summary": {
+      "hash": "5265ec524c"
+    },
+    "dragon-turtle.actions.3.summary": {
+      "hash": "6a0ea125fb"
+    },
+    "sphinx-of-valor.actions.2.summary": {
+      "hash": "e3ba86d462",
+      "skip": true
+    },
+    "sphinx-of-valor.actions.3.summary": {
+      "hash": "3a4a6587e0"
+    },
+    "balor.actions.0.summary": {
+      "hash": "54439161ef"
+    },
+    "balor.actions.1.summary": {
+      "hash": "bc6fbe8f16"
+    },
+    "ancient-brass-dragon.actions.0.summary": {
+      "hash": "ab6b8adfe6"
+    },
+    "ancient-brass-dragon.actions.1.summary": {
+      "hash": "dd1d3f2ab8"
+    },
+    "ancient-brass-dragon.actions.3.summary": {
+      "hash": "22c3a1e4d9"
+    },
+    "ancient-brass-dragon.actions.4.summary": {
+      "hash": "b92138816b"
+    },
+    "pit-fiend.actions.0.summary": {
+      "hash": "f96809a65d"
+    },
+    "pit-fiend.actions.3.summary": {
+      "hash": "9e95bda98e"
+    },
+    "ancient-black-dragon.actions.0.summary": {
+      "hash": "a0fdc5d3d1"
+    },
+    "ancient-black-dragon.actions.1.summary": {
+      "hash": "4d597be026"
+    },
+    "ancient-black-dragon.actions.3.summary": {
+      "hash": "2cd5d0c159"
+    },
+    "ancient-copper-dragon.actions.0.summary": {
+      "hash": "35bb51e0c8"
+    },
+    "ancient-copper-dragon.actions.1.summary": {
+      "hash": "035a5d3d81"
+    },
+    "ancient-copper-dragon.actions.3.summary": {
+      "hash": "eaea0a31e6"
+    },
+    "ancient-copper-dragon.actions.4.summary": {
+      "hash": "dc0583abff"
+    },
+    "lich.actions.2.summary": {
+      "hash": "d37b846c24"
+    },
+    "lich.actions.3.summary": {
+      "hash": "493832d24a",
+      "skip": true
+    },
+    "solar.actions.0.summary": {
+      "hash": "1b073bf1d4"
+    },
+    "solar.actions.2.summary": {
+      "hash": "ca892bd83d"
+    },
+    "solar.actions.3.summary": {
+      "hash": "814d39e332"
+    },
+    "ancient-bronze-dragon.actions.0.summary": {
+      "hash": "cc992417b0"
+    },
+    "ancient-bronze-dragon.actions.1.summary": {
+      "hash": "e6fd50d7b3"
+    },
+    "ancient-bronze-dragon.actions.3.summary": {
+      "hash": "2a900b2aa3"
+    },
+    "ancient-bronze-dragon.actions.4.summary": {
+      "hash": "87ed06499a"
+    },
+    "ancient-green-dragon.actions.0.summary": {
+      "hash": "151b131896"
+    },
+    "ancient-green-dragon.actions.1.summary": {
+      "hash": "08c586bdfb"
+    },
+    "ancient-green-dragon.actions.3.summary": {
+      "hash": "e14e16828e",
+      "skip": true
+    },
+    "ancient-blue-dragon.actions.0.summary": {
+      "hash": "2e3cc57b90"
+    },
+    "ancient-blue-dragon.actions.1.summary": {
+      "hash": "f92fb0d336"
+    },
+    "ancient-blue-dragon.actions.3.summary": {
+      "hash": "237c59e0a5"
+    },
+    "ancient-silver-dragon.actions.1.summary": {
+      "hash": "df193d928a"
+    },
+    "ancient-silver-dragon.actions.2.summary": {
+      "hash": "16964b4661"
+    },
+    "ancient-silver-dragon.actions.4.summary": {
+      "hash": "84980d23f3"
+    },
+    "kraken.actions.0.summary": {
+      "hash": "1527b2a30e"
+    },
+    "kraken.actions.1.summary": {
+      "hash": "cbff16a853"
+    },
+    "kraken.actions.3.summary": {
+      "hash": "2bea9f44df"
+    },
+    "kraken.actions.4.summary": {
+      "hash": "038cae2e55"
+    },
+    "ancient-gold-dragon.actions.1.summary": {
+      "hash": "9bf8eb57dc"
+    },
+    "ancient-gold-dragon.actions.3.summary": {
+      "hash": "a66fb2dd03"
+    },
+    "ancient-gold-dragon.actions.4.summary": {
+      "hash": "a3df03be87"
+    },
+    "ancient-red-dragon.actions.1.summary": {
+      "hash": "15323109bd"
+    },
+    "ancient-red-dragon.actions.3.summary": {
+      "hash": "914daa4804"
+    },
+    "tarrasque.actions.0.summary": {
+      "hash": "5b008745c4"
+    },
+    "tarrasque.actions.3.summary": {
+      "hash": "8545d0c09e"
+    },
+    "tarrasque.actions.4.summary": {
+      "hash": "3af4777ac3"
     }
   },
   "classes": {
@@ -613,6 +2319,60 @@
     },
     "monk.feature.monks-focus.summary": {
       "hash": "895cea5453"
+    },
+    "barbarian.feature.rage.summary": {
+      "hash": "c618d0550d"
+    },
+    "barbarian.feature.reckless-attack.summary": {
+      "hash": "4aa9ebf40d"
+    },
+    "cleric.feature.channel-divinity.summary": {
+      "hash": "b6cea31169"
+    },
+    "cleric.feature.divine-intervention.summary": {
+      "hash": "c1c567d4a1"
+    },
+    "fighter.feature.action-surge.summary": {
+      "hash": "1a5e28127b"
+    },
+    "fighter.feature.indomitable.summary": {
+      "hash": "d24039f568"
+    },
+    "fighter.feature.second-wind.summary": {
+      "hash": "c9b97ed416"
+    },
+    "monk.feature.uncanny-metabolism.summary": {
+      "hash": "b6cfbc9a6c"
+    },
+    "paladin.feature.channel-divinity.summary": {
+      "hash": "51cd416dfd"
+    },
+    "paladin.feature.lay-on-hands.summary": {
+      "hash": "bf3222ead3"
+    },
+    "ranger.feature.natures-veil.summary": {
+      "hash": "c331eec474"
+    },
+    "ranger.feature.tireless.summary": {
+      "hash": "49993782a3"
+    },
+    "rogue.feature.sneak-attack.summary": {
+      "hash": "e77fbb8501"
+    },
+    "rogue.feature.stroke-of-luck.summary": {
+      "hash": "959bd1a636"
+    },
+    "sorcerer.feature.font-of-magic.summary": {
+      "hash": "9ac958f716"
+    },
+    "sorcerer.feature.sorcerous-restoration.summary": {
+      "hash": "ca7fc45580"
+    },
+    "warlock.feature.magical-cunning.summary": {
+      "hash": "81050de644"
+    },
+    "wizard.feature.arcane-recovery.summary": {
+      "hash": "89542d834c"
     }
   },
   "origin": {
@@ -631,6 +2391,37 @@
     },
     "species.orc.trait.relentless-endurance.summary": {
       "hash": "c01c7e90f1"
+    },
+    "species.dragonborn.trait.draconic-ancestry.summary": {
+      "hash": "663b60573d"
+    },
+    "species.dragonborn.trait.breath-weapon.summary": {
+      "hash": "9c1dc8ca8a"
+    },
+    "species.dwarf.trait.dwarven-resilience.summary": {
+      "hash": "b1d504aec4"
+    },
+    "species.elf.trait.elven-lineage.summary": {
+      "hash": "a5f19f26f0"
+    },
+    "species.elf.trait.trance.summary": {
+      "hash": "60f5256783"
+    },
+    "species.gnome.trait.gnomish-lineage.summary": {
+      "hash": "85cea509d7",
+      "skip": true
+    },
+    "species.goliath.trait.powerful-build.summary": {
+      "hash": "1f8ea45b57"
+    },
+    "species.orc.trait.adrenaline-rush.summary": {
+      "hash": "1ec4d16635"
+    },
+    "species.tiefling.trait.fiendish-legacy.summary": {
+      "hash": "e209ad4e2f"
+    },
+    "species.tiefling.trait.otherworldly-presence.summary": {
+      "hash": "f66ad14530"
     }
   }
 }
