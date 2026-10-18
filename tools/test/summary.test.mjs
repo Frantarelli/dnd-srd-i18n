@@ -140,7 +140,9 @@ test('summary-merge publica, marca «?» y deja la huella; summary-check la vigi
     // La siguiente tanda ya no ofrece ni lo publicado ni lo marcado con «?».
     const out = path.join(root, 'tandas');
     cli('summary-batch', 'spells', '--count', '500', '--out', out);
-    const next = JSON.parse(fs.readFileSync(path.join(out, 'spells-sum-001.src.json'), 'utf8'));
+    // (Cuando ya no queda ningún hechizo pendiente, no se escribe ninguna tanda: también vale.)
+    const file = path.join(out, 'spells-sum-001.src.json');
+    const next = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : {};
     assert.ok(!('fireball.summary' in next) && !('wish.summary' in next));
     // Si el texto oficial cambia, el resumen queda vencido.
     spells['fireball.desc'] += ' (errata)';
