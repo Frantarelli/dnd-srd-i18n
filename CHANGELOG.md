@@ -4,6 +4,20 @@ El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/). La
 siguen [SemVer](https://semver.org/lang/es/): un cambio de **claves** o de **formato** es mayor;
 un idioma nuevo, menor; una corrección de texto, parche.
 
+## [0.13.0] — 2026-10-19
+
+### Agregado
+- **336 resúmenes de tarjeta más**, en inglés y español, con lo que hay **1035 por idioma**: 251 hechizos, 530 de criaturas
+  (se suman 118 rasgos especiales: regreso a la vida, auras, explosiones, ventaja por aliado…; las legendarias siguen sin
+  resumen), 241 de clase (se suman 218 rasgos y opciones: dotes de nivel, rasgos de subclase, invocaciones sobrenaturales,
+  metamagia…) y 13 de especie. Los escribió Gemma 3 12B en la PC (Ollama) y se verificaron **todos, uno por uno**, contra el
+  texto oficial en los dos idiomas: se corrigieron o escribieron a mano unos 100 (omisiones de lo que decide la mesa, efectos
+  invertidos como el del Pudín negro, tipos de criatura y glosario). Otros 60 quedan sin resumir a propósito («?»).
+
+### Conocido
+- El texto inglés de `circle-of-the-land.feature.druid_natures-sanctuary` repite el de «Recuperación natural»
+  (`druid_natural-recovery`): no es el rasgo de Santuario de la naturaleza del SRD. Su resumen queda en «?» hasta corregir el texto.
+
 ## [0.12.0] — 2026-10-18
 
 ### Agregado

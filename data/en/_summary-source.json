@@ -2302,6 +2302,572 @@
     },
     "tarrasque.actions.4.summary": {
       "hash": "3af4777ac3"
+    },
+    "aboleth.special_abilities.1.summary": {
+      "hash": "2afce1265b"
+    },
+    "aboleth.special_abilities.3.summary": {
+      "hash": "a3b0e208e1"
+    },
+    "aboleth.special_abilities.4.summary": {
+      "hash": "56b2fe3561",
+      "skip": true
+    },
+    "adult-white-dragon.special_abilities.0.summary": {
+      "hash": "9c4c1fbde1"
+    },
+    "air-elemental.special_abilities.0.summary": {
+      "hash": "538d413dd5"
+    },
+    "ancient-white-dragon.special_abilities.0.summary": {
+      "hash": "9c4c1fbde1"
+    },
+    "archmage.summary": {
+      "hash": "5465835126",
+      "skip": true
+    },
+    "assassin.summary": {
+      "hash": "beaae624d6",
+      "skip": true
+    },
+    "assassin.special_abilities.0.summary": {
+      "hash": "58b5d9c63b"
+    },
+    "axe-beak.summary": {
+      "hash": "cdfb3bcfe0",
+      "skip": true
+    },
+    "azer-sentinel.special_abilities.0.summary": {
+      "hash": "1c6082da0e"
+    },
+    "baboon.special_abilities.0.summary": {
+      "hash": "0cd841b02e"
+    },
+    "balor.special_abilities.0.summary": {
+      "hash": "9da2324693"
+    },
+    "balor.special_abilities.1.summary": {
+      "hash": "10ce717ab5"
+    },
+    "bandit.summary": {
+      "hash": "058c276aff",
+      "skip": true
+    },
+    "bandit-captain.summary": {
+      "hash": "44e134f87a",
+      "skip": true
+    },
+    "barbed-devil.special_abilities.0.summary": {
+      "hash": "cfa766272c"
+    },
+    "barbed-devil.special_abilities.1.summary": {
+      "hash": "9b14dbd69a"
+    },
+    "berserker.summary": {
+      "hash": "b9a1d924c9",
+      "skip": true
+    },
+    "black-pudding.special_abilities.1.summary": {
+      "hash": "f091e7aaa7"
+    },
+    "blink-dog.summary": {
+      "hash": "386382047e",
+      "skip": true
+    },
+    "blood-hawk.summary": {
+      "hash": "0b1c0c7190",
+      "skip": true
+    },
+    "blood-hawk.special_abilities.0.summary": {
+      "hash": "8dd56c082d"
+    },
+    "bone-devil.special_abilities.0.summary": {
+      "hash": "9b14dbd69a"
+    },
+    "chain-devil.special_abilities.0.summary": {
+      "hash": "9b14dbd69a"
+    },
+    "chuul.special_abilities.1.summary": {
+      "hash": "6b68e23a5e"
+    },
+    "clay-golem.special_abilities.0.summary": {
+      "hash": "5aaaf04c19"
+    },
+    "clay-golem.special_abilities.1.summary": {
+      "hash": "5f5dcff4f9"
+    },
+    "commoner.special_abilities.0.summary": {
+      "hash": "54db0cc2e4"
+    },
+    "couatl.special_abilities.0.summary": {
+      "hash": "8a31925cc2"
+    },
+    "cultist.summary": {
+      "hash": "c9855d9c28",
+      "skip": true
+    },
+    "cultist-fanatic.summary": {
+      "hash": "22b6887815",
+      "skip": true
+    },
+    "death-dog.summary": {
+      "hash": "e0ea48f1cb",
+      "skip": true
+    },
+    "deva.special_abilities.0.summary": {
+      "hash": "e1cb099919"
+    },
+    "dire-wolf.special_abilities.0.summary": {
+      "hash": "08663638b0"
+    },
+    "djinni.special_abilities.0.summary": {
+      "hash": "425559a7e2"
+    },
+    "djinni.special_abilities.2.summary": {
+      "hash": "addbe19dff",
+      "skip": true
+    },
+    "drider.special_abilities.2.summary": {
+      "hash": "e99a2d5232",
+      "skip": true
+    },
+    "druid.summary": {
+      "hash": "3c06df99f6",
+      "skip": true
+    },
+    "dust-mephit.special_abilities.0.summary": {
+      "hash": "1a35792528"
+    },
+    "earth-elemental.special_abilities.0.summary": {
+      "hash": "b8480eeaac"
+    },
+    "efreeti.special_abilities.0.summary": {
+      "hash": "374258e7f4"
+    },
+    "efreeti.special_abilities.2.summary": {
+      "hash": "a7661e45d0",
+      "skip": true
+    },
+    "erinyes.special_abilities.0.summary": {
+      "hash": "1212ffe036"
+    },
+    "erinyes.special_abilities.2.summary": {
+      "hash": "113977467b",
+      "skip": true
+    },
+    "ettercap.special_abilities.1.summary": {
+      "hash": "a114521918",
+      "skip": true
+    },
+    "fire-elemental.special_abilities.0.summary": {
+      "hash": "ae0545dc3f"
+    },
+    "fire-elemental.special_abilities.1.summary": {
+      "hash": "13641a86b4"
+    },
+    "fire-elemental.special_abilities.3.summary": {
+      "hash": "c34ac2a4f0"
+    },
+    "flesh-golem.special_abilities.1.summary": {
+      "hash": "9fa5d8316c"
+    },
+    "flesh-golem.special_abilities.3.summary": {
+      "hash": "bab8da8ad0"
+    },
+    "flying-snake.summary": {
+      "hash": "0f08a10d3b",
+      "skip": true
+    },
+    "frog.summary": {
+      "hash": "f4dc3b1170",
+      "skip": true
+    },
+    "gelatinous-cube.special_abilities.0.summary": {
+      "hash": "a901243334",
+      "skip": true
+    },
+    "gelatinous-cube.special_abilities.1.summary": {
+      "hash": "4a527b380b"
+    },
+    "ghost.special_abilities.1.summary": {
+      "hash": "788b4da8e8"
+    },
+    "giant-eagle.summary": {
+      "hash": "40587b4e3b",
+      "skip": true
+    },
+    "giant-elk.summary": {
+      "hash": "e2e6f6d097",
+      "skip": true
+    },
+    "giant-fire-beetle.summary": {
+      "hash": "1cbae5ee56",
+      "skip": true
+    },
+    "giant-lizard.summary": {
+      "hash": "49d420b46b",
+      "skip": true
+    },
+    "giant-rat.special_abilities.0.summary": {
+      "hash": "4b30622c66"
+    },
+    "giant-shark.summary": {
+      "hash": "fce78fd11a",
+      "skip": true
+    },
+    "giant-spider.summary": {
+      "hash": "f5758815b1",
+      "skip": true
+    },
+    "giant-spider.special_abilities.1.summary": {
+      "hash": "60dd510bc7"
+    },
+    "giant-vulture.special_abilities.0.summary": {
+      "hash": "8c301709dd"
+    },
+    "giant-wolf-spider.summary": {
+      "hash": "8d65005e46",
+      "skip": true
+    },
+    "gibbering-mouther.special_abilities.1.summary": {
+      "hash": "20f1fb6be6"
+    },
+    "glabrezu.special_abilities.0.summary": {
+      "hash": "a6fd1af20b"
+    },
+    "gladiator.summary": {
+      "hash": "c0c7864dcf",
+      "skip": true
+    },
+    "gray-ooze.special_abilities.1.summary": {
+      "hash": "5b736c4c6c",
+      "skip": true
+    },
+    "green-hag.special_abilities.1.summary": {
+      "hash": "486121495c"
+    },
+    "guard.summary": {
+      "hash": "29fc8db35d",
+      "skip": true
+    },
+    "guardian-naga.special_abilities.0.summary": {
+      "hash": "b2200177bb"
+    },
+    "half-dragon.special_abilities.0.summary": {
+      "hash": "81d599ffa7",
+      "skip": true
+    },
+    "hell-hound.special_abilities.0.summary": {
+      "hash": "ae746afada"
+    },
+    "hezrou.special_abilities.0.summary": {
+      "hash": "fa7ed863d8"
+    },
+    "hezrou.special_abilities.2.summary": {
+      "hash": "d72e1ea08e"
+    },
+    "hobgoblin-captain.special_abilities.0.summary": {
+      "hash": "2121bee339"
+    },
+    "hobgoblin-warrior.special_abilities.0.summary": {
+      "hash": "a71fc7ddb4"
+    },
+    "ghast.special_abilities.0.summary": {
+      "hash": "f20d7d628c"
+    },
+    "homunculus.special_abilities.0.summary": {
+      "hash": "388c27d708"
+    },
+    "horned-devil.special_abilities.0.summary": {
+      "hash": "9b14dbd69a"
+    },
+    "hunter-shark.summary": {
+      "hash": "8adad3ff54",
+      "skip": true
+    },
+    "hydra.special_abilities.1.summary": {
+      "hash": "e4f21de78a"
+    },
+    "hyena.special_abilities.0.summary": {
+      "hash": "69587190e6"
+    },
+    "ice-devil.special_abilities.0.summary": {
+      "hash": "9b14dbd69a"
+    },
+    "ice-mephit.special_abilities.0.summary": {
+      "hash": "f83f0da9d8"
+    },
+    "incubus.special_abilities.0.summary": {
+      "hash": "d2ee073ee8"
+    },
+    "invisible-stalker.special_abilities.0.summary": {
+      "hash": "b07fdfa824"
+    },
+    "knight.summary": {
+      "hash": "6fb38c6a81",
+      "skip": true
+    },
+    "kobold-warrior.special_abilities.0.summary": {
+      "hash": "325a4e82c2"
+    },
+    "lemure.special_abilities.0.summary": {
+      "hash": "3875c87097",
+      "skip": true
+    },
+    "lich.special_abilities.1.summary": {
+      "hash": "ff63d77414"
+    },
+    "lion.special_abilities.0.summary": {
+      "hash": "ba928f67f6"
+    },
+    "mage.summary": {
+      "hash": "64ef837e95",
+      "skip": true
+    },
+    "magma-mephit.special_abilities.0.summary": {
+      "hash": "5fc9ae8bd7"
+    },
+    "magmin.special_abilities.0.summary": {
+      "hash": "9eac1a03e4"
+    },
+    "mammoth.summary": {
+      "hash": "9ee0ea91c1",
+      "skip": true
+    },
+    "marilith.special_abilities.0.summary": {
+      "hash": "dc8d3326e8"
+    },
+    "mastiff.summary": {
+      "hash": "f73d3e3f40",
+      "skip": true
+    },
+    "mimic.special_abilities.0.summary": {
+      "hash": "254725b0ae"
+    },
+    "mummy-lord.special_abilities.2.summary": {
+      "hash": "2d0f916b19"
+    },
+    "nalfeshnee.special_abilities.0.summary": {
+      "hash": "a0732074f4"
+    },
+    "night-hag.special_abilities.1.summary": {
+      "hash": "7c54fd79ec",
+      "skip": true
+    },
+    "noble.summary": {
+      "hash": "4c08a82444",
+      "skip": true
+    },
+    "ogre-zombie.special_abilities.0.summary": {
+      "hash": "4fc021b9f8"
+    },
+    "phase-spider.summary": {
+      "hash": "c54cae2e2a",
+      "skip": true
+    },
+    "phase-spider.special_abilities.2.summary": {
+      "hash": "4628fde171"
+    },
+    "piranha.summary": {
+      "hash": "de81ee38b1",
+      "skip": true
+    },
+    "pit-fiend.special_abilities.0.summary": {
+      "hash": "5c81a1e72f"
+    },
+    "planetar.special_abilities.1.summary": {
+      "hash": "cf1e76ad28"
+    },
+    "priest.summary": {
+      "hash": "fe8a4699df",
+      "skip": true
+    },
+    "priest-acolyte.summary": {
+      "hash": "ee5be58624",
+      "skip": true
+    },
+    "rakshasa.special_abilities.0.summary": {
+      "hash": "696280599b"
+    },
+    "rakshasa.special_abilities.1.summary": {
+      "hash": "94c3157213"
+    },
+    "raven.special_abilities.0.summary": {
+      "hash": "0d8f3eaf67"
+    },
+    "reef-shark.summary": {
+      "hash": "3e4f08e1fd",
+      "skip": true
+    },
+    "reef-shark.special_abilities.0.summary": {
+      "hash": "e56dc7351e"
+    },
+    "remorhaz.special_abilities.0.summary": {
+      "hash": "c0edfc2ccd"
+    },
+    "pit-fiend.special_abilities.1.summary": {
+      "hash": "178c0673d8"
+    },
+    "sahuagin-warrior.special_abilities.1.summary": {
+      "hash": "39e382bc1a"
+    },
+    "salamander.special_abilities.0.summary": {
+      "hash": "9a7c899535"
+    },
+    "scout.summary": {
+      "hash": "4d2fb241b3",
+      "skip": true
+    },
+    "sea-hag.special_abilities.1.summary": {
+      "hash": "38c03a3408"
+    },
+    "shambling-mound.special_abilities.0.summary": {
+      "hash": "583678fa4c"
+    },
+    "shield-guardian.special_abilities.0.summary": {
+      "hash": "7a5364355b"
+    },
+    "shield-guardian.special_abilities.2.summary": {
+      "hash": "5c59fa25e7"
+    },
+    "solar.special_abilities.1.summary": {
+      "hash": "8759a32b20"
+    },
+    "specter.special_abilities.0.summary": {
+      "hash": "925ddc14b4"
+    },
+    "sphinx-of-lore.special_abilities.0.summary": {
+      "hash": "4e3f3e80ab"
+    },
+    "sphinx-of-valor.special_abilities.0.summary": {
+      "hash": "4e3f3e80ab"
+    },
+    "spider.special_abilities.1.summary": {
+      "hash": "4628fde171"
+    },
+    "spirit-naga.special_abilities.0.summary": {
+      "hash": "12d4ee658f"
+    },
+    "spy.summary": {
+      "hash": "677deb1cae",
+      "skip": true
+    },
+    "steam-mephit.special_abilities.1.summary": {
+      "hash": "ad3c07a670"
+    },
+    "swarm-of-bats.special_abilities.0.summary": {
+      "hash": "7e6be1ad76"
+    },
+    "swarm-of-crawling-claws.special_abilities.0.summary": {
+      "hash": "24adba5077"
+    },
+    "swarm-of-insects.special_abilities.0.summary": {
+      "hash": "718d43076a"
+    },
+    "swarm-of-insects.special_abilities.1.summary": {
+      "hash": "b37db061c4"
+    },
+    "swarm-of-piranhas.special_abilities.0.summary": {
+      "hash": "a244aee3c2"
+    },
+    "swarm-of-rats.special_abilities.0.summary": {
+      "hash": "bf008e0252"
+    },
+    "swarm-of-ravens.special_abilities.0.summary": {
+      "hash": "8d17e62ebd"
+    },
+    "swarm-of-venomous-snakes.special_abilities.0.summary": {
+      "hash": "2088810fd0"
+    },
+    "tarrasque.special_abilities.2.summary": {
+      "hash": "5d759b6e31"
+    },
+    "tough.special_abilities.0.summary": {
+      "hash": "3720a69d23"
+    },
+    "tough-boss.special_abilities.0.summary": {
+      "hash": "3720a69d23"
+    },
+    "troll.special_abilities.0.summary": {
+      "hash": "068c2eb59e"
+    },
+    "troll.special_abilities.1.summary": {
+      "hash": "33d785ad76"
+    },
+    "troll-limb.special_abilities.0.summary": {
+      "hash": "cf90951484"
+    },
+    "troll-limb.special_abilities.1.summary": {
+      "hash": "dddc643494"
+    },
+    "vampire.special_abilities.1.summary": {
+      "hash": "36284337dc"
+    },
+    "vampire.special_abilities.3.summary": {
+      "hash": "fc364d363e",
+      "skip": true
+    },
+    "vampire-familiar.special_abilities.0.summary": {
+      "hash": "e84bf151fe"
+    },
+    "vampire-spawn.special_abilities.1.summary": {
+      "hash": "221f8f473d",
+      "skip": true
+    },
+    "vrock.special_abilities.0.summary": {
+      "hash": "1d16c16330"
+    },
+    "vulture.special_abilities.0.summary": {
+      "hash": "8c301709dd"
+    },
+    "warrior-infantry.summary": {
+      "hash": "321d9d26c0",
+      "skip": true
+    },
+    "warrior-infantry.special_abilities.0.summary": {
+      "hash": "42ce42aeb3"
+    },
+    "warrior-veteran.summary": {
+      "hash": "7ad308c4e9",
+      "skip": true
+    },
+    "water-elemental.special_abilities.1.summary": {
+      "hash": "ea9accc1a7"
+    },
+    "werewolf.special_abilities.0.summary": {
+      "hash": "8a7de0859a"
+    },
+    "white-dragon-wyrmling.special_abilities.0.summary": {
+      "hash": "9c4c1fbde1"
+    },
+    "will-o-wisp.special_abilities.2.summary": {
+      "hash": "265b71d4e6"
+    },
+    "winter-wolf.summary": {
+      "hash": "f0eaf8f04a",
+      "skip": true
+    },
+    "winter-wolf.special_abilities.0.summary": {
+      "hash": "08663638b0"
+    },
+    "wolf.special_abilities.0.summary": {
+      "hash": "4421d1dbbd"
+    },
+    "worg.summary": {
+      "hash": "a3e5399c19",
+      "skip": true
+    },
+    "wraith.special_abilities.0.summary": {
+      "hash": "bfc5e7956b"
+    },
+    "xorn.special_abilities.0.summary": {
+      "hash": "556cf9b273"
+    },
+    "young-white-dragon.special_abilities.0.summary": {
+      "hash": "9c4c1fbde1"
+    },
+    "zombie.special_abilities.0.summary": {
+      "hash": "4fc021b9f8"
     }
   },
   "classes": {
@@ -2373,6 +2939,688 @@
     },
     "wizard.feature.arcane-recovery.summary": {
       "hash": "89542d834c"
+    },
+    "barbarian.feature.ability-score-improvement.summary": {
+      "hash": "bd449349e0"
+    },
+    "barbarian.feature.barbarian-subclass.summary": {
+      "hash": "fba71d6e41"
+    },
+    "barbarian.feature.brutal-strike.summary": {
+      "hash": "16b23f726f"
+    },
+    "barbarian.feature.danger-sense.summary": {
+      "hash": "811f8394da"
+    },
+    "barbarian.feature.epic-boon.summary": {
+      "hash": "cc9eed05b1"
+    },
+    "barbarian.feature.improved-brutal-strike.summary": {
+      "hash": "a52bf42dfe"
+    },
+    "barbarian.feature.improved-brutal-strike-enhanced.summary": {
+      "hash": "3b61522e42"
+    },
+    "barbarian.feature.indomitable-might.summary": {
+      "hash": "41608860c8"
+    },
+    "barbarian.feature.persistent-rage.summary": {
+      "hash": "9ec59a6bd4"
+    },
+    "barbarian.feature.primal-knowledge.summary": {
+      "hash": "a68a442478"
+    },
+    "barbarian.feature.relentless-rage.summary": {
+      "hash": "7a03640031"
+    },
+    "barbarian.feature.unarmored-defense.summary": {
+      "hash": "5fb225de0c"
+    },
+    "barbarian.feature.weapon-mastery.summary": {
+      "hash": "51a780ee43"
+    },
+    "bard.feature.ability-score-improvement.summary": {
+      "hash": "5e54facc01"
+    },
+    "bard.feature.bard-spell-list.summary": {
+      "hash": "d75668e868"
+    },
+    "bard.feature.bard-subclass.summary": {
+      "hash": "46d4489eaf"
+    },
+    "bard.feature.countercharm.summary": {
+      "hash": "ae641e008a"
+    },
+    "bard.feature.epic-boon.summary": {
+      "hash": "6fb88ee9d5"
+    },
+    "bard.feature.expertise.summary": {
+      "hash": "c2b7df76ad"
+    },
+    "bard.feature.font-of-inspiration.summary": {
+      "hash": "d06ae6cc7b"
+    },
+    "bard.feature.jack-of-all-trades.summary": {
+      "hash": "a4e56b63e1"
+    },
+    "bard.feature.magical-secrets.summary": {
+      "hash": "3e49197789"
+    },
+    "bard.feature.spellcasting.summary": {
+      "hash": "a09e57577e"
+    },
+    "bard.feature.words-of-creation.summary": {
+      "hash": "f546153312"
+    },
+    "champion.feature.fighter_heroic-warrior.summary": {
+      "hash": "faa4291eac"
+    },
+    "champion.feature.fighter_survivor.summary": {
+      "hash": "162cbf6a7d"
+    },
+    "circle-of-the-land.feature.druid_spell-list.summary": {
+      "hash": "cd1fb1853c"
+    },
+    "circle-of-the-land.feature.druid_lands-aid.summary": {
+      "hash": "4e7e9f7a43"
+    },
+    "circle-of-the-land.feature.druid_natural-recovery.summary": {
+      "hash": "d896523b3f"
+    },
+    "circle-of-the-land.feature.druid_natures-sanctuary.summary": {
+      "hash": "d896523b3f",
+      "skip": true
+    },
+    "circle-of-the-land.feature.druid_natures-ward.summary": {
+      "hash": "28d5727cb1"
+    },
+    "cleric.feature.ability-score-improvement.summary": {
+      "hash": "653477b1d8"
+    },
+    "cleric.feature.blessed-strikes.summary": {
+      "hash": "cb13b6e129"
+    },
+    "cleric.feature.cleric-spell-list.summary": {
+      "hash": "ac0c9a77c0",
+      "skip": true
+    },
+    "cleric.feature.cleric-subclasses.summary": {
+      "hash": "9795147714"
+    },
+    "cleric.feature.epic-boon.summary": {
+      "hash": "c123a95068"
+    },
+    "cleric.feature.greater-divine-intervention.summary": {
+      "hash": "51888bdb2d"
+    },
+    "cleric.feature.improved-blessed-strikes.summary": {
+      "hash": "7b887a60a0"
+    },
+    "cleric.feature.sear-undead.summary": {
+      "hash": "72a64b2981"
+    },
+    "cleric.feature.divine-order.summary": {
+      "hash": "d8782d3a5e"
+    },
+    "cleric.feature.spellcasting.summary": {
+      "hash": "0394666217"
+    },
+    "college-of-lore.feature.cutting-words.summary": {
+      "hash": "f5a54b44d3"
+    },
+    "college-of-lore.feature.peerless-skill.summary": {
+      "hash": "c97c51598d"
+    },
+    "draconic-sorcery.feature.sorcerer_draconic-resilience.summary": {
+      "hash": "100259403e"
+    },
+    "draconic-sorcery.feature.sorcerer_draconic-spells.summary": {
+      "hash": "dcf0832e0f"
+    },
+    "draconic-sorcery.feature.sorcerer_dragon-companion.summary": {
+      "hash": "cc2fcd4192"
+    },
+    "draconic-sorcery.feature.sorcerer_dragon-wings.summary": {
+      "hash": "3b1cbb27ff"
+    },
+    "draconic-sorcery.feature.sorcerer_elemental-affinity.summary": {
+      "hash": "fbc29c0e0a"
+    },
+    "druid.feature.ability-score-improvement.summary": {
+      "hash": "84d1853dcb"
+    },
+    "druid.feature.archdruid.summary": {
+      "hash": "f31c9cf0fb"
+    },
+    "druid.feature.beast-spells.summary": {
+      "hash": "f5fdb38a5c"
+    },
+    "druid.feature.druid-spell-list.summary": {
+      "hash": "e0af1e5745",
+      "skip": true
+    },
+    "druid.feature.druid-subclass.summary": {
+      "hash": "2c98bf5f06"
+    },
+    "druid.feature.druidic.summary": {
+      "hash": "e1a47ad81b"
+    },
+    "druid.feature.elemental-fury.summary": {
+      "hash": "39cb3dc453"
+    },
+    "druid.feature.epic-boon.summary": {
+      "hash": "2fea7fbf8a"
+    },
+    "druid.feature.improved-elemental-fury.summary": {
+      "hash": "30a75a7185"
+    },
+    "druid.feature.primal-order.summary": {
+      "hash": "160f68b9f2"
+    },
+    "druid.feature.spellcasting.summary": {
+      "hash": "935e3d1749"
+    },
+    "druid.feature.wild-companion.summary": {
+      "hash": "a0a3f5d2da"
+    },
+    "druid.feature.wild-resurgence.summary": {
+      "hash": "e395a1fadb"
+    },
+    "evoker.feature.wizard_empowered-evocation.summary": {
+      "hash": "9bd36cde12"
+    },
+    "evoker.feature.wizard_evocation-savant.summary": {
+      "hash": "3be02f422e"
+    },
+    "evoker.feature.wizard_overchannel.summary": {
+      "hash": "85e05dad1b"
+    },
+    "evoker.feature.wizard_potent-cantrip.summary": {
+      "hash": "5893fe119d"
+    },
+    "evoker.feature.wizard_sculpt-spells.summary": {
+      "hash": "2b29914e7b"
+    },
+    "fiend-patron.feature.warlock_dark-ones-blessing.summary": {
+      "hash": "94008ce215"
+    },
+    "fiend-patron.feature.warlock_dark-ones-own-luck.summary": {
+      "hash": "ce1c8a43ea"
+    },
+    "fiend-patron.feature.warlock_fiend-spells.summary": {
+      "hash": "9af546e574"
+    },
+    "fiend-patron.feature.warlock_fiendish-resilience.summary": {
+      "hash": "103356d6e8"
+    },
+    "fiend-patron.feature.warlock_hurl-through-hell.summary": {
+      "hash": "c4280afc8f"
+    },
+    "fighter.feature.ability-score-improvement.summary": {
+      "hash": "cca94a822f"
+    },
+    "fighter.feature.epic-boon.summary": {
+      "hash": "db9de6f36a"
+    },
+    "fighter.feature.fighter-subclass.summary": {
+      "hash": "92f44d0880"
+    },
+    "fighter.feature.fighting-style.summary": {
+      "hash": "dbbd09e6eb"
+    },
+    "fighter.feature.studied-attacks.summary": {
+      "hash": "fed4021da7"
+    },
+    "fighter.feature.tactical-master.summary": {
+      "hash": "fa20a533d5"
+    },
+    "fighter.feature.tactical-mind.summary": {
+      "hash": "e60f1cb506"
+    },
+    "fighter.feature.tactical-shift.summary": {
+      "hash": "e030751bda"
+    },
+    "college-of-lore.feature.magical-discoveries.summary": {
+      "hash": "60c7aa8115"
+    },
+    "fighter.feature.weapon-mastery.summary": {
+      "hash": "a900d959ca"
+    },
+    "hunter.feature.ranger_defensive-tactics.summary": {
+      "hash": "c1eb5873df"
+    },
+    "hunter.feature.ranger_hunters-lore.summary": {
+      "hash": "f7211cb86d"
+    },
+    "hunter.feature.ranger_hunters-prey.summary": {
+      "hash": "3e16edaaed"
+    },
+    "hunter.feature.ranger_superior-hunters-defense.summary": {
+      "hash": "5f5ca0938f"
+    },
+    "hunter.feature.ranger_superior-hunters-prey.summary": {
+      "hash": "39ad1dee05"
+    },
+    "life-domain.feature.cleric_blessed-healer.summary": {
+      "hash": "1945b565f0"
+    },
+    "life-domain.feature.cleric_disciple-of-life.summary": {
+      "hash": "0af1b72a28"
+    },
+    "life-domain.feature.cleric_life-domain-spells.summary": {
+      "hash": "842881fdb1"
+    },
+    "life-domain.feature.cleric_preserve-life.summary": {
+      "hash": "b2f3c2b4b1"
+    },
+    "life-domain.feature.cleric_supreme-healing.summary": {
+      "hash": "3d01455f44"
+    },
+    "monk.feature.ability-score-improvement.summary": {
+      "hash": "ff05af1939"
+    },
+    "monk.feature.acrobatic-movement.summary": {
+      "hash": "f4c785137d"
+    },
+    "monk.feature.body-and-mind.summary": {
+      "hash": "8cd9c65688"
+    },
+    "monk.feature.deflect-attacks.summary": {
+      "hash": "28977d81c6"
+    },
+    "monk.feature.deflect-energy.summary": {
+      "hash": "52f8e5f2a4"
+    },
+    "monk.feature.disciplined-survivor.summary": {
+      "hash": "ccd2259a52"
+    },
+    "monk.feature.epic-boon.summary": {
+      "hash": "cc9eed05b1"
+    },
+    "monk.feature.evasion.summary": {
+      "hash": "600521a505"
+    },
+    "monk.feature.heightened-focus.summary": {
+      "hash": "ecf2487b97"
+    },
+    "monk.feature.martial-arts.summary": {
+      "hash": "138d0e47d6"
+    },
+    "monk.feature.monk-subclass.summary": {
+      "hash": "45a253e624"
+    },
+    "monk.feature.perfect-focus.summary": {
+      "hash": "6462f4f7de"
+    },
+    "monk.feature.self-restoration.summary": {
+      "hash": "ff29631ff5"
+    },
+    "monk.feature.slow-fall.summary": {
+      "hash": "4d5f548d16"
+    },
+    "monk.feature.stunning-strike.summary": {
+      "hash": "da6514f45a"
+    },
+    "monk.feature.superior-defense.summary": {
+      "hash": "6d2c8d5839"
+    },
+    "monk.feature.unarmored-defense.summary": {
+      "hash": "baf62f7b78"
+    },
+    "oath-of-devotion.feature.paladin_aura-of-devotion.summary": {
+      "hash": "721b019a29"
+    },
+    "oath-of-devotion.feature.paladin_holy-nimbus.summary": {
+      "hash": "d674025039"
+    },
+    "oath-of-devotion.feature.paladin_sacred-weapon.summary": {
+      "hash": "8b873b706a"
+    },
+    "oath-of-devotion.feature.paladin_smite-of-protection.summary": {
+      "hash": "ad314af08a"
+    },
+    "oath-of-devotion.feature.paladin_spells.summary": {
+      "hash": "990ce18fc6"
+    },
+    "paladin.feature.ability-score-improvement.summary": {
+      "hash": "3ef70d6ce9"
+    },
+    "paladin.feature.abjure-foes.summary": {
+      "hash": "f2eb367ce4"
+    },
+    "paladin.feature.aura-of-courage.summary": {
+      "hash": "187c58bb4e"
+    },
+    "paladin.feature.aura-of-protection.summary": {
+      "hash": "14acaf5fcd"
+    },
+    "paladin.feature.epic-boon.summary": {
+      "hash": "f6e0e7b1ea"
+    },
+    "paladin.feature.faithful-steed.summary": {
+      "hash": "8418a4f092"
+    },
+    "monk.feature.unarmored-movement.summary": {
+      "hash": "d452aade3a"
+    },
+    "paladin.feature.fighting-style.summary": {
+      "hash": "4632e02bd1"
+    },
+    "paladin.feature.paladin-subclass.summary": {
+      "hash": "7c48e1812b"
+    },
+    "paladin.feature.paladins-smite.summary": {
+      "hash": "fdf8ed756a"
+    },
+    "paladin.feature.radiant-strikes.summary": {
+      "hash": "68152354f9"
+    },
+    "paladin.feature.restoring-touch.summary": {
+      "hash": "61afb180f9"
+    },
+    "paladin.feature.spell-list.summary": {
+      "hash": "feda9bb3cd",
+      "skip": true
+    },
+    "paladin.feature.spellcasting.summary": {
+      "hash": "cc4636e9fe"
+    },
+    "paladin.feature.weapon-mastery.summary": {
+      "hash": "6632d186c0"
+    },
+    "path-of-the-berserker.feature.frenzy.summary": {
+      "hash": "d39842c4b4"
+    },
+    "path-of-the-berserker.feature.intimidating-presence.summary": {
+      "hash": "524ef84215"
+    },
+    "path-of-the-berserker.feature.mindless-rage.summary": {
+      "hash": "24eb9932c3"
+    },
+    "path-of-the-berserker.feature.retaliation.summary": {
+      "hash": "4b961b7d2c"
+    },
+    "ranger.feature.ability-score-improvement.summary": {
+      "hash": "1c6a7edd7f"
+    },
+    "ranger.feature.deft-explorer.summary": {
+      "hash": "b783f24122"
+    },
+    "ranger.feature.epic-boon.summary": {
+      "hash": "2fea7fbf8a"
+    },
+    "ranger.feature.favored-enemy.summary": {
+      "hash": "2759fc3b3d"
+    },
+    "ranger.feature.fighting-style.summary": {
+      "hash": "62bf0aee70"
+    },
+    "ranger.feature.ranger-subclass.summary": {
+      "hash": "b8e5720c31"
+    },
+    "ranger.feature.roving.summary": {
+      "hash": "6fa3f6f3a0"
+    },
+    "ranger.feature.spell-list.summary": {
+      "hash": "6f8f639887",
+      "skip": true
+    },
+    "ranger.feature.spellcasting.summary": {
+      "hash": "7325211395"
+    },
+    "ranger.feature.weapon-mastery.summary": {
+      "hash": "d1763b6efe"
+    },
+    "rogue.feature.ability-score-improvement.summary": {
+      "hash": "1c008e21bb"
+    },
+    "rogue.feature.cunning-strike.summary": {
+      "hash": "b84f87326c"
+    },
+    "rogue.feature.elusive.summary": {
+      "hash": "3da70ec5d7"
+    },
+    "rogue.feature.epic-boon.summary": {
+      "hash": "ae4a970af9"
+    },
+    "rogue.feature.evasion.summary": {
+      "hash": "f128261cbd"
+    },
+    "rogue.feature.expertise.summary": {
+      "hash": "64e2aca5cb"
+    },
+    "rogue.feature.reliable-talent.summary": {
+      "hash": "a3924b8f1f"
+    },
+    "rogue.feature.rogue-subclass.summary": {
+      "hash": "9ab1205264"
+    },
+    "rogue.feature.steady-aim.summary": {
+      "hash": "955b118a2d"
+    },
+    "rogue.feature.thieves-cant.summary": {
+      "hash": "4172317707"
+    },
+    "rogue.feature.uncanny-dodge.summary": {
+      "hash": "8060dd6121"
+    },
+    "rogue.feature.weapon-mastery.summary": {
+      "hash": "adbc2c58c4"
+    },
+    "sorcerer.feature.ability-score-improvement.summary": {
+      "hash": "8a5c87a99c"
+    },
+    "sorcerer.feature.arcane-apotheosis.summary": {
+      "hash": "c4b424b7cd"
+    },
+    "sorcerer.feature.epic-boon.summary": {
+      "hash": "2fea7fbf8a"
+    },
+    "sorcerer.feature.metamagic.summary": {
+      "hash": "d6da558e19"
+    },
+    "sorcerer.feature.sorcerer-spell-list.summary": {
+      "hash": "25db8dc154",
+      "skip": true
+    },
+    "rogue.feature.devious-strikes.summary": {
+      "hash": "0e1fcb2e25"
+    },
+    "sorcerer.feature.sorcerer-subclass.summary": {
+      "hash": "093f47dd9e"
+    },
+    "sorcerer.feature.sorcery-incarnate.summary": {
+      "hash": "0754ceb933"
+    },
+    "sorcerer.feature.spellcasting.summary": {
+      "hash": "e94d1e104a"
+    },
+    "thief.feature.rogue_fast-hands.summary": {
+      "hash": "e4a31ba132"
+    },
+    "thief.feature.rogue_second-story-work.summary": {
+      "hash": "afaac20df3"
+    },
+    "thief.feature.rogue_supreme-sneak.summary": {
+      "hash": "9146803813"
+    },
+    "thief.feature.rogue_thiefs-reflexes.summary": {
+      "hash": "eacd7dc7c7"
+    },
+    "thief.feature.rogue_use-magic-device.summary": {
+      "hash": "431b763d9d"
+    },
+    "warlock.feature.ability-score-improvement.summary": {
+      "hash": "2d623c2d7e"
+    },
+    "warlock.feature.contact-patron.summary": {
+      "hash": "4ddf37d03c"
+    },
+    "warlock.feature.eldritch-invocations.summary": {
+      "hash": "0db4ceeae3"
+    },
+    "warlock.feature.epic-boon.summary": {
+      "hash": "c123a95068"
+    },
+    "warlock.feature.mystic-arcanum.summary": {
+      "hash": "f292b57f7d"
+    },
+    "warlock.feature.pact-magic.summary": {
+      "hash": "fb1b9a174e"
+    },
+    "warlock.feature.warlock-spell-list.summary": {
+      "hash": "4dc4e1ded1",
+      "skip": true
+    },
+    "warlock.feature.warlock-subclass.summary": {
+      "hash": "82d0fd76e2"
+    },
+    "warrior-of-the-open-hand.feature.monk_fleet-step.summary": {
+      "hash": "de089551b7"
+    },
+    "warrior-of-the-open-hand.feature.monk_open-hand-technique.summary": {
+      "hash": "a6c3ea73fd"
+    },
+    "warrior-of-the-open-hand.feature.monk_quivering-palm.summary": {
+      "hash": "00ad1001d4"
+    },
+    "warrior-of-the-open-hand.feature.monk_wholeness-of-body.summary": {
+      "hash": "16b28b47f5"
+    },
+    "wizard.feature.ability-score-improvement.summary": {
+      "hash": "e48689fbb4"
+    },
+    "wizard.feature.epic-boon.summary": {
+      "hash": "6fb88ee9d5"
+    },
+    "wizard.feature.memorize-spell.summary": {
+      "hash": "ac7641dbd7"
+    },
+    "wizard.feature.ritual-adept.summary": {
+      "hash": "453e4b627f"
+    },
+    "wizard.feature.scholar.summary": {
+      "hash": "d44c48f265"
+    },
+    "wizard.feature.signature-spells.summary": {
+      "hash": "a4a7a368bd"
+    },
+    "wizard.feature.spell-mastery.summary": {
+      "hash": "5fb2065fa5"
+    },
+    "wizard.feature.spellcasting.summary": {
+      "hash": "06741702e0"
+    },
+    "wizard.feature.wizard-spell-list.summary": {
+      "hash": "84e39028ea"
+    },
+    "wizard.feature.wizard-subclass.summary": {
+      "hash": "5fd2cb62f2"
+    },
+    "cleric.option.divine-order.thaumaturge.summary": {
+      "hash": "1f31268e2c"
+    },
+    "druid.option.primal-order.magician.summary": {
+      "hash": "97dc58cc0e"
+    },
+    "warlock.option.eldritch-invocation.pact-of-the-blade.summary": {
+      "hash": "84109d61cf"
+    },
+    "warlock.option.eldritch-invocation.pact-of-the-chain.summary": {
+      "hash": "b3749aa336"
+    },
+    "warlock.option.eldritch-invocation.pact-of-the-tome.summary": {
+      "hash": "9eb54d98d7"
+    },
+    "warlock.option.eldritch-invocation.agonizing-blast.summary": {
+      "hash": "ffaa934d39"
+    },
+    "warlock.option.eldritch-invocation.devils-sight.summary": {
+      "hash": "5905caa2aa"
+    },
+    "warlock.option.eldritch-invocation.devouring-blade.summary": {
+      "hash": "5edd80ea29"
+    },
+    "warlock.option.eldritch-invocation.eldritch-smite.summary": {
+      "hash": "e30ff740d0"
+    },
+    "warlock.option.eldritch-invocation.eldritch-spear.summary": {
+      "hash": "cb45411a45"
+    },
+    "warlock.option.eldritch-invocation.fiendish-vigor.summary": {
+      "hash": "a6e772bb30"
+    },
+    "warlock.option.eldritch-invocation.gaze-of-two-minds.summary": {
+      "hash": "b9017f30d8"
+    },
+    "warlock.option.eldritch-invocation.gift-of-the-depths.summary": {
+      "hash": "3e31f7bc09"
+    },
+    "warlock.option.eldritch-invocation.gift-of-the-protectors.summary": {
+      "hash": "23c74d3f27"
+    },
+    "warlock.option.eldritch-invocation.investment-of-the-chain-master.summary": {
+      "hash": "cb35652b41"
+    },
+    "warlock.option.eldritch-invocation.lessons-of-the-first-ones.summary": {
+      "hash": "f5dffcb040"
+    },
+    "warlock.option.eldritch-invocation.lifedrinker.summary": {
+      "hash": "66d3d2068b"
+    },
+    "warlock.option.eldritch-invocation.one-with-shadows.summary": {
+      "hash": "8b92193839"
+    },
+    "warlock.option.eldritch-invocation.repelling-blast.summary": {
+      "hash": "29f3b240be"
+    },
+    "warlock.option.eldritch-invocation.thirsting-blade.summary": {
+      "hash": "fc52e4b005"
+    },
+    "sorcerer.option.metamagic.careful-spell.summary": {
+      "hash": "68c8125b8d"
+    },
+    "sorcerer.option.metamagic.distant-spell.summary": {
+      "hash": "ded9bf2eed"
+    },
+    "sorcerer.option.metamagic.empowered-spell.summary": {
+      "hash": "1df4e1e459"
+    },
+    "sorcerer.option.metamagic.extended-spell.summary": {
+      "hash": "226776dec5"
+    },
+    "sorcerer.option.metamagic.heightened-spell.summary": {
+      "hash": "4602d4c67a"
+    },
+    "sorcerer.option.metamagic.quickened-spell.summary": {
+      "hash": "6fb5dbf17b"
+    },
+    "sorcerer.option.metamagic.seeking-spell.summary": {
+      "hash": "ea9f570c9a"
+    },
+    "sorcerer.option.metamagic.subtle-spell.summary": {
+      "hash": "7d28875a6f"
+    },
+    "sorcerer.option.metamagic.transmuted-spell.summary": {
+      "hash": "954598644c"
+    },
+    "sorcerer.option.metamagic.twinned-spell.summary": {
+      "hash": "bf184f4a54"
+    },
+    "cleric.option.blessed-strikes.divine-strike.summary": {
+      "hash": "884eac517a"
+    },
+    "druid.option.elemental-fury.primal-strike.summary": {
+      "hash": "f8a785fc66"
+    },
+    "hunter.option.hunters-prey.colossus-slayer.summary": {
+      "hash": "2570453081"
+    },
+    "hunter.option.hunters-prey.horde-breaker.summary": {
+      "hash": "93587e08ba"
+    },
+    "hunter.option.defensive-tactics.multiattack-defense.summary": {
+      "hash": "d3bfba1289"
     }
   },
   "origin": {
